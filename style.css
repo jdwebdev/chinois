@@ -1,0 +1,882 @@
+/* --------------- GLOBAL --------------- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+body {
+    position:relative;
+}
+ul {
+    list-style: none;
+}
+select {
+    border-radius: 10px;;
+}
+/* -------------------------------------- */
+
+
+header {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    height: 60px;
+    background-color:rgba(172,50,50);
+    z-index: 10;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+h1 {
+    position: absolute;
+    left: 10px;
+    color: white;
+}
+
+#switchMode {
+    position: absolute;
+    /* top: 10px; */
+    right: 60px;
+    height: 40px;
+    width: 76px;
+    border-radius: 10px;
+    padding: 0px 5px 0 5px;
+    border: 1px solid white;
+    background-color: rgba(217,160,102);
+    box-shadow: 2px 2px 2px rgba(152, 30, 30);
+} 
+
+#help_button {
+    position: absolute;
+    font-size: 16px;
+    /* top: 10px; */
+    right: 5px;
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 40%;
+    background-color: rgba(217,160,102);
+    box-shadow: 2px 2px 2px rgba(152, 30, 30);
+    touch-action: manipulation;
+}
+
+
+.languageBtn {
+    padding: 10px;
+    font-size: 30px;
+    background-color: rgba(217,160,102);
+    border-radius: 10px;
+    height: 80px;
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.languageBtn:hover {
+    cursor: pointer;
+    background-color:bisque;
+}
+
+main {
+    width:700px;
+    margin: 0 auto;
+}
+
+/* ---------- Result section ---------- */
+.zh_font {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.oneResult {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    background-color:blanchedalmond;
+    border-radius: 10px;
+}
+
+.word_container {
+    border-radius: 10px 0px 0px 10px;
+    border-right: 1px solid gray;
+    width: 20%;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.word_details {
+    border-right: 1px solid gray;
+    font-size: 22px;
+    width: 60%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Listing hanzi */
+.hanzi {
+    font-size: 70px;
+}
+
+/* ---------- MODAL ---------- */
+#modal {
+    /* display: none; */
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    flex-direction: center;
+    z-index: -10;
+    opacity: 0;
+    transition: ease opacity 0.01s;
+}
+
+#modal.fadeIn {
+    transition: ease opacity 0.3s;
+    opacity:1;
+    z-index:10;
+}
+
+#popup {
+    margin-top: 60px;
+    width: 100%;
+    max-height: 300px;
+}
+
+/* ---------- Search Form section ---------- */
+.search_section {
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    padding-top: 5px;
+    position:sticky;
+    top: 60px;
+    background-color: white;
+}
+
+.search_form {
+    display: flex;
+    justify-content:space-around;
+}
+
+.search_input {
+    height: 40px;
+    width: 80%;
+    padding-left: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.select_container {
+    display:flex;
+    justify-content: space-around;
+    padding: 0px 5px; 
+}
+
+.select_type {
+    width: 60%;
+    margin: 5px auto;
+    height: 30px;
+    font-size: 16px;
+}
+
+.select_lesson {
+    width: 40%;
+    margin: 5px 0px 5px 5px;
+    height: 30px;
+    font-size: 16px;
+}
+
+
+.searchBtn {
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    height: 38px;
+    font-size: 16px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+/* ---------- Search Result section ---------- */
+#z_section {
+    display: flex;
+    flex-direction: column;
+}
+
+.result_section {
+    overflow-y: scroll;
+    height: 500px;
+}
+
+.one_line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.one_line div {
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: 1px solid rgba(200,200,200,1);
+    border-radius: 5px;
+    padding: 10px;
+    width: 52px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+.one_line div.no_border {
+    border: 1px solid rgba(0,0,0,0);
+    box-shadow: 2px 2px 2px rgba(0,0,0,0);
+}
+.resultNb {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.word_one_line {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.word_one_line div {
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: 1px solid rgba(200,200,200,1);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+/*
+    ------------------------------------------ MOBILE ------------------------------------------
+    ------------------------------------------ MOBILE ------------------------------------------
+    ------------------------------------------ MOBILE ------------------------------------------
+    ------------------------------------------ MOBILE ------------------------------------------
+    ------------------------------------------ MOBILE ------------------------------------------
+    ------------------------------------------ MOBILE ------------------------------------------
+    ------------------------------------------ MOBILE ------------------------------------------
+*/
+@media (max-width: 400px) {
+
+    header {
+        width: 100%;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        position: sticky;
+        top: 0px;
+    }
+
+    /* Remove press button effect on click. div & button */
+    div {
+        /* -webkit-tap-highlight-color: white; */
+    }
+    button {
+        /* -webkit-tap-highlight-color: transparent; */
+    }
+
+    h1 {
+        top: -18px;
+    }
+
+    #switchMode {
+        top: -20px;
+    }
+    #help_button {
+        /* position: absolute; */
+        /* font-size: 16px; */
+        top: -20px;
+        /* right: 5px; */
+        /* border: 1px solid white; */
+        /* width: 40px; */
+        /* height: 40px; */
+        /* border-radius: 40%; */
+        /* background-color: rgba(217,160,102); */
+        /* box-shadow: 2px 2px 2px rgba(152, 30, 30); */
+        /* touch-action: manipulation; */
+    }
+    
+
+    /* MAIN */
+    main {
+        width:100%;
+        margin: 0 auto;
+    }
+
+    .oneResult {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        background-color:blanchedalmond;
+        border-radius: 10px;
+        /* margin-bottom: 10px; */
+        margin:0 auto;
+    }
+
+    .hanzi_yisi {
+        border-bottom: 1px solid gray;
+        text-align: center;
+        padding: 5px 0px 5px 0px;
+    }
+
+    .z_voc { /* <li> */
+        display: flex;
+        padding: 5px 0px 5px 0px;
+        border-bottom: 1px dashed gray;
+    }
+    .z_voc_last {
+        border: none;
+    }
+    .z_vocRef {
+        background-color: rgb(235,215,185);
+    }
+    .z_voc_last.z_vocRef {
+        border-radius: 0 0 10px 10px;
+    }
+
+    .z_voc_cy {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        /* background-color: red; */
+    }
+    .voc_ciyu {
+        /* background-color: blue; */
+    }
+    .voc_fayu {
+        width: 50%;
+        font-size: 14px;
+        padding-top: 5px;
+        /* background-color: green; */
+    }
+    .voc_pinyin {
+        font-size: 12px;
+        min-height: 16px;
+        /* background-color: yellow; */
+    }
+
+    .voc_pinyin_void {
+        display: flex;
+        height: 16px;
+    }
+
+    .z_vocRef {
+        background-color: rgb(235,215,185);
+    }
+
+    .void_span {
+        display: flex;
+        background-color: rgb(245,225,195);
+        border-radius: 10px;
+        width: 50px;
+        font-size: 12px;
+        justify-content: center;
+    }
+
+    .void_span.void_ref_span {
+        background-color: rgb(225,205,175);
+    }
+
+    .word_container {
+        border-radius: 10px 10px 0px 0px;
+        border-right: 0px;
+        border-bottom: 1px solid gray;
+        width: 100%;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .word_details {
+        border-right: 0px;
+        font-size: 18px;
+        width: 100%;
+        padding: 10px 10px 0px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        max-height: 407px;
+        overflow-y: scroll;
+    }
+
+    /* Listing 汉字 */
+    .hanzi {
+        position: relative;
+        font-size: 35px;
+    }
+    .fanti {
+        position: absolute;
+        width: 100px;
+        left: 70px;
+        top: 5px;
+        font-size: 30px;
+    }
+    .hanziYisi {
+        position: absolute;
+        /* right: 00%; */
+        top: 15px;
+        font-size: 14px;
+    }
+
+    .z_one_result {
+        display:inline-block;
+        height: 62px;
+        font-size: 30px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        margin-left: 5px;
+        border: 1px solid rgba(200,200,200,1);
+        border-radius: 5px;
+        padding: 10px;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    }
+    .z_one_result_color {
+        background-color: pink;
+    }
+
+    .z_word_pinyin {
+        text-align: center;
+        height: 21px;
+    }
+    .z_word_pinyin_void {
+        display: flex;
+        height: 21px;
+    }
+    .z_word_pinyin_void_span {
+        margin: 0 auto;
+        background-color: rgb(245,225,195);
+        /* height: 21px; */
+        width: 100px;
+        border-radius: 10px;
+        font-size: 16px;
+        display:flex;
+        justify-content: center;
+    }
+
+    .z_gram {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    /* ---------- MODAL ---------- */
+    #modal {
+        /* display: none; */
+        display: flex;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        flex-direction: center;
+        z-index: -10;
+        opacity: 0;
+        transition: ease opacity 0.01s;
+    }
+
+    #modal.fadeIn {
+        transition: ease opacity 0.3s;
+        opacity:1;
+        z-index:10;
+    }
+
+    #popup {
+        margin-top: 60px;
+        /* margin: 100px auto; */
+        width: 100%;
+        max-height: 300px;
+    }
+
+    .lesson_number {
+        position:absolute;
+        bottom: 10px;
+        right: 10px;
+        font-size: 10px
+    }
+
+    /* HELP */
+    #modal_help {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        flex-direction: center;
+        z-index: -10;
+        opacity: 0;
+        transition: ease opacity 0.01s;
+    }
+    #modal_help.fadeIn {
+        transition: ease opacity 0.3s;
+        opacity:1;
+        z-index:10;
+    }
+    #popup_help {
+        margin: 60px auto;
+        width: 100%;
+        padding: 10px;
+    }
+    #help_container {
+        margin: 0 auto;
+        /* padding: 0 10px 0 10px; */
+        padding: 10px;
+        background-color:blanchedalmond;
+        width: 96%;
+        
+        border-radius: 10px;
+    }
+    #help_content {
+        /* margin: 10px; */
+        max-height: 500px;
+        overflow-y: scroll;
+        text-align: justify;
+    }
+    .help_title {
+        position: relative;
+        font-size: 18px;
+        text-align: center;
+    }
+    .app_version {
+        position: absolute;
+        right: 0px;
+        font-size: 10px;
+    }
+    .separation {
+        width: 100%;
+        border-top: 1px dashed gray;
+        margin: 5px 0;
+    }
+
+
+
+    /* ---------- 练习 ---------- */
+
+    /* 练习 HEADER */
+    .training_section {
+        width: 95%;
+        margin: 5px auto;
+        /* background-color:aqua; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .filters_section {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .filters_container {
+        width: 90%;
+        display: flex;
+    }
+
+    #zt_select {
+        margin-right: 10px;
+        width: 70px;
+        height: 36px;
+    }
+
+    #zt_h_select_lesson_container, #zt_w_select_lesson_container {
+        position: relative;
+        display: none;
+    }
+
+    .zt_training_type {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #zt_select_training_type {
+        margin-bottom: 5px;
+        width: 200px;
+        height: 36px;
+    }
+    #zt_select_filter {
+        width: 80px;
+        height: 36px;
+        margin-right: 10px;
+    }
+    #up_arrow {
+        background-color: rgb(245,225,195);
+        position: absolute;
+        top: 37px;
+        left: 30px;
+        width: 10px;
+        height: 10px;
+        border-radius: 0px 50px 0 0;
+    }
+    #vocRef {
+        background-color: rgb(245,225,195);
+        position: absolute;
+        top: 45px;
+        left: 0;
+        width: 190px;
+        border-radius: 10px;
+        padding: 5px;
+        box-shadow: 2px 2px 2px gray;
+    }
+
+    #zt_start {
+        margin-right: 10px;
+    }
+    #zt_end {
+        margin-right: 10px;
+    }
+
+    .select_filter {
+        width: 65px;
+        height: 30px;
+        font-size: 16px;
+    }
+
+    input.select_filter {
+        width: 35px;
+    }
+
+    #zt_h_select_lesson, #zt_w_select_lesson {
+        margin-right: 5px;
+        width:100px;
+        height: 36px;
+    }
+
+    .startBtn {
+        width: 50px;
+        padding: 0 5px;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+        border-radius: 5px;
+        border: none;
+        font-size: 16px;
+    }
+    .backBtn {
+        /* width: 50px; */
+        width: 50px;
+        padding: 5px;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+        border-radius: 5px;
+        border: none;
+        font-size: 22px;
+        display: none;
+    }
+
+
+    /* 练习 */
+
+    .training_part {
+        margin-top: 10px;
+    }
+
+    .toFound {
+        font-size: 40px;
+        text-align: center;
+        border: 1px solid gray;
+        padding: 5px 0;
+        margin-bottom: 5px;
+        min-height: 74px;
+        vertical-align:middle;
+    }
+
+    #zt_kakunin {
+        width: 100%;
+        height: 60px;
+        font-size: 26px;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+        margin-top: 10px;
+        touch-action: manipulation;
+    }
+    
+    #zt_nextBtn_container {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #zt_nextBtn_container button {
+        width: 48%;
+        height: 50px;
+        font-size: 30px;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+        border: none;
+    }
+    #zt_win {
+        background-color:rgb(118, 216, 20);
+        touch-action: manipulation;
+    }
+    #zt_fail {
+        background-color:firebrick;
+        color: white;
+        touch-action: manipulation;
+    }
+
+    .progressBar {
+        height: 15px;
+        width: 0%;
+        background-color: rgb(38, 194, 38);
+    }
+
+    #currentIndex {
+        position: absolute;
+        right: 10px;
+        font-size: 14px;
+    }
+
+    .zt_vocContainer {
+        height: 330px;
+        overflow-y: scroll;
+        position: relative;
+    }
+
+    .zt_arrow_container {
+        position: relative;
+    }
+
+    #list_up_arrow {
+        position: absolute;
+        top: -5px;
+        left: 23%;
+        color: rgba(0,0,0,0.3);
+        border-top: 2px dotted rgba(0,0,0,0.3);;
+        width: 200px;
+        text-align:center
+    }
+    #list_bottom_arrow {
+        font-size: 14px;
+        position: absolute;
+        top: -10px;
+        left: 23%;
+        color: rgba(0,0,0,0.3);
+        border-bottom: 2px dotted rgba(0,0,0,0.3);;
+        width: 200px;
+        text-align:center
+
+    }
+    #list_bottom_arrow_bord {
+        position: absolute;
+        top: 5px;
+        width: 200px;
+        left: 23%;
+        border-top: 2px solid gray;
+    }
+
+    .zt_p {
+        text-align: center;
+    }
+
+    .zt_pinyin {
+        font-size: 20px;
+    }
+    .zt_hanziYisi {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    .zt_word_yisi {
+        margin-top: 10px;
+    }
+
+    .zt_ciyu {
+        display: flex;
+        padding: 5px 0 5px 0;
+        border-bottom: 1px dashed gray;
+        /* flex-direction: column; */
+    }
+    .zt_ciyuBorder {
+        border-top: 1px dashed gray;
+    }
+    .zt_ciyu_ciyuPinyin {
+        display: flex;
+        /* background-color: red; */
+        flex-direction: column;
+        width: 50%;
+    }
+    .zt_yisi {
+        width: 50%;
+        padding-top: 10px;
+    }
+
+    .zt_wordToFind {
+        min-height: 26px;
+    }
+
+    /* 拼音练习 */
+    .zt_pinyin_form {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #zt_pinyin_input {
+        margin-bottom: 10px;
+    }
+
+    #zt_pinyin_keyboard {
+        display: none;
+        margin: 0 auto;
+        width: 100%;
+        z-index: 100px;
+    }
+    .zt_button_list {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 10px;
+    }
+    
+    .zt_pinyin_block button {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        padding: 0px;
+        touch-action: manipulation;
+        border-radius: 10px;
+        border: 1px solid rgba(0,0,0,0);
+        margin-bottom: 5px;
+        box-shadow: 2px 2px 2px gray;
+    }
+
+
+    /* RESULT */
+    .result_fail_list {
+        font-size: 20px;
+    }
+    .zt_result {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .zt_tooEasy {
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .zt_easy_heart {
+        color: red;
+    }
+
+
+
+    /*------------------*/
+
+
+
+
+    /* TEMPORAIRE */
+    .zt_encours {
+        margin-top: 40px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}

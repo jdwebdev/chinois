@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NZH</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
+</head>
+<body>
+    <div id="modal">
+        <div id="popup"></div>
+    </div>
+    <div id="modal_help">
+        <div id="popup_help"></div>
+    </div>
+    <header id="header">
+        <nav>
+            <h1 id="main_title">汉语 - 课</h1>
+            <button id="switchMode">⇒ Entraîn.</button>
+            <button id="help_button">?</button>
+        </nav>
+    </header>
+
+    <main id="main_listing">
+        <section id="z_section">
+            <div class="search_section">
+                <form class="search_form" class="forms" action="">
+                    <input class="search_input zh_font" id="z_input" type="text" placeholder="汉字或者拼音">
+                    <button id="z_searchBtn" class="searchBtn zh_font">检索</button>
+                </form>
+                <div class="select_container">
+                    <select name="" id="z_select" class="select_type zh_font">
+                        <option class="zh_font" value="hanzi" selected>汉字 Caractères</option>
+                        <option class="zh_font" value="word">词语 Mots</option>
+                    </select>
+                    <select name="" id="z_select_lesson" class="select_lesson zh_font">
+                        <option value="all" class="zh_font" value="lesson" selected>课 Leçons</option>
+                    </select>
+                </div>
+                <span id="z_resultNb" class="resultNb"></span>
+            </div>
+            <div id="z_result_section" class="result_section zh_font"></div>
+        </section>
+    </main>
+    <main id="main_training">
+        <section id="zt_section" class="training_section">
+
+            <!-- Training filters -->
+            <div id="zt_training_type" class="zt_training_type">
+                <label for="zt_select_training_type" class="zh_font">Type d'entrainement : </label>
+                <select name="" id="zt_select_training_type" class="select_filter zh_font">
+                    <option class="zh_font" value="xiezi" selected>写字 => Écriture</option>
+                    <option class="zh_font" value="pinyin">写拼音 => Pinyin</option>
+                </select>
+            </div>
+            <div id="zt_trainingFilters" class="filters_section">
+                
+                <div class="filters_container">
+                    <select name="" id="zt_select" class="select_filter zh_font">
+                        <option class="zh_font" value="hanzi" selected>汉字</option>
+                        <option class="zh_font" value="word">词语</option>
+                    </select>
+                    <select name="" id="zt_select_filter" class="select_filter zh_font">
+                        <option id="zt_all_option" class="zh_font" value="all" selected>Tout</option>
+                        <option id="zt_lesson" class="zh_font" value="lesson">课</option>
+                    </select>
+                    <div id="zt_h_select_lesson_container">
+                        <select name="" id="zt_h_select_lesson" class="select_filter zh_font"></select>
+                    </div>
+                    <div id="zt_w_select_lesson_container">
+                        <select name="" id="zt_w_select_lesson" class="select_filter zh_font"></select>
+                        <span id="up_arrow"></span>
+                        <span id="vocRef" class="zh_font">(+) ⇒ Avec vocabulaire de référence</span>
+                    </div>
+                    <div id="zt_range_input">
+                        <input id="zt_start" class="select_filter" type="text">
+                        <input id="zt_end" class="select_filter" type="text">
+                    </div>
+                </div>
+                <button id="zt_startBtn" class="startBtn zh_font">开始</button>
+            </div>
+            
+            <button id="zt_backBtn" class="backBtn zh_font"><i class="fa-solid fa-arrow-left"></i></button>
+            
+
+            <!-- Training section -->
+            <div id="z_training_section" class="training_part"></div>
+        </section>
+    </main>
+    
+    <script src="./class/hanzi.js"></script>
+    <script src="./index.js"></script>
+    <script src="./listings/z.js"></script>
+    <script src="./training/z_training.js"></script>
+</body>
+</html>

@@ -1,3 +1,4 @@
+// let appVersion = "1.1";
 let log = console.log.bind();
 let body = document.getElementsByTagName("body")[0];
 let header = id("header");
@@ -51,15 +52,15 @@ modal_help.addEventListener("click", e => {
 function switchMode() {
     if (currentMode) {//? Training to Listing
         currentMode = 0;
-        mainTitle.innerHTML = "汉语 - 课"
+        mainTitle.innerHTML = "汉语 - 课";
         switchModeBtn.innerHTML = "⇒ Entraîn.";
         block(mainListing);
         none(mainTraining);
     } else {
-        mainTitle.innerHTML = "汉语 - 练习"
-        switchModeBtn.innerHTML = "⇒ Leçon"
+        mainTitle.innerHTML = "汉语 - 练习";
+        switchModeBtn.innerHTML = "⇒ Leçon";
         currentMode = 1;
-        block(mainTraining)
+        block(mainTraining);
         none(mainListing);
     }
 }
@@ -83,8 +84,12 @@ function openModalHelp() {
     popup_help.innerHTML = `
         <div id="help_container">
             <div id="help_content">
-                <h2 class="help_title">Bienvenue dans ma petite appli<span class="app_version">V. 1.0</span></h2>
+                <p class="date zh_font">2023年11月2日<span class="app_version zh_font">V. 1.0</span></p>
+                
+                <h2 class="help_title">Bienvenue dans ma petite appli</h2>
+
                 <div class="separation"></div>
+
                 <p>Elle se compose de 2 sections : </p>
                 <p>课 (kè) : Leçon</p>
                 <p>练习 (liànxí) : Entraînement</p>

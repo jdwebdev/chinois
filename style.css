@@ -19,6 +19,29 @@ ul {
 select {
     border-radius: 10px;;
 }
+.zh_font {
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0); 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color:rgba(172,50,50);
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color:rgba(182,60,60);
+}
 /* -------------------------------------- */
 
 
@@ -93,42 +116,70 @@ main {
 }
 
 /* ---------- Result section ---------- */
-.zh_font {
-    font-family:Arial, Helvetica, sans-serif;
-}
 
-.oneResult {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    background-color:blanchedalmond;
-    border-radius: 10px;
-}
 
-.word_container {
-    border-radius: 10px 0px 0px 10px;
-    border-right: 1px solid gray;
-    width: 20%;
-    padding: 10px;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.word_details {
-    border-right: 1px solid gray;
-    font-size: 22px;
-    width: 60%;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
 
 /* Listing hanzi */
 .hanzi {
+    position: relative;
     font-size: 70px;
+}
+.fanti {
+    position: absolute;
+    width: 100px;
+    left: 100px;
+    top: 5px;
+    font-size: 60px;
+}
+
+.hanziPinyin {
+    font-size: 22px;
+}
+
+.hanzi_yisi {
+    border-bottom: 1px solid gray;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+}
+
+.z_one_result {
+    display:inline-block;
+    height: 62px;
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: 1px solid rgba(200,200,200,1);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+.z_one_result_color {
+    background-color: pink;
+}
+
+.z_word_pinyin {
+    text-align: center;
+    height: 21px;
+}
+.z_word_pinyin_void {
+    display: flex;
+    height: 21px;
+}
+.z_word_pinyin_void_span {
+    margin: 0 auto;
+    background-color: rgb(245,225,195);
+    /* height: 21px; */
+    width: 100px;
+    border-radius: 10px;
+    font-size: 16px;
+    display:flex;
+    justify-content: center;
+}
+
+.z_gram {
+    margin-top: 10px;
+    font-size: 14px;
 }
 
 /* ---------- MODAL ---------- */
@@ -155,6 +206,117 @@ main {
     margin-top: 60px;
     width: 100%;
     max-height: 300px;
+}
+
+.oneResult {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color:blanchedalmond;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.word_container {
+    border-radius: 10px 10px 0px 0px;
+    border-right: 0px;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.word_details {
+    border-right: 0px;
+    font-size: 18px;
+    width: 100%;
+    padding: 10px 10px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    max-height: 700px;
+    overflow-y: auto;
+}
+
+.z_voc { /* <li> */
+    display: flex;
+    padding: 5px 0px 5px 0px;
+    border-bottom: 1px dashed gray;
+}
+.z_voc:hover {
+    background-color: rgb(255,245,215);
+}
+.z_voc_last {
+    border: none;
+}
+.z_vocRef {
+    background-color: rgb(235,215,185);
+}
+.z_voc_last.z_vocRef {
+    border-radius: 0 0 10px 10px;
+}
+
+.z_voc_cy {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+.voc_ciyu {
+    font-size: 20px;
+}
+
+.voc_pinyin {
+    font-size: 14px;
+    min-height: 18px;
+    /* background-color: yellow; */
+}
+.voc_fayu {
+    width: 50%;
+    font-size: 16px;
+    padding-top: 5px;
+    /* background-color: green; */
+}
+
+
+.voc_pinyin_void {
+    display: flex;
+    height: 18px;
+}
+
+.void_span {
+    display: flex;
+    background-color: rgb(245,225,195);
+    border-radius: 10px;
+    width: 50px;
+    font-size: 14px;
+    justify-content: center;
+}
+
+.void_span.void_ref_span {
+    background-color: rgb(225,205,175);
+}
+.lesson_number {
+    position:absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 14px
+}
+/* ---- END MODAL --- */
+
+.date {
+    font-size: 12px;
+    text-align: center;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin: 5px 0;
+    position: relative;
 }
 
 /* ---------- Search Form section ---------- */
@@ -219,7 +381,7 @@ main {
 
 .result_section {
     overflow-y: scroll;
-    height: 500px;
+    height: 780px;
 }
 
 .one_line {
@@ -228,14 +390,20 @@ main {
     justify-content: space-around;
 }
 .one_line div {
-    font-size: 30px;
+    font-size: 36px;
     margin-bottom: 5px;
     margin-top: 5px;
     border: 1px solid rgba(200,200,200,1);
     border-radius: 5px;
     padding: 10px;
-    width: 52px;
+    width: 80px;
+    height: 70px;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    text-align: center;
+}
+.one_line div:hover {
+    background-color: rgba(0,0,0,0.2);
+    cursor:pointer;
 }
 .one_line div.no_border {
     border: 1px solid rgba(0,0,0,0);
@@ -261,6 +429,9 @@ main {
     padding: 10px;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
 }
+
+
+
 
 /*
     ------------------------------------------ MOBILE ------------------------------------------
@@ -310,6 +481,22 @@ main {
         /* box-shadow: 2px 2px 2px rgba(152, 30, 30); */
         /* touch-action: manipulation; */
     }
+
+    /* width */
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: rgba(0,0,0,0); 
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background-color:rgba(172,50,50);
+        border-radius: 5px;
+    }
     
 
     /* MAIN */
@@ -318,125 +505,58 @@ main {
         margin: 0 auto;
     }
 
-    .oneResult {
+    /* ---------- Search Result section ---------- */
+    #z_section {
         display: flex;
         flex-direction: column;
-        width: 90%;
-        background-color:blanchedalmond;
-        border-radius: 10px;
-        /* margin-bottom: 10px; */
-        margin:0 auto;
     }
 
-    .hanzi_yisi {
-        border-bottom: 1px solid gray;
-        text-align: center;
-        padding: 5px 0px 5px 0px;
-    }
-
-    .z_voc { /* <li> */
-        display: flex;
-        padding: 5px 0px 5px 0px;
-        border-bottom: 1px dashed gray;
-    }
-    .z_voc_last {
-        border: none;
-    }
-    .z_vocRef {
-        background-color: rgb(235,215,185);
-    }
-    .z_voc_last.z_vocRef {
-        border-radius: 0 0 10px 10px;
-    }
-
-    .z_voc_cy {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        /* background-color: red; */
-    }
-    .voc_ciyu {
-        /* background-color: blue; */
-    }
-    .voc_fayu {
-        width: 50%;
-        font-size: 14px;
-        padding-top: 5px;
-        /* background-color: green; */
-    }
-    .voc_pinyin {
-        font-size: 12px;
-        min-height: 16px;
-        /* background-color: yellow; */
-    }
-
-    .voc_pinyin_void {
-        display: flex;
-        height: 16px;
-    }
-
-    .z_vocRef {
-        background-color: rgb(235,215,185);
-    }
-
-    .void_span {
-        display: flex;
-        background-color: rgb(245,225,195);
-        border-radius: 10px;
-        width: 50px;
-        font-size: 12px;
-        justify-content: center;
-    }
-
-    .void_span.void_ref_span {
-        background-color: rgb(225,205,175);
-    }
-
-    .word_container {
-        border-radius: 10px 10px 0px 0px;
-        border-right: 0px;
-        border-bottom: 1px solid gray;
-        width: 100%;
-        padding: 5px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-    }
-
-    .word_details {
-        border-right: 0px;
-        font-size: 18px;
-        width: 100%;
-        padding: 10px 10px 0px 10px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin-bottom: 10px;
-        max-height: 407px;
+    .result_section {
         overflow-y: scroll;
+        height: 500px;
+    }
+
+    .one_line {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .one_line div {
+        font-size: 30px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        border: 1px solid rgba(200,200,200,1);
+        border-radius: 5px;
+        padding: 10px;
+        width: 52px;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    }
+    .one_line div.no_border {
+        border: 1px solid rgba(0,0,0,0);
+        box-shadow: 2px 2px 2px rgba(0,0,0,0);
+    }
+    .resultNb {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .word_one_line {
+        display: flex;
+        flex-direction: row;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .word_one_line div {
+        font-size: 30px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        border: 1px solid rgba(200,200,200,1);
+        border-radius: 5px;
+        padding: 10px;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
     }
 
     /* Listing 汉字 */
-    .hanzi {
-        position: relative;
-        font-size: 35px;
-    }
-    .fanti {
-        position: absolute;
-        width: 100px;
-        left: 70px;
-        top: 5px;
-        font-size: 30px;
-    }
-    .hanziYisi {
-        position: absolute;
-        /* right: 00%; */
-        top: 15px;
-        font-size: 14px;
-    }
-
     .z_one_result {
         display:inline-block;
         height: 62px;
@@ -453,31 +573,39 @@ main {
         background-color: pink;
     }
 
-    .z_word_pinyin {
-        text-align: center;
-        height: 21px;
-    }
-    .z_word_pinyin_void {
-        display: flex;
-        height: 21px;
-    }
-    .z_word_pinyin_void_span {
-        margin: 0 auto;
-        background-color: rgb(245,225,195);
-        /* height: 21px; */
-        width: 100px;
-        border-radius: 10px;
-        font-size: 16px;
-        display:flex;
-        justify-content: center;
-    }
+    /* ---------- MODAL ---------- 
+    modal (HANZI)
+        popup
+            oneResult
+                word_container
+                    hanzi
+                        fanti
+                    hanziPinyin
+                hanzi_yisi
+                word_details
+                    z_voc
+                        z_voc_cy
+                            voc_ciyu
+                            voc_pinyin_void
+                                voic_span
+                            voc_pinyin
+                        voc_fayu
+                    z_vocRef
+                    z_voc_last
+    modal (WORD)
+        popup
+            oneResult
+                word_container
+                    hanzi
+                word_details
+                    z_word_pinyin_void
+                        z_word_pinyin_void_span
+                    z_word_pinyin
+                    <p> sans class wordYisi
+                    z_gram
+                    lesson_number
+    */
 
-    .z_gram {
-        margin-top: 10px;
-        font-size: 14px;
-    }
-
-    /* ---------- MODAL ---------- */
     #modal {
         /* display: none; */
         display: flex;
@@ -490,26 +618,147 @@ main {
         opacity: 0;
         transition: ease opacity 0.01s;
     }
-
     #modal.fadeIn {
         transition: ease opacity 0.3s;
         opacity:1;
         z-index:10;
     }
-
     #popup {
         margin-top: 60px;
-        /* margin: 100px auto; */
         width: 100%;
         max-height: 300px;
     }
-
-    .lesson_number {
-        position:absolute;
-        bottom: 10px;
-        right: 10px;
-        font-size: 10px
+    .oneResult {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        background-color:blanchedalmond;
+        border-radius: 10px;
+        margin:0 auto;
     }
+
+    /* ---*/
+    .word_container {
+        border-radius: 10px 10px 0px 0px;
+        border-right: 0px;
+        border-bottom: 1px solid gray;
+        width: 100%;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+        .hanzi {
+            position: relative;
+            font-size: 35px;
+        }
+            .fanti {
+                position: absolute;
+                width: 100px;
+                left: 70px;
+                top: 5px;
+                font-size: 30px;
+            }
+        .hanziPinyin {
+            font-size: 16px;
+        }
+
+    .hanzi_yisi {
+        border-bottom: 1px solid gray;
+        text-align: center;
+        padding: 5px 0px 5px 0px;
+    }
+
+    /* --- */
+    .word_details {
+        border-right: 0px;
+        font-size: 18px;
+        width: 100%;
+        padding: 10px 10px 0px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        max-height: 407px;
+        overflow-y: auto;
+    }
+        /* ---Hanzi---*/
+        .z_voc { /* <li> */
+            display: flex;
+            padding: 5px 0px 5px 0px;
+            border-bottom: 1px dashed gray;
+        }
+            .z_voc_cy {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+            }
+                .voc_ciyu {
+                    font-size: 18px;
+                }
+                .voc_pinyin_void {
+                    display: flex;
+                    height: 16px;
+                }
+                    .void_span {
+                        display: flex;
+                        background-color: rgb(245,225,195);
+                        border-radius: 10px;
+                        width: 50px;
+                        font-size: 12px;
+                        justify-content: center;
+                    }
+                    .void_span.void_ref_span {
+                        background-color: rgb(225,205,175);
+                    }
+                .voc_pinyin {
+                    font-size: 12px;
+                    min-height: 16px;
+                }
+            .voc_fayu {
+                width: 50%;
+                font-size: 14px;
+                padding-top: 5px;
+            }
+        .z_vocRef {
+            background-color: rgb(235,215,185);
+        }
+        .z_voc_last {
+            border: none;
+        }
+        .z_voc_last.z_vocRef {
+            border-radius: 0 0 10px 10px;
+        }
+        /* ---Word--- */
+        .z_word_pinyin_void {
+            display: flex;
+            height: 21px;
+        }
+            .z_word_pinyin_void_span {
+                margin: 0 auto;
+                background-color: rgb(245,225,195);
+                width: 100px;
+                border-radius: 10px;
+                font-size: 16px;
+                display:flex;
+                justify-content: center;
+            }
+        .z_word_pinyin {
+            text-align: center;
+            height: 21px;
+        }
+        .z_gram {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        .lesson_number {
+            position:absolute;
+            bottom: 10px;
+            right: 10px;
+            font-size: 10px
+        }
 
     /* HELP */
     #modal_help {
@@ -556,6 +805,7 @@ main {
     .app_version {
         position: absolute;
         right: 0px;
+        top: 3px;
         font-size: 10px;
     }
     .separation {
@@ -563,8 +813,6 @@ main {
         border-top: 1px dashed gray;
         margin: 5px 0;
     }
-
-
 
     /* ---------- 练习 ---------- */
 

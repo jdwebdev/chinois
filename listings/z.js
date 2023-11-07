@@ -329,12 +329,11 @@ function openHanziPopup(id, list) {
     innerHTML = `
         <div id="oneResult" class="oneResult">
         <div class="word_container">
-            <!-- <span class="hanziYisi zh_font">${list[id].ciyuYisi}</span> -->
             <div class="hanzi zh_font">
                 ${list[id].hanzi}
                 <span class="fanti zh_font">${list[id].fanti != "" ? "("+list[id].fanti+")" : ""}</span>
             </div>
-            <div class="zh_font">${list[id].pinyin}</div>
+            <div class="hanziPinyin zh_font">${list[id].pinyin}</div>
         </div>
     `;
 
@@ -435,7 +434,7 @@ function openZ_WordPopup(id, list) {
             <div id="z_word_container" class="word_details" style="position:relative">
                 <p id="z_word_pinyin_void" class="z_word_pinyin_void zh_font"><span class="z_word_pinyin_void_span">?</span></p>
                 <p id="z_word_pinyin"  class="z_word_pinyin zh_font" style="display:none">${list[id].pinyin}</p>
-                <p>${list[id].yisi}</p>
+                <p class="">${list[id].yisi}</p>
                 <p class="z_gram">${gramList[list[id].gram] != undefined ? "["+gramList[list[id].gram]+"]" : ""}</p>
                 <span class="lesson_number">Leçon ${list[id].ke}</span>
             </div>

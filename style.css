@@ -755,7 +755,7 @@ main {
         }
         .lesson_number {
             position:absolute;
-            bottom: 10px;
+            bottom: 0px;
             right: 10px;
             font-size: 10px
         }

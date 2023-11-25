@@ -690,6 +690,9 @@ main {
             padding: 5px 0px 5px 0px;
             border-bottom: 1px dashed gray;
         }
+        .z_voc:hover {
+            background-color: rgba(255,245,215,0);
+        }
             .z_voc_cy {
                 width: 50%;
                 display: flex;

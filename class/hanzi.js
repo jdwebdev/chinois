@@ -25,15 +25,17 @@ class Hanzi {
     static keList = [];
 
     //?          id,  hanzi,  pinyin, ciyu,  ciyuPinyin,  ciyuYisi,  hanzi yisi, ke,   fanti,      bushou       
-    constructor(pId, pHanzi, pPinyin, pCiyu, pCiyuPinyin, pCiyuYisi, pHanziYisi, pKe, pFanti = "", pBushou = "") {
+    // constructor(pId, pHanzi, pPinyin, pCiyu, pCiyuPinyin, pCiyuYisi, pHanziYisi, pKe, pFanti = "", pBushou = "") {
+    //?              汉字，   拼音，   汉字意思，   课，  繁体,   部首
+    constructor(pId, pHanzi, pPinyin, pHanziYisi, pKe, pFanti, pBushou) {
 
         this.id = pId;
 
         this.hanzi = pHanzi;
         this.pinyin = pPinyin;
-        this.ciyu = pCiyu;
-        this.ciyuPinyin = pCiyuPinyin;
-        this.ciyuYisi = pCiyuYisi;
+        // this.ciyu = pCiyu;
+        // this.ciyuPinyin = pCiyuPinyin;
+        // this.ciyuYisi = pCiyuYisi;
         this.hanziYisi = z_firstLetterUppercase(pHanziYisi);
         this.ke = pKe;
         this.fanti = pFanti;
@@ -44,17 +46,17 @@ class Hanzi {
             Hanzi.keList.push(pKe);
         }
         
-        this.cList = this.ciyu.split(" | ");
-        this.cpList = this.ciyuPinyin.split(" | ");
-        this.cyList = this.ciyuYisi.split(" | ");
-        for (let i = 0; i < this.cList.length; i++) {
-            let lizi = {
-                hanzi: this.cList[i],
-                pinyin: this.cpList[i],
-                yisi: z_firstLetterUppercase(this.cyList[i]),
-            }
-            this.ciyuList.push(lizi);
-        }
+        // this.cList = this.ciyu.split(" | ");
+        // this.cpList = this.ciyuPinyin.split(" | ");
+        // this.cyList = this.ciyuYisi.split(" | ");
+        // for (let i = 0; i < this.cList.length; i++) {
+        //     let lizi = {
+        //         hanzi: this.cList[i],
+        //         pinyin: this.cpList[i],
+        //         yisi: z_firstLetterUppercase(this.cyList[i]),
+        //     }
+        //     this.ciyuList.push(lizi);
+        // }
 
         if (pFanti != "") {
             this.fantiList = pFanti.split(",");
@@ -68,6 +70,10 @@ class Hanzi {
             }
         });
         Hanzi.list.push(this);
+    }
+
+    addToCiyuList(pWord) {
+        this.ciyuList.push(pWord);
     }
 
     addToRefList(pWord) {
@@ -100,10 +106,12 @@ function createHanzi(pFile) {
         row[i] = row[i].split('\t');
         //?                 汉字，      拼音，     词语，     词语拼音，     词语意思，  汉字意思，  课，        繁体,      部首
         //?              id,hanzi,     pinyin,    ciyu,      ciyuPinyin,  ciyuYisi,  hanziYisi,  ke,        fanti,     bushou       
-        test = new Hanzi(i, row[i][0], row[i][1], row[i][2], row[i][3],   row[i][4], row[i][5],  row[i][6], row[i][7], row[i][8]);
+        // test = new Hanzi(i, row[i][0], row[i][1], row[i][2], row[i][3],   row[i][4], row[i][5],  row[i][6], row[i][7], row[i][8]);
+        //?                 汉字，      拼音，     汉字意思，  课，        繁体,      部首
+        test = new Hanzi(i, row[i][0], row[i][1], row[i][2], row[i][3], row[i][4], row[i][5]);
     }
 
-    let z_select_lesson = id("z_select_lesson");
+    let z_select_lesson = document.getElementById("z_select_lesson");
     let lessonHTML = `<option value="all" class="zh_font" value="lesson" selected>课 Leçons</option>`;
     for(let i = Hanzi.keList.length-1; i >= 0; i--) {
         if (!Hanzi.keList[i].includes("+")) {
@@ -166,14 +174,23 @@ function createZ_WORD(pFile, pType) {
 }
 
 function insertVocRefIntoHanzi() {
-    if (Z_Word.list.length < 350) {
-        alert("WORD LIST > 350 : " + Z_Word.list.length);
-    }
+    // if (Z_Word.list.length < 350) {
+    //     alert("WORD LIST > 350 : " + Z_Word.list.length);
+    // }
+
     Hanzi.list.forEach(h => {
         Z_Word.list.forEach(w => {
             if (w.ke.includes("+")) {
                 if (w.word.includes(h.hanzi)) {
                     h.addToRefList({
+                        hanzi: w.word,
+                        pinyin: w.pinyin,
+                        yisi: z_firstLetterUppercase(w.yisi),
+                    });
+                }
+            } else {
+                if (w.word.includes(h.hanzi)) {
+                    h.addToCiyuList({
                         hanzi: w.word,
                         pinyin: w.pinyin,
                         yisi: z_firstLetterUppercase(w.yisi),

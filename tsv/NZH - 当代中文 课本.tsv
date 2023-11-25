@@ -143,7 +143,7 @@
 亿	yì	Cent millions	Num.	3+	
 因为	yīnwèi	Parce que, à cause de	Conj.	3+	
 职员	zhíyuán	Employé	N.	3+	
-地图	dìtú	carte	N.	4	
+地图 [张]	dìtú	carte	N.	4	
 张	zhāng	(spécificatif pour le papier, la carte, le ticket)	Spec.	4	
 中文	zhōngwén	langue chinoise	N.	4	
 法文	fǎwén	langue française	N.	4	
@@ -162,7 +162,7 @@
 意思	yìsi	sens, signification	N.	4	
 龙	lóng	dragon	N.	4	
 山	shān	montagne, colline	N.	4	
-词典	cídiǎn	dictionnaire	N.	4	
+词典 [本]	cídiǎn	dictionnaire	N.	4	
 汉法词典	Hàn-Fǎ cídiǎn	dictionnaire chinois-français		4	
 法汉词典	Fǎ-Hàn cídiǎn	dictionnaire français-chinois		4	
 本	běn	(spécificatif pour les livres, les cahiers, les albums etc.)	Spec.	4	
@@ -175,9 +175,9 @@
 能	néng	pouvoir	V.M.	4	
 用	yòng	utiliser, employer	V.	4	
 当然	dāngrán	bien sûr, évidemment	Adv.	4	
-书	shū	livre	N.	4	
+书 [本]	shū	livre	N.	4	
 本子	běnzi	cahier	N.	4	
-笔	bǐ	stylo, crayon	N.	4	
+笔 [支]	bǐ	stylo, crayon	N.	4	
 支	zhī	(spécificatif pour les stylos)	Spec.	4	
 教室	jiàoshì	salle de classe	N.	4	
 上课	shàng kè	suivre des cours		4	
@@ -202,7 +202,7 @@
 先生	xiānsheng	monsieur; mari	N.	5	
 买	mǎi	acheter	V.	5	
 件	jiàn	(spécificatif pour les vêtements)	Spec.	5	
-衬衫	chènshān	chemise	N.	5	
+衬衫 [件]	chènshān	chemise	N.	5	
 白	bái	blanc	Adj.	5	
 钱	qián	argent, monnaie	N.	5	
 块(元)	kuài (yuán)	unité de Renminbi	Spec.	5	
@@ -214,7 +214,7 @@
 便宜	piányi	bon marché	Adj.	5	
 还	hái	encore; en plus	Adv.	5	
 条	tiáo	(spécificatif pour les pantalons, les routes, les rivières, les poissons, etc.)	Spec.	5	
-裤子	kùzi	pantalon	N.	5	
+裤子 [条]	kùzi	pantalon	N.	5	
 试	shì	essayer	V.	5	
 那，···	nà, ...	dans ce cas-là; donc...	Conj.	5	
 来	lái	venir	V.	5	
@@ -225,7 +225,7 @@
 糖醋鱼	tángcùyú	poisson à la sauce aigre-douce		5	
 糖	táng	sucre; bonbon	N.	5	
 醋	cù	vinaigre	N.	5	
-鱼	yú	poisson	N.	5	
+鱼 [条]	yú	poisson	N.	5	
 吃	chī	manger	V.	5	
 辣	là	piquant, épicé	Adj.	5	
 酸辣汤	suānlàtāng	soupe vinaigrée et poivrée		5	
@@ -244,7 +244,7 @@
 买东西	mǎi dōngxi	faire des courses		5	
 商店	shāngdiàn	magasin	N.	5	
 卖	mài	vendre	V.	5	
-衣服	yīfu	vêtements	N.	5	
+衣服 [件]	yīfu	vêtements	N.	5	
 颜色	yánsè	Couleur	N.	5+	
 蓝	lán	Bleu	Adj.	5+	
 绿	lǜ	Vert	Adj.	5+	
@@ -278,7 +278,7 @@
 一起	yìqǐ	Ensemble	Adv.	6	
 电视	diànshì	Télévision	N.	6	
 位	wèi	(Spécificatif pour les personnes en exprimant la politesse)	Spec.	6	
-事儿	shìr	Affaire, chose	N.	6	
+事儿 [件]	shìr	Affaire, chose	N.	6	
 咖啡	kāfēi	Café	N.	6	
 时候	shíhou	Temps, moment	N.	6	
 什么时候	shénme shíhou	Quand, quel temps, quel moment		6	
@@ -337,14 +337,14 @@
 找	zhǎo	chercher, rechercher	V.	7	
 戴	dài	porter (des lunettes, une cravate, une montre...)	V.	7	
 副	fù	(Spécificatif pour les lunettes, les jumelles...)	Spec.	7	
-眼镜	yǎnjìng	lunettes	N.	7	
+眼镜 [副]	yǎnjìng	lunettes	N.	7	
 每	měi	chacun	Pron.	7	
 瘦	shòu	mince, maigre	Adj.	7	
 高	gāo	grand, haut	Adj.	7	
 头发	tóufa	cheveux	N.	7	
 长	cháng	long	Adj.	7	
 穿	chuān	habiller, porter	V.	7	
-牛仔裤	niúzǎikù	jeans		7	
+牛仔裤 [条]	niúzǎikù	jeans		7	
 刚	gāng	venir de, juste avant	Adv.	7	
 出去	chūqù	sortir	V.D.	7	
 出	chū	sortir	V.D.	7	
@@ -381,7 +381,7 @@
 右面(右边)	yòumian(yòubian)	À droite	M.P.	8	
 右	yòu	Droite		8	
 拐	guǎi	Tourner	V.	8	
-马路	mǎlù	Rue, route	N.	8	
+马路 [条]	mǎlù	Rue, route	N.	8	
 路	lù	Rue, route, chemin	N.	8	
 就	jiù	Juste (pour insister)	Adv.	8	
 邮局	yóujú	Bureau de poste	N.	8	
@@ -423,3 +423,57 @@
 船	chuán	Bateau	N.	8+	
 开(车)	kāi(chē)	Conduire, piloter	V.	8+	
 辆	liàng	(Spécificatif pour les véhicules)	Spec.	8+	
+老人家	lǎorénjia	Monsieur/Madame (pour les personnes âgées)	N.	9	
+只	zhī	(Spécificatif pour des oiseaux, chats, chiens etc.)	Spec.	9	
+狗 [条只]	gǒu	Chien	N.	9	
+养	yǎng	Élever (les animaux), cultiver (les fleurs), etc.	V.	9	
+过	guò	(Pour marquer une action achevée dans le passé)	Part.	9	
+花儿	huār	Fleur	N.	9	
+鸟儿 [只]	niǎor	Oiseau	N.	9	
+但是	dànshì	Mais	Conj.	9	
+听说	tīngshuō	Avoir entendu dire, on dit	V.	9	
+城市	chéngshì	Ville	N.	9	
+有的	yóude	Certain	Pron.	9	
+猫 [只]	māo	Chat	N.	9	
+动物	dòngwù	Animal	N.	9	
+麻烦	máfan	Ennuyeux, fastidieux; déranger, importuner; complication		9	
+时间	shíjiān	Temps	N.	9	
+自己	zìjǐ	Soi-même	Pron.	9	
+办	bàn	Faire	V.	9	
+对···熟悉	duì···shúxī	Connaître, se familiariser avec		9	
+对	duì	À, avec	Prep.	9	
+熟悉	shúxī	Connaître, se familiariser avec	V.	9	
+些	xiē	(Spécificatif pour le pluriel)	Spec.	9	
+这些	zhèxiē	Ces		9	
+那些	nàxiē	Ces		9	
+哪些	nǎxiē	Quels		9	
+一些	yìxiē	Un peu, un certain nombre		9	
+照片 [张]	zhàopiàn	Photo	N.	9	
+登	dēng	Grimper	V.	9	
+不到长城非好汉	bú dào Chángchéng fēi hàohàn	"Vous n'êtes pas un vrai homme si vous n'avez pas conquis la Grande Muraille"		9	
+非	fēi	Pas	V.	9	
+好汉	hǎohàn	Vrai homme	N.	9	
+别的	biéde	Autre	Pron.	9	
+欢迎	huānyíng	Accueillir	V.	9	
+要是···的话	yàoshi···dehua	Sichuan		9	
+陪	péi	Accompagner	V.	9	
+得	děi	Il faut, devoir		9	
+(飞)机票	(fēi)jīpiào	Billet d'avion	N.	9	
+飞机	fēijī	Avion	N.	9	
+票 [张]	piào	Ticket, billet	N.	9	
+所以	suǒyǐ	Donc, c'est pourquoi	Conj.	9	
+别人	biérén	Autre personne	Pron.	9	
+拍照	pāo zhào	Prendre une photo	V.O.	9	
+故宫	Gùgōng	Cité interdite, le Palais impérial		9	
+颐和园	Yíhéyuán	Palais d'été		9	
+长城	Chángchéng	La Grande Muraille		9	
+西安	Xī'ān	Xi'an		9	
+成都	Chéngdū	Chengdu		9	
+宠物	chǒngwù	Animal de compagnie	N.	9+	
+遛狗	liù gǒu	Promener le chien	V.O.	9+	
+农村	nóngcūn	Campagne	N.	9+	
+照相	zhào xiàng	Photographier, prendre des photoso	V.O.	9+	
+照相机	zhàoxiàngjī	Appareil photo	N.	9+	
+胶卷	jiāojuǎn	Film (pour prendre des photos ou filmer)	N.	9+	
+旅游	lǚyóu	Voyager	V.	9+	
+如果	rúguǒ	Si	Conj.	9+	

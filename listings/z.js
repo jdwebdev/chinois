@@ -178,17 +178,19 @@ function z_search(pFromBtn = false) {
                         //         z_resultList.push(h);
                         //     }    
                         // } 
-                        else if (h.ciyu.includes(z_input.value)) {
-                            if (!idList.includes(h.id)) {
-                                idList.push(h.id);
-                                z_resultList.push(h);
-                            }
-                        } else if (h.ciyuYisi.includes(z_input.value)) {
+                        // else if (h.ciyu.includes(z_input.value)) {
+                        //     if (!idList.includes(h.id)) {
+                        //         idList.push(h.id);
+                        //         z_resultList.push(h);
+                        //     }
+                        // } 
+                        // else if (h.ciyuYisi.includes(z_input.value)) {
                             // if (!idList.includes(h.id)) {
                             //     idList.push(h.id);
                             //     z_resultList.push(h);
                             // }
-                        } else if (h.hanziYisi.includes(z_input.value)) {
+                        // } 
+                        else if (h.hanziYisi.includes(z_input.value)) {
                             if (!idList.includes(h.id)) {
                                 idList.push(h.id);
                                 z_resultList.push(h);
@@ -232,7 +234,7 @@ function z_search(pFromBtn = false) {
             
         case "word":
             innerHTML = "";
-
+            let cleanedWord = ""; //? [量词]
             if (z_select_lesson.value != "all" && !pFromBtn) {
                 innerHTML = "";
                 z_resultList = [];
@@ -248,20 +250,16 @@ function z_search(pFromBtn = false) {
                 let bgColor_class = "";
                 for (let i = 0; i < z_resultList.length; i++) {
                     if (z_resultList[i].ke.includes("+")) bgColor_class = "z_one_result_color";
+                    if (z_resultList[i].word.includes("[")) {
+                        cleanedWord = z_resultList[i].word.split("[")[0];
+                        cleanedWord = cleanedWord.slice(0, cleanedWord.length-1);
+                    } else {
+                        cleanedWord = z_resultList[i].word;
+                    }
                     innerHTML += `
-                        <div id="z_word_${z_resultList[i].id}" class="zh_font z_one_result ${bgColor_class}" onclick="openZ_WordPopup(${z_resultList[i].id-1},Z_Word.list)">${z_resultList[i].word}</div>
+                        <div id="z_word_${z_resultList[i].id}" class="zh_font z_one_result ${bgColor_class}" onclick="openZ_WordPopup(${z_resultList[i].id-1},Z_Word.list)">${cleanedWord}</div>
                     `;
                 }
-
-
-                // z_resultList.forEach(w => {
-                //     innerHTML += `
-                //         <div class="word_one_line">
-                //             <div id="z_word_${w.id}" class="zh_font" onclick="openZ_WordPopup(${w.id-1},Z_Word.list)">${w.word}</div>
-                //         </div>
-                //     `;
-                // });
-
 
                 z_result_section.innerHTML = innerHTML;
                 z_resultNb.innerHTML = z_resultList.length + " résultats";
@@ -273,18 +271,19 @@ function z_search(pFromBtn = false) {
                     } else {
                         bgColor_class = "";
                     }
+
+                    if (Z_Word.list[i].word.includes("[")) {
+                        cleanedWord = Z_Word.list[i].word.split("[")[0];
+                        cleanedWord = cleanedWord.slice(0, cleanedWord.length-1);
+                    } else {
+                        cleanedWord = Z_Word.list[i].word;
+                    }
+
                     innerHTML += `
-                        <div id="z_word_${Z_Word.list[i].id}" class="zh_font z_one_result ${bgColor_class}" onclick="openZ_WordPopup(${Z_Word.list[i].id-1},Z_Word.list)">${Z_Word.list[i].word}</div>
+                        <div id="z_word_${Z_Word.list[i].id}" class="zh_font z_one_result ${bgColor_class}" onclick="openZ_WordPopup(${Z_Word.list[i].id-1},Z_Word.list)">${cleanedWord}</div>
                     `;
                 }
                 
-                // for (let i = Z_Word.list.length - 1; i >= 0; i--) {
-                //     innerHTML += `
-                //         <div class="word_one_line">
-                //             <div id="z_word_${Z_Word.list[i].id}" class="zh_font" onclick="openZ_WordPopup(${Z_Word.list[i].id-1},Z_Word.list)">${Z_Word.list[i].word}</div>
-                //         </div>
-                //     `;
-                // }
                 z_result_section.innerHTML = innerHTML;
                 z_resultNb.innerHTML = Z_Word.list.length + " résultats";
                 
@@ -304,10 +303,17 @@ function z_search(pFromBtn = false) {
                     // }
                 });
                 z_resultList.forEach(w => {
+
+                    if (w.word.includes("[")) {
+                        cleanedWord = w.word.split("[")[0];
+                        cleanedWord = cleanedWord.slice(0, cleanedWord.length-1);
+                    } else {
+                        cleanedWord = w.word;
+                    }
+
+
                     innerHTML += `
-                        <div class="word_one_line" onclick="openZ_WordPopup(${w.id-1},Z_Word.list)">
-                            <div id="z_word_${w.id}" class="zh_font">${w.word}</div>
-                        </div>
+                        <div id="z_word_${w.id}" class="zh_font z_one_result" onclick="openZ_WordPopup(${w.id-1},Z_Word.list)">${cleanedWord}</div>
                     `;
                 });
 
@@ -491,4 +497,5 @@ function fillGramList() {
     // gramList["V & V.M"] = "Verbe & verbe de ?";
     // gramList["V.M."] = "Verbe de ?";
     gramList["N & V.D"] = "Nom & Verbe de direction";
+    gramList["V.O."] = "Verbe + Objet";
 }

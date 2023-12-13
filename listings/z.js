@@ -3,6 +3,7 @@ let z_searchBtn = id("z_searchBtn");
 let z_input = id("z_input");
 let z_resultNb = id("z_resultNb");
 let z_select = id("z_select"); //? 汉字 / 词语
+// let z_select_bushou = id("z_select_bushou");
 let z_select_lesson = id("z_select_lesson");
 let gramList = [];
 let z_resultList = [];
@@ -21,6 +22,7 @@ z_select.addEventListener("change", e => {
     z_input.value = "";
     let lessonHTML = "";
     if (z_select.value == "hanzi") {
+        // block(z_select_bushou);
         lessonHTML = `<option class="zh_font" value="all">课 Leçons</option>`;
 
         for(let i = Hanzi.keList.length-1; i >= 0; i--) {
@@ -32,6 +34,7 @@ z_select.addEventListener("change", e => {
         z_select_lesson.innerHTML = lessonHTML;
         flex(z_select_lesson);
     } else if (z_select.value == "word") {
+        // none(z_select_bushou);
         lessonHTML = `<option class="zh_font" value="all">课 Leçons</option>`;
 
         for(let i = Z_Word.keList.length-1; i >= 0; i--) {
@@ -498,4 +501,5 @@ function fillGramList() {
     // gramList["V.M."] = "Verbe de ?";
     gramList["N & V.D"] = "Nom & Verbe de direction";
     gramList["V.O."] = "Verbe + Objet";
+    gramList["Adv & Adj"] = "Adverbe & Adjectif";
 }

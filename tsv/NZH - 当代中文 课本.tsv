@@ -2,7 +2,7 @@
 您	nín	vous (forme respectueuse)	Pron.	1	
 好	hǎo	bon, bien	Adj.	1	
 贵姓	guìxìng	Comment vous appelez-vous ?		1	
-姓	tā	s'appeler; nom de famille	V & N	1	
+姓	xìng	s'appeler; nom de famille	V & N	1	
 我	wǒ	je, me, moi	Pron.	1	
 呢	ne	(particule interrogative)	Part.	1	
 是	shì	être	V.	1	
@@ -185,7 +185,6 @@
 上海	Shànghǎi	Shanghai		4	
 龙山	Lóngshān	Longshan		4	
 课本	kèběn	Manuel	N.	4+	
-电脑	diànnǎo	Ordinateur	N.	4+	
 录音机	lùyīnjī	Magnétophone 	N.	4+	
 录像机	lùxiàngjī	Magnétoscope, caméra	N.	4+	
 台	tái	(Spécificatif pour les ordinateurs, magnétophones, magnétoscopes etc.)	Spec.	4+	
@@ -309,7 +308,6 @@
 乒乓球	pīngpāngqiú	Ping-pong	N.	6+	
 足球	zúqiú	Football	N.	6+	
 踢	tī	Jouer	N.	6+	
-昨天	zuótiān	Hier	N.	6+	
 前天	qiántiān	Avant-hier	N.	6+	
 后天	hòutiān	Après-demain	N.	6+	
 夜里	yèli	Nuit	N.	6+	
@@ -418,7 +416,6 @@
 对面	duìmiàn	En face	M.P.	8+	
 中间	zhōngjiān	Centre, milieu	M.P.	8+	
 火车	huǒchē	Train	N.	8+	
-飞机	fēijī	Avion	N.	8+	
 出租汽车	chūzū qìchē	Taxi		8+	
 船	chuán	Bateau	N.	8+	
 开(车)	kāi(chē)	Conduire, piloter	V.	8+	
@@ -477,3 +474,75 @@
 胶卷	jiāojuǎn	Film (pour prendre des photos ou filmer)	N.	9+	
 旅游	lǚyóu	Voyager	V.	9+	
 如果	rúguǒ	Si	Conj.	9+	
+大家	dàjiā	Tout le monde	Pron.	10	
+还	hái	Encore, de nouveau	Adv.	10	
+没(有)	méi(yǒu)	Non	Adv.	10	
+住	zhù	Habiter	V.	10	
+宿舍	sùshè	Dortoir	N.	10	
+天 / 日	tiān / rì	Jour	Spec.	10	
+餐厅	cāntīng	Salle à manger; Cantine, restaurant	N.	10	
+早饭	zǎofàn	Petit-déjeuner	N.	10	
+可能	kěnéng	Peut-être, possible	Adv & Adj	10	
+正在	zhèngzài	Être en train de faire qch	Adv.	10	
+在	zài	Mot pour désigner une action en cours	Adv.	10	
+睡觉	shuì jiào	Se coucher, dormir	V.O.	10	
+肯定	kěndìng	Sûr, certain	Adj.	10	
+已经	yǐjīng	Déjà	Adv.	10	
+起床	qǐ chuáng	Se lever	V.O.	10	
+起	qǐ	Se lever	V.	10	
+床 [张]	chuáng	Lit	N.	10	
+错	cuò	Tort, erroné	Adj.	10	
+医院	yīyuàn	Hôpital	N.	10	
+病	bìng	Être malade; maladie	V & N	10	
+舒服	shūfu	Confortable	Adj.	10	
+医生	yīshēng	Docteur	N.	10	
+肚子	dùzi	Ventre	N.	10	
+疼	téng	Avoir mal	Adj.	10	
+干净	gānjìng	Propre	Adj.	10	
+片	piàn	(Spécificatif pour des objets fins et plats)	Spec.	10	
+面包 [个块片]	miànbāo	Pain	N.	10	
+杯	bēi	Un verre	Spec.	10	
+牛奶 [杯]	niúnǎi	Lait	N.	10	
+不过	búguò	Mais	Conj.	10	
+昨天	zuótiān	Hier	M.T.	10	
+请客	qǐng kè	Inviter	V.O.	10	
+生鱼片	shēng yúpiàn	Sashimi		10	
+生	shēng	Cru	Adj.	10	
+鱼片	yúpiàn	Tranche de poisson	N.	10	
+新鲜	xīnxiān	Frais	Adj.	10	
+药	yào	Médicament	N.	10	
+着急	zháojí	S'inquiéter, être anxieux	Adj.	10	
+说完	shuō-wán	Finir de parler		10	
+完	wán	Finir de ...	V.	10	
+厕所	cèsuǒ	Toilettes	N.	10	
+头	tóu	Tête	N.	10+	
+眉毛	méimao	Sourcil	N.	10+	
+鼻子	bízi	Nez	N.	10+	
+耳朵	ěrduo	Oreille	N.	10+	
+嘴巴	zuǐba	Bouche	N.	10+	
+牙齿	yáchǐ	Dent	N.	10+	
+舌头	shétou	Langue	N.	10+	
+下巴	xiàba	Menton	N.	10+	
+脸	liǎn	Visage	N.	10+	
+脖子	bózi	Court	N.	10+	
+肩膀	jiānbǎng	Épaule	N.	10+	
+手臂	shǒubì	Bras	N.	10+	
+手	shǒu	Main	N.	10+	
+背	bèi	Dos	N.	10+	
+胸	xiōng	Poitrine	N.	10+	
+乳房	rǔfáng	Sein	N.	10+	
+腰	yāo	Taille	N.	10+	
+屁股	pìgu	Fesse	N.	10+	
+大腿	dàtuǐ	Cuisse	N.	10+	
+小腿	xiǎotuǐ	Mollet	N.	10+	
+脚	jiǎo	Pied	N.	10+	
+身体	shēntǐ	Corps	N.	10+	
+食堂	shítáng	Cantine, cafétéria	N.	10+	
+午饭	wǔfàn	Déjeuner	N.	10+	
+晚饭	wǎnfàn	Dîner	N.	10+	
+迟到	chídào	Être en retard	V.	10+	
+大夫	dàifu	Docteur, médecin	N.	10+	
+脏	zāng	Sale, malpropre, mauvais	Adj.	10+	
+打针	dǎ zhēn	Faire une injection	V.O.	10+	
+洗手间	xǐshǒujiān	Cabinet de toilette	N.	10+	
+卫生间	wèishēngjiān	Toilettes	N.	10+	

@@ -1,3 +1,5 @@
+let exampleList = [];
+
 class Hanzi {
 
     static list = [];
@@ -84,6 +86,7 @@ class Hanzi {
 readHANZIFile("./tsv/NZH - 当代中文 汉字.tsv");
 
 function readHANZIFile(pFile) {
+    // console.log("1) Read HANZI File ");
     let rawFile = new XMLHttpRequest();
     rawFile.open("GET", pFile, true);
     rawFile.onreadystatechange = function () {
@@ -100,6 +103,7 @@ function readHANZIFile(pFile) {
 }
 
 function createHanzi(pFile) {
+    // console.log("2) CreateHanzi");
     let row = pFile.split(/\r\n|\n/);
     let test;
     for (let i = 1; i < row.length; i++) {
@@ -136,14 +140,19 @@ class Z_Word {
         this.gram = pGram;
         this.ke = pKe;
         this.plusAlpha = pPlusAlpha
+        this.exampleList = [];
 
         if (!Z_Word.keList.includes(pKe)) Z_Word.keList.push(pKe);
         
         Z_Word.list.push(this);
     }
+    addExample(pEx) {
+        this.exampleList.push(pEx);
+    }
 }
 
 function readZ_WORDFile(pFile, pType = 0) {
+    // console.log("3) Read Z_WORD File");
     let rawFile = new XMLHttpRequest();
     rawFile.open("GET", pFile, true);
     rawFile.onreadystatechange = function () {
@@ -160,6 +169,7 @@ function readZ_WORDFile(pFile, pType = 0) {
 }
 
 function createZ_WORD(pFile, pType) {
+    // console.log("4) Create Z_WORD");
     let row = pFile.split(/\r\n|\n/);
     let test;
     let id = 1;
@@ -170,10 +180,61 @@ function createZ_WORD(pFile, pType) {
         id++;
     }
 
+    readEXAMPLEFile("./tsv/NZH - 例子.tsv");
+
     insertVocRefIntoHanzi();
+
+    // console.log("8) End ?");
+}
+
+function readEXAMPLEFile(pFile) {
+    // console.log("5) Read EXAMPLE File");
+    let rawFile = new XMLHttpRequest();
+    rawFile.open("GET", pFile, true);
+    rawFile.onreadystatechange = function () {
+        if (rawFile.readyState === 4) {
+            if (rawFile.status === 200 || rawFile.status == 0) {
+                tsvFile = rawFile.responseText;
+                fillExampleList(tsvFile);
+            }
+        }
+    }
+    rawFile.send(null); 
+}
+function fillExampleList(pFile) {
+    // console.log("6) Fill Example List");
+    let row = pFile.split(/\r\n|\n/);
+    let test;
+    let id = 1;
+    for (let i = 1; i < row.length; i++) {
+        row[i] = row[i].split('\t');
+        exampleList.push({
+            phrase: row[i][0],
+            lesson: row[i][1]
+        })
+        id++;
+    }
+    let cleanedWord = "";
+    Z_Word.list.forEach(w => {
+        exampleList.forEach(e => {
+            cleanedWord = "";
+
+            if (w.word.includes("[")) {
+                cleanedWord = w.word.split("[")[0];
+                cleanedWord = cleanedWord.slice(0, cleanedWord.length-1);
+            } else {
+                cleanedWord = w.word;
+            }
+
+            if (e.phrase.includes(cleanedWord)) {
+                w.addExample(e);
+            }
+        });
+    });
 }
 
 function insertVocRefIntoHanzi() {
+    // console.log("7) Insert Voc Ref Into Hanzi");
     // if (Z_Word.list.length < 350) {
     //     alert("WORD LIST > 350 : " + Z_Word.list.length);
     // }

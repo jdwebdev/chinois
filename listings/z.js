@@ -434,8 +434,9 @@ function openHanziPopup(id, list) {
 
 function openZ_WordPopup(id, list) {
     popup.innerHTML = "";
+    let innerHTML = "";
     let windowWidth = window.innerWidth;
-    popup.innerHTML = `
+    innerHTML = `
         <div id="oneResult" class="oneResult">
             <div class="word_container">
             <div class="hanzi zh_font">${list[id].word}</div>
@@ -447,8 +448,19 @@ function openZ_WordPopup(id, list) {
                 <p class="z_gram">${gramList[list[id].gram] != undefined ? "["+gramList[list[id].gram]+"]" : ""}</p>
                 <span class="lesson_number">Leçon ${list[id].ke}</span>
             </div>
+    `;
+    if (list[id].exampleList.length > 0) {
+        innerHTML += `<ul class="z_word_example_list zh_font">`;
+
+        list[id].exampleList.forEach(e => {
+            innerHTML += `<li>・${e.phrase}</li>`;
+        });
+        innerHTML += `</ul>`;
+    }
+    innerHTML += `
         </div>
     `;
+    popup.innerHTML = innerHTML;
 
     const z_word_container = document.getElementById("z_word_container");
     const z_word_pinyin_void = document.getElementById("z_word_pinyin_void");
@@ -502,4 +514,25 @@ function fillGramList() {
     gramList["N & V.D"] = "Nom & Verbe de direction";
     gramList["V.O."] = "Verbe + Objet";
     gramList["Adv & Adj"] = "Adverbe & Adjectif";
+}
+
+function checkNewHanzi() {
+    let currentHanziList = "";
+    let dame = " ()0，[]·/…";
+    let newHanziList = "";
+    Hanzi.list.forEach(h => {
+        currentHanziList += h.hanzi;
+    });
+
+    Z_Word.list.forEach(w => {
+        for (let i = 0; i < w.word.length; i++) {
+            if (!(currentHanziList.includes(w.word[i]))) {
+                if (!(newHanziList.includes(w.word[i])) && !(dame.includes(w.word[i]))) {
+                    newHanziList += w.word[i];
+                }
+            }
+        }
+    });
+    console.log(newHanziList);
+    console.log(newHanziList.length);
 }

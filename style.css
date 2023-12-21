@@ -763,6 +763,17 @@ main {
             font-size: 10px
         }
 
+    .z_word_example_list {
+        max-height: 400px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 2px;
+        overflow-y: scroll;
+        background-color: rgb(245,225,195);
+        margin: 10px;
+        border-radius: 5px;
+    }
+
     /* HELP */
     #modal_help {
         display: flex;

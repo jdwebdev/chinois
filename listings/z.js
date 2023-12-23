@@ -515,6 +515,8 @@ function fillGramList() {
     gramList["V.O."] = "Verbe + Objet";
     gramList["Adv & Adj"] = "Adverbe & Adjectif";
     gramList["V & Adj"] = "Verbe & Adjectif";
+    gramList["N & Adj"] = "Nom & Adjectif";
+    gramList["N & MT"] = "Nom & Mot de temps";
 }
 
 function checkNewHanzi() {

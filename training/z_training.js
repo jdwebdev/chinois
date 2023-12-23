@@ -229,11 +229,13 @@ let zt_list_up_arrow; let zt_list_bottom_arrow;
 
 function zt_hanziXieziDisplayTraining() {
     let innerHTML = "";
-    let bFanti = false;
+    let fanti = (zt_randomList[zt_currentIndex].fanti != "") ? "？" : "";
     z_training_section.innerHTML = "";
     innerHTML = `
         <div id="zt_progressBar" class="progressBar zh_font"><span id="currentIndex">${zt_currentIndex+1}/${zt_randomList.length}</span></div>
-        <p id="zt_hanzi" class="toFound zh_font">?</p>
+        <p id="zt_hanzi" class="toFind zh_font">？
+            <span id="zt_fanti">${fanti}</span>
+        </p>
         `;
         /*
                 汉字 = ?
@@ -298,6 +300,7 @@ function zt_hanziXieziDisplayTraining() {
     zt_progressBar.style.width = (zt_currentIndex / zt_randomList.length) * 100 + "%";
     zt_nextBtn_container = id("zt_nextBtn_container");
     zt_hanzi = id("zt_hanzi");
+    zt_fanti = id("zt_fanti");
 
     zt_list_up_arrow = id("list_up_arrow");
     zt_list_bottom_arrow = id("list_bottom_arrow");
@@ -327,7 +330,11 @@ function zt_hanziXieziDisplayTraining() {
     zt_kakunin.addEventListener("click", e => {
         e.preventDefault();
         none(zt_kakunin);
-        zt_hanzi.innerHTML = zt_randomList[zt_currentIndex].hanzi;
+        zt_hanzi.innerHTML = `${zt_randomList[zt_currentIndex].hanzi}
+            <span id="zt_fanti">${zt_randomList[zt_currentIndex].fanti}</span>
+        `;
+        console.log(zt_fanti);
+        console.log(zt_randomList[zt_currentIndex].fanti)
 
         for (let i = 0; i < zt_randomList[zt_currentIndex].ciyuList.length; i++) {
             let wordToFind = id("zt_wordToFind_"+i)
@@ -352,7 +359,7 @@ function zt_hanziPinyinDisplayTraining() {
     z_training_section.innerHTML = "";
     innerHTML = `
         <div id="zt_progressBar" class="progressBar zh_font"><span id="currentIndex">${zt_currentIndex+1}/${zt_randomList.length}</span></div>
-        <p id="zt_hanzi" class="toFound zh_font">${zt_randomList[zt_currentIndex].hanzi}</p>
+        <p id="zt_hanzi" class="toFind zh_font">${zt_randomList[zt_currentIndex].hanzi}</p>
         `;
     innerHTML += 
         `
@@ -548,7 +555,7 @@ function zt_ZWordXieziDisplayTraining() {
     z_training_section.innerHTML = "";
     innerHTML = `
         <div id="zt_progressBar" class="progressBar"><span id="currentIndex">${zt_currentIndex+1}/${zt_randomList.length}</span></div>
-        <p id="zt_word" class="toFound zh_font">?</p>
+        <p id="zt_word" class="toFind zh_font">？</p>
         <p class="zt_p zt_pinyin zh_font">${zt_randomList[zt_currentIndex].pinyin}</p>
         <p class="zt_p zt_word_yisi zh_font">${zt_randomList[zt_currentIndex].yisi}</p>
         <button id="zt_kakunin" class="zh_font">Check</button>

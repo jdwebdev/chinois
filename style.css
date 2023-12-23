@@ -946,7 +946,7 @@ main {
         margin-top: 10px;
     }
 
-    .toFound {
+    .toFind {
         font-size: 40px;
         text-align: center;
         border: 1px solid gray;
@@ -954,6 +954,13 @@ main {
         margin-bottom: 5px;
         min-height: 74px;
         vertical-align:middle;
+        position: relative;
+    }
+    #zt_fanti {
+        position:absolute;
+        right: 10px;
+        top: 20px;
+        font-size:20px;
     }
 
     #zt_kakunin {

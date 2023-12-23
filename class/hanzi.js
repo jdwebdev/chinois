@@ -180,7 +180,7 @@ function createZ_WORD(pFile, pType) {
         id++;
     }
 
-    readEXAMPLEFile("./tsv/NZH - 例子.tsv");
+    readEXAMPLEFile("./tsv/NZH - 当代中文 例子.tsv");
 
     insertVocRefIntoHanzi();
 

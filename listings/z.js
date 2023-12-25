@@ -517,6 +517,7 @@ function fillGramList() {
     gramList["V & Adj"] = "Verbe & Adjectif";
     gramList["N & Adj"] = "Nom & Adjectif";
     gramList["N & MT"] = "Nom & Mot de temps";
+    gramList["Chengyu"] = "Chéngyǔ";
 }
 
 function checkNewHanzi() {

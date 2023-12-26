@@ -1,9 +1,9 @@
 汉字	拼音	汉字的意思	课	繁體	部首	词语	拼音	意思	āáǎà īíǐì ūúǔù ēéěè ōóǒò ǖǘǚǜ
 一	yī	Un	0		一字旁|一	一 | 一下 | 一点儿 | 星期一 | 一起 | 一会儿	yī | yíxià | yìdiǎnr | xīngqīyī | yìqǐ | yíhuìr	Un | un(une), un coup | un peu | Lundi | Ensemble | un moment	
-二	èr	Deux	0		一字旁|一	二 | 星期二	èr | xīngqī'èr	Deux | Mardi	
+二	èr	Deux	0		二字旁|二	二 | 星期二	èr | xīngqī'èr	Deux | Mardi	
 三	sān	Trois	0		一字旁|一	三 | 星期三	sān | xīngqīsān	Trois | Mercredi	
 四	sì	Quatre	0		口字旁|口	四 | 星期四 | 四川	sì | xīngqīsì | Sìchuān	Quatre | Jeudi | Sichuan	
-五	wǔ	Cinq	0		一字旁|一	五 | 星期五	wǔ | xīngqīwǔ	Cinq | Vendredi	
+五	wǔ	Cinq	0		二字旁|二	五 | 星期五	wǔ | xīngqīwǔ	Cinq | Vendredi	
 六	liù	Six	0		八字旁|八	六 | 星期六	liù | xīngqīliù	Six | Samedi	
 七	qī	Sept	0		一字旁|一	七	qī	Sept	
 八	bā	Huit	0		八字旁|八	八	bā	Huit	
@@ -192,7 +192,7 @@
 宜	yi		5		宝盖头|宀	便宜	piányi	bon marché	
 条	tiáo		5	條	木字旁|木	条	tiáo	(spécificatif pour les pantalons, les routes, les rivières, les poissons, etc.)	
 裤	kù		5	褲	衣字旁|衤	裤子 | 牛仔裤	kùzi | niúzǎikù	pantalon | jeans	
-试	shì		5	試	言字旁|讠	试	shì	essayer	
+试	shì	Essayer	5	試	言字旁|讠	试	shì	essayer	
 来	lái	Venir	5	來	木字旁|木	来 | 回来	lái | huílai	venir | rentrer, retourner	
 饭	fàn	Riz cuit, repas	5	飯	食字旁|饣	饭店 | 米饭	fàndiàn | mǐfàn	restaurant, hôtel | riz cuit	
 店	diàn	Magasin	5		广字旁|广	饭店 | 商店	fàndiàn | shāngdiàn	restaurant, hôtel | magasin	
@@ -244,7 +244,7 @@
 半	bàn	Demi	6		十字儿|十	半	bàn	Demi	
 见	jiàn	Voir	6	見	见字旁|见	见面 | 再见	jiànmiàn | zàijiàn	Se rencontrer | Au revoir	
 面	miàn	Face, visage, surface; nouille	6		面字旁|面	见面 | 前面 | 后面 | 右面 | 左面 | 上面 | 下面 | 里面 | 外面 | 东面 | 南面 | 西面 | 北面 | 对面	jiànmiàn | qiánmian | hòumian | yòumian | zuǒmian | shàngmian | xiàmian | lǐmian | wàimian | dōngmian | nánmian | xīmian | běimian | duìmiàn	Se rencontrer | Devant, avant | Derrière, arrière | À droite | À gauche | Dessus, au-dessus | Bas, en bas | À l'intérieur | À l'extérieur, dehors | Est | Sud | Ouest | Nord | En face	
-刻	kè	Un quart d'heure	6		立刀旁|刂	刻	kè	Un quart d'heure	
+刻	kè	Un quart d'heure; graver	6		立刀旁|刂	刻	kè	Un quart d'heure	
 接	jiē		6		提手旁|扌	接	jiē	Accueillir	
 再	zài	Encore	6		同字框|冂	再见 | 再	zàijiàn | zài	Au revoir | encore	
 现	xiàn	Maintenant	6	現	王字旁|王	现在	xiànzài	Maintenant	
@@ -479,3 +479,35 @@
 散	sàn	Disperser	14		反文旁|攵				
 步	bù	Pas	14		止字旁|止				
 南	nán	Sud	14		十字儿|十				
+介	jiè		15		人字旁|人				
+绍	shào		15	紹	绞丝旁|纟				
+专	zhuān		15	專	一字旁|一				
+业	yè		15	業	一字旁|一				
+级	jí	Niveau, rang	15	級	绞丝旁|纟				
+普	pǔ		15		日字旁|日				
+标	biāo		15	標	木字旁|木				
+准	zhǔn	Standard, exact	15	準	两点水|冫				
+阅	yuè	Lire	15	閲	门字框|门				
+读	dú	Lire	15	讀	言字旁|讠				
+力	lì	Force	15		力字旁|力				
+练	liàn	S'exercer	15	練	绞丝旁|纟				
+清	qīng	Clair	15		三点水|氵				
+楚	chǔ		15		木字旁|木				
+句	jù	Phrase	15		口字旁|口				
+遍	biàn	Fois	15		走之旁|辶				
+难	nán	Difficulté, difficile	15	難	隹字旁|隹				
+容	róng		15		宝盖头|宀				
+易	yì	Facile	15		日字旁|日				
+始	shǐ	Commencement, début	15		女字旁|女				
+慢	màn	Lent	15		竖心旁|忄				
+忘	wàng	Oublier	15		心字旁|心				
+种	zhǒng	Genre, sort	15	種	禾木旁|禾				
+食	shí	Nourriture; manger	15		食字旁|食				
+品	pǐn	Article, produit	15		口字旁|口				
+努	nǔ		15		力字旁|力				
+糊	hú		15		米字旁|米				
+涂	tú		15	塗	三点水|氵				
+互	hù	Mutuellement	15		二字旁|二				
+相	xiāng	Mutuellement	15		目字旁|目				
+谈	tán	Parler	15	談	言字旁|讠				
+考	kǎo	Examiner, tester	15		老字旁|耂				

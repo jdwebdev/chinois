@@ -736,6 +736,9 @@ main {
         .z_vocRef {
             background-color: rgb(235,215,185);
         }
+        .z_vocRef:hover {
+            background-color: rgb(235,215,185);
+        }
         .z_voc_last {
             border: none;
         }
@@ -772,7 +775,7 @@ main {
         }
 
     .z_word_example_list {
-        max-height: 400px;
+        max-height: 360px;
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 2px;

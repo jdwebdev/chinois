@@ -436,11 +436,13 @@ function openZ_WordPopup(id, list) {
     popup.innerHTML = "";
     let innerHTML = "";
     let windowWidth = window.innerWidth;
+    let fantiClass = list[id].fanti != "" ? "z_word_fanti" : "z_word_fanti_none";
     innerHTML = `
         <div id="oneResult" class="oneResult">
             <div class="word_container">
             <div class="hanzi zh_font">${list[id].word}</div>
             </div>
+            <p class="${fantiClass} zh_font">${list[id].fanti}</p>
             <div id="z_word_container" class="word_details" style="position:relative">
                 <p id="z_word_pinyin_void" class="z_word_pinyin_void zh_font"><span class="z_word_pinyin_void_span">?</span></p>
                 <p id="z_word_pinyin"  class="z_word_pinyin zh_font" style="display:none">${list[id].pinyin}</p>
@@ -522,7 +524,7 @@ function fillGramList() {
 
 function checkNewHanzi() {
     let currentHanziList = "";
-    let dame = " ()0，[]·/…";
+    let dame = " ()0，[]·/…~";
     let newHanziList = "";
     Hanzi.list.forEach(h => {
         currentHanziList += h.hanzi;

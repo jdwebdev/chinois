@@ -32,21 +32,21 @@ let zt_backBtn = id("zt_backBtn");
 
 zt_select.addEventListener("change", e => {
     zt_all_option.selected = true;
-    zt_selectFilterChange("all");
+    zt_selectFilterChange("lesson");
     let count = 0;
     switch (zt_select.value) {
         case "hanzi":
             zt_select_filter.innerHTML = `
-                <option id="zt_all_option" class="zh_font" value="all" selected>Tout</option>
-                <option id="zt_lesson_option" class="zh_font" value="lesson">课</option>
+                <option id="zt_all_option" class="zh_font" value="all">Tout</option>
+                <option id="zt_lesson_option" class="zh_font" value="lesson" selected>课</option>
                 <!--<option class="zh_font" value="xy">X-Y</option>-->
             `;
             
             break;
         case "word":
             zt_select_filter.innerHTML = `
-                <option id="zt_all_option" class="zh_font" value="all" selected>Tout</option>
-                <option id="zt_lesson_option" class="zh_font" value="lesson">课</option>
+                <option id="zt_all_option" class="zh_font" value="all">Tout</option>
+                <option id="zt_lesson_option" class="zh_font" value="lesson" selected>课</option>
             `;
 
             // if (zt_select_training_type.value == "pinyin") {
@@ -221,7 +221,7 @@ function zt_startTraining() {
 }
 
 let zt_hanzi; let zt_fanti; let zt_n; let zt_lizi; let zt_n_btn; let zt_kakunin;
-let zt_word;
+let zt_word; let zt_word_fanti;
 let zt_nextBtn_container = null;
 let z_training_section = id("z_training_section");
 let zt_progressBar;
@@ -552,10 +552,12 @@ function zt_hanziPinyinDisplayTraining() {
 
 function zt_ZWordXieziDisplayTraining() {
     let innerHTML = "";
+    let fantiClass = zt_randomList[zt_currentIndex].fanti != "" ? "zt_word_fanti" : "zt_word_fanti_none"; 
     z_training_section.innerHTML = "";
     innerHTML = `
         <div id="zt_progressBar" class="progressBar"><span id="currentIndex">${zt_currentIndex+1}/${zt_randomList.length}</span></div>
         <p id="zt_word" class="toFind zh_font">？</p>
+        <p id="zt_word_fanti" class="${fantiClass} zh_font">(繁體)</p>
         <p class="zt_p zt_pinyin zh_font">${zt_randomList[zt_currentIndex].pinyin}</p>
         <p class="zt_p zt_word_yisi zh_font">${zt_randomList[zt_currentIndex].yisi}</p>
         <button id="zt_kakunin" class="zh_font">Check</button>
@@ -567,11 +569,13 @@ function zt_ZWordXieziDisplayTraining() {
     zt_progressBar.style.width = (zt_currentIndex / zt_randomList.length) * 100 + "%";
     zt_nextBtn_container = id("zt_nextBtn_container");
     zt_word = id("zt_word");
+    zt_word_fanti = id("zt_word_fanti");
     zt_kakunin = id("zt_kakunin");
     zt_kakunin.addEventListener("click", e => {
         e.preventDefault();
         none(zt_kakunin);
         zt_word.innerHTML = zt_randomList[zt_currentIndex].word;
+        zt_word_fanti.innerHTML = zt_randomList[zt_currentIndex].fanti;
         zt_nextBtn_container.innerHTML = `
             <button id="zt_fail" class="zh_font" onclick="zt_next(false)">错</button>
             <button id="zt_win" class="zh_font" onclick="zt_next(true)">对</button>

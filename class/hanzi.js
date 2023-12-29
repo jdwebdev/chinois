@@ -131,7 +131,7 @@ class Z_Word {
     static list = [];
     static keList = [];
 
-    constructor(pId, pWord, pPinyin, pYisi, pGram = "", pKe = "", pPlusAlpha = "") {
+    constructor(pId, pWord, pPinyin, pYisi, pGram = "", pKe = "", pFanti = "") {
 
         this.id = pId;
         this.word = pWord;
@@ -139,7 +139,7 @@ class Z_Word {
         this.yisi = z_firstLetterUppercase(pYisi);
         this.gram = pGram;
         this.ke = pKe;
-        this.plusAlpha = pPlusAlpha
+        this.fanti = pFanti;
         this.exampleList = [];
 
         if (!Z_Word.keList.includes(pKe)) Z_Word.keList.push(pKe);
@@ -175,7 +175,7 @@ function createZ_WORD(pFile, pType) {
     let id = 1;
     for (let i = 1; i < row.length; i++) {
         row[i] = row[i].split('\t');
-        //?               id, word,      pinyin,    yisi,      gram,      ke,        +α        
+        //?               id, word,      pinyin,    yisi,      gram,      ke,        fanti        
         test = new Z_Word(id, row[i][0], row[i][1], row[i][2], row[i][3], row[i][4], row[i][5]);
         id++;
     }

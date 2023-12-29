@@ -671,6 +671,14 @@ main {
         padding: 5px 0px 5px 0px;
     }
 
+    .z_word_fanti {
+        border-bottom: 1px solid gray;
+        text-align: center;
+        font-size: 18px;
+    }
+    .z_word_fanti_none {
+        display: none;
+    }
     /* --- */
     .word_details {
         border-right: 0px;
@@ -961,6 +969,13 @@ main {
         right: 10px;
         top: 20px;
         font-size:20px;
+    }
+    .zt_word_fanti {
+        font-size:16px;
+    }
+
+    .zt_word_fanti_none {
+        display: none;
     }
 
     #zt_kakunin {

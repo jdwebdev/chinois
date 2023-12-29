@@ -59,6 +59,7 @@ function switchMode() {
     } else {
         mainTitle.innerHTML = "汉语 - 练习";
         switchModeBtn.innerHTML = "⇒ Leçon";
+        zt_selectFilterChange("lesson");
         currentMode = 1;
         block(mainTraining);
         none(mainListing);
@@ -84,6 +85,9 @@ function openModalHelp() {
     popup_help.innerHTML = `
         <div id="help_container">
             <div id="help_content">
+
+                <p class="date zh_font">2023年12月29日<span class="app_version zh_font">V. 2.1</span></p>
+                <h2 class="help_title">Ajout de la leçon 16</h2>
 
                 <p class="date zh_font">2023年12月26日<span class="app_version zh_font">V. 2.0</span></p>
                 <h2 class="help_title">Ajout de la leçon 15</h2>

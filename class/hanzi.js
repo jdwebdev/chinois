@@ -1,4 +1,5 @@
 let exampleList = [];
+let textList = [];
 
 class Hanzi {
 
@@ -83,27 +84,37 @@ class Hanzi {
     }
 }
 
-readHANZIFile("./tsv/NZH - 当代中文 汉字.tsv");
+readFile("./tsv/NZH - 当代中文 汉字.tsv", "hanzi");
 
-function readHANZIFile(pFile) {
-    // console.log("1) Read HANZI File ");
+function readFile(pFile, pType) {
     let rawFile = new XMLHttpRequest();
     rawFile.open("GET", pFile, true);
     rawFile.onreadystatechange = function () {
         if (rawFile.readyState === 4) {
             if (rawFile.status === 200 || rawFile.status == 0) {
                 tsvFile = rawFile.responseText;
-                createHanzi(tsvFile);
+                switch(pType) {
+                    case "hanzi":
+                        createHanzi(tsvFile);
+                        break;
+                    case "word":
+                        createZ_WORD(tsvFile);
+                        z_search();
+                        break;
+                    case "example":
+                        fillExampleList(tsvFile);
+                        break;
+                    case "text":
+                        fillTextList(tsvFile);
+                        break;
+                }
             }
         }
     }
     rawFile.send(null); 
-    
-    
 }
 
 function createHanzi(pFile) {
-    // console.log("2) CreateHanzi");
     let row = pFile.split(/\r\n|\n/);
     let test;
     for (let i = 1; i < row.length; i++) {
@@ -124,7 +135,7 @@ function createHanzi(pFile) {
     }
     z_select_lesson.innerHTML = lessonHTML;
 
-    readZ_WORDFile("./tsv/NZH - 当代中文 课本.tsv");
+    readFile("./tsv/NZH - 当代中文 课本.tsv", "word");
 }
 
 class Z_Word {
@@ -151,23 +162,6 @@ class Z_Word {
     }
 }
 
-function readZ_WORDFile(pFile, pType = 0) {
-    // console.log("3) Read Z_WORD File");
-    let rawFile = new XMLHttpRequest();
-    rawFile.open("GET", pFile, true);
-    rawFile.onreadystatechange = function () {
-        if (rawFile.readyState === 4) {
-            if (rawFile.status === 200 || rawFile.status == 0) {
-                tsvFile = rawFile.responseText;
-                createZ_WORD(tsvFile, pType);
-            }
-        }
-    }
-    rawFile.send(null);   
-    
-    z_search();
-}
-
 function createZ_WORD(pFile, pType) {
     // console.log("4) Create Z_WORD");
     let row = pFile.split(/\r\n|\n/);
@@ -180,29 +174,14 @@ function createZ_WORD(pFile, pType) {
         id++;
     }
 
-    readEXAMPLEFile("./tsv/NZH - 当代中文 例子.tsv");
+    readFile("./tsv/NZH - 当代中文 例子.tsv", "example");
 
     insertVocRefIntoHanzi();
 
-    // console.log("8) End ?");
+    readFile("./tsv/NZH - 当代中文 课文.tsv", "text");
 }
 
-function readEXAMPLEFile(pFile) {
-    // console.log("5) Read EXAMPLE File");
-    let rawFile = new XMLHttpRequest();
-    rawFile.open("GET", pFile, true);
-    rawFile.onreadystatechange = function () {
-        if (rawFile.readyState === 4) {
-            if (rawFile.status === 200 || rawFile.status == 0) {
-                tsvFile = rawFile.responseText;
-                fillExampleList(tsvFile);
-            }
-        }
-    }
-    rawFile.send(null); 
-}
 function fillExampleList(pFile) {
-    // console.log("6) Fill Example List");
     let row = pFile.split(/\r\n|\n/);
     let test;
     let id = 1;
@@ -234,11 +213,6 @@ function fillExampleList(pFile) {
 }
 
 function insertVocRefIntoHanzi() {
-    // console.log("7) Insert Voc Ref Into Hanzi");
-    // if (Z_Word.list.length < 350) {
-    //     alert("WORD LIST > 350 : " + Z_Word.list.length);
-    // }
-
     Hanzi.list.forEach(h => {
         Z_Word.list.forEach(w => {
             if (w.ke.includes("+")) {
@@ -260,6 +234,22 @@ function insertVocRefIntoHanzi() {
             }
         });
     });
+}
+
+function fillTextList(pFile) {
+    let row = pFile.split(/\r\n|\n/);
+    for (let i = 1; i < row.length; i++) {
+        row[i] = row[i].split('\t');
+        for (let j = 0; j < row[i][1].length; j++) {
+            if (row[i][1][j] == " ") {
+                row[i][1] = row[i][1].replace(" ", "<br/>");
+            }
+        }
+        textList.push({
+            lesson: row[i][0],
+            text: row[i][1]
+        });
+    }
 }
 
 function z_firstLetterUppercase(pString) {

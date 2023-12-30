@@ -2,7 +2,7 @@ let z_result_section = id("z_result_section");
 let z_searchBtn = id("z_searchBtn");
 let z_input = id("z_input");
 let z_resultNb = id("z_resultNb");
-let z_select = id("z_select"); //? 汉字 / 词语
+let z_select = id("z_select"); //? 汉字 / 词语 / 课文
 // let z_select_bushou = id("z_select_bushou");
 let z_select_lesson = id("z_select_lesson");
 let gramList = [];
@@ -21,34 +21,53 @@ z_input.addEventListener("click", e => {
 z_select.addEventListener("change", e => {
     z_input.value = "";
     let lessonHTML = "";
-    if (z_select.value == "hanzi") {
-        // block(z_select_bushou);
-        lessonHTML = `<option class="zh_font" value="all">课 Leçons</option>`;
+    z_input.disabled = false;
+    switch(z_select.value) {
+        case "hanzi":
+            // block(z_select_bushou);
+            lessonHTML = `<option class="zh_font" value="all">课 Leçons</option>`;
 
-        for(let i = Hanzi.keList.length-1; i >= 0; i--) {
-            if (!Hanzi.keList[i].includes("+")) {
-                lessonHTML += `<option value="${Hanzi.keList[i]}">第${Hanzi.keList[i]}课</option>`;
+            for(let i = Hanzi.keList.length-1; i >= 0; i--) {
+                if (!Hanzi.keList[i].includes("+")) {
+                    lessonHTML += `<option value="${Hanzi.keList[i]}">第${Hanzi.keList[i]}课</option>`;
+                }
             }
-        }
 
-        z_select_lesson.innerHTML = lessonHTML;
-        flex(z_select_lesson);
-    } else if (z_select.value == "word") {
-        // none(z_select_bushou);
-        lessonHTML = `<option class="zh_font" value="all">课 Leçons</option>`;
+            z_select_lesson.innerHTML = lessonHTML;
+            flex(z_select_lesson);
+            break;
+        case "word":
+            // none(z_select_bushou);
+            lessonHTML = `<option class="zh_font" value="all">课 Leçons</option>`;
 
-        for(let i = Z_Word.keList.length-1; i >= 0; i--) {
-            if (!Z_Word.keList[i].includes("+")) {
-                lessonHTML += `<option value="${Z_Word.keList[i]}">第${Z_Word.keList[i]}课</option>`;
+            for(let i = Z_Word.keList.length-1; i >= 0; i--) {
+                if (!Z_Word.keList[i].includes("+")) {
+                    lessonHTML += `<option value="${Z_Word.keList[i]}">第${Z_Word.keList[i]}课</option>`;
+                }
             }
-        }
 
-        z_select_lesson.innerHTML = lessonHTML;
-        flex(z_select_lesson);
+            z_select_lesson.innerHTML = lessonHTML;
+            flex(z_select_lesson);
+            break;
+        case "text":
+
+            z_input.disabled = true;
+
+            lessonHTML = `<option class="zh_font" value="all">课 Leçons</option>`;
+            for(let i = Z_Word.keList.length-1; i >= 0; i--) {
+                if (!Z_Word.keList[i].includes("+")) {
+                    lessonHTML += `<option value="${Z_Word.keList[i]}">第${Z_Word.keList[i]}课</option>`;
+                }
+            }
+            z_select_lesson.innerHTML = lessonHTML;
+            flex(z_select_lesson);
+            break;
     }
+
     z_search();
 });
 z_select_lesson.addEventListener("change", e => {
+
     if (z_select_lesson.value == "all") {
         
     } else {
@@ -325,7 +344,40 @@ function z_search(pFromBtn = false) {
             }
 
             break;
-
+        case "text":
+            if (z_select_lesson.value == "all") {
+                innerHTML += `<ul class="text_list">`;
+                let count = 1;
+                textList.forEach(t => {
+                    innerHTML += `
+                        <li>
+                            <p class="text_lesson">第${t.lesson}课 - ${count}</p>
+                            <p class="text_content">${t.text}</p>
+                        </li>
+                    `;
+                    count++;
+                    if (count > 2) count = 1;
+                });
+                innerHTML += `</ul>`;
+            } else {
+                innerHTML += `<ul class="text_list">`;
+                let count = 1;
+                textList.forEach(t => {
+                    if (z_select_lesson.value == t.lesson) {
+                        innerHTML += `
+                            <li>
+                                <p class="text_lesson">第${t.lesson}课 - ${count}</p>
+                                <p class="text_content">${t.text}</p>
+                            </li>
+                        `;
+                        count++;
+                        if (count > 2) count = 1;
+                    }
+                });
+                innerHTML += `</ul>`;
+            }
+            z_result_section.innerHTML = innerHTML;
+            break;
     }
 
     z_result_section.scrollTop = 0;

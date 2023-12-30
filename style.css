@@ -839,6 +839,21 @@ main {
         margin: 5px 0;
     }
 
+    /* TEXT SECTION */
+    .text_list {
+        padding: 5px;
+    }
+
+    .text_lesson {
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .text_content {
+
+    }
+
     /* ---------- 练习 ---------- */
 
     /* 练习 HEADER */

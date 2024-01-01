@@ -18,7 +18,7 @@
 下	xià	Dessous	0		一字旁|一	一下 | 下午 | 下旬 | 下 | 下车 | 下面(下边)	yíxià | xiàwǔ | xiàxún | xià | xià chē | xiàmian(xiàbian)	un(une), un coup | Après-midi | dernière décade d'un mois | dessous, descendre | Descendre (de l'auto) | Bas, en bas	
 国	guó	Pays	0	國	方框儿，国字框|囗	中国 | 国王 | 法国 | 美国	zhōngguó | guówáng | fǎguó | měiguó	Chine | Roi | France | Etats-Unis	
 学	xué	Étudier	0	學	子字旁|子	学习 | 同学 | 大学 | 学院 | 学校 | 学生	xuéxí | tóngxué | dàxué | xuéyuàn | xuéxiào | xuésheng	Étudier | Camarade de classe | université | institut | école, université | élève, étudiant	
-习	xí	Étudier	0	習	折| 乙	学习	xuéxí	Étudier	
+习	xí	Étudier	0	習	折|乙	学习	xuéxí	Étudier	
 汉	hàn	Han	0	漢	三点水|氵	汉语 | 汉字	hànyǔ | hànzì	Langue chinoise | Caractère chinois	
 语	yǔ	Langage	0	語	言字旁|讠	汉语 | 法语 | 英语	hànyǔ | fǎyǔ | yīngyǔ	Langue chinoise | Français | Anglais	
 文	wén	Langage	0		文字旁|文	中文 | 英文 | 法文	zhōngwén | yīngwén | fǎwén	Langue chinoise | Anglais | Français	
@@ -58,7 +58,7 @@
 么	me		1	麽	撇字旁|丿	什么 | 怎么样 | 为什么 | 什么时候 | 怎么	shénme | zěnmeyàng | wèi shénme | shénme shíhou | zěnme (+Vb)	Qu'est ce que, quoi | comment | pourquoi | Quand, quel temps, quel moment | Comment (+Vb)	
 名	míng	Nom	1		口字旁|口	姓名 | 名字	xìngmíng | míngzi	Nom et prénom | Prénom	
 哪	nǎ	Quel	1		口字旁|口	你是哪国人 | 哪儿，哪里	nǐ shì nǎ guórén | nǎr，nǎli	Quelle est ta nationalité ? | où	
-也	yě	Aussi, non plus	1		折| 乙	我也学习汉语	wǒ yě xuéxí hànyǔ	J'étudie aussi le chinois	
+也	yě	Aussi, non plus	1		折|乙	我也学习汉语	wǒ yě xuéxí hànyǔ	J'étudie aussi le chinois	
 说	shuō	Dire, parler	1	說	言字旁|讠	我说汉语	wǒ shuō hànyǔ	Je parle chinois	
 英	yīng		1		草字头|艹	英语 = 英文	yīngyǔ = yīngwén	Anglais	
 还	hái，huán		1	還	走之旁|辶	还是 | 还	háishi | hái	Ou, ou sinon | encore; en plus	
@@ -74,7 +74,7 @@
 识	shi	Connaître	2	識	言字旁|讠	认识	rènshi	connaître	
 在	zài		2		提土旁|土	在 | 现在	zài | xiànzài	(être) dans, en, sur... | Maintenant	
 进	jìn	Entrer, avancer	2	進	走之旁|辶	进 | 进出口 | 进口 | 进来	jìn | jìnchūkǒu | jìnkǒu | jìnlái	entrer | importation et exportation | importation | entrer	
-出	chū	Sortir	2		凶字框| 凵	进出口 | 出口 | 出 | 出去 | 出租汽车	jìnchūkǒu | chūkǒu | chū | chūqù | chūzū qìchē	importation et exportation | exportation | sortir | sortir | Taxi	
+出	chū	Sortir	2		凶字框|凵	进出口 | 出口 | 出 | 出去 | 出租汽车	jìnchūkǒu | chūkǒu | chū | chūqù | chūzū qìchē	importation et exportation | exportation | sortir | sortir | Taxi	
 公	gōng	Public	2		八字旁|八	公司 | 分公司 | 公共汽车	gōngsī | fēngōngsī | gōnggòng qìchē	Entreprise, société, compagnie | filiale d'une entreprise, succursale | Bus	
 司	sī		2		口字旁|口	公司 | 分公司	gōngsī | fēngōngsī	entreprise, société, compagnie | filiale d'une entreprise, succursale	
 工	gōng	Travailler	2		工字旁|工	工作 | 打工	gōngzuò | dǎgōng	travailler; travail | Travailler temporairement pour qn.	
@@ -172,7 +172,7 @@
 书	shū	Livre	4	書	折|乙	书	shū	livre	
 笔	bǐ	Stylo	4	筆	竹字头|⺮	笔	bǐ	stylo, crayon	
 支	zhī		4		支字旁|支	支	zhī	(spécificatif pour les stylos)	
-教	jiào，jiāo	Apprendre, instruire	4		反文旁|攵	教室	jiàoshì	salle de classe	
+教	jiào，jiāo	Enseigner, instruire	4		反文旁|攵	教室	jiàoshì	salle de classe	
 室	shì	Chambre, pièce, salle	4		宝盖头|宀	教室	jiàoshì	salle de classe	
 课	kè	Leçon	4	課	言字旁|讠	上课 | 功课	shàng kè | gōngkè	suivre des cours | Devoir	
 姐	jiě	Soeur aînée	5		女字旁|女	小姐	xiǎojiě	mademoiselle	-
@@ -238,7 +238,7 @@
 忙	máng	Occupé	6		竖心旁|忄	忙	máng	Occupé	
 做	zuò	Faire	6		单人旁|亻	做	zuò	Faire	
 功	gōng		6		力字旁|力	功课	gōngkè	Devoir	
-关	guān		6	關	倒八| 丷	没关系	méiguānxi	De rien, ce n'est pas grave	
+关	guān		6	關	倒八|丷	没关系	méiguānxi	De rien, ce n'est pas grave	
 空	kòng，kōng		6		宝盖头|宀	空儿	kòngr	Temps libre	
 钟	zhōng	Horloge, cloche	6	鐘	金字旁|钅	点(钟)	diǎn(zhōng)	Heure	
 半	bàn	Demi	6		十字儿|十	半	bàn	Demi	
@@ -428,10 +428,10 @@
 酒	jiǔ	Vin, alcool	12		三点水|氵				
 热	rè	Chaud	13	熱	四点底|灬				-
 预	yù		13	預	页字旁|页				
-报	bào	Rapporter	13	報	提手旁|扌				
+报	bào	Rapporter; journal	13	報	提手旁|扌				
 温	wēn	Tempéré, doux	13	溫	三点水|氵				
 度	dù	Degré	13		广字旁|广				
-乡	xiāng	Pays, village, pays natal	13	鄉	折| 乙				
+乡	xiāng	Pays, village, pays natal	13	鄉	折|乙				
 更	gèng	Plus	13		扁日旁|曰				
 夏	xià	Été	13		夂折文|夂				
 凉	liáng	Frais	13	涼	两点水|冫				
@@ -479,7 +479,7 @@
 散	sàn	Disperser	14		反文旁|攵				
 步	bù	Pas	14		止字旁|止				
 南	nán	Sud	14		十字儿|十				
-介	jiè		15		人字旁|人				
+介	jiè		15		人字旁|人				-
 绍	shào		15	紹	绞丝旁|纟				
 专	zhuān		15	專	一字旁|一				
 业	yè		15	業	一字旁|一				
@@ -511,7 +511,7 @@
 相	xiāng，xiàng	Mutuellement	15		目字旁|目				
 谈	tán	Parler	15	談	言字旁|讠				
 考	kǎo	Examiner, tester	15		老字旁|耂				
-推	tuī	Pousser	16		提手旁|扌				
+推	tuī	Pousser	16		提手旁|扌				-
 迟	chí	Tard	16	遲	走之旁|辶				
 安	ān	Lire	16		宝盖头|宀				
 排	pái	Ranger, rang	16		提手旁|扌				
@@ -545,7 +545,7 @@
 体	tǐ	Corps	16	體	单人旁|亻				
 修	xiū	Réparer	16		单人旁|亻				
 故	gù	Cause, évènement; vieux	16		反文旁|攵				
-租	zū	Louer	17		禾木旁|禾				
+租	zū	Louer	17		禾木旁|禾				-
 如	rú	Par exemple, si	17		女字旁|女				
 搬	bān	Déplacer	17		提手旁|扌				
 梯	tī		17		木字旁|木				
@@ -571,3 +571,32 @@
 寓	yù		17		宝盖头|宀				
 卫	wèi		17	衛	单耳刀|卩				
 厨	chú		17	廚	偏厂|厂				
+京	jīng	Capital	18		京字头|亠				-
+剧	jù	Drame, pièce de théâtre	18	劇	立刀旁|刂				
+懂	dǒng	Comprendre	18		竖心旁|忄				
+武	wǔ	Militaire, relatif à l'art martial	18		止字旁|止				
+戏	xì	Drame	18	戲	戈字旁|戈				
+演	yǎn	Jouer	18		三点水|氵				
+员	yuán	Personne engagée dans certains métiers	18	員	口字旁|口				
+纸	zhǐ	Papier	18	紙	绞丝旁|纟				
+挺	tǐng	Très	18		提手旁|扌				
+座	zuò	Siège, place	18		广字旁|广				
+睛	jīng	Oeil	18		目字旁|目				
+赶	gǎn	Se précipiter, attraper	18	趕	走字旁|走				
+堵	dǔ	Boucher, embouteiller	18		提土旁|土				
+连	lián	Même	18	連	走之旁|辶				
+爬	pá	Grimper	18		爪字旁|爪				
+顶	dǐng	Sommet	18	頂	页字旁|页				
+才	cái	Seulement (placé devant un verbe pour indiquer que l'action vient d'avoir lieu ou a eu lieu tardivement)	18	纔	提手旁|扌				
+平	píng	Plat, légal, calme; niveler, calmer	18		干字旁|干				
+运	yùn	Chance; transporter	18	運	走之旁|辶				
+懒	lǎn	Paresseux	18	懶	竖心旁|忄				
+注	zhù	Verser, concentrer	18		三点水|氵				
+建	jiàn	Construire, établir	18		建之旁|廴				
+议	yì	Opinion; discuter	18	議	言字旁|讠				
+跑	pǎo	Courir	18		足字旁|足				
+拳	quán	Boxe	18		手字旁|手				
+静	jìng	Calme	18	靜	青字旁|青				
+影	yǐng	Ombre, image	18		三撇旁|彡				
+杂	zá	Mixte	18	雜	木字旁|木				
+志	zhì	Marque, volonté, ambition	18	誌	心字旁|心				

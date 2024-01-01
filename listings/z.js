@@ -3,7 +3,17 @@ let z_searchBtn = id("z_searchBtn");
 let z_input = id("z_input");
 let z_resultNb = id("z_resultNb");
 let z_select = id("z_select"); //? 汉字 / 词语 / 课文
-// let z_select_bushou = id("z_select_bushou");
+let z_select_bushou = id("z_select_bushou");
+none(z_select_bushou);
+let bushouHTML = `<option value="all" class="zh_font" value="bushou" selected>Choisir</option>`;
+Hanzi.bushouList.forEach(b => {
+    bushouHTML += `<option value="${b.nb}" class="zh_font testCOLOR" disabled>----- ${b.nb}画 -----</option>`;
+    b.key.forEach(k => {
+        bushouHTML += `<option value="${k}" class="zh_font">${k}</option>`;
+    });
+});
+z_select_bushou.innerHTML = bushouHTML;
+
 let z_select_lesson = id("z_select_lesson");
 let gramList = [];
 let z_resultList = [];
@@ -22,9 +32,9 @@ z_select.addEventListener("change", e => {
     z_input.value = "";
     let lessonHTML = "";
     z_input.disabled = false;
+    none(z_select_bushou);
     switch(z_select.value) {
         case "hanzi":
-            // block(z_select_bushou);
             lessonHTML = `<option class="zh_font" value="all">课 Leçons</option>`;
 
             for(let i = Hanzi.keList.length-1; i >= 0; i--) {
@@ -36,8 +46,13 @@ z_select.addEventListener("change", e => {
             z_select_lesson.innerHTML = lessonHTML;
             flex(z_select_lesson);
             break;
+        case "bushou":
+            z_input.disabled = true;
+            z_select_bushou.value = "all";
+            none(z_select_lesson);
+            flex(z_select_bushou);
+            break;
         case "word":
-            // none(z_select_bushou);
             lessonHTML = `<option class="zh_font" value="all">课 Leçons</option>`;
 
             for(let i = Z_Word.keList.length-1; i >= 0; i--) {
@@ -50,7 +65,6 @@ z_select.addEventListener("change", e => {
             flex(z_select_lesson);
             break;
         case "text":
-
             z_input.disabled = true;
 
             lessonHTML = `<option class="zh_font" value="all">课 Leçons</option>`;
@@ -73,6 +87,9 @@ z_select_lesson.addEventListener("change", e => {
     } else {
         z_search();
     }
+});
+z_select_bushou.addEventListener("change", e => {
+    z_search();
 });
 
 z_searchBtn.addEventListener("click", e => {
@@ -253,7 +270,41 @@ function z_search(pFromBtn = false) {
                 z_resultNb.innerHTML = z_resultList.length + " résultats";
             }
             break;
-            
+        case "bushou":
+            innerHTML = "";
+            z_resultList = [];
+            Hanzi.list.forEach(h => {
+                if (h.bushou == z_select_bushou.value) {
+                    z_resultList.push(h);
+                }
+            });
+            let count = 0;
+            for (let i = 0; i < z_resultList.length; i++) {
+                if (count == 0) {
+                    innerHTML += "<div class='one_line'>";
+                }
+
+                innerHTML += "<div id='hanzi_" + i + "' class='zh_font' onclick='openHanziPopup("+i+",z_resultList)'>" + z_resultList[i].hanzi + "</div>";
+                count++;
+                
+                if (i+1 == z_resultList.length) {
+                    if (count < 6) {
+                        let diff = 6 - count;
+                        for (j=0; j < diff; j++) {
+                            innerHTML += "<div class='no_border'>" + "" + "</div>";
+                        }
+                        count = 6;
+                    }
+                }
+                if (count == 6) {
+                    innerHTML += "</div>";
+                    count = 0;
+                }
+            }
+
+            z_result_section.innerHTML = innerHTML;
+            z_resultNb.innerHTML = z_resultList.length + " résultats";
+            break;
         case "word":
             innerHTML = "";
             let cleanedWord = ""; //? [量词]

@@ -10,7 +10,7 @@
 九	jiǔ	Neuf	0		撇字旁|丿	九	jiǔ	Neuf	
 十	shí	Dix	0		十字儿|十	十	shí	Dix	
 人	rén	Homme	0		人字头|人	老人 | 行人	lǎorén | xíngrén	Vieille personne | Piéton	
-大	dà	Grand	0		大字头|大	加拿大 | 大学 | 大 | 多大 | 大概	jiānádà | dàxué | dà | duōdà | dàgài	Canada | université | grand | quelle âge | peut-être, environ	
+大	dà，dài	Grand	0		大字头|大	加拿大 | 大学 | 大 | 多大 | 大概	jiānádà | dàxué | dà | duōdà | dàgài	Canada | université | grand | quelle âge | peut-être, environ	
 口	kǒu	Bouche	0		口字旁|口	门口 | 进口 | 出口 | 口	ménkǒu | jìnkǒu | chūkǒu | kǒu	Entrée | importation | exportation | (compteur pour la personne quand il s'agit de la famille)	
 中	zhōng	Milieu	0		坚|丨	中国 | 中文 | 中旬 | 市中心 | 中间	zhōngguó | zhōngwén | zhōngxún | shì zhōngxīn | zhōngjiān	Chine | Langue chinoise | deuxième décade d'un mois | Centre-ville | Centre, milieu	
 小	xiǎo	Petit	0		小字头|小	小 | 小姐	xiǎo | xiǎojiě	petit | mademoiselle	
@@ -144,7 +144,7 @@
 图	tú	Dessin, plan, carte	4	圖	方框儿，国字框|囗	地图	dìtú	carte	-
 张	zhāng		4	張	弓字旁|弓	张	zhāng	(spécificatif pour le papier, la carte, le ticket)	
 看	kàn	Regarder, voir, lire	4		目字旁|目	看	kàn	regarder, voir	
-行	xíng，háng		4		双人旁，双立人|彳	行 | 旅行 | 银行 | 行人 | 自行车	xíng | lǚxíng | yínháng | xíngrén | zìxíngchē	D'accord, bien | voyager | Banque | Piéton | Bicyclette, vélo	
+行	xíng，háng		4		行字旁|行	行 | 旅行 | 银行 | 行人 | 自行车	xíng | lǚxíng | yínháng | xíngrén | zìxíngchē	D'accord, bien | voyager | Banque | Piéton | Bicyclette, vélo	
 要	yào	Vouloir	4		西字头|覀	要	yào	Vouloir qch. vouloir faire qch.	
 干	gàn，gān	Faire	4	幹乾	干字旁|干	干	gàn	faire, travailler	
 玩	wán	Jouer	4		王字旁|王	玩儿	wánr	jouer, s'amuser	
@@ -680,3 +680,154 @@
 确	què		21	確	石字旁|石				
 反	fǎn		21		又字旁|又				
 醉	zuì		21		酉字旁|酉				
+俄	é		2,1		单人旁|亻				-
+德	dé		2,1		双人旁，双立人|彳				
+韩	hán		2,1	韓	韦字旁|韦				
+华	huá		2,1	華	十字儿|十				
+裔	yì		2,1		衣字旁|衣				
+零	líng		2,1		雨字旁|雨				
+饮	yǐn		2,1	飲	食字旁|饣				
+料	liào		2,1		米字旁|米				
+橙	chéng		2,1		木字旁|木				
+汁	zhī		2,1		三点水|氵				
+亚	yà		2,1	亞	二字旁|二				
+洲	zhōu		2,1		三点水|氵				
+欧	ōu		2,1	歐	欠字旁|欠				
+洋	yáng		2,1		三点水|氵				
+广	guǎng		2,1	廣	广字旁|广				
+哥	gē		2,1		口字旁|口				
+弟	dì		2,1		弓字旁|弓				
+妹	mèi		2,1		女字旁|女				
+纪	jì		2,1	紀	绞丝旁|纟				
+亿	yì		2,1	億	单人旁|亻				
+职	zhí		2,1	職	耳字旁|耳				
+录	lù		2,1	錄	雪字底|彐				
+音	yīn		2,1		音字旁|音				
+磁	cí		2,1		石字旁|石				
+盘	pán		2,1	盤	皿字底|皿				
+光	guāng		2,1		儿字旁|儿				
+言	yán		2,1		言字旁|讠				
+验	yàn		2,1	驗	马字旁|马				
+黑	hēi		2,1		黑字旁|黑				
+瓶	píng		2,1		瓦字旁|瓦				
+啤	pí		2,1		口字旁|口				
+颜	yán		2,1	顔	页字旁|页				
+色	sè		2,1		色字旁|色				
+蓝	lán		2,1	藍	草字头|艹				
+黄	huáng		2,1	黃	黄字旁|黄				
+民	mín		2,1		乛横钩|乛				
+币	bì		2,1	幣	巾字旁|巾				
+角	jiǎo		2,1		角字旁|角				
+毛	máo		2,1		毛字旁|毛				
+鸡	jī		2,1	鷄	鸟字旁|鸟				
+猪	zhū		2,1	豬	反犬旁|犭				
+甜	tián		2,1		舌字旁|舌				
+咸	xián		2,1		口字旁|口				
+唐	tāng		2,1		口字旁|口				
+街	jiē		2,1		行字旁|行				
+篮	lán		2,1	籃	竹字头|⺮				
+网	wǎng		2,1	網	同字框|冂				
+橄	gǎn		2,1		木字旁|木				
+榄	lǎn		2,1	欖	木字旁|木				
+羽	yǔ		2,1		羽字旁|羽				
+乒	pīng		2,2		撇字旁|丿				-
+乓	pāng		2,2		撇字旁|丿				
+足	zú		2,2		足字旁|足				
+踢	tī		2,2		足字旁|足				
+曲	qū		2,2		扁日旁|曰				
+棍	gùn		2,2		木字旁|木				
+川	chuān		2,2		川字旁|川				
+胖	pàng		2,2		月字旁|月				
+矮	ǎi		2,2		矢字旁|矢				
+船	chuán		2,2		舟字旁|舟				
+辆	liàng		2,2	輛	车字旁|车				
+宫	gōng		2,2	宮	宝盖头|宀				
+颐	yí		2,2	頤	页字旁|页				
+园	yuán		2,2	園	方框儿，国字框|囗				
+宠	chǒng		2,2	寵	宝盖头|宀				
+遛	liù		2,2		走之旁|辶				
+胶	jiāo		2,2	膠	月字旁|月				
+卷	juǎn		2,2	捲	㔾字旁|㔾				
+眉	méi		2,2		目字旁|目				
+鼻	bí		2,2		鼻字旁|鼻				
+耳	ěr		2,2		耳字旁|耳				
+朵	duo		2,2		木字旁|木				
+嘴	zuǐ		2,2		口字旁|口				
+牙	yá		2,2		牙字旁|牙				
+齿	chǐ		2,2	齒	齿字旁|齿				
+舌	shé		2,2		舌字旁|舌				
+脸	liǎn		2,2	臉	月字旁|月				
+脖	bó		2,2		月字旁|月				
+肩	jiān		2,2		月字旁|月				
+膀	bǎng		2,2		月字旁|月				
+臂	bì		2,2		月字旁|月				
+胸	xiōng		2,2		月字旁|月				
+乳	rǔ		2,2		竖弯钩|乚				
+腰	yāo		2,2		月字旁|月				
+屁	pì		2,2		尸字旁|尸				
+股	gǔ		2,2		月字旁|月				
+腿	tuǐ		2,2		月字旁|月				
+脚	jiǎo		2,2		月字旁|月				
+夫	fū		2,2		大字头|大				
+脏	zāng		2,2	臟	月字旁|月				
+针	zhēn		2,2	針	金字旁|钅				
+香	xiāng		2,2		香字旁|香				
+港	gǎng		2,2		三点水|氵				
+超	chāo		2,2		走字旁|走				
+览	lǎn		2,2	覽	见字旁|见				
+督	dū		2,2		目字旁|目				
+首	shǒu		2,2		首字旁|首				
+扮	bàn		2,2		提手旁|扌				
+帅	shuài		2,2	帥	巾字旁|巾				
+鼠	shǔ		2,2		鼠字旁|鼠				
+虎	hǔ		2,3		虎字头|虍				-
+兔	tù		2,3		儿字旁|儿				
+蛇	shé		2,3		虫字旁|虫				
+羊	yáng		2,3		羊字旁|羊				
+猴	hóu		2,3		反犬旁|犭				
+摄	shè		2,3	攝	提手旁|扌				
+氏	shì		2,3		氏字旁|氏				
+阳	yáng		2,3	陽	双耳刀，右耳刀|阝				
+阴	yīn		2,3	陰	双耳刀，右耳刀|阝				
+区	qū		2,3	區	三框儿|匚，三匡栏|匚				
+郊	jiāo		2,3		双耳刀，右耳刀|阝				
+湖	hú		2,3		三点水|氵				
+森	sēn		2,3		木字旁|木				
+沙	shā		2,3		三点水|氵				
+漠	mò		2,3		三点水|氵				
+翻	fān		2,3		羽字旁|羽				
+译	yì		2,3	譯	言字旁|讠				
+绩	jì		2,3	績	绞丝旁|纟				
+及	jí		2,3		又字旁|又				
+格	gé		2,3		木字旁|木				
+册	cè		2,3	冊	撇字旁|丿				
+待	dài		2,3		双人旁，双立人|彳				
+访	fǎng		2,3	訪	言字旁|讠				
+资	zī		2,3	資	贝字旁|贝				
+企	qǐ		2,3		人字旁|人				
+投	tóu		2,3		提手旁|扌				
+屋	wū		2,3		尸字旁|尸				
+签	qiān		2,3	簽	竹字头|⺮				
+份	fèn		2,3		单人旁|亻				
+卧	wò		2,3	臥	卜字旁|卜				
+表	biǎo		2,3	錶	衣字旁|衣				
+精	jīng		2,3		米字旁|米				
+彩	cǎi		2,3		三撇旁|彡				
+束	shù		2,3		木字旁|木				
+景	jǐng		2,3		日字旁|日				
+弃	qì		2,3	棄	弄字底|廾				
+卡	kǎ		2,3		卜字旁|卜				
+存	cún		2,3		子字旁|子				
+粗	cū		2,3		米字旁|米				
+责	zé		2,3	責	贝字旁|贝				
+怪	guài		2,3		竖心旁|忄				
+捡	jiǎn		2,3	撿	提手旁|扌				
+扬	yáng		2,3	揚	提手旁|扌				
+封	fēng		2,3		寸字旁|寸				
+收	shōu		2,3		反文旁|攵				
+幸	xìng		2,3		干字旁|干				
+治	zhì		2,3		三点水|氵				
+设	shè		2,3	設	言字旁|讠				
+展	zhǎn		2,3		尸字旁|尸				
+改	gǎi		2,3		反文旁|攵				
+善	shàn		2,3		口字旁|口				

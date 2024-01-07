@@ -88,7 +88,7 @@ function openModalHelp() {
 
                 <p class="date zh_font">2023年1月7日<span class="app_version zh_font">V. 2.8</span></p>
                 <h2 class="help_title">Ajout de 151 caractères</h2>
-                <p>Caractères présents dans les vocabulaires des leçons 1 à 20 mais non présents dans les livres de caractères.</p>
+                <p>Caractères présents dans le vocabulaire des leçons 1 à 20 mais non présents dans les livres de caractères. Ces 151 caractères sont séparés en 3 "leçons" 2,1; 2,2 et 2,3</p>
 
                 <p class="date zh_font">2023年1月5日<span class="app_version zh_font">V. 2.7</span></p>
                 <h2 class="help_title">Ajout de la leçon "21"</h2>

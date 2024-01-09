@@ -86,21 +86,25 @@ function openModalHelp() {
         <div id="help_container">
             <div id="help_content">
 
-                <p class="date zh_font">2023年1月7日<span class="app_version zh_font">V. 2.8</span></p>
+                <p class="date zh_font">2024年1月9日<span class="app_version zh_font">V. 2.9</span></p>
+                <h2 class="help_title">Ajout de la leçon 3-1</h2>
+                <p>Le numéro de leçon "3-1" correspond à la leçon 1 du manuel n°3 (第三册) de couleur jaune. Même logique pour les leçons suivantes 3-2, 3-3 etc.</p>
+
+                <p class="date zh_font">2024年1月7日<span class="app_version zh_font">V. 2.8</span></p>
                 <h2 class="help_title">Ajout de 151 caractères</h2>
                 <p>Caractères présents dans le vocabulaire des leçons 1 à 20 mais non présents dans les livres de caractères. Ces 151 caractères sont séparés en 3 "leçons" 2,1; 2,2 et 2,3</p>
 
-                <p class="date zh_font">2023年1月5日<span class="app_version zh_font">V. 2.7</span></p>
+                <p class="date zh_font">2024年1月5日<span class="app_version zh_font">V. 2.7</span></p>
                 <h2 class="help_title">Ajout de la leçon "21"</h2>
                 <p>N'est pas une leçon à part entière mais correspond aux textes de fin : 熊猫 et 在婚礼上</p>
 
-                <p class="date zh_font">2023年1月4日<span class="app_version zh_font">V. 2.6</span></p>
+                <p class="date zh_font">2024年1月4日<span class="app_version zh_font">V. 2.6</span></p>
                 <h2 class="help_title">Ajout de la leçon 20</h2>
 
-                <p class="date zh_font">2023年1月2日<span class="app_version zh_font">V. 2.5</span></p>
+                <p class="date zh_font">2024年1月2日<span class="app_version zh_font">V. 2.5</span></p>
                 <h2 class="help_title">Ajout de la leçon 19</h2>
 
-                <p class="date zh_font">2023年1月1日<span class="app_version zh_font">V. 2.4</span></p>
+                <p class="date zh_font">2024年1月1日<span class="app_version zh_font">V. 2.4</span></p>
                 <h2 class="help_title">Ajout de la leçon 18</h2>
 
                 <p class="date zh_font">2023年12月30日<span class="app_version zh_font">V. 2.3</span></p>

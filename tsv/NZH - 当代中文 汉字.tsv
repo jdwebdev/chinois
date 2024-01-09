@@ -54,7 +54,7 @@
 师	shī	Professeur, maître	1	師	巾字旁|巾	老师	lǎoshī	Professeur	
 叫	jiào	S'appeler, nommer, appeler	1		口字旁|口	你叫什么名字	nǐ jiào shénme míngzi	Comment tu t'appelles ?	
 你	nǐ	Tu, toi, te	1		单人旁|亻	你们	nǐmen	Vous	
-什	shén	Que, quoi, quel	1		单人旁|亻	什么 | 为什么 | 什么时候	shénme | wèi shénme | shénme shíhou	Qu'est ce que, quoi | pourquoi | Quand, quel temps, quel moment	
+什	shén	Que, quoi, quel	1	甚	单人旁|亻	什么 | 为什么 | 什么时候	shénme | wèi shénme | shénme shíhou	Qu'est ce que, quoi | pourquoi | Quand, quel temps, quel moment	
 么	me		1	麽	撇字旁|丿	什么 | 怎么样 | 为什么 | 什么时候 | 怎么	shénme | zěnmeyàng | wèi shénme | shénme shíhou | zěnme (+Vb)	Qu'est ce que, quoi | comment | pourquoi | Quand, quel temps, quel moment | Comment (+Vb)	
 名	míng	Nom	1		口字旁|口	姓名 | 名字	xìngmíng | míngzi	Nom et prénom | Prénom	
 哪	nǎ	Quel	1		口字旁|口	你是哪国人 | 哪儿，哪里	nǐ shì nǎ guórén | nǎr，nǎli	Quelle est ta nationalité ? | où	
@@ -167,7 +167,7 @@
 常	cháng		4		巾字旁|巾	非常	fēicháng	très extrêmement	
 用	yòng	Utiliser	4		撇字旁|丿	用 | 有用	yòng | yǒuyòng	utiliser, employer | utile	
 能	néng	Pouvoir	4		月字旁|月	能	néng	pouvoir	
-当	dāng		4	當	雪字底|彐	当然	dāngrán	Bien sûr, évidemment	
+当	dāng，dàng		4	當	雪字底|彐	当然	dāngrán	Bien sûr, évidemment	
 然	rán		4		四点底|灬	当然 | 然后	dāngrán | ránhòu	Bien sûr, évidemment | Puis, ensuite	
 书	shū	Livre	4	書	折|乙	书	shū	livre	
 笔	bǐ	Stylo	4	筆	竹字头|⺮	笔	bǐ	stylo, crayon	
@@ -340,7 +340,7 @@
 拍	pāi	Prendre des photos	9		提手旁|扌				
 住	zhù	Habiter	10		单人旁|亻				-
 宿	sù	Passer la nuit	10		宝盖头|宀				
-舍	shè	Maison	10		舌字旁|舌				
+舍	shè，shě	Maison	10	捨	舌字旁|舌				
 餐	cān	Repas, aliment	10		食字旁|饣				
 厅	tīng	Salle	10	廳	偏厂|厂				
 正	zhèng	Être en train, juste	10		止字旁|止				
@@ -807,7 +807,7 @@
 企	qǐ		2,3		人字旁|人				
 投	tóu		2,3		提手旁|扌				
 屋	wū		2,3		尸字旁|尸				
-签	qiān		2,3	簽	竹字头|⺮				
+签	qiān		2,3	簽籤	竹字头|⺮				
 份	fèn		2,3		单人旁|亻				
 卧	wò		2,3	臥	卜字旁|卜				
 表	biǎo		2,3	錶	衣字旁|衣				
@@ -831,3 +831,25 @@
 展	zhǎn		2,3		尸字旁|尸				
 改	gǎi		2,3		反文旁|攵				
 善	shàn		2,3		口字旁|口				
+著	zhù		3-1		草字头|艹				
+弄	nòng		3-1		弄字底|廾				
+处	chù		3-1	處	夂折文|夂				
+旗	qí		3-1		方字旁|方				
+之	zhī		3-1		丶字旁|丶				
+象	xiàng		3-1		家字底|豕				
+征	zhēng		3-1	徵	双人旁，双立人|彳				
+唯	wéi		3-1		口字旁|口				
+捧	pěng		3-1		提手旁|扌				
+摘	zhāi		3-1		提手旁|扌				
+颗	kē		3-1	顆	页字旁|页				
+泪	lèi		3-1	淚	三点水|氵				
+笑	xiào		3-1		竹字头|⺮				
+达	dá		3-1	達	走之旁|辶				
+圆	yuán		3-1	圓	方框儿，国字框|囗				
+豆	dòu		3-1		豆字旁|豆				
+诗	shī		3-1	詩	言字旁|讠				
+希	xī		3-1		巾字旁|巾				
+望	wàng		3-1		月字旁|月				
+采	cǎi		3-1	採	采字旁|采				
+古	gǔ		3-1		口字旁|口				
+代	dài		3-1		单人旁|亻				

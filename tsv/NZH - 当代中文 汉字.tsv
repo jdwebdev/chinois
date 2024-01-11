@@ -114,7 +114,7 @@
 地	dì，de	Sol, terre	3		提土旁|土	地方 | 地图 | 地铁	dìfang | dìtú | dìtiě	Endroit, lieu | carte | Métro	-
 方	fāng		3		方字旁|方	地方	dìfang	endroit, lieu	
 个	gè		3	個	人字头|人	个	gè	(compteur général)	
-家	jiā	Maison, famille	3		宝盖头|宀	家 | 家里	jiā | jiāli	famille, maison | À la maison	
+家	jiā	Maison, famille	3	傢	宝盖头|宀	家 | 家里	jiā | jiāli	famille, maison | À la maison	
 有	yǒu	Avoir, il y a	3		月字旁|月	有 | 没有 | 有意思 | 有用 | 有点儿	yǒu | méiyǒu | yǒu yìsi | yǒuyòng | yǒudiǎnr	avoir, il y a | il n'y a pas, ne pas avoir | intéressant | utile | un peu	
 几	jǐ	Combien	3	幾	几字旁|几	几	jǐ	combien	
 爸	bà	Père, papa	3		父字旁|父	爸爸	bàba	père, papa	
@@ -272,7 +272,7 @@
 每	měi	Chaque, chacun, tous	7		母字旁|母	每	měi	chacun	
 瘦	shòu	Maigre, mince	7		病字旁|疒	瘦	shòu	mince, maigre	
 头	tóu	Tête	7	頭	大字旁|大	头发	tóufa	cheveux	
-长	cháng	Long	7	長	长字旁|长	长	cháng	long	
+长	cháng，zhǎng	Long, grandir, pousser	7	長	长字旁|长	长	cháng	long	
 穿	chuān	Porter, mettre, revêtir, traverser	7		穴宝盖|穴	穿	chuān	habiller, porter	
 仔	zǎi		7		单人旁|亻	牛仔裤	niúzǎikù	jeans	
 刚	gāng	Juste à l'instant, juste	7	剛	立刀旁|刂	刚	gāng	venir de, juste avant	
@@ -717,7 +717,7 @@
 黄	huáng		2,1	黃	黄字旁|黄				
 民	mín		2,1		乛横钩|乛				
 币	bì		2,1	幣	巾字旁|巾				
-角	jiǎo		2,1		角字旁|角				
+角	jiǎo，jué		2,1		角字旁|角				
 毛	máo		2,1		毛字旁|毛				
 鸡	jī		2,1	鷄	鸟字旁|鸟				
 猪	zhū		2,1	豬	反犬旁|犭				
@@ -853,3 +853,31 @@
 采	cǎi		3-1	採	采字旁|采				
 古	gǔ		3-1		口字旁|口				
 代	dài		3-1		单人旁|亻				
+萝	luó		3-2	蘿	草字头|艹				-
+卜	bo		3-2	蔔	卜字旁|卜				
+侄	zhí		3-2	姪	单人旁|亻				
+周	zhōu		3-2		口字旁|口				
+全	quán		3-2		入字旁|入				
+戚	qī		3-2		戈字旁|戈				
+贺	hè		3-2	賀	贝字旁|贝				
+夸	kuā		3-2	誇	大字头|大				
+目	mù		3-2		目字旁|目				
+抓	zhuā		3-2		提手旁|扌				
+将	jiāng		3-2	將	寸字旁|寸				
+巧	qiǎo		3-2		工字旁|工				
+克	kè		3-2		十字儿|十				
+盒	hé		3-2		皿字底|皿				
+伙	huo		3-2		单人旁|亻				
+仪	yí		3-2	儀	单人旁|亻				
+式	shì		3-2		弋字旁|弋				
+聪	cōng		3-2	聰	耳字旁|耳				
+泼	pō		3-2	潑	三点水|氵				
+义	yì		3-2	義	丶字旁|丶				
+桌	zhuō		3-2		木字旁|木				
+具	jù		3-2		八字旁|八				
+枪	qiāng		3-2	槍	木字旁|木				
+摸	mō		3-2		提手旁|扌				
+竟	jìng		3-2		音字旁|音				
+鹅	é		3-2	鵝	鸟字旁|鸟				
+帖	tiě		3-2		巾字旁|巾				
+价	jià		3-2	價	单人旁|亻				

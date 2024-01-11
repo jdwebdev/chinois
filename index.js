@@ -86,6 +86,9 @@ function openModalHelp() {
         <div id="help_container">
             <div id="help_content">
 
+                <p class="date zh_font">2024年1月11日<span class="app_version zh_font">V. 3.0</span></p>
+                <h2 class="help_title">Ajout de la leçon 3-2</h2>
+
                 <p class="date zh_font">2024年1月9日<span class="app_version zh_font">V. 2.9</span></p>
                 <h2 class="help_title">Ajout de la leçon 3-1</h2>
                 <p>Le numéro de leçon "3-1" correspond à la leçon 1 du manuel n°3 (第三册) de couleur jaune. Même logique pour les leçons suivantes 3-2, 3-3 etc.</p>

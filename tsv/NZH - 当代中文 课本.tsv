@@ -29,15 +29,15 @@
 汉语	hànyǔ	Langue chinoise	N.	1	漢語	
 她	tā	Elle, elle, se, la	Pron.	1		
 他	tā	Il, lui, se, la	Pron.	1		
-加拿大	jiānádà	Canada		1		
-中国	zhōngguó	Chine		1	中國	
-法国	fǎguó	France		1	法國	
-美国	měiguó	Etats-Unis		1	美國	
-英国	Yīngguó	Royaume-Uni	N.	1+	英國	
-俄国	Éguó	Russie	N.	1+	俄國	
-德国	Déguó	Allemagne	N.	1+	德國	
-日本	Rìběn	Japon	N.	1+		
-韩国	hánguó	Corée du Sud	N.	1+	韓國	
+加拿大	jiānádà	Canada	NP	1		
+中国	zhōngguó	Chine	NP	1	中國	
+法国	fǎguó	France	NP	1	法國	
+美国	měiguó	Etats-Unis	NP	1	美國	
+英国	Yīngguó	Royaume-Uni	NP	1+	英國	
+俄国	Éguó	Russie	NP	1+	俄國	
+德国	Déguó	Allemagne	NP	1+	德國	
+日本	Rìběn	Japon	NP	1+		
+韩国	hánguó	Corée du Sud	NP	1+	韓國	
 华裔	huáyì	Personne d'origine chinoise qui n'est pas de nationalité chinoise	N.	1+	華裔	
 认识	rènshi	Connaître	V.	2	認識	-
 很	hěn	Très	Adv.	2		
@@ -131,7 +131,7 @@
 百	bǎi	Cent	Num.	3		
 少	shǎo	Peu	Adj.	3		
 因为	yīnwèi	Parce que, car	Conj.	3	因爲	
-广东	Guǎngdōng	Guangdong		3	廣東	
+广东	Guǎngdōng	Guangdong	NP	3	廣東	
 哥哥	gēge	Frère aîné	N.	3+		
 姐姐	jiějie	Soeur ainée	N.	3+		
 弟弟	dìdi	Frère cadet	N.	3+		
@@ -177,9 +177,9 @@
 支	zhī	(Spécificatif pour les stylos)	Spec.	4		
 教室	jiàoshì	Salle de classe	N.	4		
 上课	shàng kè	Suivre des cours		4	上課	
-北京	Běijīng	Beijing		4		
-上海	Shànghǎi	Shanghai		4		
-龙山	Lóngshān	Longshan		4	龍山	
+北京	Běijīng	Beijing	NP	4		
+上海	Shànghǎi	Shanghai	NP	4		
+龙山	Lóngshān	Longshan	NP	4	龍山	
 课本	kèběn	Manuel	N.	4+	課本	
 录音机	lùyīnjī	Magnétophone 	N.	4+	錄音機	
 录像机	lùxiàngjī	Magnétoscope, caméra	N.	4+	錄像機	
@@ -251,8 +251,8 @@
 猪	zhū	Cochon, porc	N.	5+	豬	
 甜	tián	Sucré	Adj.	5+		
 咸	xián	Salé	Adj.	5+		
-唐人街	Tāngrén Jiē	Chinatown		5+		
-中国城	Zhōngguó chéng	Chinatown		5+	中國城	
+唐人街	Tāngrén Jiē	Chinatown	NP	5+		
+中国城	Zhōngguó chéng	Chinatown	NP	5+	中國城	
 明天	míngtiān	Demain	M.T.	6		-
 星期六	xīngqīliù	Samedi	M.T.	6		
 星期	xīngqī	Semaine	N.	6		
@@ -346,8 +346,8 @@
 上	shàng	Dessus, monter	N & V.D	7		
 下	xià	Dessous, descendre	N & V.D	7		
 今年	jīnnián	Cette année	M.T.	7		
-四川	Sìchuān	Sichuan		7		
-云南	Yúnnán	Yunnan		7	雲南	
+四川	Sìchuān	Sichuan	NP	7		
+云南	Yúnnán	Yunnan	NP	7	雲南	
 明年	míngnián	Année prochaine	N.	7+		
 去年	qùnián	Année dernière, année passée	N.	7+		
 后年	hòunián	Dans deux ans	N.	7+	後年	
@@ -447,11 +447,11 @@
 所以	suǒyǐ	Donc, c'est pourquoi	Conj.	9		
 别人	biérén	Autre personne	Pron.	9	別人	
 拍照	pāi zhào	Prendre une photo	V.O.	9		
-故宫	Gùgōng	Cité interdite, le Palais impérial		9	故宮	
-颐和园	Yíhéyuán	Palais d'été		9	頤和園	
-长城	Chángchéng	La Grande Muraille		9	長城	
-西安	Xī'ān	Xi'an		9		
-成都	Chéngdū	Chengdu		9		
+故宫	Gùgōng	Cité interdite, le Palais impérial	NP	9	故宮	
+颐和园	Yíhéyuán	Palais d'été	NP	9	頤和園	
+长城	Chángchéng	La Grande Muraille	NP	9	長城	
+西安	Xī'ān	Xi'an	NP	9		
+成都	Chéngdū	Chengdu	NP	9		
 宠物	chǒngwù	Animal de compagnie	N.	9+	寵物	
 遛狗	liù gǒu	Promener le chien	V.O.	9+		
 照相	zhào xiàng	Photographier, prendre des photos	V.O.	9+		
@@ -561,7 +561,7 @@
 算了	suàn le	Laisser tomber, abandonner		11		
 那么	nàme	Comme ça; de toute façon	Adv.	11	那麽	
 参观	cānguān	Visiter	V.	11	參觀	
-香港	Xiānggǎng	HongKong		11		
+香港	Xiānggǎng	HongKong	NP	11		
 超市	chāoshì	Supermarché	N.	11+		
 阅览室	yuèlǎnshì	Salle de lecture	N.	11+	閲覽室	
 办公室	bàngōngshì	Bureau	N.	11+	辦公室	
@@ -596,11 +596,11 @@
 咱们	zánmen	Nous (exclus ceux qui ne sont pas présents)	Pron.	12	咱們	
 蛋糕	dàngāo	Gâteau	N.	12		
 字	zì	Caractère (chinois)	N.	12		
-越来越…	yuèláiyuè	De plus en plus...		12	越來越	
+越来越	yuèláiyuè	De plus en plus...		12	越來越	
 年轻	niánqīng	Jeune	Adj.	12	年輕	
 流利	liúlì	Couramment	Adj.	12		
 酒	jiǔ	Alcool, vin	N.	12		
-越…越…	yuè … yuè …	Plus...plus		12		
+越 [越…越…]	yuè … yuè …	Plus...plus		12		
 明白	míngbai	Comprendre; éclairé	V & Adj	12		
 干杯	gān bēi	Porter un toast, "à votre santé"	V.O.	12	乾杯	
 早	zǎo	Tôt	Adj.	12		
@@ -1125,8 +1125,48 @@
 千里送鹅毛，礼轻情义重	qiānlǐ sòng émáo，lǐqīng qíngyì zhòng	Le cadeau peut être léger comme une plume d'oie, mais venu de loin il donne une profonde émotion		3-2		
 一岁看到大	yí suì kàndào dà	On peut prévoir le caractère d'une personne adulte à partir de ses comportements d'enfance		3-2		
 花心萝卜	huāxīn luóbo	Désigne un homme infidèle ou un coureur de jupons [Litt. Radis au coeur fleuri]		3-2		
-习惯	xíguàn	Coutume, habitude	N.	3-2+	習慣	
+习惯 [个种]	xíguàn	Coutume, habitude; s'habituer à, avoir l'habitude de	V & N	3-2+	習慣	
 请帖	qǐngtiě	Invitation	N.	3-2+	請帖	
 俗话	súhuà	Dicton, proverbe	N.	3-2+	俗話	
 鹅毛	é'máo	Plume d'oie	N.	3-2+	鵝毛	
 高价	gāojià	D'un prix élevé, cher	N.	3-2+	高價	
+过不去	guòbuqù	Être dur avec quelqu'un, se montrer exigeant		3-3	過不去	-
+帮	bāng	Aider, assister	V.	3-3	幫	
+帮忙	bāngmáng	Aider, assister	V.O.	3-3	幫忙	
+读	dú	Lire	V.	3-3	讀	
+篇	piān	(Spécificatif pour un article ou un texte)	Spec.	3-3		
+课文 [篇]	kèwén	Texte	N.	3-3	課文	
+录	lù	Enregistrer	V.	3-3	錄	
+一边 [一边…，一边…]	yìbiān… yìbiān…	En même temps que, simultanément		3-3	一邊	
+而且	érqiě	De plus, mais aussi	Conj.	3-3		
+地道	dìdao	Authentique, typique, pur, véritable; excellent	Adj.	3-3		
+主持人	zhǔchírén	Président (d'une cérémonie ou un banquet), présentateur de TV	N.	3-3		
+既…，又…	jì…，yòu…	Tant...que, aussi bien que, non seulement..., mais encore		3-3		
+奇怪	qíguài	Étrange, étonnant, bizarre	Adj.	3-3		
+爷爷	yéye	Grand père (côté paternel), papi	N.	3-3	爺爺	
+移民	yímín	Immigré; immigrer	V & N	3-3		
+提出	tíchū	Présenter, proposer	V.	3-3		
+申请	shēnqǐng	Demande; demander, adresser une requête	V & N	3-3	申請	
+移民局	yímínjú	Bureau d'immigration	N.	3-3		
+批准	pīzhǔn	Approuver, ratifier	V.	3-3	批準	
+总是	zǒngshì	Toujours	Adv.	3-3	總是	
+生	shēng	Naître, donner naissance à	V.	3-3		
+实话	shíhuà	La vérité	N.	3-3	實話	
+情况	qíngkuàng	Situation, condition, circonstances	N.	3-3	情況	
+简单	jiǎndān	Simple	Adj.	3-3	簡單	
+祖先	zǔxiān	Ancêtres, aïeux	N.	3-3		
+世界	shìjiè	Monde	N.	3-3		
+正常	zhèngcháng	Normal, régulier	Adj.	3-3		
+也许	yěxǔ	Peut-être, probablement	Adv.	3-3	也許	
+其实	qíshí	En réalité, en fait, au fond	Adv.	3-3	其實	
+基本	jīběn	Fondamental, élémentaire	Adj.	3-3		
+说不定	shuōbudìng	Peut-être, probablement, difficile à dire		3-3	説不定	
+变成	biànchéng	Devenir, transformer	V.	3-3	變成	
+意大利	Yìdàlì	Italie	NP	3-3		
+魁北克	Kuíběikè	Québec	NP	3-3		
+着呢	zhene	Dans la langue parlée, est placé après un adjectif pour accentuer un ton de persuation		3-3	著呢	
+说实话	shuō shíhuà	Dire la vérité		3-3	説實話	
+说实在话	shuō shízài huà	Dire la vérité		3-3	説實在話	
+说老实话	shuō lǎo shíhuà	Dire la vérité		3-3	説老實話	
+从前	cóngqián	Autrefois, auparavant, jadis	M.T.	3-3+	從前	
+邯郸	Hándān	Capital du Royaume Zhao pendant la période des Royaumes combattants de la Chine	NP	3-3+	邯鄲	

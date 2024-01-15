@@ -625,11 +625,14 @@ function fillGramList() {
     gramList["Chengyu"] = "Chéngyǔ";
     gramList["N & Spec"] = "Nom & Spécificatif";
     gramList["NP"] = "Nom propre";
+    gramList["Suff"] = "Suffixe";
+    gramList["Pref"] = "Préfixe";
+    gramList["V & Suff"] = "Verbe & Suffixe";
 }
 
 function checkNewHanzi() {
     let currentHanziList = "";
-    let dame = " ()0，[]·/…~";
+    let dame = " ()0，[]·/…~.？";
     let newHanziList = "";
     Hanzi.list.forEach(h => {
         currentHanziList += h.hanzi;

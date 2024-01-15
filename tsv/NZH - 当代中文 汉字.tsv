@@ -26,7 +26,7 @@
 字	zì	Caractère	0		宝盖头|宀	汉字 | 名字	hànzì | míngzi	Caractère chinois | Prénom	
 女	nǚ	Femme	0		女字旁|女	女子 | 女 | 女孩儿	nǚzi | nǚ | nǚháir	Femme, fille | féminin | fille	
 子	zǐ	Fils, enfant	0		子字旁|子	女子 | 电子 | 电子邮件 | 孩子 | 本子 | 裤子 | 饺子	nǚzi | diànzǐ | diànzǐ yóujiàn | háizi | běnzi | kùzi | jiǎozi	Femme, fille | électronique | e-mail | enfant | cahier | pantalon | ravioli chinois	
-好	hǎo	Bbien, bon	0		女字旁|女	很好 | 好吃	hěn hǎo | hǎochī	très bien/bon | délicieux	
+好	hǎo，hào	Bbien, bon	0		女字旁|女	很好 | 好吃	hěn hǎo | hǎochī	très bien/bon | délicieux	
 水	shuǐ	Eau	0		水字旁|水	水 | 水饺	shuǐ | shuǐjiǎo	eau | ravioli chinois	
 门	mén	Porte	0	門	门字框|门	门口	ménkǒu	Entrée	
 王	wáng	Roi	0		王字旁|王	国王	guówáng	Roi	
@@ -251,7 +251,7 @@
 早	zǎo	Tôt	6		日字旁|日	早上	zǎoshang	Petit matin	
 午	wǔ		6		十字儿|十	上午 | 下午	shàngwǔ | xiàwǔ	Matin | Après-midi	
 放	fàng	Déposer, mettre	7		反文旁|攵	放假	fàngjià	prendre des vacances	-
-假	jià	Vacances	7		单人旁|亻	放假	fàngjià	prendre des vacances	
+假	jià，jiǎ	Vacances	7		单人旁|亻	放假	fàngjià	prendre des vacances	
 旬	xún	Décade, une période de dix jours du mois	7		日字旁|日	中旬 | 下旬	zhōngxún | xiàxún	deuxième décade d'un mois | dernière décade d'un mois	
 后	hòu	Arrière, derrière	7	後	口字旁|口	以后 | 然后 | 后面(后边)	yǐhòu | ránhòu | hòumian(hòubian)	Après, plus tard | Puis, ensuite | Derrière, arrière	
 旅	lǚ		7		方字旁|方	旅行	lǚxíng	voyager	
@@ -903,3 +903,24 @@
 魁	kuí		3-3		鬼字旁|鬼				
 邯	hán		3-3		双耳刀，右耳刀|阝				
 郸	dān		3-3	鄲	双耳刀，右耳刀|阝				
+赛	sài		3-4	賽	宝盖头|宀				-
+播	bō		3-4		提手旁|扌				
+队	duì		3-4	隊	双耳刀，右耳刀|阝				
+迷	mí		3-4		走之旁|辶				
+管	guǎn		3-4		竹字头|⺮				
+留	liú		3-4		田字旁|田				
+育	yù		3-4		月字旁|月				
+久	jiǔ		3-4		撇字旁|丿				
+联	lián		3-4	聯	耳字旁|耳				
+愿	yuàn		3-4	願	心字旁|心				
+拒	jù		3-4		提手旁|扌				
+绝	jué		3-4	絕	绞丝旁|纟				
+青	qīng		3-4		青字旁|青				
+偶	ǒu		3-4		单人旁|亻				
+尔	ěr		3-4	爾	小字旁|小				
+续	xù		3-4		绞丝旁|纟				
+娱	yú		3-4	娛	女字旁|女				
+末	mò		3-4		木字旁|木				
+抢	qiǎng		3-4	搶	提手旁|扌				
+遥	yáo		3-4	遙	走之旁|辶				
+控	kòng		3-4		提手旁|扌				

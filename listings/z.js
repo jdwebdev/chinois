@@ -628,6 +628,7 @@ function fillGramList() {
     gramList["Suff"] = "Suffixe";
     gramList["Pref"] = "Préfixe";
     gramList["V & Suff"] = "Verbe & Suffixe";
+    gramList["N Adv Adj"] = "Nom & Adverbe & Adjectif";
 }
 
 function checkNewHanzi() {

@@ -633,7 +633,7 @@ function fillGramList() {
 
 function checkNewHanzi() {
     let currentHanziList = "";
-    let dame = " ()0，[]·/…~.？";
+    let dame = " ()0，[]·/…~.？～";
     let newHanziList = "";
     Hanzi.list.forEach(h => {
         currentHanziList += h.hanzi;

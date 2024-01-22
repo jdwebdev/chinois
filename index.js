@@ -86,6 +86,9 @@ function openModalHelp() {
         <div id="help_container">
             <div id="help_content">
 
+                <p class="date zh_font">2024年1月22日<span class="app_version zh_font">V. 3.4</span></p>
+                <h2 class="help_title">Ajout de la leçon 3-6</h2>
+
                 <p class="date zh_font">2024年1月19日<span class="app_version zh_font">V. 3.3</span></p>
                 <h2 class="help_title">Ajout de la leçon 3-5</h2>
 

@@ -26,7 +26,7 @@
 字	zì	Caractère	0		宝盖头|宀	汉字 | 名字	hànzì | míngzi	Caractère chinois | Prénom	
 女	nǚ	Femme	0		女字旁|女	女子 | 女 | 女孩儿	nǚzi | nǚ | nǚháir	Femme, fille | féminin | fille	
 子	zǐ	Fils, enfant	0		子字旁|子	女子 | 电子 | 电子邮件 | 孩子 | 本子 | 裤子 | 饺子	nǚzi | diànzǐ | diànzǐ yóujiàn | háizi | běnzi | kùzi | jiǎozi	Femme, fille | électronique | e-mail | enfant | cahier | pantalon | ravioli chinois	
-好	hǎo，hào	Bbien, bon	0		女字旁|女	很好 | 好吃	hěn hǎo | hǎochī	très bien/bon | délicieux	
+好	hǎo，hào，hāo	Bbien, bon	0		女字旁|女	很好 | 好吃	hěn hǎo | hǎochī	très bien/bon | délicieux	
 水	shuǐ	Eau	0		水字旁|水	水 | 水饺	shuǐ | shuǐjiǎo	eau | ravioli chinois	
 门	mén	Porte	0	門	门字框|门	门口	ménkǒu	Entrée	
 王	wáng	Roi	0		王字旁|王	国王	guówáng	Roi	
@@ -116,7 +116,7 @@
 个	gè		3	個	人字头|人	个	gè	(compteur général)	
 家	jiā	Maison, famille	3	傢	宝盖头|宀	家 | 家里	jiā | jiāli	famille, maison | À la maison	
 有	yǒu	Avoir, il y a	3		月字旁|月	有 | 没有 | 有意思 | 有用 | 有点儿	yǒu | méiyǒu | yǒu yìsi | yǒuyòng | yǒudiǎnr	avoir, il y a | il n'y a pas, ne pas avoir | intéressant | utile | un peu	
-几	jǐ	Combien	3	幾	几字旁|几	几	jǐ	combien	
+几	jǐ，jī	Combien	3	幾	几字旁|几	几	jǐ	combien	
 爸	bà	Père, papa	3		父字旁|父	爸爸	bàba	père, papa	
 和	hé，huo	Et	3		口字旁|口	和	hé	et	
 太	tài	Ensemble, semblable	3		大字头|大	太太 | 太 | 太······了 | 不太······	tàitai | tài | tài … le | bú tài …	femme, madame | trop; excessivement | c'est trop ... | ce n'est pas trop ...	
@@ -947,3 +947,23 @@
 坛	tán		3-5	壇	提土旁|土				
 饱	bǎo		3-5	飽	食字旁|饣				
 兜	dōu		3-5		儿字旁|儿				
+耐	nài		3-6		而字旁|而				-
+聊	liáo		3-6		耳字旁|耳				
+费	fèi		3-6	費	贝字旁|贝				
+软	ruǎn		3-6	軟	车字旁|车				
+显	xiǎn		3-6	顯	日字旁|日				
+宝	bǎo		3-6	寳	宝盖头|宀				
+贝	bèi		3-6	貝	贝字旁|贝				
+虽	suī		3-6	雖	虫字旁|虫				
+积	jī		3-6	積	禾木旁|禾				
+顾	gù		3-6	顧	页字旁|页				
+赚	zhuàn		3-6	賺	贝字旁|贝				
+碰	pèng		3-6		石字旁|石				
+乎	hū		3-6		撇字旁|丿				
+惊	jīng		3-6	驚	竖心旁|忄				
+松	sōng		3-6	鬆	木字旁|木				
+棋	qí		3-6		木字旁|木				
+健	jiàn		3-6		单人旁|亻				
+康	kāng		3-6		广字旁|广				
+挤	jǐ		3-6	擠	提手旁|扌				
+峰	fēng		3-6		山字旁|山				

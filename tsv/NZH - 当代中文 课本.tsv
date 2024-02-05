@@ -56,7 +56,7 @@
 打电话	dǎ diànhuà	Téléphoner		2	打電話	
 电话	diànhuà	Téléphone	N.	2	電話	
 给 (人) 打电话	gěi (rén) dǎ diànhuà	Téléphoner à qn		2	給(人)打電話	
-的	de		Part.	2		
+的	de	(Particule signifiant l'appartement)	Part.	2		
 我的	wǒ de	Mon, mes, le mien, les miens		2		
 号码	hàomǎ	Numéro	N.	2	號碼	
 零	líng	Zéro	Num.	2		
@@ -920,7 +920,7 @@
 赶快	gǎnkuài	Vite, tout de suite	Adv.	19	趕快	
 记得	jìde	Se souvenir, se rappeler	V.	19	記得	
 发票	fāpiào	Facture	N.	19	發票	
-觉得	juéde			19	覺得	
+觉得	juéde	Penser		19	覺得	
 没用	méiyòng	Inutile	Adj.	19		
 扔	rēng	Jeter	V.	19		
 垃圾箱	lājīxiāng	Poubelle	N.	19	垃圾箱	
@@ -1303,3 +1303,52 @@
 挤	jǐ	Pousser, pénétrer, entrer en se bousculant	V.	3-6+	擠	
 高峰	gāofēng	Heure de pointe	N.	3-6+		
 站台	zhàntái	Quai	N.	3-6+	站臺	
+月份	yuèfèn	Mois	N.	3-7		-
+决定	juédìng	Décision; décider	V & N	3-7	決定	
+主意	zhǔyì	Idée, plan	N.	3-7		
+坚持	jiānchí	Persister, s'obstiner	V.	3-7	堅持	
+讲究	jiǎngjiu	Recherché, attentif; mettre accent sur; exquis, de bon goût	N V Adj	3-7	講究	
+幸福	xìngfú	Bonheur; heureux	N & Adj	3-7		
+开玩笑	kāi wánxiào	Plaisanter		3-7	開玩笑	
+玩笑	wánxiào	Plaisanterie	N.	3-7		
+名人	míngrén	Personnage célèbre, célébrité	N.	3-7		
+提	tí	Mentionner	V.	3-7		
+去世	qùshì	Mourir, décéder	V.	3-7		
+非…不可	fēi…bù kě	Il faut [Litt: Ne pas faire ... ce n'est pas bien]		3-7		
+吓	xià	Faire peur	V.	3-7	嚇	
+上帝	shàngdì	Dieu	N.	3-7		
+伟大	wěidà	Grand	Adj.	3-7	偉大	
+取	qǔ	Prendre, adopter	V.	3-7		
+一般	yìbān	En général; commun, ordinaire	Adv & Adj	3-7		
+出息	chūxi	Promesse, bel avenir	N.	3-7		
+首先	shǒuxiān	Premièrement, d'abord, avant tout	Adv.	3-7		
+顺口	shùnkǒu	Qui se lit couramment	Adj.	3-7	順口	
+顺耳	shùn'ěr	Agréable à entendre	Adj.	3-7	順耳	
+响亮	xiǎngliàng	Fort et clair, qui sonne bien	Adj.	3-7	響亮	
+除了	chúle	Sauf, excepté	Prep.	3-7		
+同	tóng	Similaire, même	Adj.	3-7		
+根据	gēnjù	Selon, d'après	Prep.	3-7	根據	
+统计	tǒngjì	Statistique; compter	V & N	3-7	統計	
+光	guāng	Seulement	Adv.	3-7		
+有些	yǒuxiē	Un peu	Pron.	3-7		
+儿子	érzi	Fils	N.	3-7	兒子	
+稀奇古怪	xīqí gǔguài	Rare et étrange, bizarre		3-7		
+査	chá	Vérifier, consulter	V.	3-7		
+认为	rènwéi	Penser, croire	V.	3-7	認爲	
+怪	guài	S'en prendre à, blâmer	V.	3-7		
+毛泽东	Máo Zédōng	Mao Zedong		3-7	毛澤東	
+邓小平	Dèng Xiǎopíng	Deng Xiaoping		3-7	鄧小平	
+要说	yàoshuō	(Utilisé en début de phrase pour introduire le sujet de la conversation)		3-7	要説	
+说起	shuō qǐ	(Utilisé en début de phrase pour introduire le sujet de la conversation)		3-7	説起	
+说到	shuō dào	(Utilisé en début de phrase pour introduire le sujet de la conversation)		3-7	説到	
+什么的	shenme de	Ainsi de suite, etc. (En fin phrase, indiquant une énumération, ton neutre)		3-7	什麽的	
+上	shang	(Réalisation, accomplissement d'un but, commencement d'une action, situation)		3-7		
+下去	xiàqu	Continuer de (Indique la continuité, persistance d'une action)		3-7		
+起来	qǐlái	(Commencer à; Mouvement d'une action de bas en haut; Faire une action et se rendre compte de qch)		3-7	起來	
+出来	chūlái	(Changement de situation du néant à l'existence; Apparition de qch qui n'était pas là auparavant; Réussir qch)		3-7	出來	
+想出来	xiǎng chūlái	Trouver qch (ex: une idée)		3-7	想出來	
+想不出来	xiǎng bu chūlái	Ne pas y avoir pensé		3-7	想不出來	
+小名儿	xiǎomíngr	Petit nom pour un enfant, nom d'enfance	N.	3-7+	小名兒	
+大名儿	dàmíngr	Nom formel	N.	3-7+	大名兒	
+富贵有余	fùguì yǒu yú	Excédent de richesse et d'honneur		3-7+	富貴有餘	
+家庭	jiātíng	Famille	N.	3-7+		

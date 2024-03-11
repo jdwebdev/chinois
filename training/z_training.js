@@ -78,7 +78,7 @@ zt_backBtn.addEventListener("click", e => {
     e.preventDefault();
     z_training_section.innerHTML = "";
 
-    if (zt_select_training_type.value = "free") block(zt_hanzi_free);
+    if (zt_select_training_type.value == "free") block(zt_hanzi_free);
 
     flex(zt_training_type);
     flex(zt_trainingFilters);

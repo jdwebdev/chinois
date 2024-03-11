@@ -60,6 +60,7 @@
                 <label for="zt_select_training_type" class="zh_font">Type d'entrainement : </label>
                 <select name="" id="zt_select_training_type" class="select_filter zh_font">
                     <option class="zh_font" value="xiezi" selected>写字 => Écriture</option>
+                    <option class="zh_font" value="free">写汉字 => Libre</option>
                     <option class="zh_font" value="pinyin">写拼音 => Pinyin</option>
                 </select>
             </div>
@@ -88,6 +89,11 @@
                     </div>
                 </div>
                 <button id="zt_startBtn" class="startBtn zh_font">开始</button>
+            </div>
+            <div id="zt_hanzi_free" class="zt_hanzi_free">
+                <p>Entrer une liste de caractères afin de travailler sur cette liste en particulier, exemple : 个都你他的我己每有国</p>
+                <p id="zt_referenceList">Le caractère sera ignoré s'il n'est pas référencé dans la liste de l'application.</p>
+                <input id="zt_hanzi_free_list" type="text" value="" />
             </div>
             
             <button id="zt_backBtn" class="backBtn zh_font"><i class="fa-solid fa-arrow-left"></i></button>

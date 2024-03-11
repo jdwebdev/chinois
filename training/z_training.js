@@ -9,6 +9,8 @@ let zt_w_select_lesson = id("zt_w_select_lesson");
 let zt_h_select_lesson_container = id("zt_h_select_lesson_container");
 let zt_w_select_lesson_container = id("zt_w_select_lesson_container");
 let zt_select_training_type = id("zt_select_training_type");
+let zt_hanzi_free_list = id("zt_hanzi_free_list");
+let zt_hanzi_free = id("zt_hanzi_free");
 let zt_pinyin_keyboard;
 let zt_check_pinyin;
 let bPinyinChecked = false;
@@ -17,6 +19,7 @@ none(zt_h_select_lesson);
 none(zt_w_select_lesson);
 let zt_range_input = id("zt_range_input");
 none(zt_range_input);
+none(zt_hanzi_free);
 
 let zt_all_option = id("zt_all_option");
 let zt_random_option = id("zt_random_option");
@@ -48,10 +51,6 @@ zt_select.addEventListener("change", e => {
                 <option id="zt_all_option" class="zh_font" value="all">Tout</option>
                 <option id="zt_lesson_option" class="zh_font" value="lesson" selected>课</option>
             `;
-
-            // if (zt_select_training_type.value == "pinyin") {
-
-            // }
             break;
     }
 
@@ -64,6 +63,9 @@ zt_startBtn.addEventListener("click", e => {
     if (zt_select_training_type.value == "pinyin" && zt_select.value == "word") {
         z_training_section.innerHTML = `<p class="zt_encours">EN COURS DE DÉVELOPPEMENT - PROCHAINEMENT DISPONIBLE</p>`;
     } else {
+        if (zt_select_training_type.value == "free" && zt_hanzi_free_list.value == "") return;
+
+        none(zt_hanzi_free);
         none(zt_training_type);
         none(zt_trainingFilters);
         none(switchModeBtn);
@@ -75,10 +77,33 @@ zt_startBtn.addEventListener("click", e => {
 zt_backBtn.addEventListener("click", e => {
     e.preventDefault();
     z_training_section.innerHTML = "";
+
+    if (zt_select_training_type.value = "free") block(zt_hanzi_free);
+
     flex(zt_training_type);
     flex(zt_trainingFilters);
     none(zt_backBtn);
     block(switchModeBtn);
+});
+
+zt_select_training_type.addEventListener("change", e => {
+    if (zt_select_training_type.value == "free") {
+        let zt_referenceList = id("zt_referenceList");
+        zt_referenceList.innerHTML = `Le caractère sera ignoré s'il n'est pas référencé parmi les ${Hanzi.list.length} caractères de l'application.`;
+        block(zt_hanzi_free);
+
+        none(zt_h_select_lesson);
+        none(zt_w_select_lesson);
+        none(zt_select);
+        none(zt_select_filter);
+    } else {
+        none(zt_hanzi_free);
+
+        block(zt_h_select_lesson);
+        block(zt_w_select_lesson);
+        block(zt_select);
+        block(zt_select_filter);
+    }
 });
 
 
@@ -152,6 +177,11 @@ function zt_startTraining() {
     zt_randomList = [];
     zt_currentIndex = 0;
     zt_mode = zt_select.value;
+
+    if (zt_select_training_type.value == "free") {
+        filter = "free";
+        zt_mode = "hanzi";
+    }
     //? Check filters
     switch (zt_mode) {
         case "hanzi": //? Hanzi.list
@@ -178,10 +208,17 @@ function zt_startTraining() {
                 zt_randomList.forEach(h => {
                     sHanzi += h.hanzi;
                 });
+            } else if (filter == "free") {
+                for (let i = 0; i < Hanzi.list.length; i++) {
+                    if (zt_hanzi_free_list.value.includes(Hanzi.list[i].hanzi)) {
+                        zt_randomList.push(Hanzi.list[i]);
+                    }
+                }
             }
             zt_randomList = zt_randomizeList(zt_randomList);
 
-            if (zt_select_training_type.value == "xiezi") {
+            if (zt_select_training_type.value == "xiezi" || zt_select_training_type.value == "free") {
+
                 zt_hanziXieziDisplayTraining();
             } else if (zt_select_training_type.value == "pinyin") {
                 zt_hanziPinyinDisplayTraining();
@@ -333,8 +370,8 @@ function zt_hanziXieziDisplayTraining() {
         zt_hanzi.innerHTML = `${zt_randomList[zt_currentIndex].hanzi}
             <span id="zt_fanti">${zt_randomList[zt_currentIndex].fanti}</span>
         `;
-        console.log(zt_fanti);
-        console.log(zt_randomList[zt_currentIndex].fanti)
+        // console.log(zt_fanti);
+        // console.log(zt_randomList[zt_currentIndex].fanti)
 
         for (let i = 0; i < zt_randomList[zt_currentIndex].ciyuList.length; i++) {
             let wordToFind = id("zt_wordToFind_"+i)
@@ -613,6 +650,17 @@ function zt_next(pWin) {
                     } else {
                         innerHTML = `
                             <p class="zh_font zt_result">Erreur(s) : ${zt_failList.length} sur ${zt_randomList.length} !</p>
+                            <p></p>
+                        `;
+                        let sRawList = "";
+                        zt_failList.forEach(h => {
+                            sRawList += h.hanzi
+                        });
+                        
+                        innerHTML += `
+                            <p>${sRawList}</p>
+                        `;
+                        innerHTML += `
                             <ul>
                         `;
                 

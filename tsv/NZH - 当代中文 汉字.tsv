@@ -46,7 +46,7 @@
 我	wǒ	Je, me, moi	1		戈字旁|戈	我们	wǒmen	Nous	
 呢	ne	(Particule interrogative)	1		口字旁|口	你呢？	nǐ ne ? 	Et toi ?	
 是	shì	Être	1		日字旁|日	我是法国人 | 还是 | 是的 | 可是	wǒ shì fǎguórén | háishi | shìde | kěshì	Je suis français | Ou, ou sinon | oui | mais	
-吗	ma	(Question dont la réponse est oui ou non)	1	嗎	口字旁|口	你是中国人吗？	nǐ shì zhōngguórén ma ?	Es-tu chinois ?	
+吗	ma，má	(Question dont la réponse est oui ou non)	1	嗎	口字旁|口	你是中国人吗？	nǐ shì zhōngguórén ma ?	Es-tu chinois ?	
 不	bù	Non, ne pas	1		一字旁|一	我不是中国人 | 对不起 | 不客气	wǒ bú shì zhōngguórén | duìbuqǐ | bú kèqi	Je ne suis pas chinois | Pardon | De rien (pour répondre à un remerciement)	
 同	tóng	Ensemble, semblable	1		同字框|冂	同学	tóngxué	camarade de classe	
 们	men	(Suffixe ou pluriel)	1	們	单人旁|亻	我们 | 你们 | 他们 | 她们	wǒmen | nǐmen | tāmen | tāmen	Nous | Vous | Ils | Elles	
@@ -534,7 +534,7 @@
 结	jié	Noeud	16	結	绞丝旁|纟				
 果	guǒ	Fruit	16		木字旁|木				
 摔	shuāi	Tomber, casser	16		提手旁|扌				
-倒	dǎo	Tomber	16		单人旁|亻				
+倒	dǎo，dào	Tomber	16		单人旁|亻				
 坏	huài	Mauvais, se détériorer	16	壞	提土旁|土				
 破	pò	Abîmé, cassé, brisé	16		石字旁|石				
 伤	shāng	Blesser	16	傷	单人旁|亻				
@@ -769,7 +769,7 @@
 腿	tuǐ		2,2		月字旁|月				
 脚	jiǎo		2,2		月字旁|月				
 夫	fū		2,2		大字头|大				
-脏	zāng		2,2	臟	月字旁|月				
+脏	zāng		2,2	臟髒	月字旁|月				
 针	zhēn		2,2	針	金字旁|钅				
 香	xiāng		2,2		香字旁|香				
 港	gǎng		2,2		三点水|氵				
@@ -1114,3 +1114,24 @@
 唆	suō		3-12		口字旁|口				
 嗦	suō		3-12		口字旁|口				
 吹	chuī		3-12		口字旁|口				
+拼	pīn		4-1		提手旁|扌				-
+命	mìng		4-1		口字旁|口				
+锁	suǒ		4-1	鎖	金字旁|钅				
+享	xiǎng		4-1		京字头|亠				
+炒	chǎo		4-1		火字旁|火				
+鱿	yóu		4-1	魷	鱼字旁|鱼				
+案	àn		4-1		木字旁|木				
+曾	céng		4-1		扁日旁|曰				
+增	zēng		4-1		提土旁|土				
+挥	huī		4-1	揮	提手旁|扌				
+贡	gòng		4-1	貢	贝字旁|贝				
+献	xiàn		4-1	獻	犬字旁|犬				
+择	zé		4-1	擇	提手旁|扌				
+例	lì		4-1		单人旁|亻				
+强	qiáng		4-1	強	弓字旁|弓				
+量	liàng		4-1		里字旁|里				
+招	zhāo		4-1		提手旁|扌				
+聘	pìn		4-1		耳字旁|耳				
+辞	cí		4-1	辭	辛字旁|辛				
+组	zǔ		4-1	組	绞丝旁|纟				
+织	zhī		4-1	織	绞丝旁|纟				

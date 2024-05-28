@@ -153,7 +153,7 @@
 玩儿	wánr	Jouer, s'amuser	V.	4	玩兒	
 知道	zhīdào	Savoir, connaître	V.	4		
 比较	bǐjiào	Relativement	Adv.	4	比較	
-真	zhēn	Réellement, vraiment	Adv.	4		
+真	zhēn	Réellement, vraiment; vrai, réel	Adv & Adj	4		
 有意思	yǒu yìsi	Intéressant		4		
 意思	yìsi	Sens, signification	N.	4		
 龙	lóng	Dragon	N.	4	龍	
@@ -519,7 +519,7 @@
 脚	jiǎo	Pied	N.	10+		
 食堂	shítáng	Cantine, cafétéria	N.	10+		
 迟到	chídào	Être en retard	V.	10+	遲到	
-大夫	dàifu	Docteur, médecin	N.	10+		
+大夫 [位]	dàifu	Docteur, médecin	N.	10+		
 脏	zāng	Sale, malpropre, mauvais	Adj.	10+	髒	
 打针	dǎ zhēn	Faire une injection	V.O.	10+	打針	
 洗手间	xǐshǒujiān	Cabinet de toilette	N.	10+	洗手間	
@@ -1782,7 +1782,6 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 竣工	jùngōng	Achever; achèvement	V.	4-4+		
 剪彩	jiǎn cǎi	Couper le ruban de l'inauguration	V.O.	4-4+	剪綵	
 校舍	xiàoshě	Cité universitaire, résidence universitaire	N.	4-4+		
-表示	biǎoshì	Exprimer, indiquer	V.	4-4+		
 贫困	pínkùn	Pauvre, démuni	Adj.	4-4+	貧困	
 捐赠	juānzèng	Offrir, donner, contribuer	V.	4-4+	捐贈	
 物品	wùpǐn	Articles, matériaux	N.	4-4+		
@@ -1872,7 +1871,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 米	mǐ	Mètre	Spec.	4-6		
 建成	jiànchéng	Terminer, achever, accomplir la construction (bâtiment, pont, etc.)		4-6		
 接待	jiēdài	Recevoir	V.	4-6		
-元首	yuánshǒu	Chef d'État	N.	4-6		
+元首 [位]	yuánshǒu	Chef d'État	N.	4-6		
 先后	xiānhòu	Successivement, l'un après l'autre	Adv.	4-6	先後	
 不下	búxià	Pas moins que, être au moins	V.	4-6		
 笑星	xiàoxīng	Comédien	N.	4-6		
@@ -1890,9 +1889,8 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 热烈	rèliè	Chaleureux, enthousiaste	Adj.	4-6	熱烈	
 经历	jīnglì	Expérience, vécu; éprouver, vivre	V & N	4-6	經歷	
 美好	měihǎo	Beau, jolie, merveilleux	Adj.	4-6		
-大夫	dàifu	Médecin, docteur	N.	4-6		
 挽救	wǎnjiù	Sauver, sauvegarder	V.	4-6		
-生命	shēngmìng	Vie	N.	4-6		
+生命 [条]	shēngmìng	Vie	N.	4-6		
 女士	nǚshì	Madame	N.	4-6		
 祝愿	zhùyuàn	Souhait; souhaiter	V & N	4-6	祝願	
 多伦多	Duōlúnduō	Toronto		4-6	多倫多	
@@ -1909,3 +1907,52 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 巴黎	Bālí	Paris		4-6+		
 埃菲尔铁塔 (艾菲尔)	Āifēi'ěr Tiě tǎ	Tour Eiffel		4-6+	埃菲爾鐵塔	
 黄浦江	Huángpǔ Jiāng	Rivière Huangpu		4-6+	黃浦江	
+网	wǎng	Réseau, filet	N.	4-7	網	-
+猜	cāi	Deviner	V.	4-7		
+得了	déle	Ça suffit.		4-7		
+卖关子	mài guānzi	Faire durer le suspense 		4-7	賣關子	
+自然	zìrán	Nature; naturellement; naturel	N Adv Adj	4-7		
+难看	nánkàn	Vilain, laid	Adj.	4-7	難看	
+网恋	wǎngliàn	Romance par Internet	V & N	4-7	網戀	
+游戏	yóuxì	Jouer; jeu	V & N	4-7	遊戲	
+规则 [条]	guīzé	Règle	N.	4-7	規則	
+商量	shāngliang	Discuter	V.	4-7		
+我的那位	wǒ de nà wèi	Mon/ma compagnon / compagne, mari / femme, moitié		4-7		
+太祖母	tàizǔmǔ	Arrière-grand-mère	N.	4-7		
+网民	wǎngmín	Internaute	N.	4-7	網民	
+网虫	wǎngchóng	Habitué de l'Internet, internaute fanatique	N.	4-7	網蟲	
+抱	bào	Embrasser, porter dans les bras	V.	4-7		
+大吃一惊	dà chī yì jīng	Être très surpris, s'étonner		4-7	大吃一驚	
+主动	zhǔdòng	Prendre l'initiative de	Adj.	4-7	主動	
+刻苦	kèkǔ	Avec assiduité, avec application, simple et frugal	Adj.	4-7		
+熟练	shúliàn	Habile, adroit	Adj.	4-7	熟練	
+网站	wǎngzhàn	Site web	N.	4-7	網站	
+戏剧	xìjù	Pièce de théâtre	N.	4-7	戲劇	
+大观	dàguān	Grand spectacle	N.	4-7	大觀	
+唱段	chàngduàn	Chant, air	N.	4-7		
+泡	pào	Mariner, tremper	V.	4-7		
+网络	wǎngluò	Réseau	N.	4-7	網絡	
+局限	júxiàn	Limiter	V.	4-7		
+听戏	tīng xì	Assister à un opéra	V.O.	4-7	聽戲	
+投入	tóurù	Se lancer dans, se jeter dans, s'impliquer; absorbé	V & Adj	4-7		
+槐树	huáishù	Sophora	N.	4-7	槐樹	
+慌张	huāngzhāng	Confus, affolé, agité, troublé	Adj.	4-7	慌張	
+终于	zhōngyú	Finalement, à la fin, finir par	Adv.	4-7	終於	
+坦率	tǎnshuài	Franc, direct	Adj.	4-7		
+喜糖	xǐtáng	Bonbon de noces	N.	4-7		
+孤独	gūdú	Solitaire	Adj.	4-7	孤獨	
+白雪公主	Báixuě Gōngzhǔ	Blanche Neige		4-7		
+白马王子	Báimǎ Wángzǐ	Prince charmant		4-7	白馬王子	
+丑小鸭	Chǒu Xiǎoyā	Vilain petit canard		4-7	醜小鴨	
+想象	xiǎngxiàng	Imaginer	V.	4-7		
+真是的	zhēn shì de	(Peut exprimer le mécontentement, 不满)		4-7		
+长得漂亮	zhǎng de piàoliang	Jolie, mignonne		4-7	長得漂亮	
+欢呼	huānhū	Crier joie	V.	4-7+	歡呼	
+时髦	shímáo	En vogue, à la mode	Adj.	4-7+	時髦	
+色彩	sècǎi	Coloré, couleur	N.	4-7+		
+虚幻	xūhuàn	Illusion, irréel	N.	4-7+	虛幻	
+创造	chuàngzào	Création	V.	4-7+	創造	
+欲望	yùwàng	Désir, souhait	N.	4-7+		
+产生	chǎnshēng	Produire, engendrer	V.	4-7+	產生	
+表现	biǎoxiàn	Exprimer, monter; manifester	V.	4-7+	表現	
+不够 [～]	bú gòu ~	Pas assez ~		4-7+	不夠	

@@ -631,11 +631,12 @@ function fillGramList() {
     gramList["N Adv Adj"] = "Nom & Adverbe & Adjectif";
     gramList["N V Adj"] = "Nom & Verbe & Adjectif";
     gramList["V Conj"] = "Verbe & Conjonction";
+    gramList["V Adv"] = "Verbe & Adverbe";
 }
 
 function checkNewHanzi() {
     let currentHanziList = "";
-    let dame = ` ()0，[]·/…~.？～,=V12N/"XY`;
+    let dame = ` ()0，[]·/…~.？～,=V12N/"XYO`;
     let newHanziList = "";
     Hanzi.list.forEach(h => {
         currentHanziList += h.hanzi;

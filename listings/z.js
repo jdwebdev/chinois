@@ -105,6 +105,7 @@ function z_search(pFromBtn = false) {
     switch(z_select.value) {
         case "hanzi":
             if (z_select_lesson.value != "all" && !pFromBtn) {
+                log("!all !button")
                 innerHTML = "";
                 z_resultList = [];
                 Hanzi.list.forEach(h => {
@@ -140,6 +141,7 @@ function z_search(pFromBtn = false) {
                 z_resultNb.innerHTML = z_resultList.length + " résultats";
 
             } else if (z_input.value == "") {
+                log("input value ''")
                 let count = 0;
 
                 for (let i = Hanzi.list.length-1; i >= 0; i--) {
@@ -190,7 +192,7 @@ function z_search(pFromBtn = false) {
                 z_resultNb.innerHTML = Hanzi.list.length + " résultats";
 
             } else {
-
+                log ("else");
                 
                 let idList = [];
                 z_resultList = [];
@@ -201,6 +203,14 @@ function z_search(pFromBtn = false) {
                             z_resultList.unshift(h);
                         }
                     } else {
+                        if (z_input.value.length > 1) {
+                            for (let i = 0; i < z_input.value.length; i++) {
+                                if (h.hanzi.includes(z_input.value[i]) && !z_resultList.includes(h)) {
+                                    z_resultList.push(h);
+                                }
+                            }
+                        }
+
                         if (cleanPinyin(h.pinyin).includes(cleanPinyin(z_input.value.toLowerCase()))) {
                             if (!idList.includes(h.id)) {
                                 idList.push(h.id);
@@ -268,6 +278,36 @@ function z_search(pFromBtn = false) {
                 }
                 z_result_section.innerHTML = innerHTML;
                 z_resultNb.innerHTML = z_resultList.length + " résultats";
+
+                if (z_input.value.length > 1) { //? Hanzi + Word
+                    // innerHTML = "";
+                    z_resultWordList = [];
+                    Z_Word.list.forEach(w => {
+                        if (w.word.includes(z_input.value)) {
+                            z_resultWordList.push(w);
+                        }
+                    });
+                    let cleanedWord
+                    z_resultWordList.forEach(w => {
+                        if (w.word.includes("[")) {
+                            cleanedWord = w.word.split("[")[0];
+                            cleanedWord = cleanedWord.slice(0, cleanedWord.length-1);
+                        } else {
+                            cleanedWord = w.word;
+                        }
+                        innerHTML += `
+                            <div id="z_word_${w.id}" class="zh_font z_one_result" onclick="openZ_WordPopup(${w.id-1},Z_Word.list)">${cleanedWord}</div>
+                        `;
+                    });
+                    z_result_section.innerHTML = innerHTML;
+
+                } else { //? Just Hanzi. Normal
+                    z_result_section.innerHTML = innerHTML;
+                    z_resultNb.innerHTML = z_resultList.length + " résultats";
+                }
+
+
+
             }
             break;
         case "bushou":
@@ -361,6 +401,7 @@ function z_search(pFromBtn = false) {
                 z_resultNb.innerHTML = Z_Word.list.length + " résultats";
                 
             } else {
+                log("Else : WORD")
                 innerHTML = "";
                 z_resultList = [];
                 Z_Word.list.forEach(w => {

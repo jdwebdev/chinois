@@ -59,10 +59,8 @@ class Hanzi {
     */
     static keList = [];
 
-    //?          id,  hanzi,  pinyin, ciyu,  ciyuPinyin,  ciyuYisi,  hanzi yisi, ke,   fanti,      bushou       
-    // constructor(pId, pHanzi, pPinyin, pCiyu, pCiyuPinyin, pCiyuYisi, pHanziYisi, pKe, pFanti = "", pBushou = "") {
-    //?              汉字，   拼音，   汉字意思，   课，  繁体,   部首
-    constructor(pId, pHanzi, pPinyin, pHanziYisi, pKe, pFanti, pBushou) {
+    //?              汉字，   拼音，   汉字意思，   课，  繁体,   部首，   复习
+    constructor(pId, pHanzi, pPinyin, pHanziYisi, pKe, pFanti, pBushou, pFuxi) {
 
         this.id = pId;
 
@@ -73,6 +71,7 @@ class Hanzi {
         this.fanti = pFanti;
         this.ciyuList = [];
         this.vocRefList = [];
+        this.bFuxi = (pFuxi != "");
         if (pBushou.includes("，")) {
             this.bushou = pBushou.split("，")[1].split("|")[1];
         } else {
@@ -140,11 +139,8 @@ function createHanzi(pFile) {
     let test;
     for (let i = 1; i < row.length; i++) {
         row[i] = row[i].split('\t');
-        //?                 汉字，      拼音，     词语，     词语拼音，     词语意思，  汉字意思，  课，        繁体,      部首
-        //?              id,hanzi,     pinyin,    ciyu,      ciyuPinyin,  ciyuYisi,  hanziYisi,  ke,        fanti,     bushou       
-        // test = new Hanzi(i, row[i][0], row[i][1], row[i][2], row[i][3],   row[i][4], row[i][5],  row[i][6], row[i][7], row[i][8]);
-        //?                 汉字，      拼音，     汉字意思，  课，        繁体,      部首
-        test = new Hanzi(i, row[i][0], row[i][1], row[i][2], row[i][3], row[i][4], row[i][5]);
+        //?                 汉字，      拼音，     汉字意思，  课，        繁体,      部首，     复习
+        test = new Hanzi(i, row[i][0], row[i][1], row[i][2], row[i][3], row[i][4], row[i][5], row[i][6]);
     }
 
     let z_select_lesson = document.getElementById("z_select_lesson");

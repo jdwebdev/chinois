@@ -572,6 +572,10 @@ main {
     .z_one_result_color {
         background-color: pink;
     }
+    .z_one_result:hover {
+        background-color: rgba(0,0,0,0.2);
+        cursor:pointer;
+    }
 
     /* ---------- MODAL ---------- 
     modal (HANZI)

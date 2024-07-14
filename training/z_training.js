@@ -87,22 +87,30 @@ zt_backBtn.addEventListener("click", e => {
 });
 
 zt_select_training_type.addEventListener("change", e => {
-    if (zt_select_training_type.value == "free") {
-        let zt_referenceList = id("zt_referenceList");
-        zt_referenceList.innerHTML = `Le caractère sera ignoré s'il n'est pas référencé parmi les ${Hanzi.list.length} caractères de l'application.`;
-        block(zt_hanzi_free);
-
-        none(zt_h_select_lesson);
-        none(zt_w_select_lesson);
-        none(zt_select);
-        none(zt_select_filter);
-    } else {
-        none(zt_hanzi_free);
-
-        block(zt_h_select_lesson);
-        block(zt_w_select_lesson);
-        block(zt_select);
-        block(zt_select_filter);
+    switch(zt_select_training_type.value) {
+        case "free":
+            let zt_referenceList = id("zt_referenceList");
+            zt_referenceList.innerHTML = `Le caractère sera ignoré s'il n'est pas référencé parmi les ${Hanzi.list.length} caractères de l'application.`;
+            block(zt_hanzi_free);
+    
+            none(zt_h_select_lesson);
+            none(zt_w_select_lesson);
+            none(zt_select);
+            none(zt_select_filter);
+            break;
+        case "hanzi_choice":
+            none(zt_hanzi_free);
+            none(zt_select_filter);
+            block(zt_h_select_lesson);
+            none(zt_select);
+            break;
+        default:
+            none(zt_hanzi_free);
+    
+            block(zt_h_select_lesson);
+            block(zt_w_select_lesson);
+            block(zt_select);
+            block(zt_select_filter);
     }
 });
 
@@ -181,7 +189,10 @@ function zt_startTraining() {
     if (zt_select_training_type.value == "free") {
         filter = "free";
         zt_mode = "hanzi";
+    } else if (zt_select_training_type.value == "hanzi_choice") {
+        zt_mode = zt_select_training_type.value;
     }
+    
     //? Check filters
     switch (zt_mode) {
         case "hanzi": //? Hanzi.list
@@ -253,6 +264,14 @@ function zt_startTraining() {
             }
             // zt_ZWordDisplayTraining();
             break;
+        case "hanzi_choice":
+            for (let i = 0; i < Z_Word.list.length; i++) {
+                if (Z_Word.list[i].ke == zt_h_select_lesson.value) {
+                    zt_randomList.push(Z_Word.list[i]);
+                }
+            }
+            zt_randomList = zt_randomizeList(zt_randomList);
+            zt_hanziChoiceDisplayTraining();
     }
 
 }
@@ -263,6 +282,12 @@ let zt_nextBtn_container = null;
 let z_training_section = id("z_training_section");
 let zt_progressBar;
 let zt_list_up_arrow; let zt_list_bottom_arrow;
+//? Hanzi choice training
+let hanziToFind = "";
+let answerList = [];
+let wordToFind = "";
+let bHanziChoiceOK = true;
+let bChoiceDone = false;
 
 function zt_hanziXieziDisplayTraining() {
     let innerHTML = "";
@@ -598,7 +623,7 @@ function zt_ZWordXieziDisplayTraining() {
         <p class="zt_p zt_pinyin zh_font">${zt_randomList[zt_currentIndex].pinyin}</p>
         <p class="zt_p zt_word_yisi zh_font">${zt_randomList[zt_currentIndex].yisi}</p>
         <button id="zt_kakunin" class="zh_font">Check</button>
-        <div id="zt_nextBtn_container"></div>   
+        <div id="zt_nextBtn_container"></div>   s
     `;
     z_training_section.innerHTML = innerHTML;
 
@@ -621,6 +646,121 @@ function zt_ZWordXieziDisplayTraining() {
     
 }
 
+function zt_hanziChoiceDisplayTraining() {
+    bHanziChoiceOK = true;
+    /* 
+    10 hanzi from last 50
+    list [] <= rnd(1367 - 50, 1367) * 10
+    9 from all
+    list [] <= rnd(0, (1367-50) * 9
+    1 correct answer
+    list [] <= correct answer  rnd(0,word.length)
+    shuffle
+    */
+    wordToFind = zt_randomList[zt_currentIndex];
+    hanziToFind = wordToFind.word[rnd(0,wordToFind.word.length)];
+    let bEnd = false;
+    answerList = [];
+    answerList.push(hanziToFind);
+
+    for (let i = 0; i < 10; i++) {
+        let temp = Hanzi.list[rnd(Hanzi.list.length - 50,Hanzi.list.length)].hanzi;
+        if (answerList.includes(temp)) {
+            i--;
+        } else {
+            answerList.push(temp);
+        }
+    }
+    
+    for (let i = 0; i < 9; i++) {
+        let temp = Hanzi.list[rnd(0,Hanzi.list.length-50)].hanzi;
+        if (answerList.includes(temp)) {
+            i--;
+        } else {
+            answerList.push(temp);
+        }
+    }
+    answerList = zt_randomizeList(answerList);
+
+    let innerHTML = "";
+    z_training_section.innerHTML = "";
+    innerHTML = `
+        <div id="zt_progressBar" class="progressBar"><span id="currentIndex">${zt_currentIndex+1}/${zt_randomList.length}</span></div>
+        <div class="zh_font zt_hanzichoice_main_container">
+        <div id="zt_hanzichoice_container">
+    `;
+
+    let visibleClass = "";
+    for (let i = 0; i < wordToFind.word.length; i++) {
+        if (wordToFind.word[i] === hanziToFind) {
+            visibleClass = "zt_hanzichoice_invisible";
+            innerHTML += `<div class="zt_hanzichoice_invisible">？</div>`
+        } else {
+            visibleClass = "zt_hanzichoice_visible";
+            innerHTML += `<div class="zt_hanzichoice_visible">${wordToFind.word[i]}</div>`
+        }
+    }
+    innerHTML += `</div>`;
+    innerHTML += `
+        <div id="zt_answerchoice_pinyin">-</div>
+        <div id="zt_answerchoice_translation">${wordToFind.yisi}</div>
+        <div id="zt_answerchoice_container">
+    `;
+    for (let i = 0; i < answerList.length; i++) {
+        if (i%5 === 0) {
+            if (i != 0) innerHTML += `</div>`;
+            innerHTML += `<div class="zt_answerchoice_row">`;
+        }
+        innerHTML += `<div id="${answerList[i]}" class="zt_answerchoice_hanzi" onclick="checkHanziChoice('${answerList[i]}')">${answerList[i]}</div>`;
+        if (i === 19) {
+            innerHTML += `</div>`;
+        }
+    }
+    innerHTML += `
+            </div>
+        </div>
+        <button id="zt_kakunin" class="zh_font" style="display:none;">Suivant</button>
+    `;
+    z_training_section.innerHTML = innerHTML;
+    zt_progressBar = id("zt_progressBar");
+    zt_progressBar.style.width = (zt_currentIndex / zt_randomList.length) * 100 + "%";
+}
+
+
+function checkHanziChoice(pHanzi) {
+    if (!bChoiceDone) {
+        let selectedOne = id(pHanzi);
+        if (hanziToFind === pHanzi) {
+            let zt_answerchoice_pinyin = id("zt_answerchoice_pinyin");
+            zt_answerchoice_pinyin.innerHTML = wordToFind.pinyin;
+            let elementList = document.getElementsByClassName("zt_hanzichoice_invisible");
+            elementList = Array.prototype.filter.call(
+                elementList,
+                (element) => element.nodeName === "DIV",
+            );
+            elementList.forEach(e => {
+                e.classList.remove("zt_hanzichoice_invisible");
+                e.classList.add("zt_hanzichoice_correct");
+                e.innerHTML = pHanzi;
+            });
+            selectedOne.classList.add("zt_hanzichoice_correct");
+            let zt_training = id("zt_kakunin");
+            block(zt_training);
+            zt_training.addEventListener("click", e => {
+                e.preventDefault();
+                bChoiceDone = false;
+                zt_next(bHanziChoiceOK);
+            });
+            bChoiceDone = true;
+            //? ProgressBar ici, MAJ après la bonne réponse et avant le clic sur suivant.
+            zt_progressBar = id("zt_progressBar");
+            zt_progressBar.style.width = ((zt_currentIndex+1) / zt_randomList.length) * 100 + "%";
+        } else {
+            bHanziChoiceOK = false;
+            selectedOne.classList.add("zt_hanzichoice_incorrect");
+        }
+    }
+}
 function zt_next(pWin) {
     if (pWin) {
         zt_winList.push(zt_randomList[zt_currentIndex])
@@ -735,6 +875,51 @@ function zt_next(pWin) {
                     
                 }
                 break;
+            case "hanzi_choice":
+                if (zt_failList.length == 0) {
+                    innerHTML = `
+                        <p class="zh_font zt_result">BRAVO ! 0 erreur sur ${zt_randomList.length} !</p>
+                        <p class="zh_font zt_tooEasy">Trop facile <span class="zt_easy_heart">♥♥♥</span> :</p>
+                        <ul>
+                    `;
+                    zt_randomList.forEach(h => {
+                        innerHTML += `
+                            <li class="result_fail_list zh_font">${h.word} : ${h.pinyin} : ${h.yisi}</li>
+                        `;
+                    });
+                    innerHTML += "</ul>";
+        
+                } else {
+                    innerHTML = `
+                        <p class="zh_font zt_result">Erreur(s) : ${zt_failList.length} sur ${zt_randomList.length} !</p>
+                        <ul>
+                    `;
+            
+                    let failList = "";
+                    zt_failList.forEach(h => {
+                        failList += h.word;
+                        innerHTML += `
+                            <li class="result_fail_list zh_font">${h.word} : ${h.pinyin} : ${h.yisi}</li>
+                        `;
+                    });
+                    innerHTML += `</ul>`;
+                    if (zt_failList.length < zt_randomList.length) {
+                        innerHTML += `
+                            <p class="zh_font zt_tooEasy">Trop facile <span class="zt_easy_heart">♥♥♥</span> :</p>
+                            <ul>
+                        `;
+                        zt_randomList.forEach(h => {
+                            if (!failList.includes(h.word)) {
+                                innerHTML += `
+                                    <li class="result_fail_list zh_font">${h.word} : ${h.pinyin} : ${h.yisi}</li>
+                                `;
+                            }
+                        });
+                        innerHTML += "</ul>";
+                    }
+                    
+                }
+                break;
         }
         
         z_training_section.innerHTML = innerHTML;
@@ -747,6 +932,9 @@ function zt_next(pWin) {
                 break;
             case "word":
                 zt_ZWordXieziDisplayTraining();
+                break;
+            case "hanzi_choice":
+                zt_hanziChoiceDisplayTraining();
                 break;
         }
     }

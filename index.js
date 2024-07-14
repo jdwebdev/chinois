@@ -85,7 +85,11 @@ function openModalHelp() {
     popup_help.innerHTML = `
         <div id="help_container">
             <div id="help_content">
-                <p class="date zh_font">2024年7月04日<span class="app_version zh_font">V. 4.12</span></p>
+                <p class="date zh_font">2024年7月14日<span class="app_version zh_font">V. 5.0</span></p>
+                <h2 class="help_title">Nouveau type d'entraînement</h2>
+                <p>Compléter le hanzi manquant dans un mot en choisissant parmi une liste de 20 hanzi.</p>
+
+                <p class="date zh_font">2024年7月4日<span class="app_version zh_font">V. 4.12</span></p>
                 <h2 class="help_title">Ajout de la leçon 4-12</h2>
 
                 <p class="date zh_font">2024年6月28日<span class="app_version zh_font">V. 4.11</span></p>
@@ -115,7 +119,7 @@ function openModalHelp() {
                 <p class="date zh_font">2024年4月20日<span class="app_version zh_font">V. 4.3</span></p>
                 <h2 class="help_title">Ajout de la leçon 4-3</h2>
 
-                <p class="date zh_font">2024年4月07日<span class="app_version zh_font">V. 4.2</span></p>
+                <p class="date zh_font">2024年4月7日<span class="app_version zh_font">V. 4.2</span></p>
                 <h2 class="help_title">Ajout de la leçon 4-2</h2>
 
                 <p class="date zh_font">2024年3月19日<span class="app_version zh_font">V. 4.1</span></p>

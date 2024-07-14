@@ -105,7 +105,6 @@ function z_search(pFromBtn = false) {
     switch(z_select.value) {
         case "hanzi":
             if (z_select_lesson.value != "all" && !pFromBtn) {
-                log("!all !button")
                 innerHTML = "";
                 z_resultList = [];
                 Hanzi.list.forEach(h => {
@@ -141,7 +140,6 @@ function z_search(pFromBtn = false) {
                 z_resultNb.innerHTML = z_resultList.length + " résultats";
 
             } else if (z_input.value == "") {
-                log("input value ''")
                 let count = 0;
 
                 for (let i = Hanzi.list.length-1; i >= 0; i--) {
@@ -401,7 +399,6 @@ function z_search(pFromBtn = false) {
                 z_resultNb.innerHTML = Z_Word.list.length + " résultats";
                 
             } else {
-                log("Else : WORD")
                 innerHTML = "";
                 z_resultList = [];
                 Z_Word.list.forEach(w => {

@@ -201,8 +201,8 @@
 钱	qián	Argent, monnaie	N.	5	錢	
 块(元)	kuài (yuán)	Unité de Renminbi	Spec.	5	塊	
 太	tài	Trop; excessivement	Adv.	5		
-太······了	tài … le	C'est trop ...		5		
-不太······	bú tài …	Ce n'est pas trop ...		5		
+太…了	tài … le	C'est trop ...		5		
+不太…	bú tài …	Ce n'est pas trop ...		5		
 贵	guì	Cher, noble	Adj.	5	貴	
 红	hóng	Rouge	Adj.	5	紅	
 便宜	piányi	Bon marché	Adj.	5		
@@ -210,7 +210,7 @@
 条	tiáo	(Spécificatif pour les pantalons, les routes, les rivières, les poissons, etc.)	Spec.	5	條	
 裤子 [条]	kùzi	Pantalon	N.	5	褲子 [條]	
 试	shì	Essayer	V.	5	試	
-那，···	nà, ...	Dans ce cas-là; donc...	Conj.	5		
+那，…	nà, ...	Dans ce cas-là; donc...	Conj.	5		
 来	lái	Venir	V.	5	來	
 饭店	fàndiàn	Restaurant, hôtel	N.	5	飯店	
 最	zuì	Le plus	Adv.	5		
@@ -266,7 +266,7 @@
 休息	xiūxi	Se reposer	V.	6		
 打球	dǎqiú	Jouer au ballon		6		
 球	qiú	Ballon	N.	6		
-跟······一起	gēn…yìqǐ	Ensemble avec…		6		
+跟…一起	gēn…yìqǐ	Ensemble avec…		6		
 跟	gēn	Avec	Prep.	6		
 一起	yìqǐ	Ensemble	Adv.	6		
 电视	diànshì	Télévision	N.	6	電視	
@@ -423,7 +423,7 @@
 时间	shíjiān	Temps	N.	9	時間	
 自己	zìjǐ	Soi-même	Pron.	9		
 办	bàn	Faire	V.	9	辦	
-对···熟悉	duì···shúxī	Connaître, se familiariser avec		9	對···熟悉	
+对…熟悉	duì…shúxī	Connaître, se familiariser avec		9	對…熟悉	
 对	duì	À, avec	Prep.	9	對	
 熟悉	shúxī	Connaître, se familiariser avec	V.	9		
 些	xiē	(Spécificatif pour le pluriel)	Spec.	9		
@@ -438,7 +438,7 @@
 好汉	hǎohàn	Vrai homme	N.	9	好漢	
 别的	biéde	Autre	Pron.	9	別的	
 欢迎	huānyíng	Accueillir	V.	9	歡迎	
-要是···的话	yàoshi···dehua	Si...		9	要是···的話	
+要是…的话	yàoshi ~ dehua	Si...		9	要是…的話	
 陪	péi	Accompagner	V.	9		
 得	děi	Il faut, devoir		9		
 (飞)机票	(fēi)jīpiào	Billet d'avion	N.	9	(飛)機票	
@@ -538,7 +538,7 @@
 次	cì	(Spécificatif pour indiquer la fréquence (nb de fois))	Spec.	11		
 经济	jīngjì	Économie	N.	11	經濟	
 文化	wénhuà	Culture	N.	11		
-对……感兴趣 / 有兴趣	duì…gǎn xìngqù / yǒu xìngqù	S'intéresser à ...		11	對感興趣	
+对…感兴趣 / 有兴趣	duì…gǎn xìngqù / yǒu xìngqù	S'intéresser à ...		11	對感興趣	
 兴趣	xìngqù	Intérêt	N.	11	興趣	
 中国通	zhōngguótōng	Sinisant, sinologue		11	中國通	
 下课	xià kè	Terminer la classe	V.O.	11	下課	
@@ -849,7 +849,7 @@
 办法	bànfǎ	Méthode, moyen	N.	17	辦法	
 只好	zhǐhǎo	Être obligé de	Adv.	17		
 装	zhuāng	Installer	V.	17	裝	
-一……就……	yī…jiù…	Une fois que..., dès que (la 2è action est inévitable dès que la 1ère action s'est produite)		17		
+一…就…	yī…jiù…	Une fois que..., dès que (la 2è action est inévitable dès que la 1ère action s'est produite)		17		
 电器	diànqì	Appareil électrique	N.	17	電器	
 公寓	gōngyù	Immeuble divisé en appartements	N.	17		
 卫生间	wèishēngjiān	Toilettes	N.	17	衛生間	
@@ -882,7 +882,7 @@
 赶得到	gǎn-de-dào	Arriver à temps		18	趕得到	
 出租车	chūzūchē	Taxi	N.	18	出租車	
 堵车	dǔ chē	Embouteillage	V.O.	18	堵車	
-连……都/也……	lián…dōu/yě…	Même, même si		18	連	
+连…都/也…	lián…dōu/yě…	Même, même si		18	連	
 话	huà	Parole	N.	18	話	
 爬	pá	Grimper	V.	18		
 动	dòng	Bouger	V.	18	動	
@@ -1177,11 +1177,11 @@
 球星	qiúxīng	Vedette, joueur célèbre	N.	3-4		
 老	lǎo	Ancien, vieux	Adj.	3-4		
 迷	mí	Fou de quelque chose, être fasciné par; fan, fanatique	V & Suff	3-4		
-只要 [...，就...]	zhǐyào (jiù)	À condition que, pourvu que	Conj.	3-4		
+只要 […，就…]	zhǐyào (jiù)	À condition que, pourvu que	Conj.	3-4		
 难道	nándào	Serait-il possible que ... ? Se pourrait-il que ... ?	Adj.	3-4	難道	
 普通	pǔtōng	Commun, ordinaire	Adj.	3-4		
 比如	bǐrú	Par exemple, supposons que		3-4		
-不管 [...，都...]	bùguǎn	Malgré, en dépit de, n'importe	Conj.	3-4		
+不管 […，都…]	bùguǎn	Malgré, en dépit de, n'importe	Conj.	3-4		
 发明	fāmíng	Invention; inventer	V & N	3-4	發明	
 留学	liú xué	Étudier à l'étranger	V.O.	3-4	留學	
 为了	wèile	Afin de, pour, en vue de	Prep.	3-4	爲了	
@@ -1201,9 +1201,9 @@
 原来是这样	yuánlái shì zhèyàng	"C'est pour ça !" (Indique une découverte, une compréhension ou une réalisation soudaine d'une circonstance inconnue précédemment)		3-4		
 萝卜青菜，各有所爱	luóbo qīngcài，gè yǒu suǒ ài	Chacun ses goûts		3-4		
 玩儿不到一起去	wán'r bú dào yìqǐ qù	(Signifie qu'ils ne s'intéressent pas aux mêmes jeux)		3-4		
-不是 [...吗？]	búshì … ma ？	(Souligne le sens affirmatif et attire l'attention de l'interlocuteur. Quelque fois cela comporte un accent de surprise ou de mécontentement)		3-4		
-有什么 [...的？]	yǒu shénme … de？	(Indique un ton négatif fort, d'habitude suivi par une expression adjective)		3-4		
-能不 [...吗？]	néngbù … ma？	Signifie 当然... Exprime une certitude ou l'impossibilité d'une action négative ou d'un été négatif 		3-4		
+不是 […吗？]	búshì … ma ？	(Souligne le sens affirmatif et attire l'attention de l'interlocuteur. Quelque fois cela comporte un accent de surprise ou de mécontentement)		3-4		
+有什么 […的？]	yǒu shénme … de？	(Indique un ton négatif fort, d'habitude suivi par une expression adjective)		3-4		
+能不 […吗？]	néngbù … ma？	Signifie 当然... Exprime une certitude ou l'impossibilité d'une action négative ou d'un état négatif 		3-4		
 能学得好吗	néng xué de hǎo ma？	能+V+得+Compl+吗 = V+不+Compl = 学不好		3-4		
 假	jiǎ	Faux, erroné	Adj.	3-4+		
 连续剧	liánxùjù	Feulleton, série	N.	3-4+	連續劇	
@@ -1222,7 +1222,7 @@
 了	liǎo	Utilisé après un verbes plus 得 ou 不 pour indiquer un résultat éventuel positif ou négatif		3-5		
 根本	gēnběn	Base; radicalement; fondamental	N Adv Adj	3-5		
 准备	zhǔnbèi	Préparation; préparer	V & N	3-5	準備	
-之类 [～之类]	zhīlèi	Comme		3-5	之類	
+之类 […之类]	zhīlèi	Comme		3-5	之類	
 日用品	rìyòngpǐn	Objets d'usage quotidien	N.	3-5		
 牙刷 [把支]	yáshuā	Brosse à dents	N.	3-5		
 名牌	míngpái	Marque	N.	3-5		
@@ -1489,29 +1489,29 @@
 还是	háishì	(Début de phrase, selon contexte) Indique un choix qui a été fait après comparaison et réflexion		3-10	還是	
 就	jiù	Peut être utilisé pour indiquer le sentiment du locuteur qui trouve que les choses se passent "plus vite, plus tôt et plus facilement" que prévu	Adv.	3-10		
 才	cái	Peut indiquer le sentiment du locuteur qui trouve que les choses se passent plus tard, plus lentement et plus difficilement que prévu	Adv.	3-10	纔	
-都 [···了]	dōu … le	Placé devant des mots qui indiquent le temps ou l'âge signifie "déjà" au contraite de 才	Adv.	3-10		
+都 […了]	dōu … le	Placé devant des mots qui indiquent le temps ou l'âge signifie "déjà" au contraite de 才	Adv.	3-10		
 管	guǎn	Manager, gérer, s'occuper	V.	3-10+		
 本事	běnshi	Capacité, compétence	N.	3-10+		
 激烈	jīliè	Intense, acharné	Adj.	3-10+		
 成绩	chéngjì	Résultat, dossier	N.	3-10+	成績	
 假期	jiàqī	Vacances	N.	3-11		-
 辛苦	xīnkǔ	Dur, difficile	Adj.	3-11		
-不但 [...，而且...]	búdàn …, ěrqiě…	Non seulement	Conj.	3-11		
+不但 […，而且…]	búdàn …, ěrqiě…	Non seulement	Conj.	3-11		
 利用	lìyòng	Utiliser, profiter de	V.	3-11		
 段	duàn	Section, paragraphe	Spec.	3-11		
 选	xuǎn	Sélectionner, choisir	V.	3-11	選	
 门	mén	Spécificatif pour un cours ou un sujet	Spec.	3-11	門	
 学分 [个]	xuéfēn	Crédit	N.	3-11	學分	
-哪怕 [...，也...]	nǎpà (yě)	Même si, sans tenir compte de	Conj.	3-11		
+哪怕 […，也…]	nǎpà (yě)	Même si, sans tenir compte de	Conj.	3-11		
 贷款	dàikuǎn	Prêt; prêter		3-11	貸款	
 挣	zhèng	Gagner (de l'argent)	V.	3-11		
 分	fēn	Diviser	V.	3-11		
-既然 [...，就...]	jìrán (jiù)	Puisque	Conj.	3-11		
+既然 […，就…]	jìrán (jiù)	Puisque	Conj.	3-11		
 想法	xiǎngfǎ	Idée, réflexion	N.	3-11		
 独立	dúlì	Prendre son indépendance, s'émanciper	V.	3-11	獨立	
-只有 [...，才...]	zhǐyǒu (cái)	Seulement, ne...que	Conj.	3-11	衹有	
+只有 […，才…]	zhǐyǒu (cái)	Seulement, ne...que	Conj.	3-11	衹有	
 万一	wànyī	Au cas où, et si...	Adv.	3-11	萬一	
-即使 [...，也...]	jíshǐ (yě)	Même si	Conj.	3-11		
+即使 […，也…]	jíshǐ (yě)	Même si	Conj.	3-11		
 回	huí	(Spécificatif employé pour signifier le nombre de fois où une action est répétée)	Spec.	3-11		
 路上	lùshang	Sur la route	N.	3-11		
 部分	bùfen	Une partie de	N.	3-11		
@@ -1519,7 +1519,7 @@
 理解	lǐjiě	Comprendre	V.	3-11		
 房租	fángzū	Loyer	N.	3-11		
 可笑	kěxiào	Ridicule	Adj.	3-11		
-不论 [...，都...]	búlùn (dōu)	Quel que soit	Conj.	3-11	不論	
+不论 […，都…]	búlùn (dōu)	Quel que soit	Conj.	3-11	不論	
 伸手	shēn shǒu	Litt. : Tendre la main (pour demander qch) 	V.O.	3-11		
 笔	bǐ	(Spécificatif pour une somme d'argent)	Spec.	3-11	筆	
 数目	shùmù	Quantité, somme	N.	3-11	數目	
@@ -1531,7 +1531,7 @@
 仅仅	jǐnjǐn	Seulement, à peine	Adv.	3-11	僅僅	
 主要	zhǔyào	Essentiel, principal	Adj.	3-11		
 任务	rènwù	Tâche, mission	N.	3-11	任務	
-不就  [...了]	bú jiù (le)	Interro-négative qui signifie 就...了		3-11		
+不就 […了]	bú jiù (le)	Interro-négative qui signifie 就...了		3-11		
 以后再说吧	yǐhòu zàishuō ba	"On en reparle plus tard". 再説 en fin de phrase signifie "ne pas accorder d'importance à qch"		3-11		
 周围	zhōuwéi	Alentour	N.	3-11+	周圍	
 倍	bèi	Fois (multiplication)	Spec.	3-11+		
@@ -1561,7 +1561,7 @@
 好奇	hàoqí	Curieux	Adj.	3-12		
 浪漫	làngmàn	Romantique	Adj.	3-12		
 五颜六色	wǔ yán liù sè	Multicolore		3-12	五顔六色	
-对于 [...来说, ...]	duìyú … láishuō	Quant à, en ce qui concerne		3-12	對於	
+对于 […来说， …]	duìyú … láishuō	Quant à, en ce qui concerne		3-12	對於	
 对于	duìyú	Sur, à l'égard de	Prep.	3-12	對於	
 似乎	sìhū	Comme si, en apparence	Adv.	3-12		
 专利	zhuānlì	Brevet	N.	3-12	專利	
@@ -1692,7 +1692,7 @@
 忍让	rěnràng	Tolérer; indulgent, conciliant	V.	4-2+	忍讓	
 互利	hùlì	Bénéfice réciproque	V.	4-2+		
 信用	xìnyòng	Crédit; loyauté	N.	4-2+		
-不~怎么行	bù ～ zěnme xíng	Comment pourrais-je ne pas...	N.	4-3		-
+不…怎么行	bù…zěnme xíng	Comment pourrais-je ne pas...	N.	4-3		-
 不就完了	bú jiù wán le	"Et puis c'est tout". "Problème réglé". "Then it's done".	N.	4-3		
 大妈	dàmā	Femme du frère aîné du père, tante; appellation affectueuse ou respectueuse envers une femme âgée	N.	4-3	大媽	
 孙子	sūnzi	Petit-fils (fils du fils)	V.	4-3	孫子	
@@ -1955,7 +1955,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 欲望	yùwàng	Désir, souhait	N.	4-7+		
 产生	chǎnshēng	Produire, engendrer	V.	4-7+	產生	
 表现	biǎoxiàn	Exprimer, monter; manifester	V.	4-7+	表現	
-不够 [～]	bú gòu ~	Pas assez ~		4-7+	不夠	
+不够 […]	bú gòu …	Pas assez ~		4-7+	不夠	
 锅	guō	Casserole, marmite, wok	N.	4-8	鍋	-
 筷子 [双根]	kuàizi	Baguettes	N.	4-8		
 老婆	lǎopo	Femme	N.	4-8		
@@ -2114,7 +2114,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 恶狠狠	èhěnhěn	Méchamment, férocement	Adj.	4-10+	惡狠狠	
 开除	kāichú	Exclure, renvoyer, expulser	V.	4-10+	開除	
 彻底	chèdǐ	Complètement, totalement	Adv.	4-10+	徹底	
-一相情愿[一厢情愿]	yì xiāng qíngyuàn	Désir individuel, amour non partagé		4-10+	一廂情願	
+一相情愿 一厢情愿	yì xiāng qíngyuàn	Désir individuel, amour non partagé		4-10+	一廂情願	
 抚养	fǔyǎng	Élever, nourrir	V.	4-10+	撫養	
 义务	yìwù	Responsabilité, obligation, devoir	N.	4-10+	義務	
 哪里还V得了O	nǎli hái V de liǎo O	Je n'ai aucun moyen de … Impossible que je puisse … (“不能V”或“V不了”)		4-10+		

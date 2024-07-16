@@ -266,7 +266,12 @@ function zt_startTraining() {
             break;
         case "hanzi_choice":
             for (let i = 0; i < Z_Word.list.length; i++) {
-                if (Z_Word.list[i].ke == zt_h_select_lesson.value) {
+                if (Z_Word.list[i].ke.includes("+")) {
+                    let leftPart = Z_Word.list[i].ke.slice(0, Z_Word.list[i].ke.length -1)
+                    if (zt_h_select_lesson.value === leftPart) {
+                        zt_randomList.push(Z_Word.list[i]);
+                    }
+                } else if (Z_Word.list[i].ke === zt_h_select_lesson.value) {
                     zt_randomList.push(Z_Word.list[i]);
                 }
             }
@@ -658,7 +663,24 @@ function zt_hanziChoiceDisplayTraining() {
     shuffle
     */
     wordToFind = zt_randomList[zt_currentIndex];
-    hanziToFind = wordToFind.word[rnd(0,wordToFind.word.length)];
+
+    if (wordToFind.word.includes("[")) {
+        cleanedWord = wordToFind.word.split("[")[0];
+        wordToFind.word = cleanedWord.slice(0, cleanedWord.length-1);
+    }
+
+    if (wordToFind.word.includes(".")) wordToFind.word = wordToFind.word.replace(".", "");
+    let bOk = false;
+    let dameList = `"….,，()[]/·?〜OVN12X Y~～`;
+    while (!bOk) {
+        hanziToFind = wordToFind.word[rnd(0,wordToFind.word.length)];
+        if (dameList.includes(hanziToFind)) {
+            bOk = false;
+        } else {
+            bOk = true;
+        }
+    }
+
     let bEnd = false;
     answerList = [];
     answerList.push(hanziToFind);
@@ -690,14 +712,18 @@ function zt_hanziChoiceDisplayTraining() {
         <div id="zt_hanzichoice_container">
     `;
 
-    let visibleClass = "";
+    innerHTML += `<div class="zt_ones_container">`;
     for (let i = 0; i < wordToFind.word.length; i++) {
         if (wordToFind.word[i] === hanziToFind) {
-            visibleClass = "zt_hanzichoice_invisible";
-            innerHTML += `<div class="zt_hanzichoice_invisible">？</div>`
+            innerHTML += `<div class="zt_one zt_hanzichoice_invisible">？</div>`
         } else {
-            visibleClass = "zt_hanzichoice_visible";
-            innerHTML += `<div class="zt_hanzichoice_visible">${wordToFind.word[i]}</div>`
+            innerHTML += `<div class="zt_one zt_hanzichoice_visible">${wordToFind.word[i]}</div>`
+        }
+        if (i === 6 && wordToFind.word.length > 7) {
+            innerHTML += `</div>`
+            innerHTML += `<div class="zt_ones_container">`;
+        } else if (i === wordToFind.word.length-1) {
+            innerHTML += `</div>`
         }
     }
     innerHTML += `</div>`;

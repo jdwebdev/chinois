@@ -686,7 +686,7 @@ function zt_hanziChoiceDisplayTraining() {
     answerList.push(hanziToFind);
 
     for (let i = 0; i < 10; i++) {
-        let temp = Hanzi.list[rnd(Hanzi.list.length - 50,Hanzi.list.length)].hanzi;
+        let temp = Hanzi.list[rnd(Hanzi.list.length - 200,Hanzi.list.length)].hanzi;
         if (answerList.includes(temp)) {
             i--;
         } else {
@@ -695,7 +695,7 @@ function zt_hanziChoiceDisplayTraining() {
     }
     
     for (let i = 0; i < 9; i++) {
-        let temp = Hanzi.list[rnd(0,Hanzi.list.length-50)].hanzi;
+        let temp = Hanzi.list[rnd(0,Hanzi.list.length-200)].hanzi;
         if (answerList.includes(temp)) {
             i--;
         } else {

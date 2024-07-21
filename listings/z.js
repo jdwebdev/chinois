@@ -98,9 +98,14 @@ z_searchBtn.addEventListener("click", e => {
 });
 
 function z_search(pFromBtn = false) {
+    if (z_input.value === "h()" || z_input.value === "H()") {
+        checkNewHanzi();
+        return;
+    }
     z_result_section.innerHTML = "";
     z_resultNb.innerHTML = "";
-        
+    let countWords = 0;
+    let countExpressions = 0;
     let innerHTML = "";
     switch(z_select.value) {
         case "hanzi":
@@ -346,6 +351,7 @@ function z_search(pFromBtn = false) {
         case "word":
             innerHTML = "";
             let cleanedWord = ""; //? [量词]
+            
             if (z_select_lesson.value != "all" && !pFromBtn) {
                 innerHTML = "";
                 z_resultList = [];
@@ -353,13 +359,17 @@ function z_search(pFromBtn = false) {
                     if (w.ke == z_select_lesson.value) {
                         z_resultList.push(w);
                     } else if (w.ke == z_select_lesson.value+"+") {
-
                         z_resultList.push(w);
                     }
                 });
 
                 let bgColor_class = "";
                 for (let i = 0; i < z_resultList.length; i++) {
+                    if (z_resultList[i].gram === "Exp") {
+                        countExpressions++;
+                    } else {
+                        countWords++;
+                    }
                     if (z_resultList[i].ke.includes("+")) bgColor_class = "z_one_result_color";
                     if (z_resultList[i].word.includes("[")) {
                         cleanedWord = z_resultList[i].word.split("[")[0];
@@ -373,26 +383,57 @@ function z_search(pFromBtn = false) {
                 }
 
                 z_result_section.innerHTML = innerHTML;
-                z_resultNb.innerHTML = z_resultList.length + " résultats";
+                if (countExpressions > 0) {
+                    z_resultNb.innerHTML = countWords + " mots, " + countExpressions + " expressions";
+                } else {
+                    z_resultNb.innerHTML = countWords + " résultats";
+                }
             } else if (z_input.value == "") {
                 let bgColor_class = "";
-                for (let i = 0; i < Z_Word.list.length; i++) {
+
+                let currentLesson = "";
+                let wordListByLesson = [];
+                let lessonCleaned = "";
+                for (let i = Z_Word.list.length-1; i >= 0; i--) {
+                    
                     if (Z_Word.list[i].ke.includes("+")) {
-                        bgColor_class = "z_one_result_color";
+                        lessonCleaned = Z_Word.list[i].ke.slice(0, Z_Word.list[i].ke.length -1)
                     } else {
-                        bgColor_class = "";
+                        lessonCleaned = Z_Word.list[i].ke;
                     }
 
-                    if (Z_Word.list[i].word.includes("[")) {
-                        cleanedWord = Z_Word.list[i].word.split("[")[0];
-                        cleanedWord = cleanedWord.slice(0, cleanedWord.length-1);
+                    if (currentLesson === "") {
+                        currentLesson = lessonCleaned
+                        wordListByLesson.push(Z_Word.list[i]);
                     } else {
-                        cleanedWord = Z_Word.list[i].word;
+                        if (currentLesson === lessonCleaned) {
+                            wordListByLesson.push(Z_Word.list[i]);
+                        } else {
+                            //? end of lesson ! 
+                            for (let j = wordListByLesson.length -1; j >= 0; j--) {
+                                if (wordListByLesson[j].ke.includes("+")) {
+                                    bgColor_class = "z_one_result_color";
+                                } else if (wordListByLesson[j].gram === "Exp") {
+                                    bgColor_class = "z_one_result_exp_color";
+                                } else {
+                                    bgColor_class = "";
+                                }
+            
+                                if (wordListByLesson[j].word.includes("[")) {
+                                    cleanedWord = wordListByLesson[j].word.split("[")[0];
+                                    cleanedWord = cleanedWord.slice(0, cleanedWord.length-1);
+                                } else {
+                                    cleanedWord = wordListByLesson[j].word;
+                                }
+            
+                                innerHTML += `
+                                    <div id="z_word_${wordListByLesson[j].id}" class="zh_font z_one_result ${bgColor_class}" onclick="openZ_WordPopup(${wordListByLesson[j].id-1},Z_Word.list)">${cleanedWord}</div>
+                                `;
+                            }
+                            currentLesson = "";
+                            wordListByLesson = [];
+                        }
                     }
-
-                    innerHTML += `
-                        <div id="z_word_${Z_Word.list[i].id}" class="zh_font z_one_result ${bgColor_class}" onclick="openZ_WordPopup(${Z_Word.list[i].id-1},Z_Word.list)">${cleanedWord}</div>
-                    `;
                 }
                 
                 z_result_section.innerHTML = innerHTML;
@@ -670,25 +711,56 @@ function fillGramList() {
     gramList["N V Adj"] = "Nom & Verbe & Adjectif";
     gramList["V Conj"] = "Verbe & Conjonction";
     gramList["V Adv"] = "Verbe & Adverbe";
+    gramList["Exp"] = "Expression"
 }
 
 function checkNewHanzi() {
-    let currentHanziList = "";
-    let dame = ` ()0，[]·/…~.？～,=V12N/"XYO`;
-    let newHanziList = "";
-    Hanzi.list.forEach(h => {
-        currentHanziList += h.hanzi;
-    });
+    z_result_section.innerHTML = "";
+    z_resultNb.innerHTML = "";
+    let innerHTML = ""
+    
+    innerHTML += `<input id="select_checkNewHanzi" class="select_filter" type="text">`;
+    innerHTML += `<button id="check_hanzi_btn">CHECK</button>`;
+    z_result_section.innerHTML = innerHTML;
 
-    Z_Word.list.forEach(w => {
-        for (let i = 0; i < w.word.length; i++) {
-            if (!(currentHanziList.includes(w.word[i]))) {
-                if (!(newHanziList.includes(w.word[i])) && !(dame.includes(w.word[i]))) {
-                    newHanziList += w.word[i];
+    let select = id("select_checkNewHanzi");
+    let checkBTN = id("check_hanzi_btn");
+    checkBTN.addEventListener("click", e => {
+
+        e.preventDefault();
+
+        let currentHanziList = "";
+        let dame = ` ()0，[]·/…~.？～,=V12N/"XYO！`;
+        let newHanziList = "";
+        Hanzi.list.forEach(h => {
+            currentHanziList += h.hanzi;
+        });
+
+        if (select.value === "") {
+            Z_Word.list.forEach(w => {
+                for (let i = 0; i < w.word.length; i++) {
+                    if (!(currentHanziList.includes(w.word[i]))) {
+                        if (!(newHanziList.includes(w.word[i])) && !(dame.includes(w.word[i]))) {
+                            newHanziList += w.word[i];
+                        }
+                    }
+                }
+            });
+        } else {
+            for (let i = 0; i < select.value.length; i++) {
+                if (!(currentHanziList.includes(select.value[i]))) {
+                    if (!(newHanziList.includes(select.value[i])) && !(dame.includes(select.value[i]))) {
+                        newHanziList += select.value[i];
+                    }
                 }
             }
         }
+
+        console.log(newHanziList);
+        console.log(newHanziList.length);
+        z_result_section.innerHTML = "";
+        z_resultNb.innerHTML = "";
+        z_result_section.innerHTML = `<div>${newHanziList}</div>`
+        z_resultNb.innerHTML = newHanziList.length;
     });
-    console.log(newHanziList);
-    console.log(newHanziList.length);
 }

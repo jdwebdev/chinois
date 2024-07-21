@@ -249,7 +249,7 @@ function zt_startTraining() {
                             zt_randomList.push(Z_Word.list[i]);
                         }
                     } else {
-                        if (Z_Word.list[i].ke == zt_w_select_lesson.value) {
+                        if (Z_Word.list[i].ke == zt_w_select_lesson.value && Z_Word.list[i].gram !== "Exp") {
                             zt_randomList.push(Z_Word.list[i]);
                         }
                     }
@@ -628,7 +628,7 @@ function zt_ZWordXieziDisplayTraining() {
         <p class="zt_p zt_pinyin zh_font">${zt_randomList[zt_currentIndex].pinyin}</p>
         <p class="zt_p zt_word_yisi zh_font">${zt_randomList[zt_currentIndex].yisi}</p>
         <button id="zt_kakunin" class="zh_font">Check</button>
-        <div id="zt_nextBtn_container"></div>   s
+        <div id="zt_nextBtn_container"></div>
     `;
     z_training_section.innerHTML = innerHTML;
 
@@ -671,7 +671,7 @@ function zt_hanziChoiceDisplayTraining() {
 
     if (wordToFind.word.includes(".")) wordToFind.word = wordToFind.word.replace(".", "");
     let bOk = false;
-    let dameList = `"….,，()[]/·?〜OVN12X Y~～`;
+    let dameList = `"….,，()[]/·?〜OVN12X Y~～！`;
     while (!bOk) {
         hanziToFind = wordToFind.word[rnd(0,wordToFind.word.length)];
         if (dameList.includes(hanziToFind)) {

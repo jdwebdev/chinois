@@ -365,7 +365,7 @@
 远	yuǎn	Loin	Adj.	8	離	
 怎么	zěnme	Comment	Adv.	8	怎麽	
 走	zǒu	Aller, marcher, partir	V.	8		
-往	wǎng	À, vers	Prep.	8		
+往	wǎng	À, vers, en direction de	Prep.	8		
 前面(前边)	qiánmian(qiánbian)	Devant, avant	M.P.	8	前邊	
 前	qián	Devant, avant		8		
 右面(右边)	yòumian(yòubian)	À droite	M.P.	8	右邊	
@@ -771,7 +771,7 @@
 及格	jígé	Passer l'examen, avoir une note passable	V.O.	15+		
 学分	xuéfēn	Crédit	N.	15+	學分	
 注册	zhùcè	S'inscrire	V.O.	15+	注冊	
-通	tōng	Passer, communiquer, réussir	V.	16		-
+通	tōng	Passer, communiquer, réussir, être en communication	V.	16		-
 推迟	tuīchí	Retarder, repousser	V.	16	推遲	
 安排	ānpái	Arrangement, arranger	V & N	16		
 金融	jīnróng	Finance	N.	16		
@@ -910,7 +910,7 @@
 景色	jǐngsè	Paysage, scène	N.	18+		
 放弃	fàngqì	Abandonner	V.	18+	放棄	
 钱包	qiánbāo	Portefeuille	N.	19	錢包	-
-丢	diū	Perdre, jeter	V.	19		
+丢	diū	Perdre, jeter; s'égarer	V.	19		
 刚才	gāngcái	Tout à l'heure	Adv.	19	剛才	
 把	bǎ		Prep.	19		
 放	fàng	Mettre, placer	V.	19		
@@ -1089,7 +1089,7 @@
 全	quán	Total, complet	Adj.	3-2		
 亲戚	qīnqi	Parents, relation	N.	3-2	親戚	
 祝贺	zhùhè	Féliciter	V.	3-2	祝賀	
-夸	kuā	Louer, apprécier	V.	3-2	誇	
+夸	kuā	Louer, apprécier, faire l'éloge	V.	3-2	誇	
 主角	zhǔjué	Rôle principal, héros	N.	3-2		
 表演	biǎoyǎn	Présentation; présenter, jouer un spectacle	V & N	3-2		
 节目	jiémù	Numéro (d'un programme)	N.	3-2	節目	
@@ -1244,7 +1244,7 @@
 于是	yúshì	Donc, ensuite, alors	Conj.	3-5	於是	
 飞	fēi	Voler	V.	3-5	飛	
 的确	díquè	Vraiment, en effet	Adv.	3-5	的確	
-感觉	gǎnjué	Sentiment, impression; sentir, éprouver	V & N	3-5	感覺	
+感觉	gǎnjué	Sentiment, impression, sensation; sentir, éprouver	V & N	3-5	感覺	
 一辈子	yíbèizi	Toute la vie	N.	3-5	一輩子	
 真正	zhēnzhèng	Vraiment, véritablement; vrai, véritable, authentique	Adv & Adj	3-5		
 了解	liǎojiě	Compréhension, connaissance; comprendre, connaître	V & N	3-5	瞭解	
@@ -1334,7 +1334,7 @@
 稀奇古怪	xīqí gǔguài	Rare et étrange, bizarre		3-7		
 查	chá	Vérifier, consulter	V.	3-7		
 认为	rènwéi	Penser, croire	V.	3-7	認爲	
-怪	guài	S'en prendre à, blâmer	V.	3-7		
+怪	guài	S'en prendre à, blâmer, reprocher	V.	3-7		
 毛泽东	Máo Zédōng	Mao Zedong		3-7	毛澤東	
 邓小平	Dèng Xiǎopíng	Deng Xiaoping		3-7	鄧小平	
 要说	yàoshuō	(Utilisé en début de phrase pour introduire le sujet de la conversation)		3-7	要説	
@@ -1351,7 +1351,7 @@
 大名儿	dàmíngr	Nom formel	N.	3-7+	大名兒	
 富贵有余	fùguì yǒu yú	Excédent de richesse et d'honneur		3-7+	富貴有餘	
 家庭	jiātíng	Famille	N.	3-7+		
-故事	gùshi	Histoire, conte	N.	3-8		-
+故事 [个]	gùshi	Histoire, conte	N.	3-8		-
 划船	huá chuán	Faire du bateau	V.O.	3-8		
 龙舟	lóngzhōu	Bateau-Dragon	N.	3-8	龍舟	
 前后	qiánhòu	Environ, aux alentours de		3-8	前後	
@@ -1515,7 +1515,7 @@
 回	huí	(Spécificatif employé pour signifier le nombre de fois où une action est répétée)	Spec.	3-11		
 路上	lùshang	Sur la route	N.	3-11		
 部分	bùfen	Une partie de	N.	3-11		
-感到	gǎndào	Sentir	V.	3-11		
+感到	gǎndào	Sentir, éprouver, ressentir	V.	3-11		
 理解	lǐjiě	Comprendre	V.	3-11		
 房租	fángzū	Loyer	N.	3-11		
 可笑	kěxiào	Ridicule	Adj.	3-11		
@@ -1594,7 +1594,7 @@
 放松	fàngsōng	Relaxer	V.	3-12+	放鬆	
 祝福	zhùfú	Bénédiction	V.	3-12+		
 吹牛	chuī niú	Se vanter, exagérer	V.O.	3-12+		
-手机	shǒujī	Téléphone portable, cellulaire	N.	3-12+	手機	
+手机 [个，部]	shǒujī	Téléphone portable, cellulaire	N.	3-12+	手機	
 经验	jīngyàn	Expérience	N.	4-1	經驗	-
 个子	gèzi	Taille (hauteur)	N.	4-1	個子	
 加班	jiā bān	Faire des heures supplémentaires	V.O.	4-1		
@@ -2180,7 +2180,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 差异	chāyì	Différent, divergence	N.	4-12	差異	
 显露	xiǎnlù	Se révéler, apparaître, se manifester	V.	4-12	顯露	
 遇到	yùdào	Rencontrer	V.	4-12		
-外地	wàidì	Les autres villes (régions), province	N.	4-12		
+外地	wàidì	Les autres régions (par rapport à sa propre région), province	N.	4-12		
 出差	chū chāi	Partir en mission, voyage d'affaire	V.O.	4-12		
 临时	línshí	Occasionnellement; provisoire, temporaire	Adv & Adj	4-12	臨時	
 照看	zhàokàn	S'occuper, soigner, prendre soin de	V.	4-12		
@@ -2231,3 +2231,137 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 合理	hélǐ	Légitime, rationnel	Adj.	4-12+		
 过时	guòshí	Obsolète, périmé, démodé	Adj.	4-12+	過時	
 苏格兰	Sūgélán	Écosse		4-12+	蘇格蘭	
+相当	xiāngdāng	Assez		MC2-1	相當	-
+占线	zhànxiàn	La ligne est occupée		MC2-1	佔線	
+得意	déyì	Être fier, être content		MC2-1		
+再也不	zài yě bù	Ne plus jamais (faire qqch.)		MC2-1		
+通话	tōnghuà	Avoir une communication téléphonique		MC2-1	通話	
+关机	guānjī	Éteindre (son) téléphone mobile		MC2-1	關機	
+错儿	cuòr	Erreur, faute		MC2-1	錯兒	
+转告	zhuǎngào	Transmettre (un message)		MC2-1	轉告	
+查找	cházhǎo	Consulter		MC2-1		
+十字路口	shízì lùkǒu	Carrefour		MC2-1		
+客户	kèhù	Client (dans le milieu des affaires)		MC2-1	客戶	
+胡同 [条]	hútòng	Ruelle de la ville ancienne de Pékin		MC2-1		
+写生	xiěshēng	Dessiner d'après nature, croquer sur le vif		MC2-1	寫生	
+指	zhǐ	Montrer		MC2-1		
+自夸	zìkuā	Se vanter		MC2-1	自誇	
+红路灯	hónglǜdēng	Feux tricolores		MC2-1	紅路燈	
+可	kě	Vraiment		MC2-1		
+填	tián	Remplir		MC2-1		
+填空	tiánkòng	Remplir les trous		MC2-1		
+判断	pànduàn	Juger		MC2-1	判斷	
+正误	zhèngwù	Vrai ou Faux		MC2-1	正誤	
+板子	bǎnzi	Planche		MC2-1		
+木板	mùbǎn	Planche de bois		MC2-1		
+故乡	gùxiāng	Pays natal		MC2-1	故鄉	
+平安	píng'ān	Sain et sauf, en sécurité		MC2-1		
+不安	bù'ān	Être inquiet		MC2-1		
+天安门	Tiān'ān mén	Tian'an men		MC2-1	天安門	
+手提包	shǒutíbāo	Sac avec poignée		MC2-1		
+提高	tígāo	Élever, augmenter; s'élever		MC2-1		
+声音	shēngyīn	Son; bruit		MC2-1	聲音	
+回声	huíyīn	Écho		MC2-1	回聲	
+四声	sìshēng	Les quatre tons		MC2-1	四聲	
+喊	hǎn	1) Crier, hurler 2) Appeler, héler		MC2-1		
+叫喊	jiàohǎn	Crier, hurler		MC2-1		
+喊声	hǎnshēng	Cri		MC2-1	喊聲	
+哎	āi	Interj. Eh ! Dis donc ! Holà ! 		MC2-1		
+石头 [块，个]	shítóu	Pierre		MC2-1	石頭	
+大石头	dàshítóu	Roche, rocher		MC2-1	大石頭	
+小石子	xiǎoshízǐ	Petit caillou		MC2-1		
+丢人	diūrén	Faire honte, avoir honte		MC2-1	丟人	
+丢面子	diū miànzi	Perdre la face		MC2-1	丟面子	
+指路	zhǐlù	Indiquer le chemin		MC2-1		
+指头	zhǐtóu	Doigt		MC2-1	指頭	
+手指	shǒuzhǐ	Doigt de la main		MC2-1		
+熟	shú	Bien connu, familier; cuit; mûr		MC2-1		
+熟人	shúrén	Connaissance, relation		MC2-1		
+熟读	shúdú	Lire jusqu'à ce qu'on connaisse bien (un texte)		MC2-1	熟讀	
+喂	wèi	Interj. Hé ! Holà ! Allô !		MC2-1		
+线	xiàn	Fil; ligne; trait		MC2-1	線	
+白线	báixiàn	Fil blanc		MC2-1	白線	
+电话线	diànhuàxiàn	Ligne téléphonique		MC2-1	電話線	
+天线	tiānxiàn	Antenne		MC2-1	天線	
+电线	diànxiàn	Fil électrique		MC2-1	電線	
+直线	zhíxiàn	Droite (géométrie)		MC2-1	直線	
+地铁线	dìtiěxiàn	Ligne de métro		MC2-1	地鐵線	
+二号线	èrhàoxiàn	La ligne 2 (métro)		MC2-1	二號線	
+地平线	dìpíngxiàn	Horizon		MC2-1	地平線	
+路线	lùxiàn	Itinéraire		MC2-1	路線	
+线上游戏	xiànshang yóuxì	Jeu en ligne		MC2-1	線上游戲	
+户	hù	Foyer, famille		MC2-1	戶	
+用户	yònghù	Usager, consommateur		MC2-1	用戶	
+户头	hùtóu	Compte en banque		MC2-1	戶頭	
+三户人家	sānhùrénjiā	Trois familles		MC2-1	三戶人家	
+通信	tōngxìn	S'écrire, correspondre		MC2-1		
+通告	tōnggào	Annonce (publique)		MC2-1		
+通风	tōngfēng	Aérer		MC2-1	通風	
+啊	a	Part. mod. 		MC2-1		
+啦	la	Part. Mod. 了+啊		MC2-1		
+呀	ya	Part. Modification phonétique de 啊		MC2-1		
+哇	wa	Part. Modification phonétique de 啊		MC2-1		
+哪	na	Part. Modification phonétique de 啊		MC2-1		
+办事	bànshì	Régler des affaires		MC2-1	辦事	
+这一带	zhè yí dài	Par ici, dans ce quartier		MC2-1	這一帶	
+旅行包	lǚxíngbāo	Sac de voyage		MC2-1		
+老外	lǎowài	Étranger (appellation familière appliquée aux étrangers en Chine)		MC2-1		
+狮子 [只，头]	shīzi	Lion		MC2-1	獅子	
+街道	jiēdào	Les rues (nom collectif)		MC2-1		
+哦	ò	Interj. Oh !		MC2-1		
+请稍等	qǐng shāo děng	Un moment, je vous prie.		MC2-1	請稍等	
+囫囵吞枣	húlún tūn zǎo	Manger les jujubes sans les mâcher		MC2-1	囫圇吞棗	
+囫囵	húlún	En entier		MC2-1	囫圇	
+吞	tūn	Avaler tout rond		MC2-1		
+枣(子)	zǎo(zi)	Jujube		MC2-1	棗(子)	
+梨	lí	Poire		MC2-1		
+脾	pí	Rate		MC2-1		
+刚好	gānghǎo	Exactement		MC2-1	剛好	
+相反	xiāngfǎn	Contraire		MC2-1		
+嚼	jiáo	Mâcher		MC2-1		
+咽	yàn	Avaler		MC2-1	嚥	
+苹果	píngguǒ	Pomme		MC2-1	蘋果	
+忽然	hūrán	Tout à coup, soudainement		MC2-1		
+东西南北	dōngxīnánběi	Les 4 points cardinaux	Chengyu	MC2-1		
+东南西北	dōngnánxīběi	Les 4 points cardinaux	Chengyu	MC2-1		
+春夏秋冬	chūnxiàqiūdōng	Les quatre saisons	Chengyu	MC2-1		
+大声(地)喊/叫		Crier fort	Exp	MC2-1		
+大/小一点儿声		Plus fort ! / Moins fort !	Exp	MC2-1		
+大/小声一点儿		Plus fort ! / Moins fort !	Exp	MC2-1		
+喊他来		Appelle-le ! Fais le venir !	Exp	MC2-1		
+喊他的名字		L'appeler (par son nom)	Exp	MC2-1		
+喊了两声		Crier/appeler deux fois	Exp	MC2-1		
+提着一个包		Porter un sac	Exp	MC2-1		
+提起来		Soulever par l'anse ou la poignée	Exp	MC2-1		
+提一个问题		Poser une question	Exp	MC2-1		
+提意见		Faire des remarques	Exp	MC2-1		
+不提这件事		Ne pas parler de cela	Exp	MC2-1		
+提到这件事		En avoir parlé	Exp	MC2-1		
+会上提一下		Évoquer à la réunion	Exp	MC2-1		
+爱丢东西		Perdre tout le temps ses affaires	Exp	MC2-1		
+走丢了		S'égarer, ne plus retrouver son chemin	Exp	MC2-1		
+给他指路		Lui indiquer le chemin	Exp	MC2-1		
+指给他看		Lui montrer (qqch)	Exp	MC2-1		
+指着他说		Dire en le montrant du doigt	Exp	MC2-1		
+指了指/指了一下		Pointer du doigt	Exp	MC2-1		
+跟他很熟	shú/shóu	Le connaître très bien	Exp	MC2-1		
+对这一带不熟	shú/shóu	Ne pas connaître très bien ce quartier	Exp	MC2-1		
+苹果熟了	píngguǒ shóu le	Les pommes sont mûres	Exp	MC2-1		
+不太熟	bú tài shóu	Pas très mûr	Exp	MC2-1		
+还没熟	hái měi shóu	Pas encore mûr	Exp	MC2-1		
+米饭熟了	mǐfàn shóu le	Le riz est cuit	Exp	MC2-1		
+电话老占线		La ligne est toujours occupée	Exp	MC2-1		
+占一个位子		Occuper une place	Exp	MC2-1		
+占第一位		Occuper la première place	Exp	MC2-1		
+太占地方		Prendre trop de place	Exp	MC2-1		
+占了很多时间		Avoir pris beaucoup de temps	Exp	MC2-1		
+感谢你的帮助		Merci pour ton aide	Exp	MC2-1		
+不知道怎么感谢你		(Je) ne sais comment te remercier	Exp	MC2-1		
+通车了		(La voie) est ouverte à la circulation	Exp	MC2-1		
+路不通		La voie est barrée	Exp	MC2-1		
+跟他通过话		Avoir parlé avec lui au téléphone	Exp	MC2-1		
+鼻子不通		Le nez est bouché	Exp	MC2-1		
+办私事		S'occuper d'une affaire personnelle	Exp	MC2-1		
+办公事(！办公室)		Régler une affaire professionnelle	Exp	MC2-1		
+办了一件好事		Avoir fait une bonne action	Exp	MC2-1		
+有很多事要办		Avoir beaucoup à faire	Exp	MC2-1		

@@ -157,6 +157,7 @@ function createHanzi(pFile) {
 
 class Z_Word {
     static list = [];
+    static expList = [];
     static keList = [];
 
     constructor(pId, pWord, pPinyin, pYisi, pGram = "", pKe = "", pFanti = "") {
@@ -171,7 +172,9 @@ class Z_Word {
         this.exampleList = [];
 
         if (!Z_Word.keList.includes(pKe)) Z_Word.keList.push(pKe);
-        
+
+        if (this.gram === "Exp") Z_Word.expList.push(this);
+
         Z_Word.list.push(this);
     }
     addExample(pEx) {
@@ -212,6 +215,38 @@ function fillExampleList(pFile) {
     }
     let cleanedWord = "";
     Z_Word.list.forEach(w => {
+
+        //? MC lessons : Expressions to exampleList for non-expression words
+        if (w.gram !== "Exp") { 
+            Z_Word.expList.forEach(e => {
+                cleanedWord = "";
+    
+                if (w.word.includes("[")) {
+                    cleanedWord = w.word.split("[")[0];
+                    cleanedWord = cleanedWord.slice(0, cleanedWord.length-1);
+                } else {
+                    cleanedWord = w.word;
+                }
+                if (e.word.includes(cleanedWord)) {
+                    let example = { phrase: "", lesson: e.lesson };                
+                    for (let i = 0; i < e.word.length; i++) {
+                        if (i <= e.word.length - cleanedWord.length) {
+                            if (e.word.slice(i,cleanedWord.length+i) == cleanedWord) {
+                                example.phrase += "<span style='color:red;font-weight:bold;'>"+e.word.slice(i,cleanedWord.length+i)+"</span>";
+                                i += cleanedWord.length - 1;
+                            } else {
+                                example.phrase += e.word[i];
+                            }
+                        } else {
+                            example.phrase += e.word[i];
+                        }
+                    }
+                    example.phrase += " | " + e.yisi;
+                    w.addExample(example);
+                }
+                
+            });
+        }
         exampleList.forEach(e => {
             cleanedWord = "";
 

@@ -85,6 +85,12 @@ function openModalHelp() {
     popup_help.innerHTML = `
         <div id="help_container">
             <div id="help_content">
+
+                <p class="date zh_font">2024年7月21日<span class="app_version zh_font">V. 5.1</span></p>
+                <h2 class="help_title">Nouveau manuel</h2>
+                <p>Ajout des leçons de la "Méthode de chinois (Inalco). Deuxième niveau", abrégé "MC2". 中级汉语(上)</p>
+                <p>Pour faire suite à 当代中文 maintenant terminé.</p>
+
                 <p class="date zh_font">2024年7月14日<span class="app_version zh_font">V. 5.0</span></p>
                 <h2 class="help_title">Nouveau type d'entraînement</h2>
                 <p>Compléter le hanzi manquant dans un mot en choisissant parmi une liste de 20 hanzi.</p>

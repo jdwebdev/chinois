@@ -557,7 +557,7 @@
 规定	guīdìng	Règlement, stipuler	N.	11	規定	
 这么	zhème	Comme ça, si, tellement	Adv.	11	這麽	
 厉害	lìhai	Sévère, féroce, fort	Adj.	11	厲害	
-算了	suàn le	Laisser tomber, abandonner		11		
+算了	suàn le	Laisser tomber, abandonner, tant pis		11		
 那么	nàme	Comme ça; de toute façon	Adv.	11	那麽	
 参观	cānguān	Visiter	V.	11	參觀	
 香港	Xiānggǎng	HongKong	NP	11		
@@ -656,7 +656,7 @@
 下雨	xià yǔ	Pleuvoir	V.O.	13		
 雨	yǔ	Pluie	N.	13		
 刮风	guā fēng	Faire du vent, il vente	V.O.	13	颳風	
-刮	guā	Gratter, racler	V.	13	颳	
+刮	guā	Gratter, racler, (se) raser	V.	13	颳	
 风	fēng	Vent	N.	13	風	
 极了	jí le	Extrême, extrêmement		13	極了	
 枫叶	fēngyè	Feuille d'érable	N.	13	楓葉	
@@ -874,7 +874,7 @@
 挺	tǐng	Très	Adv.	18		
 有名	yǒumíng	Célèbre	Adj.	18		
 最好	zuìhǎo	Il vaut mieux	Adv.	18		
-座位	zuòwèi	Siège	N.	18		
+座位	zuòwèi	Siège, place	N.	18		
 眼睛	yǎnjing	Oeil	N.	18		
 放心	fàng xīn	Ne pas s'inquiéter, être tranquille, avoir l'esprit tranquille	V.O.	18		
 出发	chūfā	Partir	V.	18	出發	
@@ -927,7 +927,7 @@
 欧元	ōuyuán	Euro	N.	19	歐元	
 司机	sījī	Chauffeur	N.	19	司機	
 感谢	gǎnxiè	Remercier	V.	19	感謝	
-发现	fāxiàn	Découvrir, trouver	V.	19	發現	
+发现	fāxiàn	Découvrir, trouver, prendre conscience de, réaliser, comprendre	V.	19	發現	
 乘客	chéngkè	Passager	N.	19		
 它	tā	Il, lui, elle	Pron.	19		
 交	jiāo	Donner, remettre	V.	19		
@@ -1308,7 +1308,7 @@
 坚持	jiānchí	Persister, s'obstiner	V.	3-7	堅持	
 讲究	jiǎngjiu	Recherché, attentif; mettre accent sur; exquis, de bon goût	N V Adj	3-7	講究	
 幸福	xìngfú	Bonheur; heureux	N & Adj	3-7		
-开玩笑	kāi wánxiào	Plaisanter		3-7	開玩笑	
+开玩笑	kāi wánxiào	Plaisanter, faire une farce		3-7	開玩笑	
 玩笑	wánxiào	Plaisanterie	N.	3-7		
 名人	míngrén	Personnage célèbre, célébrité	N.	3-7		
 提	tí	Mentionner	V.	3-7		
@@ -1447,7 +1447,7 @@
 专门	zhuānmén	Spécial	Adv.	3-9+	專門	
 庄重	zhuāngzhòng	Sérieux, solennel	Adj.	3-10	莊重	-
 下岗	xià gǎng	Se faire licencier, être au chômage	V.O.	3-10	下崗	
-反正	fǎnzhèng	De toute façon	Adv.	3-10		
+反正	fǎnzhèng	De toute façon, quoi qu'il en soit	Adv.	3-10		
 适合	shìhé	Convenir à; s'adapter à	V.	3-10	適合	
 心态 [种]	xīntài	État mental, attitude	N.	3-10	心態	
 急	jí	Anxieux, pressé	Adj.	3-10		
@@ -1477,7 +1477,7 @@
 随手	suíshǒu	En passant, nonchalamment	Adv.	3-10	隨手	
 吊带裙 [条]	diàodàiqún	Robe débardeur	N.	3-10	吊帶裙	
 养神	yǎng shén	Reposer son esprit	V.O.	3-10	養神	
-响	xiǎng	Sonner	V.	3-10	響	
+响	xiǎng	Sonner, retenir; sonore, bruyant	V & Adj	3-10	響	
 化妆	huà zhuāng	Se maquiller	V.O.	3-10	化妝	
 一直	yìzhí	Toujours, tout droit	Adv.	3-10		
 颜色 [种]	yánsè	Couleur	N.	3-10	顔色	
@@ -1560,7 +1560,7 @@
 西方	xīfāng	Occident	N.	3-12		
 好奇	hàoqí	Curieux	Adj.	3-12		
 浪漫	làngmàn	Romantique	Adj.	3-12		
-五颜六色	wǔ yán liù sè	Multicolore		3-12	五顔六色	
+五颜六色	wǔ yán liù sè	Multicolore	Chengyu	3-12	五顔六色	
 对于 […来说， …]	duìyú … láishuō	Quant à, en ce qui concerne		3-12	對於	
 对于	duìyú	Sur, à l'égard de	Prep.	3-12	對於	
 似乎	sìhū	Comme si, en apparence	Adv.	3-12		
@@ -2365,3 +2365,151 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 办公事(！办公室)		Régler une affaire professionnelle	Exp	MC2-1		
 办了一件好事		Avoir fait une bonne action	Exp	MC2-1		
 有很多事要办		Avoir beaucoup à faire	Exp	MC2-1		
+打招呼	dǎ zhāohu	Dire bonjour, saluer		MC2-2		-
+理发	lǐ fà	Couper ses cheveux		MC2-2	理髮	
+那节课	nà jié kè	Ce cours, cette classe		MC2-2	那節課	
+[V+]住	zhù	(Résultatif) Sens : arrêter, stopper, rester immobile, demeurer	Result	MC2-2		
+毛笔	máobǐ	Pinceau (de calligraphie notamment)		MC2-2	毛筆	
+可[A]了	kě (A) le	Légère exagération qui s'utilise pour affirmer un fait que l'interlocuteur n'est pas censé connaître		MC2-2		
+没想到	méi xiǎng dao	Ne pas s'attente à ce que, ne pas avoir pensé, ne pas s'attendre à		MC2-2		
+了不起	liǎobuqǐ	Fort (qualité, capacité), formidable		MC2-2		
+正当[…的时候]	zhèng dāng … de shíhou	Juste au moment où/de		MC2-2	正當	
+讨厌	tǎoyàn	Avoir horreur de, détester		MC2-2	討厭	
+睡着	shuìzháo	S'endormir		MC2-2		
+记下	jìxià	Noter		MC2-2	記下	
+排	pái	Rangée		MC2-2		
+好不容易	hǎo bù róngyì	Non sans difficulté, enfin		MC2-2		
+[V+]坏	(V+)huài	(Résultatif) Mauvais, abîmé, endommagé	Result	MC2-2	壞	
+[Q+]坏	(A+)huài	(Résultatif) Degré très élevé (après un Adj exprimant un sentiment, une sensation)	Result	MC2-2	壞	
+开学	kāi xué	(Effectuer la) rentrée scolaire		MC2-2	開學	
+洗脸	xǐ liǎn	(Se) débarbouiller		MC2-2	洗臉	
+胡子	húzi	Barbe, moustache		MC2-2	鬍子	
+答应	dāying	Répondre (à un appel)		MC2-2	答應	
+铃	líng	Sonnerie, sonnette		MC2-2	鈴	
+睁	zhēng	Ouvrir (les yeux)		MC2-2	睜	
+醒	xǐng	Se réveiller		MC2-2		
+睡衣	shuìyī	Pyjama		MC2-2		
+找遍	zhǎobiàn	Chercher partout		MC2-2		
+半夜	bànyè	Au milieu de la nuit		MC2-2		
+夜车	yèchē	Train de nuit		MC2-2	夜車	
+好几夜	hǎo jǐ yè	Plusieurs nuits		MC2-2	好幾夜	
+迟	chí	Trop tard, en retard	Adj.	MC2-2	遲	
+迟早	chízǎo	Tôt ou tard		MC2-2	遲早	
+日记	rìjì	Journal intime		MC2-2	日記	
+笔记	bǐjì	Notes (de cours, de réunion)		MC2-2	筆記	
+记者	jìzhě	Journaliste		MC2-2	記者	
+洗澡	xǐzǎo	Se laver, prendre un bain ou une douche		MC2-2		
+洗澡间	xǐzǎojiān	Salle de bain		MC2-2	洗澡間	
+洗干净	xǐ gānjìng	Lave-linge		MC2-2	洗乾净	
+丢脸	diū liǎn	Perdre la face, avoir honte		MC2-2	丟臉	
+澡堂	zǎotáng	Bain public		MC2-2		
+灯	dēng	Lampe		MC2-2	燈	
+开灯	kāi dēng	Allumer la lampe		MC2-2	開燈	
+关灯	guān dēng	Éteindre la lampe		MC2-2	關燈	
+电灯	diàndēng	Lampe électrique		MC2-2	電燈	
+路灯	lùdēng	Réverbère		MC2-2	路燈	
+红灯	hóngdēng	Feu rouge		MC2-2	紅燈	
+绿灯	lǜdēng	Feu vert		MC2-2	綠燈	
+反复	fǎnfù	À plusieurs reprises, maintes fois		MC2-2	反復	
+反感	fǎngǎn	Antipathie, aversion, dégoût, répugnance		MC2-2		
+脱	tuō	Ôter, enlever		MC2-2		
+脱下	tuōxià	Se déshabiller, enlever un vêtement		MC2-2		
+赶路	gǎnlù	Se dépêcher, presser le pas		MC2-2	趕路	
+静坐	jìngzuò	Sit-in		MC2-2	靜坐	
+座儿	zuò'r	Siège, place assise		MC2-2	座兒	
+讲座	jiǎngzuò	Conférence		MC2-2	講座	
+座机	zuòjī	Téléphone fixe		MC2-2	座機	
+包围	bāowéi	Encercler		MC2-2	包圍	
+围巾	wéijīn	Foulard, écharpe		MC2-2	圍巾	
+摆好	bǎihǎo	Mettre au bon endroit		MC2-2	擺好	
+怪事	guàishì	Chose étrange		MC2-2		
+怪人	guàirén	Qqn de bizarre, d'extravagant		MC2-2		
+成语	chéngyǔ	Expression figée à 4 syllabes		MC2-2	成語	
+招	zhāo	Recruter, enrôler		MC2-2		
+招呼	zhāohu	Appeler		MC2-2		
+招手	zhāoshǒu	Faire signe de la main, agiter la main		MC2-2		
+招收	zhāoshōu	Recruter, embaucher		MC2-2		
+招生	zhāoshēng	Recruter des élèves		MC2-2		
+呼	hū	Expirer				
+呼吸	hūxī	Respirer		MC2-2		
+呼气	hūqì	Exhaler un souffle		MC2-2	呼氣	
+脸色	liǎnsè	Mine, teint		MC2-2	臉色	
+响声	xiǎngshēng	Bruit		MC2-2	響聲	
+睡醒	shuìxǐng	Se réveiller		MC2-2		
+睁眼	zhēngyǎn	Ouvrir les yeux		MC2-2	睜眼	
+睁开	zhēngkāi	Ouvrir (les yeux)		MC2-2	睜開	
+睁大	zhēngdà	Ouvrir grand (les yeux)		MC2-2	睜大	
+眼球	yǎnqiú	Globe oculaire		MC2-2		
+天窗	tiānchuāng	Lucarne		MC2-2		
+窗口	chuāngkǒu	Guichet		MC2-2		
+吸	xī	Aspirer, inspirer; absorber		MC2-2		
+吸烟	xīyān	Fumer du tabac		MC2-2		
+鲜鱼	xiānyú	Poisson frais		MC2-2	鮮魚	
+海鲜	hǎiziān	Fruit de mer		MC2-2	海鮮	
+扣	kòu	Boutonner		MC2-2		
+扣子	kòuzi	Bouton		MC2-2		
+扣扣子	kòu kòuzi	Boutonner		MC2-2		
+平	píng	Plat, plan, uni		MC2-2		
+平地	píngdì	Terrain plat		MC2-2		
+平常	píngcháng	Ordinaire, banal; en temps normal, d'habitude		MC2-2		
+刮胡子	guā húzi	Se raser		MC2-2	刮鬍子	
+发火	fā huǒ	Se mettre en colère		MC2-2	發火	
+发音	fāyīn	Prononciation		MC2-2	發音	
+发热	fā rè	Avoir de la fièvre; émettre de la chaleur		MC2-2	發熱	
+发胖	fā pàng	Grossir, prendre du poids		MC2-2	發胖	
+发言	fāyán	Prendre la parole		MC2-2	發言	
+发信	fāxìn	Envoyer une lettre		MC2-2	發信	
+前三名	qián sān míng	Les trois premiers		MC2-2		
+梳头	shūtóu	Se peigner		MC2-2	梳頭	
+一下子	yíxiàzi	Tout à coup, d'un seul coup		MC2-2		
+半路(上)	bànlù(shang)	À mi-chemin		MC2-2		
+身	shēn	(Spécificatif Ensemble de vêtements)	Spec.	MC2-2		
+一盏灯	yī zhǎn dēng	Une lampe		MC2-2	一盞燈	
+床头	chuángtóu	Chevet		MC2-2	床頭	
+课间休息	kèjiān xiūxi	La récréation		MC2-2	課間休息	
+楼道	lóudào	Couloir		MC2-2	樓道	
+叮铃铃	dīnglīnglīng	"Dring, dring"		MC2-2	叮鈴鈴	
+唉	ài	Interj. exprimant regret, tristesse, déception		MC2-2		
+齐	qí	Qi (Nom de famille)		MC2-2	齊	
+前后左右	qiánhòuzuǒyòu	De tous les côtés		MC2-2	前後左右	
+天亮了	tiān liàng le	Il fait jour		MC2-2		
+整齐	zhěngqí	Rangé		MC2-2	整齊	
+摆桌子	bǎi zhuōzi	Mettre la table		MC2-2	擺桌子	
+站住	zhànzhù	Halte-là !		MC2-2		
+要是再…(的话)，就…了	yàoshi zài … de huà，jiù … le	Si jamais cela se reproduit...		MC2-2		
+画蛇添足	huàshé-tiānzú	Ajouter des pattes au serpent		MC2-2	畫蛇添足	
+赏	shǎng	Offrir comme récompense		MC2-2	賞	
+壶	hú	Pichet		MC2-2	壺	
+多余	duōyú	Superflu		MC2-2	多餘	
+急坏了	jí huài le	Être paniqué, être dans tous ses états		MC2-2	急壞了	
+累坏了		Être exténué	Exp	MC2-2		
+饿坏了		Avoir une faim de loup	Exp	MC2-2		
+乐坏了		Être comblé de joie	Exp	MC2-2		
+吓坏了		Avoir eu très peur	Exp	MC2-2		
+记得这件事		Se souvenir de cette histoire	Exp	MC2-2		
+不记得了		Ne plus s'en souvenir	Exp	MC2-2		
+记下来		Noter par écrit	Exp	MC2-2		
+记笔记		Prendre des notes	Exp	MC2-2		
+记日记		Tenir un journal intime	Exp	MC2-2		
+洗热水澡		Prendre un bain chaud/une douche chaude	Exp	MC2-2		
+天还没亮		Il ne fait pas encore jour	Exp	MC2-2		
+路灯亮了		Les réverbères s'allument	Exp	MC2-2		
+灯不亮		La lampe ne s'allume pas	Exp	MC2-2		
+这个灯不太亮		Cette lampe n'éclaire pas bien	Exp	MC2-2		
+脱下大衣		Enlever son manteau	Exp	MC2-2		
+赶火车		Se dépêcher pour attraper un train	Exp	MC2-2		
+赶飞机		Se dépêcher pour attraper un avion	Exp	MC2-2		
+往学校赶		Aller vite à l'école	Exp	MC2-2		
+赶功课		Se dépêcher de faire ses devoirs	Exp	MC2-2		
+摆得很整齐		Être aligné soigneusement	Exp	MC2-2		
+摆在那儿好？		Où faut-il (le) placer ?	Exp	MC2-2		
+摆在桌子上		Poser sur la table	Exp	MC2-2		
+在桌子上摆着		Être posé sur la table	Exp	MC2-2		
+时代变了		L'époque a changé	Exp	MC2-2		
+他没变		Il n'a pas changé	Exp	MC2-2		
+树叶变黄了		Les feuilles jaunissent	Exp	MC2-2		
+不跟人打招呼		Ne dire bonjour à personne	Exp	MC2-2		
+连招呼都不打		Ne même pas dire bonjour	Exp	MC2-2		
+很讨厌这个人		Détester cette personne	Exp	MC2-2		
+觉得非常讨厌		Franchement pénible	Exp	MC2-2		
+肯定的口气		Un ton affirmatif	Exp	MC2-2		

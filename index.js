@@ -86,6 +86,9 @@ function openModalHelp() {
         <div id="help_container">
             <div id="help_content">
 
+                <p class="date zh_font">2024年7月30日<span class="app_version zh_font">V. 5.2</span></p>
+                <h2 class="help_title">Ajout de la leçon MC2-2</h2>
+
                 <p class="date zh_font">2024年7月21日<span class="app_version zh_font">V. 5.1</span></p>
                 <h2 class="help_title">Nouveau manuel</h2>
                 <p>Ajout des leçons de la "Méthode de chinois (Inalco). Deuxième niveau", abrégé "MC2". 中级汉语(上)</p>

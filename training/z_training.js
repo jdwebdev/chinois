@@ -671,7 +671,7 @@ function zt_hanziChoiceDisplayTraining() {
 
     if (wordToFind.word.includes(".")) wordToFind.word = wordToFind.word.replace(".", "");
     let bOk = false;
-    let dameList = `"….,，()[]/·?〜OVN12X Y~～！`;
+    let dameList = `"….,，()[]/·?〜OVNQA+12X Y~～！？`;
     while (!bOk) {
         hanziToFind = wordToFind.word[rnd(0,wordToFind.word.length)];
         if (dameList.includes(hanziToFind)) {

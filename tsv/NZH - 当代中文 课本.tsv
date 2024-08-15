@@ -593,7 +593,7 @@
 属	shǔ	Être né dans l'année de ... (zodiaque chinois)	V.	12	屬	
 玉 [块]	yù	Jade	N.	12	玉 [塊]	
 咱们	zánmen	Nous (exclus ceux qui ne sont pas présents)	Pron.	12	咱們	
-蛋糕	dàngāo	Gâteau	N.	12		
+蛋糕 [个，块]	dàngāo	Gâteau	N.	12		
 字	zì	Caractère (chinois)	N.	12		
 越来越	yuèláiyuè	De plus en plus...		12	越來越	
 年轻	niánqīng	Jeune	Adj.	12	年輕	
@@ -914,7 +914,7 @@
 刚才	gāngcái	Tout à l'heure	Adv.	19	剛才	
 把	bǎ		Prep.	19		
 放	fàng	Mettre, placer	V.	19		
-糟糕	zāogāo	Mauvais, catastrophe	Adj.	19		
+糟糕	zāogāo	Mauvais, catastrophique, dramatique	Adj.	19		
 搞	gǎo	Faire	V.	19		
 赶快	gǎnkuài	Vite, tout de suite	Adv.	19	趕快	
 记得	jìde	Se souvenir, se rappeler	V.	19	記得	
@@ -1549,7 +1549,7 @@
 等等	děngděng	Etc.		3-12		
 假如	jiǎrú	Si, supposons que	Conj.	3-12		
 少数民族	shǎoshù mínzú	Minorité nationale	N.	3-12	少數民族	
-加	jiā	Ajouter	V.	3-12		
+加	jiā	Ajouter, mettre; additionner; augmenter	V.	3-12		
 元宵	yuánxiāo	Boulette de riz glutineux farcie	N.	3-12		
 月饼	yuèbǐng	Gâteau de lune	N.	3-12	月餅	
 聊天儿	liáo tiānr	Discuter, bavarder	V.O.	3-12	聊天兒	
@@ -2145,7 +2145,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 设备	shèbèi	Équipement	N.	4-11	設備	
 资源	zīyuán	Ressources	N.	4-11	資源	
 浪费	làngfèi	Gaspiller	V & N	4-11	浪費	
-法律	fǎlǜ	Loi	N.	4-11		
+法律 [条]	fǎlǜ	Loi	N.	4-11		
 个体	gètǐ	Individu	N.	4-11	個體	
 利益	lìyì	Intérêt, profit, bénéfice	N.	4-11		
 整体	zhěngtǐ	Ensemble	N.	4-11	整體	
@@ -2687,3 +2687,200 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 非常讲究吃		Très exigeant sur la nourriture	Exp	MC2-3		
 衣服很讲究		(Ses) vêtements (sont) très chics	Exp	MC2-3		
 别太讲究啦		Ne sois pas si difficile !	Exp	MC2-3		
+打	dǎ	Casser		MC2-4		-
+土豆	tǔdòu	Pomme de terre		MC2-4		
+丝	sī	(Qqch coupé en) filaments		MC2-4	絲	
+丁	dīng	Petit cube, en dés		MC2-4		
+菜刀	càidāo	Couteau de cuisine		MC2-4		
+油	yóu	Huile		MC2-4		
+盐	yán	Sel		MC2-4	鹽	
+加热	jiārè	Chauffer		MC2-4	加熱	
+匀	yún	Uniforme, homogène		MC2-4	勻	
+烤模	kǎomú	Moule		MC2-4	k	
+烤箱	kǎoxiāng	Four		MC2-4		
+烤	kǎo	Griller; cuire au four		MC2-4		
+炒	chǎo	Faire sauter		MC2-4		
+律师	lǜshī	Avocat		MC2-4	律師	
+食物	shíwù	Nourriture		MC2-4		
+礼堂	lǐtáng	Auditorium, salle des fêtes		MC2-4	禮堂	
+天堂	tiāntáng	Paradis		MC2-4		
+口味	kǒuwèi	Goût, penchant		MC2-4		
+味儿	wèi'r	Odeur		MC2-4	味兒	
+香味	xiāngwèi	Arôme, bonne odeur		MC2-4		
+甜点	tiándiǎn	Dessert		MC2-4	甜點	
+甜食	tiánshí	Sucrerie, confiserie		MC2-4		
+巧	qiǎo	À propos, par coïncidence		MC2-4		
+正巧	zhèngqiǎo	Justement, cela tombe bien		MC2-4		
+不巧	bùqiǎo	(Par) manque de chance, cela tombe mal		MC2-4		
+克	kè	Gramme		MC2-4		
+一百克白糖	yìbǎi kè báitáng	100g. de sucre blanc		MC2-4		
+蛋	dàn	Oeuf (d'oiseau, de volaille...)		MC2-4		
+蛋黄	dànhuáng	Jaune d'oeuf		MC2-4		
+蛋清	dànqīng	Blanc d'oeuf cru		MC2-4		
+蛋白	dànbái	Blanc d'oeuf cuit		MC2-4		
+坏蛋	huàidàn	Salaud, méchant (enfantin)		MC2-4	壞蛋	
+糕	gāo	Gâteau (épais et mou)		MC2-4		
+糕点	gāodiǎn	Gâteau, pâtisserie		MC2-4		
+年糕	niángāo	Gâteau du nouvel an		MC2-4		
+单人床	dānrénchuáng	Lit à une place		MC2-4	單人床	
+单人间	dānrénjiān	Chambre simple		MC2-4	單人間	
+单身	dānshēn	Célibataire		MC2-4	單身	
+单号	dānhào	Numéro impair		MC2-4	單號	
+切	qiē	(Avec un couteau) couper, trancher, découper		MC2-4		
+切开	qiēkāi	Découper, séparer avec un couteau		MC2-4	切開	
+油	yóu	Huile, graisse; peinture, vernis; essence, pétrole; gras, huileux		MC2-4		
+黄油	huángyóu	Beurre		MC2-4		
+奶油	nǎiyóu	Crème fraîche		MC2-4		
+花生油	huāshēngyóu	Huile d'arachide		MC2-4		
+油画	yóuhuà	Peinture à l'huile		MC2-4	油畫	
+汽油	qìyóu	Essence		MC2-4		
+石油	shíyóu	Pétrole		MC2-4		
+一口大锅	yì kǒu dàguō	Un chaudron		MC2-4	一口大鍋	
+铁锅	tiěguō	Marmite en fonte		MC2-4	鐵鍋	
+小鸡	xiǎojī	Poussin		MC2-4	小鷄	
+公鸡	gōngjī	Coq		MC2-4	公鷄	
+母鸡	mǔjī	Poule		MC2-4	母鷄	
+火鸡	huǒjī	Dinde, dindon		MC2-4	火鷄	
+鸡肉	jīròu	Viande de poulet		MC2-4	鷄肉	
+清	qīng	Clair, pur, limpide		MC2-4		
+清水	qīngshuǐ	Eau claire		MC2-4		
+分清	fēnqīng	Distinguer clairement		MC2-4		
+饭碗	fànwǎn	Bol à riz; gagne-pain		MC2-4	飯碗	
+铁饭碗	tiěfànwǎn	Bol de riz en fer (emploi à vie)		MC2-4	鐵飯碗	
+勺	sháo	Cuillerée		MC2-4		
+勺子、勺儿	sháozi，sháo'r	Cuillère		MC2-4		
+一勺油	yī sháo yóu	Une cuillerée d'huile		MC2-4		
+白糖	báitáng	Sucre blanc		MC2-4		
+红糖	hóngtáng	Sucre roux		MC2-4	紅糖	
+方糖	fāngtáng	Sucre en morceaux		MC2-4		
+糖果	tángguǒ	Bonbon		MC2-4		
+口香糖	kǒuxiāngtáng	Chewing-gum		MC2-4		
+倒	dào	Verser; à l'inverse, inverser; à reculons, à rebours; reculer		MC2-4		
+倒满	dàomǎn	Remplir jusqu'au bord		MC2-4	倒滿	
+倒车	dàochē	Faire marche arrière (véhicule)		MC2-4	倒車	
+倒出	dàochū	Faire sortir en renversant		MC2-4		
+倒立	dàolì	Faire le poirier		MC2-4		
+粉	fěn	Poudre; farine		MC2-4		
+面粉	miànfěn	Farine de blé		MC2-4		
+花粉	huāfěn	Pollen		MC2-4		
+洗衣粉	xǐyīfěn	Lessive (en poudre)		MC2-4		
+米粉	mǐfěn	Vermicelle de riz		MC2-4		
+按	àn	Prép. selon, d'après, suivant		MC2-4		
+按时	ànshí	À l'heure, être ponctuel		MC2-4	按時	
+叉	chā	Croix en forme de "x"		MC2-4		
+叉子	chāzi	Fourchette		MC2-4		
+刀叉	dāochā	Couteau et fourchette		MC2-4		
+继父	jìfù	Beau-père (second mari de la mère)		MC2-4	繼父	
+继母	jìmǔ	Belle-mère (seconde femme du père)		MC2-4	繼母	
+续	xù	Joindre bout à bout; prolonger		MC2-4	續	
+续假	xùjià	Prolonger son congé		MC2-4	續假	
+续借	xùjiè	Renouveler un prêt		MC2-4	續借	
+葡萄	pútáo	Raisin		MC2-4		
+酸	suān	Acide, aigre, âpre; courbatu, endolori		MC2-4		
+酸葡萄	suānpútáo	Du raisin acide		MC2-4		
+酸甜	suāntián	Acidulé		MC2-4		
+酸疼	suānténg	Courbatu, endolori		MC2-4		
+失业	shīyè	Être chômeur		MC2-4	失業	
+丢失	diūshī	Perdre		MC2-4	丟失	
+望	wàng	Regarder au loin, observer		MC2-4		
+望远镜	wàngyuǎnjìng	Télescope		MC2-4	望遠鏡	
+看望	kànwàng	Rendre visite (à un malade, une personne âgée...)		MC2-4		
+杂	zá	Mêlé, varié; hétérogène, hétéroclite; divers		MC2-4	雜	
+复杂	fùzá	Compliqué, complexe		MC2-4	複雜	
+杂草	zácǎo	Mauvaises herbes		MC2-4	雜草	
+杂乱	záluàn	Pêle-mêle, confus, en désordre		MC2-4	雜亂	
+杂事	záshì	Affaires ou occupations diverses, de moindre importance		MC2-4	雜事	
+杂音	záyīn	Bruits parasites		MC2-4	雜音	
+笨	bèn	Maladroit, idiot, bête		MC2-4		
+笨蛋	bèndàn	(Injure) idiot, imbécile		MC2-4		
+笨手笨脚	bèn shǒu bèn jiǎo	Très maladroit dans ses gestes		MC2-4		
+愉快	yúkuài	Joyeux		MC2-4		
+吃饱	chībǎo	Être rassasié		MC2-4	吃飽	
+尝	cháng	Goûter, déguster		MC2-4	嘗	
+尝酒	cháng jiǔ	Tester le vin		MC2-4	嘗酒	
+饼	bǐng	Galette, crêpe		MC2-4	餅	
+一张饼	yì zhāng bǐng	Une galette		MC2-4	一張餅	
+饼干	bǐnggān	Biscuit, gâteau sec		MC2-4	餅乾	
+举	jǔ	Lever, brandir; citer, donner, fournir		MC2-4	舉	
+举起	jǔqǐ	Lever qqch. avec la/les mains(s)		MC2-4	舉起	
+举重	jǔzhòng	Haltérophilie		MC2-4	舉重	
+分	fēn	Partager, diviser, séparer, distinguer		MC2-4		
+分开	fēnkāi	Séparer		MC2-4	分開	
+闻	wén	Sentir, flairer		MC2-4	聞	
+闻见	wénjiàn	Avoir senti (une odeur)		MC2-4	聞見	
+好闻	hǎowén	Sentir bon		MC2-4	好聞	
+难闻	nánwén	Sentir mauvais		MC2-4	難聞	
+重复	chóngfù	Faire double emploi; répéter		MC2-4	重複	
+重做/重来	chóngzuò / chónglái	Refaire, recommencer		MC2-4		
+重庆	chóngqìng	Chonging		MC2-4	重慶	
+动手	dòngshǒu	Se mettre à l'ouvrage, faire quelque chose ses mains		MC2-4	動手	
+搅	jiǎo	Mélanger, remuer		MC2-4	攪	
+化	huà	Fondre, faire fondre		MC2-4		
+遗憾	yíhàn	Regrettable		MC2-4	遺憾	
+美味	měiwèi	Délicieux, bon		MC2-4		
+明白	míngbai	(adj) Clair, distinct, évident		MC2-4		
+法式	fǎshì	À la française, de style français		MC2-4		
+事先	shìxiān	D'avance, au préalable		MC2-4		
+饭菜	fàncài	"Riz et plat" = repas, cuisine		MC2-4	飯菜	
+美食	měishí	Gastronomie		MC2-4		
+食谱	shípǔ	Livre de cuisine, recette		MC2-4	食譜	
+说法	shuōfǎ	Façon de s'exprimer, formulation		MC2-4	説法	
+胳膊	gēbo	Bras (du corps humain)		MC2-4		
+打蛋机	dǎdànjī	Batteur d'oeufs		MC2-4	打蛋機	
+酒杯	jiǔbēi	Verre à alcool		MC2-4		
+里昂	lǐ'áng	Lyon		MC2-4		
+鸡鸭鱼肉	jīyāyúròu	"Poulet, canard, poisson, viande", nourriture riche	Chengyu	MC2-4	鷄鴨魚肉	
+揠苗助长	yàmiáo-zhùzhǎng	Tirer sur les plants pour faciliter leur pousse		MC2-4	揠苗助長	
+农名	nóngmín	Paysan		MC2-4	農民	
+田	tián	Champ		MC2-4		
+种	zhòng	Planter		MC2-4	種	
+秧苗	yāngmiáo	Plant d'un végétal		MC2-4		
+拔	bá	Arracher, tirer vers le haut		MC2-4		
+说明	shuōmíng	Illustrer, expliquer		MC2-4	説明	
+事先说好		Convenir d'avance	Exp	MC2-4		
+事先打个招呼		Prévenir	Exp	MC2-4		
+事先告诉她		Mettre qqn au courant d'avance	Exp	MC2-4		
+事先安排一下		Organiser d'avance	Exp	MC2-4		
+事先准备		Se préparer à l'avance	Exp	MC2-4		
+切菜/切肉		Couper des légumes / de la viande	Exp	MC2-4		
+切成两半		Couper en deux	Exp	MC2-4		
+切成四份		Couper en quatre parts	Exp	MC2-4		
+分蛋糕		Partager un gâteau	Exp	MC2-4		
+跟他分家		Partager des biens avec qqn	Exp	MC2-4		
+几个人分？		Combien de parts ?	Exp	MC2-4		
+大家分		On se le partage.	Exp	MC2-4		
+分成几块？		Diviser en combien de morceaux ?	Exp	MC2-4		
+分开住		Habiter séparément	Exp	MC2-4		
+不分好坏		Ne pas faire de différence entre le bon et le mauvais	Exp	MC2-4		
+不容易分清		Pas facile à distinguer	Exp	MC2-4		
+倒在碗里		Verser dans le bol	Exp	MC2-4		
+倒一杯水		Servir un verre d'eau / de thé	Exp	MC2-4		
+倒垃圾		Vider la poubelle, jeter les ordures	Exp	MC2-4		
+倒背着手		Les mains dans le dos	Exp	MC2-4		
+倒计时		Compte à rebours	Exp	MC2-4		
+倒数第一		Le 1er en partant de la fin, le dernier	Exp	MC2-4		
+倒数第三行		La troisième ligne à partir du bas	Exp	MC2-4		
+喝咖啡不加糖		Ne pas mettre de sucre dans son café	Exp	MC2-4		
+加了一勺糖		Avoir mis une cuillerée de sucre	Exp	MC2-4		
+别加水		N'ajoutez pas d'eau !	Exp	MC2-4		
+2加3		Deux plus trois	Exp	MC2-4		
+加法		Addition (arithmétique)	Exp	MC2-4		
+加上他五个人		Avec lui cela fait cinq personnes	Exp	MC2-4		
+加在一起		Tout additionner	Exp	MC2-4		
+心情愉快		Être de bonne humeur	Exp	MC2-4		
+一件不愉快的事		Une histoire désagréable	Exp	MC2-4		
+感到很不愉快		Être très fâché	Exp	MC2-4		
+一件巧事		Une coïncidence	Exp	MC2-4		
+太巧了		Ça tombe bien	Exp	MC2-4		
+真不巧		Ce n'est vraiment pas de chance	Exp	MC2-4		
+来得正巧		Arriver à pic	Exp	MC2-4		
+尝尝味道		Essayer pour voir quel goût ça a	Exp	MC2-4		
+尝了尝这个菜		Avoir goûté ce plat	Exp	MC2-4		
+尝了一口		Avoir goûté une bouchée	Exp	MC2-4		
+酸甜苦辣都尝过		Avoir connu les joies et les peines de la vie	Exp	MC2-4		
+意思到了		C'est l'intention qui compte	Exp	MC2-4		
+一点儿小意思		(Cadeau) C'est n'est rien du tout	Exp	MC2-4		
+这个句子的意思		Le sens de cette phrase	Exp	MC2-4		
+举手		Lever la main	Exp	MC2-4		
+举杯		Lever son verre (pour un toast)	Exp	MC2-4		
+举起来		Lever qqch. avec la main	Exp	MC2-4		

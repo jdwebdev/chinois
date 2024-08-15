@@ -731,7 +731,7 @@ function checkNewHanzi() {
         e.preventDefault();
 
         let currentHanziList = "";
-        let dame = ` ()0，[]·/…~.？～,=V12N/"XYO+QA！`;
+        let dame = ` ()0，[]·/…~.？～,=V1234567890N/"XYO+QA！、`;
         let newHanziList = "";
         Hanzi.list.forEach(h => {
             currentHanziList += h.hanzi;

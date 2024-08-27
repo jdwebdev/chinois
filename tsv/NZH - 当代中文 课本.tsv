@@ -488,7 +488,7 @@
 牛奶 [杯]	niúnǎi	Lait	N.	10		
 不过	búguò	Mais	Conj.	10	不過	
 昨天	zuótiān	Hier	M.T.	10		
-请客	qǐng kè	Inviter	V.O.	10	請客	
+请客	qǐng kè	Inviter, recevoir, payer un repas à	V.O.	10	請客	
 生鱼片	shēng yúpiàn	Sashimi		10	生魚片	
 生	shēng	Cru	Adj.	10		
 鱼片	yúpiàn	Tranche de poisson	N.	10	魚片	
@@ -696,7 +696,7 @@
 西边(西面)	xībian (xīmiàn)	À l'ouest	M.P.	14	西邊	
 车水马龙	chēshuǐ-mǎlóng	Trafic intense	Chengyu	14	車水馬龍	
 多(么)	duō(me)	Quel, que	Adv.	14	多(麽)	
-吵	chǎo	Faire du bruit, bruyant	V & Adj	14		
+吵	chǎo	Faire du bruit, bruyant, se disputer	V & Adj	14		
 死	sǐ	Mourir	V.	14		
 东部	dōngbù	Est	M.P.	14	東部	
 西部	xībù	Ouest	M.P.	14		
@@ -772,8 +772,8 @@
 学分	xuéfēn	Crédit	N.	15+	學分	
 注册	zhùcè	S'inscrire	V.O.	15+	注冊	
 通	tōng	Passer, communiquer, réussir, être en communication	V.	16		-
-推迟	tuīchí	Retarder, repousser	V.	16	推遲	
-安排	ānpái	Arrangement, arranger	V & N	16		
+推迟	tuīchí	Retarder, repousser, remettre à plus tard	V.	16	推遲	
+安排	ānpái	Arrangement, arranger, organiser	V & N	16		
 金融	jīnróng	Finance	N.	16		
 贸易	màoyì	Commerce	N.	16	貿易	
 市场	shìchǎng	Marché	N.	16	市場	
@@ -982,7 +982,7 @@
 栽	zāi	Planter	V.	20		
 砍	kǎn	Couper, abattre	V.	20		
 政府	zhèngfǔ	Gouvernement	N.	20		
-随便	suíbiàn	Libre, sans façon	Adj.	20	隨便	
+随便	suíbiàn	Libre, sans façon, peu attentif, n'importe	Adj.	20	隨便	
 草地	cǎodì	Pelouse, gazon	N.	20		
 好像	hǎoxiàng	Il paraît, il semble	Adv.	20		
 各种	gè zhǒng	Toutes sortes de		20	各種	
@@ -1474,7 +1474,7 @@
 干脆	gāncuì	Carrément, simplement; net, franc, catégorique	Adv & Adj	3-10	乾脃	
 连衣裙 [条]	liányīqún	Robe	N.	3-10	連衣裙	
 性感	xìnggǎn	Sexy	Adj.	3-10		
-随手	suíshǒu	En passant, nonchalamment	Adv.	3-10	隨手	
+随手	suíshǒu	(Faire qqch.) En passant, nonchalamment	Adv.	3-10	隨手	
 吊带裙 [条]	diàodàiqún	Robe débardeur	N.	3-10	吊帶裙	
 养神	yǎng shén	Reposer son esprit	V.O.	3-10	養神	
 响	xiǎng	Sonner, retenir; sonore, bruyant	V & Adj	3-10	響	
@@ -2884,3 +2884,101 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 举手		Lever la main	Exp	MC2-4		
 举杯		Lever son verre (pour un toast)	Exp	MC2-4		
 举起来		Lever qqch. avec la main	Exp	MC2-4		
+看作	kànzuò	Considérer comme, prendre pour		MC2-5		-
+宴会	yànhuì	Banquet		MC2-5	宴會	
+沙拉	shālā	Salade		MC2-5		
+薯条	shǔtiáo	Frite		MC2-5	薯條	
+冰激凌 / 冰淇淋	bīngjīlíng / bīngqīlín	Glace, crème glacée		MC2-5		
+鱼刺	yúcì	Arête de poisson		MC2-5	魚刺	
+规矩	guīju	Règle, coutume		MC2-5	規矩	
+上	shàng	Servir		MC2-5		
+中餐	zhōngcān	Cuisine chinoise		MC2-5		
+西餐	xīcān	Cuisine européenne		MC2-5		
+餐馆	cānguǎn	Restaurant		MC2-5	餐館	
+餐巾	cānjīn	Serviette de table		MC2-5		
+餐车	cānchē	Wagon-restaurant		MC2-5	餐車	
+快餐	kuàicān	Restauration rapide, fast-food		MC2-5		
+自助餐	zìzhùcān	Repas en libre service		MC2-5		
+一日三餐	yīrìsāncān	Les trois repas de la journée		MC2-5		
+盘子	pánzi	Assiette, plat		MC2-5	盤子	
+头巾	tóujīn	Fichu, châle		MC2-5	頭巾	
+随	suí	Suivre, laisser faire, faire à son gré		MC2-5	隨	
+大厅	dàtīng	Grande salle, hall		MC2-5	大廳	
+三室一厅	sānshì yītīng	Un appartement de quatre pièces		MC2-5	三室一廳	
+胃	wèi	Estomac		MC2-5		
+胃口	wèikǒu	Appétit		MC2-5		
+开胃	kāiwèi	Ouvrir l'appétit		MC2-5	開胃	
+开胃酒	kāiwèijiǔ	Apéritif		MC2-5	開胃酒	
+胃疼	wèiténg	Avoir mal à l'estomac		MC2-5		
+胃病	wèibìng	Maladie d'estomac		MC2-5		
+主人	zhǔrén	Maître		MC2-5		
+女主人	nǚ zhǔrén	Maîtresse de maison		MC2-5		
+房主	fángzhǔ	Propriétaire d'une maison		MC2-5		
+民主	mínzhǔ	Démocratie		MC2-5		
+主语	zhǔyǔ	Sujet (d'une phrase)		MC2-5	主語	
+主菜	zhǔcài	Plat principal		MC2-5		
+排	pái	(Se) disposer, classer, ordonner; Rang, rangée, file		MC2-5		
+一排树	yìpáishù	Une rangée d'arbres		MC2-5	一排樹	
+端	duān	Tenir, porter (à l'horizontale)		MC2-5		
+端盘子	duān pánzi	Porter un plateau ou une assiette; être serveur		MC2-5	端盤子	
+端正	duānzhèng	Droit, régulier		MC2-5		
+凉	liáng	Frais; froid		MC2-5	涼	
+凉菜	liángcài	Hors d'oeuvre		MC2-5	涼菜	
+阴凉	yīnliáng	Frais et ombragé		MC2-5	陰涼	
+冰凉	bīngliáng	Glacial, glacé		MC2-5	冰涼	
+凉鞋	liángxié	Sandale		MC2-5	涼鞋	
+菜汤	càitāng	Potage de légumes		MC2-5	菜湯	
+汤药	tāngyào	Décoction (médicament)		MC2-5	湯藥	
+脏话	zānghuà	Gros mot		MC2-5	髒話	
+脏活儿	zānghuór	Besogne salissante (travail)		MC2-5	髒活兒	
+推开	tuīkāi	Ouvrir en poussant		MC2-5	推開	
+吵嘴	chǎozuǐ	Se quereller, se disputer		MC2-5		
+手艺	shǒuyì	Technique (d'un métier)		MC2-5	手藝	
+文艺	wényì	Art et littérature		MC2-5	文藝	
+美术	měishù	Beaux-arts		MC2-5	美術	
+手术	shǒushù	Opération chirurgicale		MC2-5	手術	
+医术	yīshù	"Art médical", compétence d'un médecin		MC2-5	醫術	
+社交	shèjiāo	Relations sociales		MC2-5		
+交换	jiāohuàn	Échange; échanger		MC2-5	交換	
+外交	wàijiāo	Affaires étrangères		MC2-5		
+道	dào	(Étape d'une procédure); (problème)	Spec.	MC2-5		
+一道菜	yí dào cài	Un plat (dans un banquet ou une réception)		MC2-5		
+一道题	yí dào tí	Un exercice, un problème		MC2-5	一道題	
+拿走	názǒu	Emporter, partir avec (un objet)		MC2-5		
+不合	bù hé	En désaccord avec, divergeant		MC2-5		
+饭后酒	fàn hòu jiǔ	Digestif		MC2-5	飯後就	
+有说有笑	yǒu shuō yǒu xiào	(atmosphère détendue) on parle et on rit	Chengyu	MC2-5	有説有笑	
+七嘴八舌	qī zuǐ bā shé	(discussion animée) parler tous en même temps; chacun donne son avis	Chengyu	MC2-5		
+从早到晚	cóng zǎo dào wǎn	Du matin au soir	Chengyu	MC2-5		
+从头到脚	cóng tóu dào jiǎo	De la tête aux pieds	Chengyu	MC2-5	從頭到脚	
+穿衣服很随便		Ne pas faire attention à ce qu'on porte	Exp	MC2-5		
+说话很随便		Parler librement	Exp	MC2-5		
+随便坐		S'asseoir où l'on veut	Exp	MC2-5		
+随便吃		Se servir sans façon	Exp	MC2-5		
+随便，都可以		N'importe, c'est pareil	Exp	MC2-5		
+随你便		Fais comme tu voudras	Exp	MC2-5		
+随他的便		C'est comme il veut	Exp	MC2-5		
+请随手关灯		Vous éteindrez la lumière en sortant	Exp	MC2-5		
+随手拿了一本书		Avoir pris un livre en passant, au hasard	Exp	MC2-5		
+随手把门关上了		Avoir fermé la porte derrière soi	Exp	MC2-5		
+安排座位		Disposer les places, les sièges	Exp	MC2-5		
+安排住处		Trouver un logement (pour qqn)	Exp	MC2-5		
+安排时间		Organiser son temps	Exp	MC2-5		
+安排他们见面		Faire se rencontrer des personnes	Exp	MC2-5		
+安排得很好		Être bien organisé	Exp	MC2-5		
+端着一个锅		Porter à deux mains une marmite	Exp	MC2-5		
+把菜端来		Apporter le plat	Exp	MC2-5		
+脏衣服		Vêtement sale	Exp	MC2-5		
+脏盘子		Assiette sale	Exp	MC2-5		
+手很脏		Les mains sont sales	Exp	MC2-5		
+又脏又乱		Être sale et en désordre	Exp	MC2-5		
+别说脏话!		Ne dis pas de gros mots !	Exp	MC2-5		
+推门		Pousser la porte	Exp	MC2-5		
+推了一下		Avoir poussé (en donnant un coup)	Exp	MC2-5		
+推到下周		Remettre à la semaine prochaine	Exp	MC2-5		
+时间又推了		La date a encore été repoussée	Exp	MC2-5		
+谈了很久		Avoir discuté longuement	Exp	MC2-5		
+一次谈话		Un entretien	Exp	MC2-5		
+把他吵醒了		L'avoir réveillé	Exp	MC2-5		
+跟他吵了一顿		S'être disputé avec lui	Exp	MC2-5		
+发生了一场大火		Un incendie s'est produit	Exp	MC2-5		

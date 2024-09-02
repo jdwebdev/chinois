@@ -69,7 +69,7 @@
 她	tā	Elle, la	1		女字旁|女		
 很	hěn	Très	2		双人旁，双立人|彳		-
 高	gāo	Grand, haut	2		高字旁|高		
-兴	xìng	Humeur, intérêt inspiration	2	興	八字旁|八		
+兴	xìng，xīng	Humeur, intérêt inspiration	2	興	八字旁|八		
 认	rèn	Connaître, identifier	2	認	言字旁|讠		
 识	shi	Connaître	2	識	言字旁|讠		
 在	zài		2		提土旁|土		
@@ -86,7 +86,7 @@
 打	dǎ	Taper, frapper	2		提手旁|扌		
 电	diàn	Électricité	2	電	田字旁|田		
 话	huà	Parole	2	話	言字旁|讠		
-的	de，dí	De	2		日字旁|日		
+的	de，dí，dī	De	2		日字旁|日		
 号	hào	Numéro	2	號	口字旁|口		
 码	mǎ	Code	2	碼	石字旁|石		
 发	fā, fà	Cheveux (髪fà), envoyer (發fā)	2	發髪	又字旁|又		
@@ -531,7 +531,7 @@
 撞	zhuàng	Heurter, cogner, collision	16		提手旁|扌	a	
 手	shǒu	Main	16		手字旁|手		
 伞	sǎn	Parapluie	16	傘	人字旁|人		
-结	jié	Noeud	16	結	绞丝旁|纟		
+结	jié，jiē	Noeud	16	結	绞丝旁|纟		
 果	guǒ	Fruit	16		木字旁|木		
 摔	shuāi	Tomber, casser	16		提手旁|扌		
 倒	dǎo，dào	Tomber	16		单人旁|亻		
@@ -1220,7 +1220,7 @@
 伦	lún		4-6	倫	单人旁|亻		
 跨	kuà		4-6		足字旁|足		
 列	liè		4-6		立刀旁|刂		
-群	qún		4-6		羊字旁|羊		
+群	qún		4-6	羣	羊字旁|羊		
 岸	àn		4-6		山字旁|山		
 辉	huī		4-6	輝	车字旁|车		
 映	yìng		4-6		日字旁|日		
@@ -1456,3 +1456,14 @@
 矩	jǔ		MC2-5		矢字旁|矢		
 胃	wèi		MC2-5		月字旁|月		
 酪	lào		MC2-5		酉字旁|酉		
+灰	huī		MC2-6		火字旁|火		-
+众	zhòng		MC2-6		人字头|人	眾衆	
+剩	shèng		MC2-6		立刀旁|刂		
+亭	tíng		MC2-6		京字头|亠		
+渴	kě		MC2-6		三点水|氵		
+弯	wān		MC2-6		弓字旁|弓	彎	
+弹	tán		MC2-6		弓字旁|弓	彈	
+矛	máo		MC2-6		矛字旁|矛		
+盾	dùn		MC2-6		目字旁|目		
+尖	jiān		MC2-6		小字头|小		
+晒	shài		MC2-6		日字旁|日	曬	

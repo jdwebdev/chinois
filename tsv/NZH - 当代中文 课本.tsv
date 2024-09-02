@@ -580,7 +580,7 @@
 歌	gē	Chanson	N.	12		
 好听	hǎotīng	Agréable à entendre	Adj.	12	好聽	
 跳舞	tiàowǔ	Danser	V.O.	12		
-跳	tiào	Sauter	V.	12		
+跳	tiào	Sauter, bondir; battre; danser	V.	12		
 舞	wǔ	Danse	N.	12		
 优美	yōuměi	Gracieux	Adj.	12	優美	
 问题	wèntí	Question, problème	N.	12	問題	
@@ -822,11 +822,11 @@
 合作	hézuò	Coopération, coopérer	V & N	16+		
 投资	tóuzī	Investir	N.	16+	投資	
 房子	fángzi	Maison	N.	17		-
-出租	chūzū	À louer	V.	17		
+出租	chūzū	À louer, donner en location	V.	17		
 房东	fángdōng	Propriétaire	N.	17	房東	
 如果	rúguǒ	Si	Conj.	17		
 租	zū	Louer	V.	17		
-搬	bān	Déplacer	V.	17		
+搬	bān	Déplacer, transporter	V.	17		
 电梯	diàntī	Ascenseur	N.	17	電梯	
 累	lèi	Fatigué	Adj.	17		
 锻炼	duànliàn	S'exercer, faire des exercices physiques	V.	17	鍛煉	
@@ -1220,7 +1220,7 @@
 包	bāo	Sac	N.	3-5		
 装	zhuāng	Charger, contenir, monter, emballer	V.	3-5	裝	
 了	liǎo	Utilisé après un verbes plus 得 ou 不 pour indiquer un résultat éventuel positif ou négatif		3-5		
-根本	gēnběn	Base; radicalement; fondamental	N Adv Adj	3-5		
+根本	gēnběn	Base; radicalement; fondamental; absolument, complètement	N Adv Adj	3-5		
 准备	zhǔnbèi	Préparation; préparer	V & N	3-5	準備	
 之类 […之类]	zhīlèi	Comme		3-5	之類	
 日用品	rìyòngpǐn	Objets d'usage quotidien	N.	3-5		
@@ -1299,13 +1299,13 @@
 万事如意	wànshì rú yì	Tout va comme on veut	Chengyu	3-6	萬事如意	
 好好儿	hǎohāor	Avec soin, attentivement; s'appliquer à faire qch		3-6	好好兒	
 排队	pái duì	Faire la queue	V.O.	3-6+	排隊	
-挤	jǐ	Pousser, pénétrer, entrer en se bousculant	V.	3-6+	擠	
+挤	jǐ	Pousser, pénétrer, entrer en se bousculant; se serrer, s'entasser; bondé, plein	V.	3-6+	擠	
 高峰	gāofēng	Heure de pointe	N.	3-6+		
 站台	zhàntái	Quai	N.	3-6+	站臺	
 月份	yuèfèn	Mois	N.	3-7		-
 决定	juédìng	Décision; décider	V & N	3-7	決定	
 主意	zhǔyì	Idée, plan	N.	3-7		
-坚持	jiānchí	Persister, s'obstiner	V.	3-7	堅持	
+坚持	jiānchí	Persister, s'obstiner, tenir bon	V.	3-7	堅持	
 讲究	jiǎngjiu	Recherché, attentif; mettre accent sur; exquis, de bon goût	N V Adj	3-7	講究	
 幸福	xìngfú	Bonheur; heureux	N & Adj	3-7		
 开玩笑	kāi wánxiào	Plaisanter, faire une farce		3-7	開玩笑	
@@ -1420,7 +1420,7 @@
 深	shēn	Profond	Adj.	3-9		
 书店 [家]	shūdiàn	Librairie	N.	3-9	書店	
 忍不住	rěnbuzhù	Ne pouvoir s'empêcher de		3-9		
-至少	zhìshǎo	Au moins	Adv.	3-9		
+至少	zhìshǎo	Au moins, du moins	Adv.	3-9		
 印刷	yìnshuā	Imprimer	V.	3-9		
 包装	bāozhuāng	Emballage; emballer	V & N	3-9	包裝	
 货	huò	Marchandise	N.	3-9	貨	
@@ -1895,7 +1895,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 多伦多	Duōlúnduō	Toronto		4-6	多倫多	
 跨越	kuàyuè	Traverser	V.	4-6+		
 系列	xìliè	Série	N.	4-6+		
-群	qún	Groupe	V.	4-6+		
+群	qún	Groupe, bande, foule; troupeau, colonie	V.	4-6+	羣	
 对岸	duì'àn	L'autre rive	N.	4-6+	對岸	
 交相辉映	jiāo xiāng huī yìng	(Augmenter réciproquement le rayonnement et la beauté)	Chengyu	4-6+	交相輝映	
 艺术	yìshù	Art	N.	4-6+	藝術	
@@ -2517,7 +2517,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 毛病	máobing	Mauvaise habitude, tare		MC2-3		
 分手	fēn shǒu	Se séparer		MC2-3		
 匹	pǐ	(Classificateur pour un cheval)	Spec.	MC2-3		
-拉	lā	Tirer		MC2-3		
+拉	lā	Tirer, traîner		MC2-3		
 员工	yuángōng	Le personnel, employé		MC2-3	員工	
 有礼貌	yǒu lǐmào	Poli, courtois		MC2-3	有禮貌	
 堆	duī	Tas		MC2-3		
@@ -2983,3 +2983,180 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 把他吵醒了		L'avoir réveillé	Exp	MC2-5		
 跟他吵了一顿		S'être disputé avec lui	Exp	MC2-5		
 发生了一场大火		Un incendie s'est produit	Exp	MC2-5		
+大巴	dàbā	Autocar		MC2-6		-
+紧张	jǐnzhāng	Tendu		MC2-6	緊張	
+灰色	huīsè	Gris		MC2-6		
+粉丝	fěnsī	Fan (d'un chanteur / groupe / star)		MC2-6	粉絲	
+观看	guānkàn	Assister à (un spectacle)		MC2-6	觀看	
+吃苦	chī kǔ	Souffrir, subir de rudes épreuves		MC2-6		
+演	yǎn	Jouer (un rôle), interpréter dans un spectacle; (film, spectacle...) projeter, présenter		MC2-6		
+演唱	yǎnchàng	(chanteur) donner un concert		MC2-6		
+演唱会	yǎnchànghuì	Concert donné par un/des chanteur(s)		MC2-6	演唱會	
+演出	yǎnchū	Donner une représentation		MC2-6		
+上演	shàngyǎn	Sortie (d'un film, d'un spectacle)		MC2-6		
+兴奋	xīngfèn	Excité		MC2-6	興奮	
+青草	qīngcǎo	Herbe verte		MC2-6		
+青年	qīngnián	Jeunesse, jeunes		MC2-6		
+龙王	lóngwáng	Roi dragon		MC2-6	龍王	
+水龙头	shuǐlóngtóu	Robinet		MC2-6	水龍頭	
+队	duì	Équipe, groupe; file, rangée		MC2-6	隊	
+乐队	yuèduì	Orchestre, groupe de chanteurs		MC2-6	樂隊	
+队员	duìyuán	Membre de l'équipe		MC2-6	隊員	
+站队	zhànduì	S'aligner, se mettre en rang		MC2-6	站隊	
+幸好	xìnghǎo	Par bonheur, par chance		MC2-6		
+不幸	búxìng	Malheureux, malheureusement		MC2-6		
+郊外	jiāowài	Banlieue, hors la ville		MC2-6		
+北郊	běijiāo	Banlieue nord		MC2-6		
+南郊	nánjiāo	Banlieue sud		MC2-6		
+体育场	tǐyùchǎng	Stade		MC2-6	體育場	
+根	gēn	Racine; origine		MC2-6		
+树根	shùgēn	Racine d'arbre		MC2-6	樹根	
+舞台	wǔtái	Scène		MC2-6	舞臺	
+观众	guānzhòng	Spectateur, public		MC2-6	觀衆	
+听众	tīngzhòng	Auditeur, auditoire		MC2-6	聽衆	
+众多	zhòngduō	Nombreux, innombrable		MC2-6	衆多	
+大众	dàzhòng	Masses, peuple		MC2-6	大衆	
+停	tíng	S'arrêter, cesser; arrêter, stopper		MC2-6		
+停留	tíngliú	Séjourner, s'attarder		MC2-6		
+停住	tíngzhù	S'arrêter, s'immobiliser		MC2-6		
+停车场	tíngchēchǎng	Parking		MC2-6	停車場	
+挥	huī	Agiter, brandir (poing, arme...)		MC2-6	揮	
+挥手	huīshǒu	Faire signe en agitant la main		MC2-6	揮手	
+挥动	huīdòng	Agiter (qqch en l'air)		MC2-6	揮動	
+指挥	zhǐhuī	Conduire (un orchestre), diriger		MC2-6	指揮	
+激	jī	Exciter, provoquer		MC2-6		
+激动	jīdòng	Excité, ému		MC2-6	激動	
+感激	gǎnjī	Être reconnaissant		MC2-6		
+跳起来	tiàoqǐlái	Sauter (sur place)		MC2-6	跳起來	
+跳高	tiàogāo	Saut(er) en hauteur		MC2-6		
+跳水	tiàoshuǐ	Plongée, plonger		MC2-6		
+跳伞	tiàosǎn	Saut(er) en parachute		MC2-6	跳傘	
+跳级/班	tiàojí / bān	Sauter une classe		MC2-6	跳級	
+歌曲	gēqǔ	Chanson, chant		MC2-6		
+曲子	qǔzi	Mélodie		MC2-6		
+交响曲	jiāoxiǎngqǔ	Symphonie		MC2-6	交響曲	
+作曲	zuòqǔ	Écrire de la musique, composer		MC2-6		
+作曲家	zuòqǔjiā	Compositeur		MC2-6		
+人群	rénqún	La foule		MC2-6		
+一群羊	yī qún yáng	Un troupeau de moutons		MC2-6		
+始终	shǐzhōng	Du début à la fin, tout au long de		MC2-6	始終	
+终点	zhōngdiǎn	Arrivée (d'une course)		MC2-6		
+终点站	zhōngdiǎnzhàn	Terminus		MC2-6	終點站	
+租金	zūjīn	Prix de location		MC2-6		
+方向	fāngxiàng	Direction		MC2-6		
+方向盘	fāngxiàngpán	Volant (automobile)		MC2-6	方向盤	
+剩	shèng	Laisser; rester, être en reste		MC2-6		
+剩下	shèngxià	Laisser, rester		MC2-6		
+剩饭	shèngfàn	Restes de nourriture		MC2-6	剩飯	
+手表	shǒubiǎo	Montre-bracelet		MC2-6	手錶	
+金表	jīnbiǎo	Montre en or		MC2-6	金錶	
+来得及	lái de jí	Être dans les temps, avoir le temps		MC2-6	來得及	
+来不及	lái bù jí	Ne pas avoir le temps, trop tard		MC2-6	來不及	
+及时	jíshí	En temps voulu, à temps		MC2-6	及時	
+拉开	lā kāi	Ouvrir / séparer en tirant		MC2-6	拉開	
+自助	zìzhù	En libre-service		MC2-6		
+互助会	hùzhùhuì	Association d'entraide		MC2-6	互助會	
+助理	zhùlǐ	Assistant		MC2-6		
+助学金	zhùxuéjīn	Bourse d'études		MC2-6	助學金	
+亭子	tíngzi	Pavillon		MC2-6		
+报亭	bàotíng	Kiosque à journaux		MC2-6	報亭	
+电话亭	diànhuàtíng	Cabine téléphonique		MC2-6	電話亭	
+处处	chùchù	Partout		MC2-6	處處	
+别处	bié chù	Ailleurs, autre endroit		MC2-6	別處	
+远处	yuǎnchù	Au loin		MC2-6	遠處	
+住处	zhùchù	Domicile, endroit pour se loger		MC2-6	住處	
+好处	hǎochù	Bénéfice, avantage, intérêt		MC2-6	好處	
+坏处	huàichù	Mal, inconvénient, mauvais côté		MC2-6	壞處	
+用处	yòngchù	Utilité, usage		MC2-6	用處	
+堵	dǔ	Obstruer, boucher		MC2-6		
+堵住	dǔzhù	Boucher		MC2-6		
+渴	kě	Avoir soif		MC2-6		
+口渴	kǒukě	Avoir soif		MC2-6		
+脚上	jiǎoshàng	Au(x) pied(s), sur le(s) pied(s)		MC2-6		
+脚步声	jiǎobùshēng	Bruit de pas		MC2-6	脚步聲	
+脚跟	jiǎogēn	Talon		MC2-6		
+山脚	sanjiǎo	Pied de la montagne		MC2-6		
+拐弯	guǎiwān	Tourner, changer de direction		MC2-6	拐彎	
+时兴	shíxīng	En vogue, à la mode		MC2-6	時興	
+后台	hòutái	Coulisse		MC2-6	後臺	
+讲台	jiǎngtái	Chaire, estrade, tribune		MC2-6	講臺	
+电视台	diànshìtái	Station de télévision		MC2-6	電視臺	
+电台	diàntái	Station de radio		MC2-6	電臺	
+窗台	chuāngtái	Appui / rebord de fenêtre		MC2-6	窗臺	
+班	bān	Passage, vol (transports réguliers); équipe, service		MC2-6		
+一班火车	yī bān huǒchē	Un (passage de) train		MC2-6	一班火車	
+一班飞机	yī bān fēijī	Un vol (d'avion)		MC2-6	一班飛機	
+末班车	mòbānchē	Le dernier bus/métro		MC2-6	末班車	
+夜班	yèbān	Équipe de nuit		MC2-6		
+白班	báibān	Équipe de jour		MC2-6		
+一场电影	yī chǎng diànyǐng	Une séance de cinéma		MC2-6	一場電影	
+一场小雨	yī chǎng xiǎoyǔ	Une petite pluie		MC2-6	一場小雨	
+一场大火	yī chǎng dàhuǒ	Un incendie		MC2-6	一場大火	
+一场病	yī chǎng bìng	Une maladie (crise)		MC2-6	一場病	
+打的	dǎ dī	Prendre un taxi		MC2-6		
+不是…就是…	búshì… jiùshì…	Soit... soit...		MC2-6		
+用不着	yòng bu zháo	Ne pas avoir besoin, pas nécessaire, 不用		MC2-6		
+公交车	gōngjiāochē	Autobus		MC2-6	公交車	
+散场	sànchǎng	Sortir de la salle/du stade (à la fin du spectacle)		MC2-6	三場	
+算	suàn	Calculer, compter		MC2-6		
+拼车	pīnchē	Partager un taxi		MC2-6	拼車	
+不停地	bù tíng de	Sans cesse		MC2-6		
+脑子	nǎozi	Cerveau; (ici) tête, esprit		MC2-6	腦子	
+歌迷	gēmí	Fan d'un chanteur, d'un groupe		MC2-6		
+歌手	gēshǒu	Chanteur, artiste		MC2-6		
+腿	tuǐ	Jambe		MC2-6		
+轻骑	qīngqí	Scooter ou vélo électrique		MC2-6	輕騎	
+衣食住行	yīshízhùxíng	"S'habiller, se nourrir, se loger, se déplacer" => les premières nécessités de la vie	Chengyu	MC2-6		
+吹拉弹唱	chuīlātánchàng	Toutes les techniques pour faire de la musique	Chengyu	MC2-6	吹拉彈唱	
+自相矛盾	zìxiāng máodùn	Se contredire, être en contradiction		MC2-6		
+古	gǔ	Ancien		MC2-6		
+矛枪	máoqiāng	Pique		MC2-6	矛搶	
+盾牌	dùnpái	Bouclier		MC2-6		
+结实	jiēshi	Résistant, solide		MC2-6	結實	
+穿	chuān	Percer, pénétrer		MC2-6		
+透	tòu	Passer à travers		MC2-6		
+尖	jiān	Pointu		MC2-6		
+快	kuài	Tranchant		MC2-6		
+刺	cì	Piquer		MC2-6		
+演电影		Jouer dans un film; projeter un film	Exp	MC2-6		
+演了五场		Avoir donné cinq représentations	Exp	MC2-6		
+演主角		Jouer le rôle principal	Exp	MC2-6		
+演坏人		Jouer le rôle du méchant	Exp	MC2-6		
+停水		Coupure d'eau	Exp	MC2-6		
+停电		Coupure de courant	Exp	MC2-6		
+手表停了		La montre s'est arrêtée	Exp	MC2-6		
+雨还没停		La pluie n'a pas encore cessé	Exp	MC2-6		
+停住！		Arrête-toi ! Stop !	Exp	MC2-6		
+去停车		Aller se garer	Exp	MC2-6		
+向他挥手		Lui faire un signe de la main	Exp	MC2-6		
+挤牙膏		Presser du dentifrice	Exp	MC2-6		
+别挤！		Ne poussez pas !	Exp	MC2-6		
+用力挤		Pousser de toutes ses forces	Exp	MC2-6		
+挤上车		Jouer des coudes pour monter	Exp	MC2-6		
+挤不上去		Ne pas arriver à monter	Exp	MC2-6		
+挤在一起		Se serrer les uns contre les autres	Exp	MC2-6		
+车很挤		La voiture est bondée	Exp	MC2-6		
+太挤了		Il y a trop de monde	Exp	MC2-6		
+一点儿也不挤		Pas plein du tout	Exp	MC2-6		
+乱花钱		Dépenser à tort et à travers	Exp	MC2-6		
+剩了很多菜		Il y a beaucoup de restes	Exp	MC2-6		
+什么都没剩		Il ne reste rien	Exp	MC2-6		
+别剩下		Ne laissez rien ! (mangez tout)	Exp	MC2-6		
+还剩多少钱？		Combien reste-t-il ?	Exp	MC2-6		
+只剩下我一个人		Il ne reste que moi tout seul	Exp	MC2-6		
+还剩五分钟		Il reste encore cinq minutes	Exp	MC2-6		
+用力拉		Tirer fort	Exp	MC2-6		
+拉了一下		Avoir tiré	Exp	MC2-6		
+拉着他走		Le traîner (derrière soi)	Exp	MC2-6		
+拉不开		Ne pas arriver à ouvrir	Exp	MC2-6		
+拉不动		Ne pas arriver à faire bouger	Exp	MC2-6		
+租房子住		Vivre en location	Exp	MC2-6		
+租一间房		Louer une chambre	Exp	MC2-6		
+组了三年		Avoir loué pendant trois ans	Exp	MC2-6		
+租给学生		Louer à des étudiants	Exp	MC2-6		
+租出去了		C'est loué	Exp	MC2-6		
+租不出去		Ne pas arriver à louer	Exp	MC2-6		
+太阳晒得厉害		Le soleil tape fort	Exp	MC2-6		
+心跳得厉害		Le coeur bat fort	Exp	MC2-6		
+拐了一个弯		Avoir pris un virage, avoir tourné	Exp	MC2-6		
+腿拐了		La jambe boite	Exp	MC2-6		

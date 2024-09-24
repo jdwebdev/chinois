@@ -1424,7 +1424,7 @@
 印刷	yìnshuā	Imprimer	V.	3-9		
 包装	bāozhuāng	Emballage; emballer	V & N	3-9	包裝	
 货	huò	Marchandise	N.	3-9	貨	
-并	bìng	Pas du tout (utilisé devant une négation)	Adv.	3-9	並	
+并	bìng	Pas du tout (utilisé devant une négation), (contrairement à ce qu'on pourrait croire ou à ce qui aurait dû être)	Adv.	3-9	並	
 书房	shūfáng	Cabinet de travail, bibliothèque	N.	3-9	書房	
 摆	bǎi	Placer, disposer	V.	3-9	擺	
 客人	kèrén	Visiteur, invité, hôte	N.	3-9		
@@ -3741,7 +3741,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 弄清楚	nòngqīngchu	Clarifier, tirer au clair		MC2-10		
 摸脉	mōmài	Tâter le pouls		MC2-10	摸脈	
 摸到	mōdào	Avoir trouvé en cherchant avec la main		MC2-10		
-精神(2)	1)jīngshén 2)jīngshen	1) Conscience, esprit 2) Forme, moral, entrain, énergie		MC2-10		
+精神(x2)	1)jīngshén 2)jīngshen	1) Conscience, esprit 2) Forme, moral, entrain, énergie		MC2-10		
 酒精	jiǔjīng	Alcool officinal		MC2-10		
 味精	wèijīng	Glutamate		MC2-10		
 留神	liúshén	Faire attention		MC2-10		
@@ -3767,7 +3767,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 内科	nèikē	Médecine générale		MC2-10		
 外科	wàikē	Chirurgie		MC2-10		
 眼科	yǎnjē	Ophtalmologie		MC2-10		
-儿科	érkē	Stomatologie		MC2-10	兒科	
+儿科	érkē	Pédiatrie		MC2-10	兒科	
 妇科	fùkē	Gynécologie		MC2-10	婦科	
 传	chuán	Passer, transmettre; propager, répandre		MC2-10	傳	
 传球	chuánqiú	Passer le ballon (sport)		MC2-10	傳球	
@@ -3793,7 +3793,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 直接	zhíjiē	Direct		MC2-10		
 包	bāo	Bosse, enflure, bouton (sur la peau)		MC2-10		
 药方	yàofāng	Ordonnance		MC2-10	藥方	
-病毒	bìngdù	Virus		MC2-10		
+病毒	bìngdú	Virus		MC2-10		
 作法	zuòfǎ	Manière de faire, façon d'agir, pratique		MC2-10		
 自然界	zìránjiè	La nature		MC2-10		
 敌人	dírén	Ennemi		MC2-10	敵人	
@@ -3823,6 +3823,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 消灭	xiāomiè	Anéantir		MC2-10	消滅	
 鹬	yù	Bécasse (oiseau)		MC2-10	鷸	
 争	zhēng	Se disputer qqch.		MC2-10	爭	
+鹬蚌相争，渔翁得利	yùbàngxiāngzhēng，yúwēng délì	Pendant que la bécasse et la palourde se font la guerre, le pêcheur est gagnant	Chengyu	MC2-10		
 发高烧		Avoir une forte fièvre	Exp	MC2-10		
 发低烧		Avoir un peu de température	Exp	MC2-10		
 退烧药		Antipyrétique, fébrifuge	Exp	MC2-10		
@@ -3852,7 +3853,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 扣子掉了		Avoir perdu un bouton	Exp	MC2-10		
 改掉坏毛病		Corriger une mauvaise habitude	Exp	MC2-10		
 跑掉了		S'être enfui	Exp	MC2-10		
-忘下掉		Inoubliable	Exp	MC2-10		
+忘不掉		Inoubliable	Exp	MC2-10		
 治头疼		Soigner le mal de tête	Exp	MC2-10		
 治好了		Être guéri	Exp	MC2-10		
 治得好/治不好		Être curable/incurable	Exp	MC2-10		

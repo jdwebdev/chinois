@@ -86,6 +86,9 @@ function openModalHelp() {
         <div id="help_container">
             <div id="help_content">
 
+                <p class="date zh_font">2024年10月4日<span class="app_version zh_font">V. 6.2</span></p>
+                <h2 class="help_title">Ajout de la leçon MC2-12</h2>
+
                 <p class="date zh_font">2024年9月30日<span class="app_version zh_font">V. 6.1</span></p>
                 <h2 class="help_title">Ajout de la leçon MC2-11</h2>
 
@@ -149,7 +152,7 @@ function openModalHelp() {
                 <p class="date zh_font">2024年5月15日<span class="app_version zh_font">V. 4.5</span></p>
                 <h2 class="help_title">Ajout de la leçon 4-5</h2>
 
-                <p class="date zh_font">2024年5月06日<span class="app_version zh_font">V. 4.4</span></p>
+                <p class="date zh_font">2024年5月6日<span class="app_version zh_font">V. 4.4</span></p>
                 <h2 class="help_title">Ajout de la leçon 4-4</h2>
 
                 <p class="date zh_font">2024年4月20日<span class="app_version zh_font">V. 4.3</span></p>

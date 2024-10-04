@@ -1,7 +1,7 @@
 词语	拼音	意思	语法	课	繁體	
 您	nín	Vous (forme respectueuse)	Pron.	1		-
 好	hǎo	Bon, bien	Adj.	1		
-贵姓	guìxìng	Comment vous appelez-vous ?		1	貴姓	
+贵姓	hǎo	Comment vous appelez-vous ?		1	貴姓	
 姓	xìng	S'appeler; nom de famille	V & N	1		
 我	wǒ	Je, me, moi	Pron.	1		
 呢	ne	(Particule interrogative)	Part.	1		
@@ -700,7 +700,7 @@
 死	sǐ	Mourir: la mort; mort	V.	14		
 东部	dōngbù	Est	M.P.	14	東部	
 西部	xībù	Ouest	M.P.	14		
-层	céng	Étage	Spec.	14	層	
+层	céng	Étage, couche	Spec.	14	層	
 楼	lóu	Bâtiment, édifice, étage	N & Spec	14	樓	
 地下室	dìxiàshì	Sous-sol, cave	N.	14		
 车库	chēkù	Garage	N.	14	車庫	
@@ -753,7 +753,7 @@
 最后	zuìhòu	Finalement, à la fin	Adj.	15	最後	
 忘	wàng	Oublier	V.	15		
 种	zhǒng	Sorte, genre	Spec.	15	種	
-食品	shípǐn	Nourriture, alimentation	N.	15		
+食品	shípǐn	Nourriture, alimentation, produit alimentaire	N.	15		
 努力	nǔlì	Appliqué, assidu	Adj.	15		
 糊里糊涂	húlihútu	Embrouillé, confus	Adj.	15	糊里糊塗	
 刻钟	kèzhōng	Un quart d'heure	Spec.	15	刻鈡	
@@ -803,7 +803,7 @@
 背	bèi	Dos	N.	16		
 检查	jiǎnchá	Examiner	V.	16	檢查	
 身体	shēntǐ	Corps	N.	16	身體	
-修	xiū	Réparer	V.	16		
+修	xiū	Réparer; construire	V.	16		
 上班	shàng bān	Aller au bureau, aller au travail	V.O.	16		
 发生	fāshēng	Avoir lieu, se passer, se produire	V.	16	發生	
 事故	shìgù	Accident	N.	16		
@@ -830,7 +830,7 @@
 电梯	diàntī	Ascenseur	N.	17	電梯	
 累	lèi	Fatigué	Adj.	17		
 锻炼	duànliàn	S'exercer, faire des exercices physiques	V.	17	鍛煉	
-套	tào	Une série de, un ensemble de	Spec.	17		
+套	tào	Une série de, un ensemble de, un appartement	Spec.	17		
 台	tái	(Spécificatif pour les machines)	Spec.	17	臺	
 电视机 [台]	diànshìjī	Téléviseur	N.	17	電視機	
 电冰箱 [台]	diànbīngxiāng	Réfrigérateur	N.	17	電冰箱	
@@ -843,12 +843,12 @@
 生气	shēng qì	Être en colère, être fâché	V.O.	17	生氣	
 不像话	bú xiànghuà	Irrationnel, choquant		17	不像話	
 回答	huídá	Répondre	V.	17		
-拆	chāi	Défaire, démonter	V.	17		
+拆	chāi	Défaire, démonter, démolir	V.	17		
 师傅	shīfu	Maître, ouvrier spécialisé	N.	17	師傅	
 旧	jiù	Ancien, vieux	Adj.	17	舊	
 办法	bànfǎ	Méthode, moyen	N.	17	辦法	
 只好	zhǐhǎo	Être obligé de	Adv.	17		
-装	zhuāng	Installer	V.	17	裝	
+装	zhuāng	Installer, monter	V.	17	裝	
 一…就…	yī…jiù…	Une fois que..., dès que (la 2è action est inévitable dès que la 1ère action s'est produite)		17		
 电器	diànqì	Appareil électrique	N.	17	電器	
 公寓	gōngyù	Immeuble divisé en appartements	N.	17		
@@ -893,7 +893,7 @@
 运动	yùndòng	Exercice physique, mouvement	N.	18	運動	
 懒	lǎn	Paresseux	Adj.	18	懶	
 注意	zhùyì	Faire attention à	V.	18		
-建议	jiànyì	Suggestion; suggérer	V & N	18	建議	
+建议	jiànyì	Suggestion, proposition; suggérer	V & N	18	建議	
 跑步	pǎo bù	Courir	V.O.	18		
 跑	pǎo	Courir	V.	18		
 教	jiāo	Enseigner	V.	18		
@@ -960,7 +960,7 @@
 透	tòu	Entièrement, à fond	Adj.	20		
 透了	tòule	Exclamation indiquant un degré très élevé		20		
 午饭	wǔfàn	Déjeuner	N.	20	午飯	
-取	qǔ	Prendre	V.	20		
+取	qǔ	Prendre, retirer, reprendre, récupérer	V.	20		
 够	gòu	Suffisant,assez	Adj.	20	夠	
 顺	shùn	Sans difficulté, agréable	Adv & Adj	20	順	
 电脑	diànnǎo	Ordinateur	N.	20	電腦	
@@ -1145,7 +1145,7 @@
 爷爷	yéye	Grand père (côté paternel), papi	N.	3-3	爺爺	
 移民	yímín	Immigré; immigrer	V & N	3-3		
 提出	tíchū	Présenter, proposer	V.	3-3		
-申请	shēnqǐng	Demande; demander, adresser une requête	V & N	3-3	申請	
+申请	shēnqǐng	Demande; demander, adresser une requête, présenter une demander, soliciter	V & N	3-3	申請	
 移民局	yímínjú	Bureau d'immigration	N.	3-3		
 批准	pīzhǔn	Approuver, ratifier	V.	3-3	批準	
 总是	zǒngshì	Toujours	Adv.	3-3	總是	
@@ -1172,7 +1172,7 @@
 球赛	qiúsài	Match (d'un jeu de balle)	N.	3-4	球賽	-
 转播	zhuǎnbō	Transmettre (radio ou TV)	V.	3-4	轉播	
 比赛	bǐsài	Match, compértition; faire un match, disputer un match	V & N	3-4	比賽	
-原来	yuánlái	D'origine; original	Adv & Adj	3-4	原來	
+原来	yuánlái	D'origine, à l'origine, d'avant; original	Adv & Adj	3-4	原來	
 球队	qiúduì	Équipe	N.	3-4	球隊	
 球星	qiúxīng	Vedette, joueur célèbre	N.	3-4		
 老	lǎo	Ancien, vieux	Adj.	3-4		
@@ -1317,7 +1317,6 @@
 吓	xià	Faire peur	V.	3-7	嚇	
 上帝	shàngdì	Dieu	N.	3-7		
 伟大	wěidà	Grand	Adj.	3-7	偉大	
-取	qǔ	Prendre, adopter	V.	3-7		
 一般	yìbān	En général; commun, ordinaire	Adv & Adj	3-7		
 出息	chūxi	Promesse, bel avenir	N.	3-7		
 首先	shǒuxiān	Premièrement, d'abord, avant tout	Adv.	3-7		
@@ -1420,12 +1419,12 @@
 深	shēn	Profond	Adj.	3-9		
 书店 [家]	shūdiàn	Librairie	N.	3-9	書店	
 忍不住	rěnbuzhù	Ne pouvoir s'empêcher de		3-9		
-至少	zhìshǎo	Au moins, du moins	Adv.	3-9		
+至少	zhìshǎo	Au moins, du moins, au minimum, à la limite	Adv.	3-9		
 印刷	yìnshuā	Imprimer	V.	3-9		
 包装	bāozhuāng	Emballage; emballer	V & N	3-9	包裝	
 货	huò	Marchandise	N.	3-9	貨	
 并	bìng	Pas du tout (utilisé devant une négation), (contrairement à ce qu'on pourrait croire ou à ce qui aurait dû être)	Adv.	3-9	並	
-书房	shūfáng	Cabinet de travail, bibliothèque	N.	3-9	書房	
+书房	shūfáng	Cabinet de travail, bibliothèque, bureau	N.	3-9	書房	
 摆	bǎi	Placer, disposer	V.	3-9	擺	
 客人	kèrén	Visiteur, invité, hôte	N.	3-9		
 显得	xiǎnde	Apparaître, avoir l'air	V.	3-9	顯得	
@@ -1457,7 +1456,7 @@
 瞒	mán	Cacher	V.	3-10	瞞	
 同病相怜	tóng bìng xiāng lián	Avec ses compagnons de misère		3-10	同病相憐	
 新闻	xīnwén	Nouvelles	N.	3-10	新聞	
-家务	jiāwù	Ménage	N.	3-10	家務	
+家务	jiāwù	Ménage, tâches ménagères	N.	3-10	家務	
 消息	xiāoxi	Information, nouvelles	N.	3-10		
 就业	jiù yè	Être embauché, trouver un travail	V.O.	3-10	就業	
 培训班	péixùnbān	Cours de formation	N.	3-10	培訓班	
@@ -1525,7 +1524,7 @@
 数目	shùmù	Quantité, somme	N.	3-11	數目	
 仔细	zǐxì	Soigneux, attentif, minutieux	Adj.	3-11	仔細	
 却	què	Mais, cependant, néanmoins	Adv.	3-11	卻	
-再说	zàishuō	Remettre à plus tard, de plus	Conj.	3-11	再説	
+再说	zàishuō	(Reg. oral) Remettre à plus tard, de plus, en plus	Conj.	3-11	再説	
 学位	xuéwèi	Année, diplôme, grade (universitaire)	N.	3-11	學位	
 道理	dàolǐ	Raison, bon sens	N.	3-11		
 仅仅	jǐnjǐn	Seulement, à peine	Adv.	3-11	僅僅	
@@ -1650,7 +1649,7 @@
 改革	gǎigé	Réforme; réformer	V & N	4-2		
 行政	xíngzhèng	Administration	N.	4-2		
 人员	rényuán	Personnel	N.	4-2	人員	
-由	yóu	Par	Prep.	4-2		
+由	yóu	Par (Préposition : introduit l'agent)	Prep.	4-2		
 理	lǐ	Prêter attention à	V.	4-2		
 说情	shuōqíng	Intervenir en faveur de qqn., intercéder pour qqn	V.O.	4-2	説情	
 面子	miànzi	Respect, dignité, "face"	N.	4-2		
@@ -1816,7 +1815,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 愿望	yuànwàng	Désir, souhait, aspiration	N.	4-5	願望	
 毕竟	bìjìng	En fin de compte, finalement, après tout	Adv.	4-5	畢竟	
 者	zhě	-eur, -iste	Suff	4-5		
-提供	tígōng	Fournir	V.	4-5		
+提供	tígōng	Fournir, procurer	V.	4-5		
 购	gòu	Acheter	V.	4-5	購	
 创业	chuàngyè	Créer une oeuvre, fonder une entreprise	V.	4-5	創業	
 多数	duōshù	Majorité	N.	4-5	多數	
@@ -1946,7 +1945,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 欢呼	huānhū	Crier joie	V.	4-7+	歡呼	
 时髦	shímáo	En vogue, à la mode	Adj.	4-7+	時髦	
 色彩	sècǎi	Coloré, couleur	N.	4-7+		
-虚幻	xūhuàn	Illusion, irréel	N.	4-7+	虛幻	
+虚幻	xūhuàn	Illusion, irréel, illusoire	N.	4-7+	虛幻	
 创造	chuàngzào	Création	V.	4-7+	創造	
 欲望	yùwàng	Désir, souhait	N.	4-7+		
 产生	chǎnshēng	Produire, engendrer	V.	4-7+	產生	
@@ -1991,7 +1990,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 承担	chéngdān	Assumer, prendre en charge	V.	4-8	承擔	
 负担	fùdān	Charge, fardeau; prendre en charge, assumer	V & N	4-8	負擔	
 酸甜苦辣	suān tián kǔ là	Douceur et amertume de la vie (acide, sucré, amer et pimenté)	Chengyu	4-8		
-不得不	bù dé bu	Devoir faire, on doit ~. 		4-8		
+不得不	bù dé bu	Devoir faire, on doit ~, être obligé de, ne pas avoir d'autres solutions que		4-8		
 意外	yìwài	Accident, imprévu	N.	4-8+		
 伤害	shānghài	Blesser	V.	4-8+	傷害	
 发育	fāyù	Croissance, développement	V.	4-8+	發育	
@@ -2377,7 +2376,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 开学	kāi xué	(Effectuer la) rentrée scolaire		MC2-2	開學	
 洗脸	xǐ liǎn	(Se) débarbouiller		MC2-2	洗臉	
 胡子 [根把]	húzi	Barbe, moustache		MC2-2	鬍子	
-答应	dāying	Répondre (à un appel)		MC2-2	答應	
+答应	dāying	Répondre (à un appel), dire oui à une demande, donner son accord		MC2-2	答應	
 铃	líng	Sonnerie, sonnette		MC2-2	鈴	
 睁	zhēng	Ouvrir (les yeux)		MC2-2	睜	
 醒	xǐng	Se réveiller		MC2-2		
@@ -2978,7 +2977,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 跟他吵了一顿		S'être disputé avec lui	Exp	MC2-5		
 发生了一场大火		Un incendie s'est produit	Exp	MC2-5		
 大巴	dàbā	Autocar		MC2-6		-
-紧张	jǐnzhāng	Tendu		MC2-6	緊張	
+紧张	jǐnzhāng	Tendu, stressé		MC2-6	緊張	
 灰色	huīsè	Gris		MC2-6		
 粉丝	fěnsī	Fan (d'un chanteur / groupe / star)		MC2-6	粉絲	
 观看	guānkàn	Assister à (un spectacle)		MC2-6	觀看	
@@ -3999,3 +3998,229 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 家庭成员		Membre de la famille	Exp	MC2-11		
 家庭住址		Adresse du domicile	Exp	MC2-11		
 日子不好过		La vie est dure	Exp	MC2-11		
+平房	píngfáng	Maison basse (sans étage)		MC2-12		-
+建	jiàn	Construire		MC2-12		
+速度	sùdù	Vitesse		MC2-12		
+质量	zhìliàng	Qualité		MC2-12	質量	
+分居	fēnjū	Vivre séparé		MC2-12		
+同居	tóngjū	Vivre ensemble (en couple)		MC2-12		
+三居室	sānjūshì	Appartement de trois chambres		MC2-12		
+至今	zhìjīn	Jusqu'à nos jours		MC2-12		
+至多	zhìduō	Au maximum, tout au plus		MC2-12		
+冬至	dōngzhì	Solstice d'hiver		MC2-12		
+夏至	xiàzhì	Solstice d'été		MC2-12		
+梦	mèng	Rêve, songe		MC2-12	夢	
+梦见	mèngjiàn	Rêver de, voir en rêve		MC2-12	夢見	
+修理	xiūlǐ	Réparer		MC2-12		
+修改	xiūgǎi	Corriger, modifier		MC2-12		
+装修	zhuāngxiū	Rénover, faire des travaux		MC2-12		
+墙	qiáng	Mur, rempart, muraille		MC2-12	墻	
+城墙	chéngqiáng	Muraille d'une ville		MC2-12	城墻	
+围墙	wéiqiáng	Mur d'enceinte, mur de clôture		MC2-12	圍墻	
+墙纸	qiángzhǐ	Papier peint		MC2-12	墻紙	
+墙角	qiángjiǎo	Angle de mur		MC2-12	墻角	
+刷	shuā	Brosser, frotter; badigeonner, enduire		MC2-12		
+刷洗	shuāxǐ	Brosser et nettoyer		MC2-12		
+刷白	shuābái	Appliquer de la peinture blanche		MC2-12		
+刷子	shuāzi	Brosse		MC2-12		
+一层冰	yī céng bīng	Une couche de glace		MC2-12	一層冰	
+一层土	yī céng tǔ	Une couche de poussière		MC2-12	一層土	
+一层楼	yī céng lóu	Un étage		MC2-12	一層樓	
+三层	sān céng	2è étage		MC2-12	三層	
+底层/一层	dǐ céng / yī céng	Rez-de-chaussée		MC2-12	底層/一層	
+朝	cháo	Faire face à, s'orienter vers; dans la direction de		MC2-12		
+朝向	cháoxiàng	Orientation (construction)		MC2-12		
+朝南	cháonán	Orienté au sud		MC2-12		
+朝阳	cháoyáng	Face au soleil		MC2-12	朝陽	
+朝天	cháotiān	Vers le ciel, face au ciel		MC2-12		
+家具	jiājù	Meuble		MC2-12		
+工具	gōngjù	Outil		MC2-12		
+茶具	chájù	Service à thé		MC2-12		
+文具	wénjù	Papeterie		MC2-12		
+保卫	bǎowèi	Défendre		MC2-12	保衛	
+自卫	zìwèi	Se défendre		MC2-12	自衛	
+卫生	wèishēng	Hygiène		MC2-12	衛生	
+厨师	chúshī	Cuisinier		MC2-12	厨師	
+大厨	dàchú	Chef cuisinier		MC2-12		
+邻国	línguó	Pays voisin		MC2-12	鄰國	
+炒锅	chǎoguō	Wok		MC2-12	炒鍋	
+炒鸡蛋	chǎo jīdàn	Omelette; faire une omelette		MC2-12	炒鷄蛋	
+公务	gōngwù	Affaires professionnelles		MC2-12	公務	
+公务员	gōngwùyuán	Fonctionnaire		MC2-12	公務員	
+恋爱	liàn'ài	Être amoureux		MC2-12	戀愛	
+失恋	shīliàn	Avoir un chagrin d'amour		MC2-12	失戀	
+未婚	wèihūn	Être célibataire (pas encore marié)		MC2-12		
+未婚夫	wèihūnfū	Fiancé		MC2-12		
+未婚妻	wèihūnqī	Fiancée		MC2-12		
+未成年	wèichéngnián	(Enfant) mineur		MC2-12		
+未来	wèilái	Futur		MC2-12	未來	
+未知数	wèizhīshù	Inconnue (maths)		MC2-12	未知數	
+未必	wèibì	Il n'est pas certain que, pas forcément		MC2-12		
+领	lǐng	Toucher, recevoir		MC2-12	領	
+领到	lǐngdao	Toucher, recevoir, percevoir		MC2-12	領到	
+领子	lǐngzi	Col		MC2-12	領子	
+领带	lǐngdài	Cravate		MC2-12	領帶	
+白领	báilǐng	"Col blanc", employé de bureau		MC2-12	白領	
+求	qiú	Supplier, faire appel à; être en quête de		MC2-12		
+请求	qǐngqiú	Demande		MC2-12	請求	
+求婚	qiúhūn	Demander qqn en mariage		MC2-12		
+嘴唇	zuǐchún	Lèvre		MC2-12		
+多嘴	duōzuǐ	Bavard, cancanier		MC2-12		
+哭	kū	Pleurer		MC2-12		
+哭声	kūshēng	Sanglots, pleurs		MC2-12	哭聲	
+大哭	dàkū	Pleurer en faisant beaucoup de bruit		MC2-12		
+产品	chǎnpǐn	Produit		MC2-12	產品	
+毒品	dúpǐn	Drogue		MC2-12	毒品	
+样品	yàngpǐn	Échantillon		MC2-12	樣品	
+艺术品	yìshùpǐ	Oeuvre d'art, objet d'art		MC2-12	藝術品	
+靠	kào	S'appuyer contre; dépendre de, s'appuyer sur; être tout près de		MC2-12		
+靠背	kàobèi	(Chaise) dossier, coussin dorsal		MC2-12		
+靠边	kàobian	Se ranger sur le côté		MC2-12	靠邊	
+靠近	kàojìn	S'approcher; près de		MC2-12		
+可靠	kěkào	Sûr, fiable, digne de confiance		MC2-12		
+不可靠	bù kěkào	Peu fiable		MC2-12		
+进入	jìnrù	Entrer (reg. soutenu)		MC2-12	進入	
+入口	rùkǒu	Entrée, accès		MC2-12		
+入门	rùmén	Initiation, débuter		MC2-12	入門	
+涨	zhǎng	Monter, augmenter		MC2-12	漲	
+涨水	zhǎngshuǐ	Crue des eaux		MC2-12	漲水	
+上涨	shàngzhǎng	Monter, augmenter		MC2-12	上漲	
+飞涨	fēizhǎng	Monter très vite		MC2-12	飛漲	
+底儿	dǐer	Fond		MC2-12	底兒	
+瓶底	píngdǐ	Fond de bouteille		MC2-12		
+锅底	guōdǐ	Fond de marmite		MC2-12	鍋底	
+到底	dàodǐ	En fin de compte, définitive		MC2-12		
+海底	hǎidǐ	Fond de la mer		MC2-12		
+年底	niándǐ	Fin de l'année		MC2-12		
+月底	yuèdǐ	Fin du mois		MC2-12		
+产	chǎn	Produire, cultiver		MC2-12	產	
+生产	shēngchǎn	Produire		MC2-12	生產	
+特产	tèchǎn	Spécialité locale		MC2-12	特產	
+产假	chǎnjià	Congé de maternité		MC2-12	產假	
+产院	chǎnyuàn	Maternité (établissement)		MC2-12	產院	
+房产	fángchǎn	Bien immobilier		MC2-12	房產	
+地产	dìchǎn	Bien foncier, terrien		MC2-12	地產	
+家产	jiāchǎn	Bien de famille, fortune familiale		MC2-12	家產	
+破产	pòchǎn	Se ruiner, faire faillite		MC2-12	破產	
+退	tuì	Reculer, se retirer		MC2-12		
+退步	tuìbù	Régresser		MC2-12		
+欠	qiàn	Devoir (de l'argent), être en dette		MC2-12		
+欠条	qiàntiáo	(Papier) reconnaissance de dette		MC2-12	欠條	
+划	huà	Tracer (ligne, limite); trait		MC2-12	劃	
+计划	jìhuà	Plan, projet, faire un plan		MC2-12	計劃	
+笔划(画)	bǐhuà	Tracé d'un caractère		MC2-12	比劃	
+四划(画)	sìhuà	Quatre traits		MC2-12	四劃	
+购买	gòumǎi	Acheter (reg. soutenu)		MC2-12	購買	
+购买力	gòumǎilì	Pouvoir d'achat		MC2-12	購買力	
+购物	gòuwù	Shopping		MC2-12	購物	
+购物袋	gòuwùdài	Sac de courses / de shopping		MC2-12	購物袋	
+定购	dìnggòu	Commander, passer une commande		MC2-12	定購	
+取钱	qǔqián	Retirer de l'argent		MC2-12	取錢	
+取消	qǔxiāo	Annuler, abolir, abroger		MC2-12		
+消毒	xiāodú	Désinfecter, stériliser, aseptiser		MC2-12		
+消化	xiāohuà	Digérer		MC2-12		
+紧急	jǐnjí	Urgent, alarmant		MC2-12	緊急	
+要紧	yàojǐn	Important, grave		MC2-12	要緊	
+定义	dìngyì	Définition		MC2-12	定義	
+同义词	tóngyìcí	Synonyme		MC2-12	同義詞	
+近义词	jìnyìcí	Mot au sens proche		MC2-12	近義詞	
+反义词	fǎnyìcí	Antonyme		MC2-12	反義詞	
+主义	zhǔyì	-isme		MC2-12	主義	
+错过	cuòguò	Manquer, laisser passer (occasion, date, moment favorable...)		MC2-12	錯過	
+安装	ānzhuāng	Monter, installer		MC2-12	安裝	
+装修	zhuāngxiū	Faire des travaux de rénovation		MC2-12	裝修	
+赶走	gǎnzǒu	Chasser, expulser, faire partir		MC2-12	趕走	
+赶出去	gǎnchūqù	Faire sortir		MC2-12	趕出去	
+赶跑	gǎnpào	Faire déguerpir		MC2-12	趕跑	
+安全	ānquán	Sûr, être en sécurité		MC2-12		
+相同	xiāngtóng	Identique		MC2-12		
+共用	gòngyòng	D'usage commun, public		MC2-12		
+法定	fǎdìng	Légal		MC2-12		
+二手	èrshǒu	D'occasion, de seconde main (logement, voiture...)		MC2-12		
+立刻	lìkè	Tout de suite, immédiatement, sur-le-champ		MC2-12		
+随时	suíshí	À tout moment		MC2-12	隨時	
+住房	zhùfáng	Logement		MC2-12		
+新房	xīnfáng	Chambre nuptiale		MC2-12		
+福利	fúlì	"Bien être", prestations sociales		MC2-12		
+年龄	niánlíng	Âge (de faire qqch.)		MC2-12	年齡	
+房价	fángjià	Prix immobilier		MC2-12	房價	
+空间	kōngjiān	Espace		MC2-12	空間	
+房地产	fángdìchǎn	Bien immobilier et foncier		MC2-12	房地產	
+安居乐业	ānjūlèyè	(Population) vivre en paix et dans la prospérité; (personne) bien installé dans la vie		MC2-12	安居樂業	
+80后	bā-líng hòu	La génération née dans les années 1980		MC2-12	80後	
+说破嘴皮	shuōpò zuǐpí	"Avoir les lèvres gercées à force de parler" = discours vain, infructueux		MC2-12	說破嘴皮	
+楼堂馆所	lóutángguǎnsuǒ	Bâtiments de toutes sortes (exceptés ceux d'habitation)		MC2-12	樓讓管所	
+空中楼阁	kōngzhōng-lóugé	Pavillons suspendus dans les airs / châteaux en Espagne		MC2-12	空中樓閣	
+愚蠢	yúchǔn	Idiot		MC2-12		
+羡慕	xiànmù	Envieux		MC2-12		
+盖	gài	Construire		MC2-12	蓋	
+泥瓦匠	níwǎjiàng	Maçon		MC2-12		
+打地基	dǎ dìjī	Faire les fondations		MC2-12		
+工地	gōngdì	Chantier		MC2-12		
+砖	zhuān	Brique		MC2-12	磚	
+不耐烦	bú nàifán	Impatient		MC2-12	不耐煩	
+基础	jīchǔ	Base		MC2-12	基礎	
+理想	lǐxiǎng	Idéal		MC2-12		
+永远	yǒngyuǎn	Toujours, éternel		MC2-12	永遠	
+修车		Réparer une voiture	Exp	MC2-12		
+修(理)电脑		Réparer un ordinateur	Exp	MC2-12		
+修好了		Avoir réparé	Exp	MC2-12		
+修不好/了		Ne pas pouvoir réparer, plus réparable	Exp	MC2-12		
+精神上很满足		Être satisfait de son sort	Exp	MC2-12		
+满足要求		Ne pas être satisfait de ses conditions de vie	Exp	MC2-12		
+满足需要		Satisfaire une demande	Exp	MC2-12		
+举手表示同意		Satisfaire un besoin	Exp	MC2-12		
+领工资		Toucher sa paye	Exp	MC2-12		
+领助学金		Toucher sa bourse	Exp	MC2-12		
+领课本		Recevoir ses livres de classe	Exp	MC2-12		
+领毕业证书		Recevoir son diplôme de fin d'études	Exp	MC2-12		
+向她求婚		La demander en mariage	Exp	MC2-12		
+求人不如求己		Mieux vaut compter sur soi-même que sur autrui	Exp	MC2-12		
+有事求你		Avoir un service à te demander	Exp	MC2-12		
+爱哭		Pleurer facilement	Exp	MC2-12		
+别哭了		Arrête de pleurer !	Exp	MC2-12		
+哭红了眼睛		Avoir les yeux rouges à force de pleurer	Exp	MC2-12		
+靠墙		S'appuyer contre le mur	Exp	MC2-12		
+靠着大树		Être appuyé contre un arbre	Exp	MC2-12		
+靠在他身上		S'appuyer contre lui	Exp	MC2-12		
+背靠背		Dos à dos	Exp	MC2-12		
+靠边！		Écartez-vous !	Exp	MC2-12		
+靠父母		Se reposer sur ses parents	Exp	MC2-12		
+靠自己		Compter sur soi-même	Exp	MC2-12		
+靠什么生活？		Vivre de quoi ?	Exp	MC2-12		
+河水涨了		L'eau de la rivière monte	Exp	MC2-12		
+又涨价了		Le prix a encore augmenté	Exp	MC2-12		
+物价上涨		La hausse de prix	Exp	MC2-12		
+欠了他一笔钱		Les prix montent très vite	Exp	MC2-12		
+钱欠得太多		Devoir trop d'argent	Exp	MC2-12		
+欠了不少钱		Devoir pas mal d'argent	Exp	MC2-12		
+还欠你多少？		Te devoir encore combien ?	Exp	MC2-12		
+退一步		Reculer d'un pas	Exp	MC2-12		
+往后退		Reculer	Exp	MC2-12		
+退出会场		Quitter la salle de réunion	Exp	MC2-12		
+退票		Rendre un billet	Exp	MC2-12		
+不退不换		Ni repris ni échangé	Exp	MC2-12		
+烧退了		La fièvre a baissé	Exp	MC2-12		
+海水退了		La marée s'est retirée	Exp	MC2-12		
+取消计划		Annuler un projet	Exp	MC2-12		
+取消订单		Annuler une commande	Exp	MC2-12		
+班机取消了		Le vol est annulé	Exp	MC2-12		
+鞋太紧		(Mes) chaussures (me) serrent	Exp	MC2-12		
+时间很紧		Être pressé par le temps	Exp	MC2-12		
+紧接着		Tout de suite après	Exp	MC2-12		
+做了一个梦		Avoir fait un rêve	Exp	MC2-12		
+说梦话		Parler en rêvant	Exp	MC2-12		
+梦见了他		Rêver de lui, le voir en rêve	Exp	MC2-12		
+一个恶梦		Un cauchemar	Exp	MC2-12		
+朝南的房子		Maison orientée au sud	Exp	MC2-12		
+朝着大海		Donner sur la mer	Exp	MC2-12		
+门朝东		La porte donne vers l'Est	Exp	MC2-12		
+朝前看		Regarder vers l'avant	Exp	MC2-12		
+朝南走		Se diriger vers le sud	Exp	MC2-12		
+朝他招手		Lui faire un signe de la main	Exp	MC2-12		
+张嘴		Ouvrir la bouche	Exp	MC2-12		
+张开嘴		Ouvrir la bouche	Exp	MC2-12		
+闭上嘴		Fermer la bouche	Exp	MC2-12		
+闭嘴！		Ferme-la !	Exp	MC2-12		
+吵嘴		Se disputer, se quereller	Exp	MC2-12		
+亲嘴		S'embrasser sur la bouche	Exp	MC2-12		

@@ -736,7 +736,7 @@
 阅读	yuèdú	Lecture; lire	V & N	15	閲讀	
 听力	tīnglì	Capacité d'audition; Compréhension orale	N.	15	聽力	
 口语	kǒuyǔ	Langue parlée, pratique orale	N.	15	口語	
-写作	xiězuò	Écriture; écrire	V & N	15	寫作	
+写作	xiězuò	Écriture; écrire, composer, créer (oeuvre littéraire ou musicale)	V & N	15	寫作	
 母语	mǔyǔ	Langue maternelle	N.	15	母語	
 外国	wàiguó	Pays étranger	N.	15	外國	
 练习	liànxí	Exercice; pratiquer	V & N	15	練習	
@@ -820,7 +820,7 @@
 合资	hézī	Capitaux mixtes	N.	16+	合資	
 企业	qǐyè	Entreprise	N.	16+	企業	
 合作	hézuò	Coopération, coopérer	V & N	16+		
-投资	tóuzī	Investir	N.	16+	投資	
+投资	tóu zī	Investissement; investir	V & N	16+	投資	
 房子	fángzi	Maison	N.	17		-
 出租	chūzū	À louer, donner en location	V.	17		
 房东	fángdōng	Propriétaire	N.	17	房東	
@@ -836,7 +836,7 @@
 电冰箱 [台]	diànbīngxiāng	Réfrigérateur	N.	17	電冰箱	
 洗衣机 [台]	xǐyījī	Machine à laver	N.	17	洗衣機	
 空调 [台]	kōngtiáo	Climatiseur, air conditionné	N.	17	空調	
-付	fù	Payer	V.	17		
+付	fù	Payer, verser (argent, frais...); donner, remettre	V.	17		
 押金	yājīn	Caution, consigne	N.	17		
 合同	hétong	Contrat	N.	17		
 带	dài	Apporter, amener, emmener	V.	17	帶	
@@ -1030,7 +1030,7 @@
 脾气	píqi	Tempérament, caractère	N.	21	脾氣	
 认真	rènzhēn	Sérieux, consciencieux	Adj.	21	認真	
 感情	gǎnqíng	Émotion, sentiment, affection	N.	21		
-确实	quèshí	Vraiment; Vrai, réel	Adv & Adj	21	確實	
+确实	quèshí	Vraiment; Vrai, réel, effectivement, en effet	Adv & Adj	21	確實	
 反对	fǎnduì	S'opposer, être contre	V.	21	反對	
 醉	zuì	Être ivre	V.	21		
 交杯酒	jiāobēijiǔ	Un verre de vin nuptial, (boire du vin en croisant les verres)	N.	21		
@@ -1416,7 +1416,7 @@
 逛	guàng	Se promener, se balader, flâner	V.	3-9		
 公园	gōngyuán	Parc	N.	3-9	公園	
 印象	yìnxiàng	Impression	N.	3-9		
-深	shēn	Profond	Adj.	3-9		
+深	shēn	Profond; difficile, complexe	Adj.	3-9		
 书店 [家]	shūdiàn	Librairie	N.	3-9	書店	
 忍不住	rěnbuzhù	Ne pouvoir s'empêcher de		3-9		
 至少	zhìshǎo	Au moins, du moins, au minimum, à la limite	Adv.	3-9		
@@ -1428,7 +1428,7 @@
 摆	bǎi	Placer, disposer	V.	3-9	擺	
 客人	kèrén	Visiteur, invité, hôte	N.	3-9		
 显得	xiǎnde	Apparaître, avoir l'air	V.	3-9	顯得	
-知识	zhīshi	Connaissance	N.	3-9	知識	
+知识	zhīshi	Connaissance, savoir	N.	3-9	知識	
 尤其	yóuqí	Particulièrement, essentiellement	Adv.	3-9		
 以外	yǐwài	En dehors de, en outre	Prep.	3-9		
 亲眼	qīnyǎn	De ses propres yeux	Adv.	3-9	親眼	
@@ -1660,7 +1660,7 @@
 许多	xǔduō	Beaucoup	Adj.	4-2	許多	
 那样	nàyàng	Ce, celui-là	Pron.	4-2	那樣	
 页	yè	Page	Spec.	4-2	頁	
-正好	zhènghǎo	Justement	Adv.	4-2		
+正好	zhènghǎo	Justement (par coïncidence); exact (ni plus ni moins)	Adv.	4-2		
 撕	sī	Déchirer	V.	4-2		
 碎片	suìpiàn	Pièce, morceau	N.	4-2		
 拼	pīn	Rassembler	V.	4-2		
@@ -1745,7 +1745,6 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 城里	chéngli	En ville	M.P.	4-4	城裏	
 所	suǒ	(Spécificatif pour une école ou un institut)	Spec.	4-4		
 捐款	juān kuǎn	Donation; faire une donation	V & N	4-4		
-投资	tóu zī	Investissement; investir	V & N	4-4	投資	
 县	xiàn	District	N.	4-4	縣	
 成长	chéngzhǎng	Croissance; croître, grandir	V.	4-4	成長	
 不利	búlì	Défavorable, désavantageux	Adj.	4-4		
@@ -1926,7 +1925,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 大观	dàguān	Grand spectacle	N.	4-7	大觀	
 唱段	chàngduàn	Chant, air	N.	4-7		
 泡	pào	Mariner, tremper	V.	4-7		
-网络	wǎngluò	Réseau	N.	4-7	網絡	
+网络	wǎngluò	Réseau, internet	N.	4-7	網絡	
 局限	júxiàn	Limiter	V.	4-7		
 听戏	tīng xì	Assister à un opéra	V.O.	4-7	聽戲	
 投入	tóurù	Se lancer dans, se jeter dans, s'impliquer; absorbé	V & Adj	4-7		
@@ -2029,7 +2028,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 改变	gǎibiàn	Changer, transformer, modifier	V.	4-9	改變	
 寂寞	jìmò	Isolé, seul	Adj.	4-9		
 行列	hángliè	Rang	N.	4-9		
-现象	xiànxiàng	Phénomène	N.	4-9	現象	
+现象	xiànxiàng	Phénomène, fait observable	N.	4-9	現象	
 另	lìng	D'autre part, en plus; différent, autre	Adv & Adj	4-9		
 情感	qínggǎn	Émotion, sentiment; affection	N.	4-9		
 由于	yóuyú	À cause de; parce que, en raison de		4-9	由於	
@@ -2043,7 +2042,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 分娩	fēnmiǎn	Accoucher, enfanter	V.	4-9		
 天伦之乐	tiān lún zhī lè	Bonheur d'être en famille	Chengyu	4-9	天倫之樂	
 母爱	mǔ'ài	Amour maternel	N.	4-9	母愛	
-付出	fùchū	Donner, payer	V.	4-9		
+付出	fùchū	Donner, payer, débourser	V.	4-9		
 结束	jiéshù	Terminer, finir, conclure	V.	4-9	結束	
 奢侈	shēchǐ	Luxe; luxueux	N & Adj	4-9+		
 事业	shìyè	Carrière, entreprise, cause	N.	4-9+	事業	
@@ -2193,7 +2192,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 教育	jiàoyù	Éducation; éduquer	V & N	4-12		
 表现	biǎoxiàn	Montrer, se montrer, manifester	V.	4-12	表現	
 事实上	shìshí shang	En vérité, en réalité		4-12	事實上	
-事实	shìshí	Fait	N.	4-12	事實	
+事实	shìshí	Fait, réalité	N.	4-12	事實	
 仍旧	réngjiù	Encore, toujours, comme auparavant (= 还是)	Adv.	4-12	仍舊	
 保持	bǎochí	Maintenir, préserver, garder	V.	4-12		
 典型	diǎnxíng	Modèle, type; représentatif, typique	N & Adj	4-12		
@@ -2683,7 +2682,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 打	dǎ	Casser		MC2-4		-
 土豆	tǔdòu	Pomme de terre		MC2-4		
 丝	sī	(Qqch coupé en) filaments; soie; fil, fibre		MC2-4	絲	
-丁	dīng	Petit cube, en dés		MC2-4		
+丁	dīng	Le quatrième; Petit cube, en dés		MC2-4		
 菜刀	càidāo	Couteau de cuisine		MC2-4		
 油	yóu	Huile		MC2-4		
 盐	yán	Sel		MC2-4	鹽	
@@ -4150,7 +4149,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 80后	bā-líng hòu	La génération née dans les années 1980		MC2-12	80後	
 说破嘴皮	shuōpò zuǐpí	"Avoir les lèvres gercées à force de parler" = discours vain, infructueux		MC2-12	說破嘴皮	
 楼堂馆所	lóutángguǎnsuǒ	Bâtiments de toutes sortes (exceptés ceux d'habitation)		MC2-12	樓讓管所	
-空中楼阁	kōngzhōng-lóugé	Pavillons suspendus dans les airs / châteaux en Espagne		MC2-12	空中樓閣	
+空中楼阁	kōngzhōng-lóugé	Pavillons suspendus dans les airs / châteaux en Espagne	Chengyu	MC2-12	空中樓閣	
 愚蠢	yúchǔn	Idiot		MC2-12		
 羡慕	xiànmù	Envieux		MC2-12		
 盖	gài	Construire		MC2-12	蓋	
@@ -4161,7 +4160,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 不耐烦	bú nàifán	Impatient		MC2-12	不耐煩	
 基础	jīchǔ	Base		MC2-12	基礎	
 理想	lǐxiǎng	Idéal		MC2-12		
-永远	yǒngyuǎn	Toujours, éternel		MC2-12	永遠	
+永远	yǒngyuǎn	Toujours, à jamais		MC2-12	永遠	
 差点儿没	chà diǎnr méi	Faillir ne pas		MC2-12	差點兒沒	
 修车		Réparer une voiture	Exp	MC2-12		
 修(理)电脑		Réparer un ordinateur	Exp	MC2-12		
@@ -4225,3 +4224,244 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 闭嘴！		Ferme-la !	Exp	MC2-12		
 吵嘴		Se disputer, se quereller	Exp	MC2-12		
 亲嘴		S'embrasser sur la bouche	Exp	MC2-12		
+和…打交道	hé…dǎ jiāodào	Être en contact avec, avoir affaire avec		MC2-13		-
+购物车	gòuwùchē	Chariot (pour les courses), "mon panier"		MC2-13	購物車	
+结算	jiésuàn	Régler, payer		MC2-13	結算	
+电子信箱	diànzǐ xìnxiāng	Adresse e-mail		MC2-13		
+信用卡	xìnyòngkǎ	Carte de crédit		MC2-13		
+汇款	huì kuǎn	Envoyer par mandat-poste		MC2-13	匯款	
+支票	zhīpiào	Chèque		MC2-13		
+协会	xiéhuì	Association		MC2-13	協會	
+展开	zhǎnkāi	Étaler, dérouler, déplier (carte, tapis, affiche...)		MC2-13	展開	
+展览	zhǎnlǎn	Exposer, exposition		MC2-13	展覽	
+展览馆	zhǎnlǎnguǎn	Palais des expositions		MC2-13	展覽館	
+时速	shísù	Vitesse horaire		MC2-13	時速	
+高速公路	gāosù gōnglù	Autoroute		MC2-13		
+高速火车	gāosù huǒchē	Train à grande vitesse		MC2-13	高速火車	
+速食面	sùshímiàn	Nouilles instantanées		MC2-13		
+一篇文章	yī piān wénzhāng	Un article, un texte		MC2-13		
+长篇小说	cháng piān xiǎoshuō	Roman		MC2-13	長篇小說	
+中篇小说	zhōng piān xiǎoshuō	Roman court		MC2-13	中篇小說	
+短篇小说	duǎn piān xiǎoshuō	Nouvelle, récit		MC2-13	短篇小說	
+读书	dúshū	Lire; faire des études		MC2-13	讀書	
+迎接	yíngjiē	Aller à la rencontre de, accueillir		MC2-13		
+谈论	tánlùn	Discuter de, traiter de		MC2-13	談論	
+理论	lǐlùn	Théorie		MC2-13	理論	
+论文	lùnwén	Thèse, article académique		MC2-13	論文	
+言论	yánlùn	Opinion		MC2-13	言論	
+烈日	lièrì	Soleil de plomb		MC2-13		
+兴高采烈	xìnggāocǎiliè	Déborder de joie ou d'enthousiasme	Chengyu	MC2-13	興高采烈	
+甲	jiǎ	Le premier		MC2-13		
+甲级字	jiǎ jí zì	Caractères du 1er niveau (de base, les plus fréquents)		MC2-13	甲級字	
+甲级词	jiǎ jí cí	Vocabulaire du 1er niveau		MC2-13	甲級詞	
+页数	yèshù	Le nombre de pages		MC2-13	頁數	
+付钱	fù qián	Payer		MC2-13	付錢	
+付清	fù qīng	Le nombre de pages		MC2-13		
+章	zhāng	Chapitre; mouvement (musique)	Spec.	MC2-13		
+第一章	dì yī zhāng	Le premier chapitre		MC2-13		
+乐章	yuèzhāng	Mouvement (oeuvre musicale)		MC2-13	樂章	
+文章	wénzhāng	Article, texte		MC2-13		
+垃圾堆	lājīduī	Tas d'ordures		MC2-13		
+乙	yǐ	Le deuxième		MC2-13		
+乙级字	yǐ jí zì	Caractères du 2è niveau		MC2-13	乙級字	
+乙级词	yǐ jí cí	Vocabulaire du 2è niveau		MC2-13	乙級詞	
+研	yán	Broyer en frottant (encre solide, ingrédient, médicament)		MC2-13		
+研墨	yánmò	Préparer de l'encre (sur un encrier avec un bâtonnet)		MC2-13		
+研究	yánjiū	Étudier à fond, faire de la recherche scientifique		MC2-13		
+科研	kēyán	科学研究		MC2-13		
+在乎	zàihū	Attacher de l'importance, faire attention à		MC2-13		
+不在乎	bú zàihū	Se ficher de, se moquer de		MC2-13		
+满不在乎	mǎn bú zàihū	Se ficher complètement de		MC2-13	滿不在乎	
+胖乎乎	pànghūhu	Potelet, grassouillet		MC2-13		
+热乎乎	rèhūhu	Chaud (chaleur agréable)		MC2-13	熱乎乎	
+圆乎乎	yuánhūhu	De forme ronde		MC2-13	圓乎乎	
+神态	shéntài	Air, expression, apparence		MC2-13	神態	
+状态	zhuàngtài	État, situation		MC2-13	狀態	
+生态学	shēngtài xué	Écologie		MC2-13	生態學	
+生态平衡	shēngtài pínghéng	Équilibre écologique		MC2-13	生態平衡	
+永久	yǒngjiǔ	Éternel, perpétuel		MC2-13	永久	
+永久会员	yǒngjiǔ huìyuán	Membre perpétuel		MC2-13	永久會員	
+永别	yǒngbié	Un éternel adieu		MC2-13	永別	
+印	yìn	Imprimer, tirer (livre, document, photo...)		MC2-13		
+印刷厂	yìnshuāchǎng	Imprimerie		MC2-13	印刷廠	
+复印	fùyìn	Photocopier, polycopier		MC2-13	複印	
+复印机	fùyìnjī	Photocopieuse		MC2-13	複印機	
+打印	dǎ yìn	Imprimer (depuis un ordinateur)		MC2-13		
+打印机	dǎyìnjī	Imprimante		MC2-13	打印機	
+手印	shǒuyìn	Empreinte digitale		MC2-13		
+脚印	jiǎoyìn	Empreinte de pied		MC2-13		
+印度	yìndù	Inde		MC2-13		
+印第安人	yìndì'ān rén	Indien d'Amérique		MC2-13		
+大象	dàxiàng	Éléphant		MC2-13		
+小象	xiǎoxiàng	Éléphanteau		MC2-13		
+气象学	qìxiàngxué	Météorologie		MC2-13	氣象學	
+气象预报	qìxiàng yùbào	Prévision météorologique		MC2-13	氣象預報	
+象声词	xiàngshēng cí	Onomatopée		MC2-13	象聲詞	
+禁区	jìnqū	Zone interdite		MC2-13	禁區	
+禁书	jìnshū	Livre censuré, interdit		MC2-13	禁書	
+严禁	yánjìn	Strictement interdit		MC2-13	嚴禁	
+不禁	bújìn	Ne pas pouvoir s'empêcher de		MC2-13		
+虫子	chóngzi	Bestiole, insecte, ver		MC2-13	蟲子	
+飞虫	fēichóng	Insecte ailé		MC2-13	飛蟲	
+害虫	hàichóng	Insecte nuisible		MC2-13	害蟲	
+毛毛虫	máomaochóng	Chenille		MC2-13	毛毛蟲	
+爬虫	páchóng	Reptile		MC2-13	爬蟲	
+杀虫药	shā chóng yào	Insecticide		MC2-13	殺蟲藥	
+深水	shēnshuǐ	Eau profonde		MC2-13		
+深海	shēnhǎi	Haute mer		MC2-13		
+深山	shēnshān	Au fond des montagnes		MC2-13		
+深夜	shēnyè	Tard dans la nuit		MC2-13		
+深蓝	shēnlán	Bleu foncé		MC2-13	深藍	
+检验	jiǎnyàn	Vérifier, tester, contrôler		MC2-13	檢驗	
+化验	huàyàn	Analyser en laboratoire		MC2-13	化驗	
+著作	zhùzuò	Oeuvre, ouvrage		MC2-13		
+原著	yuánzhù	Oeuvre originale, texte original		MC2-13		
+名著	míngzhù	Oeuvre célèbre, oeuvre classique		MC2-13		
+趣味	qùwèi	Intérêt, goût		MC2-13		
+有趣	yǒuqù	Agrément, goût		MC2-13		
+正确	zhèngquè	Correct, juste, exact		MC2-13	正確	
+准确	zhǔnquè	Exact, précis		MC2-13	準確	
+明确	míngquè	Net, clair, explicite		MC2-13	明確	
+确定	quèdìng	Fixer, décider		MC2-13	確定	
+丙	bǐng	Le troisième		MC2-13		
+丙级字	bǐng jí zì	Caractères du 3è niveau		MC2-13	丙級字	
+丙级词	bǐng jí cí	Vocabulaire du 3è niveau		MC2-13	丙級詞	
+丁级字	dīng jí zì	Caractères du 4è niveau		MC2-13	丁級字	
+鸡丁(儿)	jīdīng(er)	Poulet coupé en cubes		MC2-13	雞丁(兒)	
+尼古丁	nígǔdīng	Nicotine		MC2-13		
+丁丁	dīngdīng	Tintin		MC2-13		
+丁丁当当	dīngdīngdāngdāng	Onomatopée "Clic-clac" (tintement)		MC2-13	丁丁當當	
+投	tóu	Lancer, mettre, déposer		MC2-13		
+投球	tóu qiú	Lancer le ballon		MC2-13		
+投篮	tóu lán	Tirer au panier		MC2-13	投籃	
+投票	tóupiào	Déposer un bulletin de vote, voter avec un bulletin		MC2-13		
+全民公投	quán mín gōng tóu	Référendum		MC2-13		
+敢做敢当	gǎn zuò gǎn dāng	Savoir prendre ses responsabilités		MC2-13	敢做敢當	
+停止	tíngzhǐ	Arrêter, s'arrêter		MC2-13		
+不止	bùzhǐ	Ne se limite pas à		MC2-13		
+研讨会	yántàohuì	Colloque		MC2-13	研討會	
+一部名著	yí bù míng zhù	Une oeuvre célèbre/classique		MC2-13		
+动画片	dònghuàpiàn	Dessin animé		MC2-13	動畫片	
+算	suàn	Être considéré comme, être regardé comme, être compté parmi; être valable		MC2-13		
+算是	suànshì	Être considéré , regardé comme		MC2-13		
+算数	suànshù	Être valable		MC2-13	算數	
+说了算	shuō le suàn	Avoir le dernier mot		MC2-13	說了算	
+青少年	qīngshàonián	Adolescent		MC2-13		
+少年	shàonián	Adolescent; jeune homme		MC2-13		
+少女	shàonǚ	Jeune fille		MC2-13		
+少妇	shàofù	Jeune femme mariée		MC2-13	少婦	
+发表	fābiǎo	Publier; exprimer publiquement (opinion, avis)		MC2-13	發表	
+点击	diǎnjī	Cliquer (ordinateur)		MC2-13	點擊	
+商业化	shāngyèhuà	Se commercialiser		MC2-13	商業化	
+告别	gào bié	Prendre congé de quelqu'un, dire au revoir		MC2-13	告別	
+看好	kànhǎo	Bien accueilli, populaire, prometteur		MC2-13		
+纯	chún	Pur		MC2-13	純	
+严肃	yánsù	Sérieux, grave		MC2-13	嚴肅	
+差	chà	(Qualité, niveau) mauvais, faible, insuffisant		MC2-13		
+到…为止	dào…wéizhǐ	Jusqu'à...		MC2-13	到…為止	
+至于	zhìyú	Quant à, pour ce qui est de		MC2-13	至於	
+其次	qícì	Ensuite, en deuxième lieu, deuxièmement, secundo		MC2-13		
+会员	huìyuán	Membre d'une association, d'un groupe, d'un club...		MC2-13	會員	
+作品	zuòpǐn	Oeuvre, ouvrage		MC2-13		
+读者	dúzhě	Lecteur		MC2-13	讀者	
+作家	zuòjiā	Écrivain		MC2-13		
+博客	bókè	Blog		MC2-13		
+文学性	wénxuéxìng	Caractère littéraire		MC2-13	文學性	
+写手	xiě shǒu	"Écrivant"		MC2-13	寫手	
+作者	zuòzhě	Auteur		MC2-13		
+网友	wǎngyǒu	Internaute (considéré individuellement)		MC2-13	網友	
+文笔	wénbǐ	Style (composition littéraire)		MC2-13	文筆	
+情节	qíngjié	Intrigue, scénario, histoire (fiction, création littéraire)		MC2-13	情節	
+人物	rénwù	Personnage		MC2-13		
+思想	sīxiǎng	Idée, pensée, idéologie		MC2-13		
+乱七八糟	luànqībāzāo	Désordre complet, pagaille, sens dessus dessous		MC2-13	亂七八糟	
+听说读写	tīngshuōdúxiě	Écouter, parler, lire, écrire		MC2-13	聽說讀寫	
+天干	tiāngān	Troncs célestes		MC2-13		
+地支	dìzhī	Rameaux terrestres		MC2-13		
+符号	fúhào	Signe, symbole		MC2-13	符號	
+历法	lìfǎ	Calendrier		MC2-13	曆法	
+五行	wǔxíng	Cinq éléments		MC2-13		
+顺序	shùnxù	Ordre		MC2-13	順序	
+组合	zǔhé	Combinaison		MC2-13	組合	
+周期	zhōuqī	Cycle		MC2-13	週期	
+循环	xúnhuán	Circuler, se renouveler		MC2-13	循環	
+生肖	shēngxiào	Signes zodiacaux		MC2-13		
+属相	shǔxiàng	Signes zodiacaux		MC2-13	屬相	
+本命年	běnmìng nián	L'année de son signe		MC2-13		
+腰带	yāodài	Ceinture		MC2-13	腰帶	
+系	jì	Attacher		MC2-13		
+词汇	cíhuì	Vocabulaire		MC2-13	詞匯	
+级	jí	Degré, gamme		MC2-13	級	
+等	děng	Degré, gamme		MC2-13		
+代表	dàibiǎo	Représenter		MC2-13		
+戊	wù	Le cinquième		MC2-13		
+己	jǐ	Le sixième		MC2-13		
+庚	gēng	Le septième		MC2-13		
+辛	xīn	Le huitième		MC2-13		
+壬	rén	Le neuvième		MC2-13		
+癸	guǐ	Le dixième		MC2-13		
+子	zǐ	子鼠		MC2-13		
+丑	chǒu	丑牛		MC2-13		
+寅	yín	寅虎		MC2-13		
+卯	mǎo	卯兔		MC2-13		
+辰	chén	辰龙		MC2-13		
+巳	sì	巳蛇		MC2-13		
+午	wǔ	午马		MC2-13		
+未	wèi	未羊		MC2-13		
+申	shēn	申猴		MC2-13		
+酉	yǒu	酉鸡		MC2-13		
+戌	xū	戌狗		MC2-13		
+亥	hài	亥猪		MC2-13		
+读不懂		Ne pas comprendre ce qui est écrit	Exp	MC2-13		
+读不起书		Ne pas pouvoir payer ses études	Exp	MC2-13		
+谁付钱？		Qui paye ?	Exp	MC2-13		
+付学费		Payer les frais de scolarité	Exp	MC2-13		
+付水电费		Payer l'eau courante et l'électricité	Exp	MC2-13		
+付清了		S'être acquitté de, avoir tout payé	Exp	MC2-13		
+付现金		Payer en liquide	Exp	MC2-13		
+付不起		Ne pas avoir les moyens de payer	Exp	MC2-13		
+付出很多精力		Avoir dépensé beaucoup d'énergie	Exp	MC2-13		
+受刺激		Subir un choc psychologique	Exp	MC2-13		
+受苦		Souffrir	Exp	MC2-13		
+受气		Subir des vexations	Exp	MC2-13		
+受得了		Pouvoir supporter	Exp	MC2-13		
+受他的影响		Être influencé par lui	Exp	MC2-13		
+接受礼物		Accepter un présent	Exp	MC2-13		
+接受他的申请		Accepter sa candidature	Exp	MC2-13		
+接受这个事实		Admettre ce fait	Exp	MC2-13		
+没有被接受		Ne pas avoir été accepté	Exp	MC2-13		
+我敢说		J'ose dire / Je suis sûr que	Exp	MC2-13		
+不敢当		(Formule de politesse) vous me flattez.	Exp	MC2-13		
+热烈的掌声		Applaudissements chaleureux	Exp	MC2-13		
+水平很差		Le niveau est bas	Exp	MC2-13		
+成绩太差		Les résultats sont trop mauvais	Exp	MC2-13		
+质量差		De mauvaise qualité	Exp	MC2-13		
+条件差		Être dans de mauvaises conditions	Exp	MC2-13		
+环境差		Être dans un environnement mauvais	Exp	MC2-13		
+身体比较差		Être de santé assez fragile	Exp	MC2-13		
+感情很深		Être liés par des sentiments profonds	Exp	MC2-13		
+道理很深		Renfermer une vérité profonde	Exp	MC2-13		
+永远做不到		Être à jamais incapable de faire	Exp	MC2-13		
+一直到永远		À jamais	Exp	MC2-13		
+止疼		Calmer la douleur	Exp	MC2-13		
+止血		Stopper l'hémorragie	Exp	MC2-13		
+止住了		Avoir arrêté	Exp	MC2-13		
+止不住		Ne pas pouvoir arrêter	Exp	MC2-13		
+游人止步		Interdit aux visiteurs, défense d'entrer	Exp	MC2-13		
+至今为止		到今天为止	Exp	MC2-13		
+到现在为止		Jusqu'à maintenant	Exp	MC2-13		
+不止你一个		Pas seulement toi	Exp	MC2-13		
+不止三天		Plus de trois jours	Exp	MC2-13		
+态度不严肃		Avoir une attitude peu sérieuse	Exp	MC2-13		
+文化水平		Niveau culturel	Exp	MC2-13		
+生活水平		Niveau de vie	Exp	MC2-13		
+印象很深		Faire une forte impression	Exp	MC2-13		
+印象不深		Ne pas laisser une forte impression	Exp	MC2-13		
+好印象		Bonne impression	Exp	MC2-13		
+给我的印象		L'impression que (cela) m'a faite	Exp	MC2-13		
+留下一个印象		Laisser une impression	Exp	MC2-13		
+文化知识		Connaissances culturelles, culture	Exp	MC2-13		
+科学知识		Connaissance scientifiques	Exp	MC2-13		
+知识丰富		Connaître beaucoup de choses	Exp	MC2-13		
+知识分子		(Un) intellectuel	Exp	MC2-13		
+给/对我的影响		Influence sur moi	Exp	MC2-13		

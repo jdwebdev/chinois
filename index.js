@@ -85,6 +85,8 @@ function openModalHelp() {
     popup_help.innerHTML = `
         <div id="help_container">
             <div id="help_content">
+                <p class="date zh_font">2024年10月16日<span class="app_version zh_font">V. 6.3</span></p>
+                <h2 class="help_title">Ajout de la leçon MC2-13</h2>
 
                 <p class="date zh_font">2024年10月4日<span class="app_version zh_font">V. 6.2</span></p>
                 <h2 class="help_title">Ajout de la leçon MC2-12</h2>

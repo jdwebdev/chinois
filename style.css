@@ -917,7 +917,7 @@ main {
         height: 36px;
     }
     #zt_select_filter {
-        width: 80px;
+        width: 70px;
         height: 36px;
         margin-right: 10px;
     }
@@ -960,7 +960,7 @@ main {
 
     #zt_h_select_lesson, #zt_w_select_lesson {
         margin-right: 5px;
-        width:100px;
+        width:120px;
         height: 36px;
     }
 

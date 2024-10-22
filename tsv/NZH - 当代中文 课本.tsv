@@ -935,7 +935,7 @@
 宾馆	bīnguǎn	Hôtel	N.	19	賓館	
 地址	dìzhǐ	Adresse	N.	19		
 总台	zǒngtái	Réception, téléphoniste	N.	19	總臺	
-转	zhuǎn	Transférer	V.	19	轉	
+转	zhuǎn	Transférer; virer; tourner; transmettre	V.	19	轉	
 骂	mà	Injurier, insulter	V.	19	罵	
 顿	dùn	(Spécificatif pour les repas, les injures)	Spec.	19	頓	
 护照	hùzhào	Passeport	N.	19	護照	
@@ -1052,7 +1052,7 @@
 当做	dàngzuò	Traiter comme, considérer comme	V.	3-1	當做	
 从来	cónglái	Depuis toujours	Adv.	3-1	從來	
 唯一	wéiyī	Seul, unique	Adj.	3-1		
-捧	pěng	Tenir quelque chose dans les deux mains	V.	3-1		
+捧	pěng	Tenir quelque chose dans les deux mains; (abstrait) soutenir, appuyer	V.	3-1		
 摘	zhāi	Cueillir	V.	3-1		
 像	xiàng	Ressembler	V.	3-1		
 心 [颗]	xīn	Coeur	N.	3-1		
@@ -1561,7 +1561,7 @@
 五颜六色	wǔ yán liù sè	Multicolore	Chengyu	3-12	五顔六色	
 对于 […来说， …]	duìyú … láishuō	Quant à, en ce qui concerne		3-12	對於	
 对于	duìyú	Sur, à l'égard de	Prep.	3-12	對於	
-似乎	sìhū	Comme si, en apparence	Adv.	3-12		
+似乎	sìhū	好像，Comme si, en apparence	Adv.	3-12		
 专利	zhuānlì	Brevet	N.	3-12	專利	
 丝巾 [条]	sījīn	Foulard en soie	N.	3-12	絲巾	
 袜子 [只双]	wàzi	Chaussettes	N.	3-12	襪子	
@@ -1761,7 +1761,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 家长	jiāzhǎng	Parents	N.	4-4	家長	
 猜想	cāixiǎng	Supposition; supposer, deviner	V.	4-4		
 惹	rě	Offenser, provoquer	V.	4-4		
-推	tuī	Pousser	V.	4-4		
+推	tuī	Pousser; couper (les cheveux) à la tondeuse	V.	4-4		
 点头	diǎn tóu	Hocher la tête	V.O.	4-4	點頭	
 让座	ràng zuò	Offrir ou laisser sa place à qqn; inviter qqn à s'asseoir	V.O.	4-4	讓座	
 悬	xuán	Suspendre	V.	4-4	懸	
@@ -2071,7 +2071,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 管教	guǎnjiào	Instruire, corriger	V.	4-10		
 简直	jiǎnzhí	Simplement, pratiquement, vraiment	Adj.	4-10	簡直	
 头	tóu	(Spécificatif pour certains animaux)	Spec.	4-10	頭	
-似的	shìde	(Utilisé après un nom, un pronom ou un verbe pour indiquer la similarité)		4-10		
+似的	shìde / sìde	(Utilisé après un nom, un pronom ou un verbe pour indiquer la similarité)		4-10		
 有其父必有其子	yǒu qí fù bì yǒu qí zǐ	Tel père tel fils		4-10		
 活	huó	Vivre, être en vie	V.	4-10		
 初一	chūyī	1ère année du 1er cycle de l'école secondaire; le 1er janvier (d'un mois lunaire)		4-10		
@@ -2170,12 +2170,12 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 不断	búduàn	Sans cesse, sans arrêt, continuellement	Adv.	4-12	不斷	
 差异	chāyì	Différent, divergence	N.	4-12	差異	
 显露	xiǎnlù	Se révéler, apparaître, se manifester	V.	4-12	顯露	
-遇到	yùdào	Rencontrer	V.	4-12		
+遇到	yùdào	Rencontrer (une personne, une situation)	V.	4-12		
 外地	wàidì	Les autres régions (par rapport à sa propre région), province	N.	4-12		
 出差	chū chāi	Partir en mission, voyage d'affaire	V.O.	4-12		
 临时	línshí	Occasionnellement; provisoire, temporaire	Adv & Adj	4-12	臨時	
 照看	zhàokàn	S'occuper, soigner, prendre soin de	V.	4-12		
-抓	zhuā	Saisir, prendre; arrêter	V.	4-12		
+抓	zhuā	Saisir, prendre; arrêter; griffer; gratter	V.	4-12		
 香烟	xiāngyān	Cigarette	N.	4-12	香煙	
 未	wèi	Pas encore	Adv.	4-12		
 成年	chéngnián	Adulte; atteindre sa majorité	V & N	4-12		
@@ -2308,7 +2308,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 脾	pí	Rate		MC2-1		
 刚好	gānghǎo	Exactement		MC2-1	剛好	
 相反	xiāngfǎn	Contraire		MC2-1		
-嚼	jiáo	Mâcher		MC2-1		
+嚼	jiáo	Mâcher, mastiquer		MC2-1		
 咽	yàn	Avaler		MC2-1	嚥	
 苹果	píngguǒ	Pomme		MC2-1	蘋果	
 忽然	hūrán	Tout à coup, soudainement		MC2-1		
@@ -2722,7 +2722,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 切开	qiēkāi	Découper, séparer avec un couteau		MC2-4	切開	
 油	yóu	Huile, graisse; peinture, vernis; essence, pétrole; gras, huileux		MC2-4		
 黄油	huángyóu	Beurre		MC2-4		
-奶油	nǎiyóu	Crème fraîche		MC2-4		
+奶油	nǎiyóu	Crème fraîche, beurre, crème		MC2-4		
 花生油	huāshēngyóu	Huile d'arachide		MC2-4		
 油画	yóuhuà	Peinture à l'huile		MC2-4	油畫	
 汽油	qìyóu	Essence		MC2-4		
@@ -3267,7 +3267,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 牙	yá	Dent		MC2-7		
 棍子	gùnzi	Bâton		MC2-7		
 明明	míngmíng	Évidemment		MC2-7		
-软	ruǎn	Mou		MC2-7	軟	
+软	ruǎn	Mou, doux, moelleux, souple		MC2-7	軟	
 扇子	shànzi	Éventail		MC2-7		
 柱子	zhùzi	Colonne		MC2-7		
 细	xì	Fin, mince, menu; délicat; minutieux		MC2-7	細	
@@ -3387,7 +3387,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 价钱	jiàqián	Prix (d'un produit)		MC2-8	價錢	
 原价	yuánjià	Prix d'origine		MC2-8	原價	
 票价	piàojià	Prix d'un billet, d'un ticket		MC2-8	票價	
-物价	wùjià	Prix, coût de la vie		MC2-8	物價	
+物价	wùjià	Prix, coût de la vie, prix des marchandises		MC2-8	物價	
 讲价	jiǎngjià	Discuter le prix		MC2-8	講價	
 花费	huāfèi	Frais, dépense; dépenser		MC2-8	花費	
 学费	xuéfèi	Frais de scolarité		MC2-8	學費	
@@ -3472,7 +3472,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 天神	tiānshén	Dieu, génie céleste		MC2-8		
 监督	jiāndū	Surveiller, contrôler		MC2-8	監督	
 守岁	shǒusuì	Veillée du réveillon		MC2-8	守歲	
-长寿	chángshòu	Vivre longtemps		MC2-8	長壽	
+长寿	chángshòu	Vivre longtemps, longévité		MC2-8	長壽	
 日子还没定		La date n'est pas encore fixée	Exp	MC2-8		
 结婚的日子		Date du mariage	Exp	MC2-8		
 改日子		Changer la date	Exp	MC2-8		
@@ -3646,7 +3646,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 流传	liúchuán	Se transmettre		MC2-9	流傳	
 邻居	línju	Voisin		MC2-9	鄰居	
 安慰	ānwèi	Consoler		MC2-9		
-摇	yáo	Remuer		MC2-9	瑤	
+摇	yáo	Remuer, agiter		MC2-9	瑤	
 战争	zhànzhēng	Guerre		MC2-9	戰爭	
 被迫	bèipò	Être forcé, obligé		MC2-9		
 当兵	dāng bīng	S'engager dans l'armée		MC2-9	當兵	
@@ -4465,3 +4465,183 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 知识丰富		Connaître beaucoup de choses	Exp	MC2-13		
 知识分子		(Un) intellectuel	Exp	MC2-13		
 给/对我的影响		Influence sur moi	Exp	MC2-13		
+吐	tǔ	Cracher; pousser un soupir		MC2-14		-
+敬	jìng	Porter un toast à, boire à la santé de		MC2-14		
+米纸	mǐzhǐ	Papier à base d'amidon de riz		MC2-14	米紙	
+钙	gài	Calcium		MC2-14	鈣	
+兔子	tùzi	Lapin, lièvre		MC2-14		
+小兔(儿)	xiǎotù('r)	Lapereau		MC2-14		
+家兔	jiātù	Lapin domestique		MC2-14		
+兰花	lánhuā	Orchidée		MC2-14	蘭花	
+宋代	sòngdài	Dynastie des Song		MC2-14		
+南宋	nánsòng	Les Song du Sud		MC2-14		
+北宋	běisòng	Les Song du Nord		MC2-14		
+钢	gāng	Acier		MC2-14	鋼	
+钢铁	gāngtiě	Acier		MC2-14	鋼鐵	
+钢笔	gāngbǐ	Stylo plume		MC2-14	鋼筆	
+钢琴	gāngqín	Piano		MC2-14	鋼琴	
+伸	shēn	Tendre, allonger, étirer		MC2-14		
+伸出	shēnchū	Tendre, sortir		MC2-14		
+伸长	shēncháng	Allonger, étirer		MC2-14	伸長	
+硬	yìng	Dur (au toucher)		MC2-14		
+硬度	yìngdù	Degré de dureté		MC2-14		
+硬件	yìngjiàn	Hardware		MC2-14		
+硬盘	yìngpán	Disque dur		MC2-14	硬盤	
+硬座	yìngzuò	"Siège dur" (de 2è classe en train)		MC2-14		
+劲儿	jìn'r	力气, force, vigueur		MC2-14	勁兒	
+使劲(儿)	shǐ jìn('r)	用力, faire des efforts, s'efforcer, faire avec force		MC2-14	使勁	
+费劲(儿)	fèijìn('r)	Se dépenser, se démener		MC2-14	費勁	
+起劲(儿)	qǐjìn('r)	Être enthousiaste		MC2-14	起勁	
+没劲儿	méijìn'r	Ne pas avoir de force		MC2-14	沒勁兒	
+没劲	méijìn	Sans intérêt, ennuyeux		MC2-14	沒勁	
+摇椅	yáoyǐ	Chaise à bascule		MC2-14	搖椅	
+摇篮	yáolán	Berceau		MC2-14	搖籃	
+摇动	yáodòng	Remuer, agiter		MC2-14	搖動	
+摇滚乐	yáogǔnyuè	Rock'n'roll		MC2-14	搖滾樂	
+软座	ruǎnzuò	"Siège mou" (1re classe du train)		MC2-14	軟座	
+软糖	ruǎntáng	Bonbon fondant		MC2-14	軟糖	
+软和	ruǎnhuo	Mou, doux, douillet		MC2-14	軟和	
+心软	xīnruǎn	Avoir un coeur sensible		MC2-14	心軟	
+抬	tái	Lever, soulever; porter, transporter		MC2-14	擡	
+抬头	táitóu	Lever la tête		MC2-14	擡頭	
+相似	xiāngsì	Semblable		MC2-14		
+仍然	réngrán	Toujours, encore		MC2-14		
+拍	pāi	Frapper légèrement, tapoter; prendre (photo), tourner (film)		MC2-14		
+拍手	pāi shǒu	Frapper dans les mains		MC2-14		
+拍卖	pāimài	Vente aux enchères		MC2-14	拍賣	
+拍电影	pāi diànyǐng	Tourner un film, dans un film		MC2-14	拍電影	
+球拍	qiúpāi	Raquette (ping-pong), tennis		MC2-14		
+转达	zhuǎndá	Transmettre (bonjour, salutations)		MC2-14	轉達	
+转让	zhuǎnràng	Céder (un bien, un objet)		MC2-14	轉讓	
+转弯	zhuǎnwān	Tourner, prendre un virage		MC2-14	轉彎	
+转身	zhuǎn shēn	Se tourner, se retourner		MC2-14	轉身	
+抓紧	zhuājǐn	Saisir fermement, serrer		MC2-14	抓緊	
+抓住	zhuāzhù	Attraper, serrer		MC2-14		
+惊	jīng	S'alarmer		MC2-14	驚	
+惊奇	jīngqí	Surpris, étonné, stupéfait		MC2-14	驚奇	
+吃惊	chījīng	S'étonner, être effrayé		MC2-14	吃驚	
+惊吓	jīngxià	Frayeur		MC2-14	驚嚇	
+惊醒	jīngxǐng	Se réveiller en sursaut		MC2-14	驚醒	
+惊喜	jīngxǐ	Agréable surprise		MC2-14	驚喜	
+一颗葡萄	yī kē pútáo	Un grain de raisin		MC2-14	一顆葡萄	
+一颗星	yī kē xīng	Une étoile		MC2-14	一顆星	
+一颗宝石	yī kē bǎoshí	Une pierre précieuse		MC2-14	一顆寶石	
+一颗牙	yī kē yá	Une dent		MC2-14	一顆牙	
+咬	yǎo	Mordre, ronger; piquer		MC2-14		
+咬牙	yǎoyá	Serrer les dents, grincer des dents		MC2-14		
+咬耳朵	yǎo ěrduo	(Reg. oral) chuchoter à l'oreille		MC2-14		
+哈	hā	(Interj.) ah ! ah !; (Onom.) éclat de rire		MC2-14		
+哈哈大笑	hāhā dàxiào	Rire aux éclats		MC2-14		
+哈欠	hāqiàn	Bâillement		MC2-14		
+打哈欠	dǎ hāqiàn	Bâiller		MC2-14		
+捧场	pěng chǎng	Applaudir, encourager (pendant une représentation)		MC2-14	捧場	
+遇	yù	Rencontrer par hasard; être confronté à		MC2-14		
+遇见	yùjiàn	Rencontrer (une personne)		MC2-14	遇見	
+遇上	yùshàng	Tomber sur (un événement)		MC2-14		
+相遇	xiāngyù	Se rencontrer, se croiser		MC2-14		
+美餐	měicān	Repas délicieux		MC2-14		
+美事	měishì	Chose agréable		MC2-14		
+美差	měichāi	Tâche ou mission qui joint l'utile à l'agréable		MC2-14		
+光	guāng	Dénuder; lisse, brillant; (résultatif) épuisé, fini, disparu		MC2-14		
+光着	guāngzhe	Être nu, dénudé, dépouillé		MC2-14	光著	
+光头	guāngtóu	Chauve, tête rasée		MC2-14	光頭	
+花光	huāguāng	Tout dépenser		MC2-14		
+吃光	chīguāng	Tout manger		MC2-14		
+遍	biàn	(Résultatif) partout, sans rien omettre		MC2-14		
+走遍	zǒubiàn	Parcourir, sillonner		MC2-14		
+传遍	chuánbiàn	(Nouvelle) se répandre partout		MC2-14	傳遍	
+问遍	wènbiàn	Demander à tout le monde		MC2-14	問遍	
+心脏	xīnzàng	Coeur		MC2-14	心臟	
+内脏	nèizàng	Viscère, organe		MC2-14	内臟	
+灾难	zāinàn	Fléau, malheur, catastrophe		MC2-14	災難	
+难民	nànmín	Réfugié		MC2-14	難民	
+遇难	yùnàn	Mourir dans une catastrophe		MC2-14	遇難	
+带	dài	S'occuper, élever, former		MC2-14	帶	
+摇头	yáo tóu	Secouer la tête (de droite à gauche pour désapprouver)		MC2-14	搖頭	
+惊叫	jīngjiào	Pousser une exclamation de surprise		MC2-14	驚叫	
+舔	tiǎn	Lécher		MC2-14		
+微笑	wēixiào	Sourire		MC2-14		
+奶糖	nǎitáng	Bonbon au lait		MC2-14		
+口水	kǒushuǐ	Salive		MC2-14		
+嘿嘿	hēihēi	Héhé (bruit de rire)		MC2-14		
+怦怦	pēngpēng	Boum boum (battements de coeur)		MC2-14		
+哇	wā	Ouin ouin (pleurs d'enfant)		MC2-14		
+装模作样	zhuāngmú-zuòyàng	Prendre une attitude affectée, se donner l'air de quelqu'un qui...	Chengyu	MC2-14	裝模作樣	
+轻手轻脚	qīngshǒu-qīngjiǎo	Se déplacer doucement sans faire de bruit	Chengyu	MC2-14	輕手輕脚	
+亲如手足	qīnrú-shǒuzú	Être proches comme des frères et soeurs	Chengyu	MC2-14	親如手足	
+有福同享	yǒufú-tóngxiǎng	Partager la joie et le bonheur	Chengyu	MC2-14		
+有难同当	yǒunàn-tóngdāng	Partager la peine et la souffrance	Chengyu	MC2-14	有難同當	
+好好学习，天天向上	hǎohǎo xuéxí，tiāntiān xiàngshàng	Bien étudier et progresser tous les jours		MC2-14		
+同甘共苦	tónggāngòngkǔ	Partager les joies et les peines	Chengyu	MC2-14		
+情同手足	qíngtóngshǒuzú	Être liés comme des frères et soeurs	Chengyu	MC2-14		
+喵	miāo	"Miaou", miaulement		MC2-14		
+咣	guāng	"Vlan", ガタン, ガチャン (ex: porte qui claque fort)		MC2-14		
+伸舌头		Tirer la langue	Exp	MC2-14		
+伸胳膊		Tendre les bras	Exp	MC2-14		
+伸手/伸出手		Tendre la main	Exp	MC2-14		
+伸着脖子		En tendant le cou	Exp	MC2-14		
+伸长了脖子		Avoir le cou tendu	Exp	MC2-14		
+伸伸腿		Se détendre les jambes	Exp	MC2-14		
+把头伸出窗外		Passer la tête par la fenêtre	Exp	MC2-14		
+把手伸过来/去		Tendre la main vers qqn	Exp	MC2-14		
+把腿伸直		Étendre sa (ses) jambe(s)	Exp	MC2-14		
+使劲地点头		Hocher énergiquement la tête	Exp	MC2-14		
+校长点头了		Le directeur a donné son accord	Exp	MC2-14		
+摇摇头		Secouer la tête	Exp	MC2-14		
+摇着头		En secouant la tête	Exp	MC2-14		
+摇摇手		Agiter la main	Exp	MC2-14		
+摇着尾巴		En remuant la queue	Exp	MC2-14		
+把瓶子摇一摇		Secouer la bouteille	Exp	MC2-14		
+摇着扇子		En agitant son éventail	Exp	MC2-14		
+抬头/手		Lever la tête / la main	Exp	MC2-14		
+抬起眼晴		Lever les yeux	Exp	MC2-14		
+抬桌子		Lever le pied / la jambe	Exp	MC2-14		
+抬起箱子		Soulever la valise	Exp	MC2-14		
+抬不动		Ne pas arriver à soulever	Exp	MC2-14		
+拍拍她的头		Lui tapoter la tête	Exp	MC2-14		
+拍掉身上的土		S'épousseter	Exp	MC2-14		
+拍桌子		Taper sur la table	Exp	MC2-14		
+拍门		Taper à la porte	Exp	MC2-14		
+轻轻地拍		Taper tout doucement	Exp	MC2-14		
+向右转		Tourner à droite	Exp	MC2-14		
+转过头		Tourner la tête	Exp	MC2-14		
+转交一封信		Remettre une lettre	Exp	MC2-14		
+转给他		Lui transmettre	Exp	MC2-14		
+转寄给		Faire suivre à	Exp	MC2-14		
+请你转告		Je vous prie de transmettre...	Exp	MC2-14		
+抓住不放		Ne pas lâcher	Exp	MC2-14		
+抓不住		Ne pas pouvoir attraper	Exp	MC2-14		
+猫抓老鼠		Le chat attrape la souris	Exp	MC2-14		
+抓住机会		Saisir l'occasion	Exp	MC2-14		
+抓紧时间		(Agir) sans perdre de temps	Exp	MC2-14		
+被抓走了		Avoir été arrêté	Exp	MC2-14		
+被猫抓了一下		Avoir été griffé par le chat	Exp	MC2-14		
+抓破了皮		Égratigner avec les ongles	Exp	MC2-14		
+又惊又喜		Être agréablement surpris	Exp	MC2-14		
+受惊了		Avoir eu une grosse frayeur	Exp	MC2-14		
+心里一惊		S'alarmer, avoir eu très peur	Exp	MC2-14		
+咬一口		Mordre	Exp	MC2-14		
+咬不动		Ne pas arriver à mordre	Exp	MC2-14		
+咬了舌头		S'être mordu la langue	Exp	MC2-14		
+狗咬人		Le chien mord	Exp	MC2-14		
+咬手指甲		Se ronger les ongles	Exp	MC2-14		
+被蛇咬了		Avoir été mordu par un serpent	Exp	MC2-14		
+被蚊子咬了		S'être fait piquer par un moustique	Exp	MC2-14		
+捧着个西瓜		Tenir entre les mains une pastèque	Exp	MC2-14		
+捧来一把花生米		Apporter une poignée de cacahuètes	Exp	MC2-14		
+捧着头		La tête dans les mains	Exp	MC2-14		
+捧着她的脸		Tenir son visage entre ses mains	Exp	MC2-14		
+你想得美！		Tu rêves !	Exp	MC2-14		
+美美地睡一觉		Dormir tout son soûl	Exp	MC2-14		
+光着身子/上身		Être tout nu / torse nu	Exp	MC2-14		
+光着脚走		Marcher pieds nus	Exp	MC2-14		
+把头发推光		Raser la tête à la tondeuse	Exp	MC2-14		
+又光又亮		Lisse et brillant	Exp	MC2-14		
+纸很光		Le papier est très lisse	Exp	MC2-14		
+地扫得光光的		Le sol est si bien nettoyé qu'il brille	Exp	MC2-14		
+忘得光光的		Avoir tout oublié	Exp	MC2-14		
+面包太硬		Le pain est trop dur	Exp	MC2-14		
+床很硬		Le lit est dur	Exp	MC2-14		
+硬得像石头		Dur comme du caillou	Exp	MC2-14		
+态度很硬		Avoir une attitude rigide	Exp	MC2-14		
+硬说不是		S'obstiner à nier	Exp	MC2-14		

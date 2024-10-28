@@ -371,6 +371,7 @@ function z_search(pFromBtn = false) {
                         countWords++;
                     }
                     if (z_resultList[i].ke.includes("+")) bgColor_class = "z_one_result_color";
+                    if (z_resultList[i].gram === "Exp") bgColor_class = "z_one_result_exp_color";
                     if (z_resultList[i].word.includes("[")) {
                         cleanedWord = z_resultList[i].word.split("[")[0];
                         cleanedWord = cleanedWord.slice(0, cleanedWord.length-1);
@@ -473,6 +474,22 @@ function z_search(pFromBtn = false) {
                 z_resultNb.innerHTML = z_resultList.length + " résultats";
             }
 
+            break;
+        case "chengyu":
+            innerHTML = "";
+            z_resultList = [];
+            Z_Word.list.forEach(w => {
+                if (w.gram === "Chengyu") {
+                    z_resultList.push(w);
+                }
+            });
+            z_resultList.forEach(w => {
+                innerHTML += `
+                    <div id="z_word_${w.id}" class="zh_font z_one_result" onclick="openZ_WordPopup(${w.id-1},Z_Word.list)">${w.word}</div>
+                `;
+            });
+            z_result_section.innerHTML = innerHTML;
+            z_resultNb.innerHTML = z_resultList.length + " résultats";
             break;
         case "text":
             if (z_select_lesson.value == "all") {

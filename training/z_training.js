@@ -483,6 +483,7 @@ function zt_hanziPinyinDisplayTraining() {
                 </li>
             </ul>
         </div>
+        <div id="zt_pinyin_nextBtn_container"></div>
 
         <div class="zt_arrow_container"><span id="list_up_arrow">▲</span></div>
         <div id="zt_vocContainer" class="zt_vocContainer">
@@ -521,7 +522,7 @@ function zt_hanziPinyinDisplayTraining() {
         <!--<span id="list_bottom_arrow_bord"></span>-->
         <span id="list_bottom_arrow">▼</span>
         </div>
-        <div id="zt_pinyin_nextBtn_container"></div>
+        <!--<div id="zt_pinyin_nextBtn_container"></div>-->
     `;
     z_training_section.innerHTML = innerHTML;
     // <span id="list_bottom_arrow">▼</span>
@@ -570,6 +571,7 @@ function zt_hanziPinyinDisplayTraining() {
         if (!bPinyinChecked) {
             bPinyinChecked = true;
             none(zt_pinyin_keyboard);
+            none(zt_pinyin_form)
             zt_pinyinToFind.innerHTML = zt_randomList[zt_currentIndex].pinyin;
             if (zt_pinyin_input.value.toLowerCase().trim() == zt_randomList[zt_currentIndex].pinyin.toLowerCase()) {
                 zt_pinyinToFind.style.color = "rgb(0,200,0)";

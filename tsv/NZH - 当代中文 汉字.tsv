@@ -413,7 +413,7 @@
 美	měi	Beau	12		八字旁|八 		
 题	tí	Titre	12	題	页字旁|页		
 祝	zhù	Souhaiter	12		示字旁|礻		
-乐	lè	Heureux, joie	12	樂	撇字旁|丿		
+乐	lè，yuè	Heureux, joie	12	樂	撇字旁|丿		
 送	sòng	Offrir	12		走之旁|辶		
 礼	lǐ	Cadeau, rite	12	禮	示字旁|礻		
 属	shǔ	Appartenir à (12 animaux du zodiaque)	12	屬	尸字旁|尸		
@@ -501,7 +501,7 @@
 始	shǐ	Commencement, début	15		女字旁|女		
 慢	màn	Lent	15		竖心旁|忄		
 忘	wàng	Oublier	15		心字旁|心		
-种	zhǒng	Genre, sort	15	種	禾木旁|禾		
+种	zhǒng，zhòng	Genre, sort	15	種	禾木旁|禾		
 食	shí	Nourriture; manger	15		食字旁|食		
 品	pǐn	Article, produit	15		口字旁|口		
 努	nǔ		15		力字旁|力		
@@ -636,7 +636,7 @@
 污	wū	Sale	20		三点水|氵		
 染	rǎn	Teindre	20		木字旁|木	a	
 严	yán	Sévère, strict, rigoureux	20	嚴	一字旁|一		
-重	zhòng	Lourd, important	20		里字旁|里		
+重	zhòng，chóng	Lourd, important	20		里字旁|里		
 被	bèi		20		衣字旁|衤		
 毒	dú	Poison; toxique	20		母字旁|母		
 变	biàn	Changer	20	變	又字旁|又		
@@ -769,7 +769,7 @@
 腿	tuǐ		2,2		月字旁|月		
 脚	jiǎo		2,2		月字旁|月		
 夫	fū		2,2		大字头|大		
-脏	zāng		2,2	臟髒	月字旁|月		
+脏	zāng，zàng		2,2	臟髒	月字旁|月		
 针	zhēn		2,2	針	金字旁|钅		
 香	xiāng		2,2		香字旁|香		
 港	gǎng		2,2		三点水|氵		
@@ -1176,7 +1176,7 @@
 县	xiàn		4-4	縣	私字旁|厶	a	
 困	kùn		4-4		方框儿，国字框|囗		
 缺	quē		4-4		缶字旁|缶	a	
-切	qiè		4-4		刀字旁|刀		
+切	qiè，qiē		4-4		刀字旁|刀		
 猜	cāi		4-4		反犬旁|犭		
 惹	rě		4-4		心字旁|心	a	
 悬	xuán		4-4	懸	心字旁|心	a	
@@ -1251,7 +1251,7 @@
 锅	guō		4-8	鍋	金字旁|钅		-
 筷	kuài		4-8		竹字头|⺮		
 婆	pó		4-8		女字旁|女		
-瓢	piáo		4-8		瓜字旁| 瓜	a	
+瓢	piáo		4-8		瓜字旁|瓜	a	
 盆	pén		4-8		皿字底|皿		
 废	fèi		4-8	廢	广字旁|广		
 湿	shī		4-8	濕	三点水|氵		
@@ -1505,7 +1505,7 @@
 馋	chán		MC2-8	饞	食字旁|饣		
 腊	là		MC2-8	臘	月字旁|月		
 粥	zhōu		MC2-8		米字旁|米		
-瓜	guā		MC2-8		瓜字旁| 瓜		
+瓜	guā		MC2-8		瓜字旁|瓜		
 粘	zhān		MC2-8		米字旁|米		
 炸	zhá		MC2-8		火字旁|火		
 腐	fǔ		MC2-8		广字旁|广		
@@ -1646,3 +1646,25 @@
 喵	miāo		MC2-14		口字旁|口		
 咣	guāng		MC2-14		口字旁|口		
 蚊	wén		MC2-14		虫字旁|虫		
+销	xiāo		MC3-1	銷	金字旁|钅		-
+棒	bàng		MC3-1		木字旁|木		
+悔	huǐ		MC3-1		竖心旁|忄		
+释	shì		MC3-1	釋	采字旁|采		
+吴	wú		MC3-1	吳	口字旁|口		
+丹	dān		MC3-1		撇字旁|丿		
+晓	xiǎo		MC3-1	曉	日字旁|日		
+评	píng		MC3-1	評	言字旁|讠		
+君	jūn		MC3-1		口字旁|口		
+仿	fǎng		MC3-1		单人旁|亻		
+党	dǎng		MC3-1	黨	儿字旁|儿		
+稳	wěn		MC3-1	穩	禾木旁|禾		
+甚	shèn		MC3-1		甘字旁|甘		
+渐	jiàn		MC3-1	漸	三点水|氵		
+归	guī		MC3-1	歸	雪字底|彐		
+沉	chén		MC3-1		三点水|氵		
+防	fáng		MC3-1		双耳刀，右耳刀|阝		
+牺	xī		MC3-1	犧	牛字部|牛		
+牲	shēng		MC3-1		牛字部|牛		
+辨	biàn		MC3-1		辛字旁|辛		
+析	xī		MC3-1		木字旁|木		
+依	yī		MC3-1		单人旁|亻		

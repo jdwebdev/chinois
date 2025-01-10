@@ -85,6 +85,10 @@ function openModalHelp() {
     popup_help.innerHTML = `
         <div id="help_container">
             <div id="help_content">
+                <p class="date zh_font">2025年1月10日<span class="app_version zh_font">V. 6.5</span></p>
+                <h2 class="help_title">Ajout de la leçon MC3-1</h2>
+                <p>Ajout des leçons de la "Méthode de chinois. Troisième niveau (MC3)". 中级汉语(下)</p>
+
                 <p class="date zh_font">2024年10月22日<span class="app_version zh_font">V. 6.4</span></p>
                 <h2 class="help_title">Ajout de la leçon MC2-14</h2>
 

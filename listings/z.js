@@ -98,6 +98,7 @@ z_searchBtn.addEventListener("click", e => {
 });
 
 function z_search(pFromBtn = false) {
+    log("zsearch")
     if (z_input.value === "h()" || z_input.value === "H()") {
         checkNewHanzi();
         return;

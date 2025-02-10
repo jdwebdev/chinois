@@ -65,7 +65,10 @@ h1 {
     left: 10px;
     color: white;
 }
-
+#loading h2 {
+    text-align: center;
+    margin-top: 50px;
+}
 #switchMode {
     position: absolute;
     /* top: 10px; */
@@ -77,6 +80,8 @@ h1 {
     border: 1px solid white;
     background-color: rgba(217,160,102);
     box-shadow: 2px 2px 2px rgba(152, 30, 30);
+
+    display: none;
 } 
 
 #help_button {
@@ -91,6 +96,8 @@ h1 {
     background-color: rgba(217,160,102);
     box-shadow: 2px 2px 2px rgba(152, 30, 30);
     touch-action: manipulation;
+
+    display: none;
 }
 
 
@@ -386,7 +393,8 @@ main {
 
 /* ---------- Search Result section ---------- */
 #z_section {
-    display: flex;
+    /* display: flex; */
+    display: none;
     flex-direction: column;
 }
 
@@ -518,7 +526,8 @@ main {
 
     /* ---------- Search Result section ---------- */
     #z_section {
-        display: flex;
+        /* display: flex; */
+        display: none;
         flex-direction: column;
     }
 

@@ -116,7 +116,7 @@
 多少	duōshao	Combien	Pron.Int.	3		
 学生	xuésheng	Élève, étudiant	N.	3	學生	
 想	xiǎng	Penser, vouloir	V & V.M	3		
-大概	dàgài	Peut-être, environ	Adv.	3		
+大概	dàgài	Peut-être, environ, approximatif, probablement	Adv.	3		
 万	wàn	Dix mille	Num.	3	萬	
 没有	méiyǒu	Il n'y a pas, ne pas avoir	V.	3	沒有	
 多	duō	Beaucoup, nombreux	Adj.	3		
@@ -553,7 +553,7 @@
 快	kuài	Vite, rapide	Adj.	11		
 罚款	fákuǎn	Condamner à une amende	V.O.	11	罰款	
 罚	fá	Condamner, punir	V.	11	罰	
-款	kuǎn	Une somme d'argent	N.	11		
+款	kuǎn	Une somme d'argent; modèle, forme	N.	11		
 规定	guīdìng	Règlement, stipuler	N.	11	規定	
 这么	zhème	Comme ça, si, tellement	Adv.	11	這麽	
 厉害	lìhai	Sévère, féroce, fort	Adj.	11	厲害	
@@ -795,8 +795,8 @@
 右手	yòushǒu	Main droite	N.	16		
 左手	zuǒshǒu	Main gauche	N.	16		
 结果	jiéguǒ	Résultat	N.	16	結果	
-摔	shuāi	Tomber, jeter	V.	16		
-倒	dǎo	Tomber	V.	16		
+摔	shuāi	Tomber, jeter (délibérément un obj par terre ou au visage de qqn)	V.	16		
+倒	dǎo	Tomber, se renverser	V.	16		
 坏	huài	Mauvais, abîmé	Adj.	16	壞	
 破	pò	Endommagé, détérioré, brisé, déchiré, troué	Adj.	16		
 伤	shāng	Blessure, lésion; blesser	V & N	16	傷	
@@ -893,7 +893,7 @@
 运动	yùndòng	Exercice physique, mouvement	N.	18	運動	
 懒	lǎn	Paresseux	Adj.	18	懶	
 注意	zhùyì	Faire attention à	V.	18		
-建议	jiànyì	Suggestion, proposition; suggérer	V & N	18	建議	
+建议	jiànyì	Suggestion, proposition, conseil; suggérer	V & N	18	建議	
 跑步	pǎo bù	Courir	V.O.	18		
 跑	pǎo	Courir	V.	18		
 教	jiāo	Enseigner	V.	18		
@@ -1108,7 +1108,7 @@
 长	zhǎng	Grandir, pousser	V.	3-2	長	
 样子	yàngzi	Apparence, manière, air	N.	3-2	樣子	
 聪明	cōngming	Intelligent	Adj.	3-2	聰明	
-活泼	huópō	Vivant	Adj.	3-2	活潑	
+活泼	huópō	Vivant, vif	Adj.	3-2	活潑	
 红包	hóngbāo	Enveloppe rouge (dans lequel on met de l'argent pour donner à quelqu'un)	N.	3-2	紅包	
 盒	hé	Boîte	Spec.	3-2		
 轻	qīng	Léger	Adj.	3-2	輕	
@@ -1502,7 +1502,7 @@
 门	mén	Spécificatif pour un cours ou un sujet	Spec.	3-11	門	
 学分 [个]	xuéfēn	Crédit	N.	3-11	學分	
 哪怕 […，也…]	nǎpà (yě)	Même si, sans tenir compte de	Conj.	3-11		
-贷款	dàikuǎn	Prêt; prêter		3-11	貸款	
+贷款	dàikuǎn	Prêt; prêter, faire un emprunt		3-11	貸款	
 挣	zhèng	Gagner (de l'argent en travaillant)	V.	3-11		
 分	fēn	Diviser	V.	3-11		
 既然 […，就…]	jìrán (jiù)	Puisque	Conj.	3-11		
@@ -1601,7 +1601,7 @@
 连锁店	liánsuǒdiàn	Chaîne de magasins	N.	4-1	連鎖店	
 命	mìng	Vie, sort	N.	4-1		
 享受	xiǎngshòu	Profiter, jouir de	V.	4-1		
-倒是	dàoshì	Pourtant, cependant, au contraire	Adv.	4-1		
+倒是	dàoshì	Pourtant, cependant, au contraire, (concession) certes c'est bien mais..	Adv.	4-1		
 倒	dào	Au contraire, au lieu de	Adv.	4-1		
 炒鱿鱼	chǎo yóuyú	Licencier qqn (Litt: frire les seiches)	V.O.	4-1	炒魷魚	
 收入	shōurù	Revenu, salaire	N.	4-1		
@@ -1776,7 +1776,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 修建	xiūjiàn	Construire, ériger	V.	4-4+		
 竣工	jùngōng	Achever; achèvement	V.	4-4+		
 剪彩	jiǎn cǎi	Couper le ruban de l'inauguration	V.O.	4-4+	剪綵	
-校舍	xiàoshě	Cité universitaire, résidence universitaire	N.	4-4+		
+校舍	xiàoshè	Cité universitaire, résidence universitaire	N.	4-4+		
 贫困	pínkùn	Pauvre, démuni	Adj.	4-4+	貧困	
 捐赠	juānzèng	Offrir, donner, contribuer	V.	4-4+	捐贈	
 物品	wùpǐn	Articles, matériaux	N.	4-4+		
@@ -1827,7 +1827,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 虽然如此	suīrán rúcǐ	Cela dit, Quand même		4-5	雖然如此	
 白日梦	báirìmèng	Rêve éveillé	N.	4-5	白日夢	
 能够	nénggòu	Pouvoir, être capable de，(和"能"差不多)	V.Aux.	4-5	能夠	
-实现	shíxiàn	Réaliser, achever	V.	4-5	實現	
+实现	shíxiàn	Réaliser, achever, se réaliser	V.	4-5	實現	
 新民周刊	Xīnmín Zhōukān	Hebdomadaire Xinmin		4-5		
 中签	zhòng qiān	Gagner à la loterie	V.O.	4-5	中簽	
 中毒	zhòngdú	Empoisonné		4-5		
@@ -3001,7 +3001,7 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 北郊	běijiāo	Banlieue nord		MC2-6		
 南郊	nánjiāo	Banlieue sud		MC2-6		
 体育场	tǐyùchǎng	Stade		MC2-6	體育場	
-根	gēn	Racine; origine		MC2-6		
+根	gēn	Racine; origine; (Spéc. Objets allongés et fins)		MC2-6		
 树根	shùgēn	Racine d'arbre		MC2-6	樹根	
 舞台	wǔtái	Scène		MC2-6	舞臺	
 观众	guānzhòng	Spectateur, public		MC2-6	觀衆	
@@ -4779,3 +4779,201 @@ V着玩儿	V zhe wánr	Faire qch pour le plaisir, pour se distraire		4-3
 自小	zìxiǎo	Depuis l'enfance		MC3-1		
 自古	zìgǔ	Depuis l'antiquité		MC3-1		
 老无所依	lǎowúsuǒyī	N'avoir personne sur qui s'appuyer dans sa vieillesse		MC3-1	老無所依	
+房奴	fángnú	Esclave de ses traites (crédit immobilier)		MC3-2		-
+蜗居	wōjū	Habiter dans un petit logement		MC3-2	蝸居	
+涉及	shèjí	Concerner		MC3-2		
+房贷	fángdài	Emprunt immobilier		MC3-2	房貸	
+还贷	huán dài	Rembourser un emprunt		MC3-2	還貸	
+交	jiāo	Payer		MC3-2		
+美滋滋	měizīzī	Content de soi, très satisfait		MC3-2		
+肯	kěn	Consentir		MC3-2		
+东借西借	dōngjiè-xījiè	Emprunter à droite et à gauche		MC3-2	東借西借	
+想不明白	xiǎngbumíngbai	Ne pas comprendre		MC3-2		
+摔	shuāi	Tomber		MC3-2		
+暗	àn	Sombre		MC3-2		
+密密麻麻	mìmimámá	Serrés, rapprochés		MC3-2		
+挂	guà	Accrocher		MC3-2		
+蜡烛	làzhú	Chandelle, bougie		MC3-2	蠟燭	
+卷	juǎn	Rouler		MC3-2		
+吹灭	chuīmiè	Éteindre (en soufflant dessus)		MC3-2	吹滅	
+价格	jiàgé	Prix		MC3-2	價格	
+梵高	Fán Gāo	Van Gogh		MC3-2		
+蚁族	yǐzú	(蚁Fourmis）指的是中国城市里一群低收入的大学毕业生		MC3-2	蟻族	
+习俗	xísú	Coutume, usage		MC3-2	習俗	
+俗气	súqì	Vulgaire		MC3-2	俗氣	
+寻找	xúnzhǎo	Chercher		MC3-2	尋找	
+寻人	xúnrén	Chercher qqn		MC3-2	尋人	
+寻物	xúnwù	Chercher qqch		MC3-2	尋物	
+坚固	jiāngù	Solide, ferme		MC3-2	堅固	
+固定	gùdìng	Fixe, fixer		MC3-2		
+一段话	yí duàn huà	Un passage		MC3-2	一段話	
+一段经历	yí duàn jīnglì	Une expérience vécue		MC3-2	一段經歷	
+分段	fēnduàn	Section, segment		MC3-2		
+询问	xúnwèn	Se renseigner, s'informer		MC3-2	詢問	
+投简历	tóu jiǎnlì	Envoyer son CV		MC3-2	投簡歷	
+投币	tóubì	Insérer une pièce		MC3-2	投幣	
+失败	shībài	Échouer, échec		MC3-2	失敗	
+成败	chéngbài	Succès ou échec		MC3-2	成敗	
+打败	dǎbài	Vaincre		MC3-2	打敗	
+令	lìng	Faire faire (qqch à qqn)		MC3-2		
+命令	mìnglìng	Ordre		MC3-2		
+下令	xiàlìng	Donner un ordre		MC3-2		
+企图	qǐtú	Avoir l'intention de, intention		MC3-2	企圖	
+外企	wàiqǐ	Entreprise étrangère		MC3-2		
+国企	guóqǐ	Entreprise nationale		MC3-2	國企	
+签到	qiān dào	Signer le registre des présences		MC3-2	簽到	
+签约	qiān yuē	Signer un contrat		MC3-2	簽約	
+抽签	chōuqiān	Tirer au sort		MC3-2	抽籤	
+牙签	yáqiān	Cure-dents		MC3-2	牙籤	
+庆祝	qìngzhù	Célébrer, fêter		MC3-2	慶祝	
+国庆节	guóqìngjié	Fête nationale		MC3-2	國慶節	
+醉酒	zuìjiǔ	État d'ivresse		MC3-2		
+醉话	zuìhuà	Paroles d'ivrogne		MC3-2	醉話	
+概要	gàiyào	Abrégé, précis		MC3-2		
+概况	gàikuàng	Situation générale, aperçu		MC3-2	概況	
+概念	gàiniàn	Concept		MC3-2		
+一概	yígài	Uniformément, sans exception		MC3-2		
+资本	zīběn	Capital		MC3-2	資本	
+资助	zīzhù	Subventionner		MC3-2	資助	
+物资	wùzī	Matériaux		MC3-2	物資	
+资料	zīliào	Document		MC3-2	資料	
+资格	zīgé	Qualification, aptitude		MC3-2	資格	
+优点	yōudiǎn	Qualité		MC3-2	優點	
+优先	yōuxiān	Priorité		MC3-2	優先	
+优秀	yōuxiù	Remarquable		MC3-2	優秀	
+记录	jìlù	Prendre note, inscrire		MC3-2	紀錄	
+录取	lùqǔ	Recruter		MC3-2	錄取	
+录像	lùxiàng	Enregistrer (vidéo)		MC3-2	錄像	
+套餐	tàocān	Menu		MC3-2		
+套房	tàofáng	Appartement		MC3-2		
+逛街	guàngjiē	Se promener dans les rues		MC3-2		
+拥抱	yōngbào	Serrer, tenir dans ses bras		MC3-2	擁抱	
+拥挤	yōngjǐ	Encombré, bondé		MC3-2	擁擠	
+拥有	yōngyǒu	Posséder		MC3-2	擁有	
+下属	xiàshǔ	Subordonné, subalterne		MC3-2	下屬	
+浮	fú	Flotter		MC3-2		
+漂浮	piāofú	Flotter, surnager		MC3-2		
+浮现	fúxiàn	Revenir à l'esprit		MC3-2	浮現	
+轻浮	qīngfú	Léger, frivole, étourdi		MC3-2	輕浮	
+剩余	shèngyú	Surplus, excédent		MC3-2	剩餘	
+其余	qíyú	Le reste		MC3-2	其餘	
+年年有余	niánniányǒuyú	Il y a du surplus chaque année		MC3-2	年年有餘	
+短暂	duǎnzàn	De courte durée		MC3-2	短暫	
+暂时	zànshí	Temporairement		MC3-2	暫時	
+暂停	zàntíng	Suspendre, arrêt momentané		MC3-2	暫停	
+公款	gōngkuǎn	Fonds publics		MC3-2		
+存款	cúnkuǎn	Déposer de l'argent, dépôt en banque		MC3-2		
+款式	kuǎnshì	Modèle, forme		MC3-2		
+新款	xīnkuǎn	Nouveau modèle		MC3-2		
+巨人	jùrén	Géant, colosse		MC3-2		
+阻止	zǔzhǐ	Arrêter, empêcher		MC3-2		
+阻力	zǔlì	Résistance, obstacle		MC3-2		
+阻碍	zǔài	Empêcher, gêner		MC3-2	阻礙	
+碍事	àishì	Gênant, encombrant		MC3-2	礙事	
+演奏	yǎnzòu	Jouer de la musique		MC3-2		
+节奏	jiézòu	Rythme		MC3-2	節奏	
+下降	xiàjiàng	Baisser		MC3-2		
+降低	jiàngdī	Réduire, baisser		MC3-2		
+迫使	pòshǐ	Forcer, obliger		MC3-2		
+迫不得己	pòbùdéjǐ	Être forcé de faire qqch		MC3-2		
+急迫	jípò	Urgent, pressant		MC3-2		
+紧迫	jǐnpò	Urgent, pressant		MC3-2	緊迫	
+迫近	pòjìn	Approcher, être imminent		MC3-2		
+舍得	shěde	Abandonner de bon gré		MC3-2	捨得	
+舍己为人	shějǐwèirén	Se sacrifier pour les autres		MC3-2	捨己為人	
+斗争	dòuzhēng	Lutte		MC3-2	鬥爭	
+斗牛	dòuniú	Tauromachie		MC3-2	鬥牛	
+充实	chōngshí	Riche, plein		MC3-2	充實	
+充满	chōngmǎn	Rempli, plein		MC3-2	充滿	
+充电	chōngdiàn	Charger		MC3-2	充電	
+称为	chēngwéi	Appeler		MC3-2	稱為	
+称呼	chēnghu	Appeler		MC3-2	稱呼	
+简称	jiǎnchēng	Abréviation		MC3-2	簡稱	
+逃跑	táopào	S'enfuir		MC3-2		
+供应	gōngyìng	Fournir, approvisionner		MC3-2	供應	
+供水	gōngshuǐ	Alimenter en eau		MC3-2		
+供电	gōngdiàn	Alimenter en électricité		MC3-2	供電	
+造成	zàochéng	Causer, occasionner		MC3-2		
+造句	zàojù	Faire une phrase		MC3-2		
+究竟	jiūjìng	Finalement		MC3-2		
+价值	jiàzhí	Valeur		MC3-2	價值	
+值得	zhíde	Valoir		MC3-2		
+值钱	zhíqián	Valoir cher, précieux		MC3-2	值錢	
+吸引	xīyǐn	Attirer		MC3-2		
+吸引力	xīyǐnlì	Attraction		MC3-2		
+引用	yǐnyòng	Citer		MC3-2		
+引号	yǐnhào	Guillemet		MC3-2	引號	
+强国	qiángguó	Pays puissant		MC3-2	強國	
+强烈	qiángliè	Fort, intense		MC3-2	強烈	
+勇气	yǒngqì	Courage		MC3-2	勇氣	
+勇敢	yǒnggǎn	Courageux		MC3-2		
+人往高处走，水往低处流	rén wǎng gāochù zǒu，shuǐ wǎng dīchù liú	人往更高、更好的方向发展，就像水是往低处流一样，这是理所当然的。		MC3-2	人往高處走，水往低處流	
+人生	rénshēng	Vie, existence		MC3-2		
+没(有)心思	méi (yǒu) xīnsi	Ne pas être d'humeur à		MC3-2		
+成天	chéngtiān	Toute la journée		MC3-2		
+难忘	nánwàng	Inoubliable		MC3-2	難忘	
+早出晚归	zǎochū-wǎnguī	Travailler du matin au soir		MC3-2	早出晚歸	
+无数	wúshù	Innombrable		MC3-2	無數	
+之一	zhīyī	L'un des		MC3-2		
+共同	gòngtóng	Commun		MC3-2		
+月光族	yuèguāngzú	Personne ayant du mal à joindre les deux bouts		MC3-2		
+账单	zhàngdān	Facture		MC3-2	帳單	
+长期	chángqī	Pendant longtemps		MC3-2	長期	
+应付	yìngfu	Faire face à		MC3-2	應付	
+首付	shǒufù	Apport		MC3-2		
+窝	wō	Son chez soi		MC3-2	窩	
+适应	shìyìng	S'adapter à		MC3-2	適應	
+一线城市	yī xiàn chéngshì	Ville de premier rang		MC3-2	一線城市	
+老百姓	lǎobǎixìng	Gens du peuple		MC3-2		
+数年	shùnián	Plusieurs années		MC3-2	數年	
+不足	bùzú	Insuffisant		MC3-2		
+户口	hùkǒu	État-civil		MC3-2	戶口	
+公平	gōngpíng	Équitable, juste		MC3-2		
+消费	xiāofèi	Consommer, coût		MC3-2	小費	
+增强	zēngqiáng	Renforcer		MC3-2	增強	
+相对	xiāngduì	Relatif, comparativement		MC3-2	相對	
+商品房	shāngpǐnfáng	Logement résidentiel commercial		MC3-2		
+出人头地	chūrén-tóudì	Se distinguer des autres		MC3-2	出人頭地	
+难处	nánchù	Difficulté		MC3-2	難處	
+尽量	jǐnliàng	Autant que possible		MC3-2	儘量	
+总而言之	zǒng ér yán zhī	En un mot; bref		MC3-2	總而言之	
+之所以…是因为…	zhī suǒyǐ … shì yīnwèi …	Si … c'est que …		MC3-2		
+插	chā	Ficher, insérer, enfoncer, piquer, planter		MC3-2		
+插花	chā huā	Arranger des fleurs (dans un vase)		MC3-2		
+插头	chātóu	Prise de courant (mâle)		MC3-2	插頭	
+插座	chāzuò	Prise de courant (murale)		MC3-2		
+充电插座	chōngdiàn chāzuò	Charging point		MC3-2	充電插座	
+卷一根烟	juǎn yī gēn yān	Se rouler une cigarette		MC3-2	卷一根煙	
+袖子	xiùzi	Manche (de vêtement)		MC3-2		
+卷袖子	juǎn xiùzi	Remonter ses manches (en les enroulant)		MC3-2		
+第二卷	dì èr juàn	Le tome II		MC3-2		
+跤	jiāo	(Spécificatif pour 摔)		MC3-2		
+摔了几跤	shuāi le jǐ jiāo	Est tombé quelques fois		MC3-2	摔了幾跤	
+懂得	dǒngde	Comprendre, savoir		MC3-2		
+省得	shěngde	Pour éviter de		MC3-2		
+着凉	zháoliáng	Attraper froid		MC3-2	著涼	
+懒得	lǎnde	Avoir la flemme de faire qqch		MC3-2	懶得	
+点着	diǎnzháo	Allumer		MC3-2	點著	
+倒(1)	dào	"Par contre" introduit une situation sur laquelle le locuteur porte une évaluation contraire à son attente initiale 		MC3-2		
+倒(2)	dào	Peut exprimer la concession faite à l'interlocuteur avant de développer un argument opposé : certes c'est bien… mais…		MC3-2		
+倒(3)	dào	Insiste sur le côté imprévu d'une situation contraire aux attentes du locuteur		MC3-2		
+倒是[说得…/想得…]	dàoshì	Indique que le locuteur juge que le point de vue de son interlocuteur n'est pas conforme à la réalité		MC3-2		
+四样水果	sì yàng shuǐguǒ	Quatre (espèces de) fruits		MC3-2	四樣水果	
+三样点心	sān yàn diǎnxīn	Quatre gâteaux (différents)		MC3-2	三樣點心	
+原因之一	yuányīn zhīyī	L'une des causes		MC3-2		
+东X西X	dōng X xī X	Faire qqch ici ou là		MC3-2	東西	
+东奔西走	dōngbēn-xīzǒu	Courir à droite et à gauche		MC3-2	東奔西走	
+东倒西歪	dōngdǎo-xīwāi	Brinquebalant, instable		MC3-2	東倒西歪	
+东张西望	dōngzhāng-xīwàng	Regarder à droite et à gauche		MC3-2	東張西望	
+说…就…	shuō…jiù…	À peine avait-il… que déjà… (insiste sur la rapidité du passage à l'acte)		MC3-2	說就	
+说走就走	shuōzǒu-jiùzǒu	"À peine dit qu'il allait partir qu'il était déjà parti"		MC3-2	說走就走	
+呗	bei	(Nuance: ce n'est pas grave, il n'y a qu'à…)		MC3-2	唄	
+着呢	zhene	(Emphase) très		MC3-2	著呢	
+啥	shá	什么(chinois du nord)		MC3-2		
+啥事	shá shì	什么事		MC3-2		
+你啥意思呢？	nǐ shá yìsi ne	你什么意思呢		MC3-2		
+咋	zǎ	怎么(chinois du nord ?)		MC3-2		
+咋样	zǎ yàng	怎么样		MC3-2	咋樣	
+多穿点儿，省的着凉		Couvre-toi bien pour ne pas attraper froid	Exp	MC3-2		
+我懂得应该怎么做		Je sais comment il faut faire	Exp	MC3-2		
+我懒得做晚饭		J'ai la flemme de faire le dîner	Exp	MC3-2		

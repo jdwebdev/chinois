@@ -12,15 +12,15 @@ let languagesList = ["n", "z", "h"];
 let sectionList = [];
 let sectionTrainingList = [];
 let switchModeBtn = id("switchMode");
-switchModeBtn.addEventListener("click", e => {
-    e.preventDefault();
-    switchMode();
+switchModeBtn.addEventListener("click", (e) => {
+  e.preventDefault();
+  switchMode();
 });
 let helpButton = id("help_button");
-helpButton.addEventListener("click", e => {
-    e.preventDefault();
-    e.stopPropagation();
-    if (!bModal) openModalHelp();
+helpButton.addEventListener("click", (e) => {
+  e.preventDefault();
+  e.stopPropagation();
+  if (!bModal) openModalHelp();
 });
 let mainTitle = id("main_title");
 let currentMode = 0; //? 0: List | 1: Training
@@ -34,57 +34,62 @@ let modal_help = id("modal_help");
 let popup_help = id("popup_help");
 let bModalHelp = false;
 
-header.addEventListener("click", e => {
-    if (bModal) closeModal();
-    if (bModalHelp) closeModalHelp();
+header.addEventListener("click", (e) => {
+  if (bModal) closeModal();
+  if (bModalHelp) closeModalHelp();
 });
 
-popup.addEventListener("click", e => {
-    closeModal();
+popup.addEventListener("click", (e) => {
+  closeModal();
 });
-modal.addEventListener("click", e => {
-    closeModal();
+modal.addEventListener("click", (e) => {
+  closeModal();
 });
-modal_help.addEventListener("click", e => {
-    closeModalHelp();
+modal_help.addEventListener("click", (e) => {
+  closeModalHelp();
 });
 
 function switchMode() {
-    if (currentMode) {//? Training to Listing
-        currentMode = 0;
-        mainTitle.innerHTML = "汉语 - 课";
-        switchModeBtn.innerHTML = "⇒ Entraîn.";
-        block(mainListing);
-        none(mainTraining);
-    } else {
-        mainTitle.innerHTML = "汉语 - 练习";
-        switchModeBtn.innerHTML = "⇒ Leçon";
-        zt_selectFilterChange("lesson");
-        currentMode = 1;
-        block(mainTraining);
-        none(mainListing);
-    }
+  if (currentMode) {
+    //? Training to Listing
+    currentMode = 0;
+    mainTitle.innerHTML = "汉语 - 课";
+    switchModeBtn.innerHTML = "⇒ Entraîn.";
+    block(mainListing);
+    none(mainTraining);
+  } else {
+    mainTitle.innerHTML = "汉语 - 练习";
+    switchModeBtn.innerHTML = "⇒ Leçon";
+    zt_selectFilterChange("lesson");
+    currentMode = 1;
+    block(mainTraining);
+    none(mainListing);
+  }
 }
 
 function openModal() {
-    bModal = true;
-    body.classList.add("no-scroll");
-    editClass(modal, "fadeIn",true);
-    modal.style.zIndex = 10;
+  bModal = true;
+  body.classList.add("no-scroll");
+  editClass(modal, "fadeIn", true);
+  modal.style.zIndex = 10;
 }
 
 function closeModal() {
-    modal.classList.remove("fadeIn");
-    if (bModal) {
-        body.classList.remove("no-scroll");
-        bModal = false;
-    }
-    z_result_section.focus();
+  modal.classList.remove("fadeIn");
+  if (bModal) {
+    body.classList.remove("no-scroll");
+    bModal = false;
+  }
+  z_result_section.focus();
 }
 function openModalHelp() {
-    popup_help.innerHTML = `
+  popup_help.innerHTML = `
         <div id="help_container">
             <div id="help_content">
+
+                <p class="date zh_font">2025年2月10日<span class="app_version zh_font">V. 6.6</span></p>
+                <h2 class="help_title">Ajout de la leçon MC3-2</h2>
+
                 <p class="date zh_font">2025年1月10日<span class="app_version zh_font">V. 6.5</span></p>
                 <h2 class="help_title">Ajout de la leçon MC3-1</h2>
                 <p>Ajout des leçons de la "Méthode de chinois. Troisième niveau (MC3)". 中级汉语(下)</p>
@@ -357,103 +362,104 @@ function openModalHelp() {
         </div>
     `;
 
-    bModalHelp = true;
-    body.classList.add("no-scroll");
-    editClass(modal_help, "fadeIn",true);
-    modal_help.style.zIndex = 10;
+  bModalHelp = true;
+  body.classList.add("no-scroll");
+  editClass(modal_help, "fadeIn", true);
+  modal_help.style.zIndex = 10;
 }
 
 function closeModalHelp() {
-    popup_help.innerHTML = "";
-    modal_help.classList.remove("fadeIn");
-    if (bModalHelp) {
-        body.classList.remove("no-scroll");
-        bModalHelp = false;
-    }
+  popup_help.innerHTML = "";
+  modal_help.classList.remove("fadeIn");
+  if (bModalHelp) {
+    body.classList.remove("no-scroll");
+    bModalHelp = false;
+  }
 }
 
-modal.addEventListener("transitionend", e => {
-    if (bModal) {
-        modal.style.zIndex = 10;
-    } else {
-        modal.style.zIndex = -10;
-    }
-})
-modal_help.addEventListener("transitionend", e => {
-    if (bModalHelp) {
-        modal_help.style.zIndex = 10;
-    } else {
-        modal_help.style.zIndex = -10;
-    }
-})
+modal.addEventListener("transitionend", (e) => {
+  if (bModal) {
+    modal.style.zIndex = 10;
+  } else {
+    modal.style.zIndex = -10;
+  }
+});
+modal_help.addEventListener("transitionend", (e) => {
+  if (bModalHelp) {
+    modal_help.style.zIndex = 10;
+  } else {
+    modal_help.style.zIndex = -10;
+  }
+});
 
 function editClass(e, pClass, pAdd = true) {
-    if (pAdd) {
-        e.classList.add(pClass);
-    } else {
-        e.classList.remove(pClass);
-    }
+  if (pAdd) {
+    e.classList.add(pClass);
+  } else {
+    e.classList.remove(pClass);
+  }
 }
 
 function emptyInput() {
-    let inputList = document.querySelectorAll("input");
-    inputList.forEach(i => {
-        i.value = "";
-    });
+  let inputList = document.querySelectorAll("input");
+  inputList.forEach((i) => {
+    i.value = "";
+  });
 }
 function id(pId) {
-    return document.getElementById(pId);
+  return document.getElementById(pId);
 }
 function none(element) {
-    element.style.display = "none";
+  element.style.display = "none";
 }
 function flex(element) {
-    element.style.display = "flex";
+  element.style.display = "flex";
 }
 function block(element) {
-    element.style.display = "block";
+  element.style.display = "block";
 }
-function rnd(pMin, pMax) { //? pMax NON COMPRIS
-    return Math.floor(Math.random() * (pMax - pMin)) + pMin;
+function rnd(pMin, pMax) {
+  //? pMax NON COMPRIS
+  return Math.floor(Math.random() * (pMax - pMin)) + pMin;
 }
 function firstLetterUppercase(pString) {
-    if (pString != "") {
-        if (pString[0] == "(") {
-            return pString[0] + pString[1].toUpperCase() + pString.slice(2);
-        } else {
-            return pString[0].toUpperCase() + pString.slice(1);
-        }
+  if (pString != "") {
+    if (pString[0] == "(") {
+      return pString[0] + pString[1].toUpperCase() + pString.slice(2);
+    } else {
+      return pString[0].toUpperCase() + pString.slice(1);
     }
-    return "";
+  }
+  return "";
 }
 function cleanPinyin(pPinyin) {
-    let a = "āáǎà";
-    let i = "īíǐì";
-    let u = "ūúǔùǖǘǚǜ";
-    let e = "ēéěè";
-    let o = "ōóǒò";
-    let cleanedPinyin = "";
-    
-    for (let j = 0; j < pPinyin.length; j++) {
-        if (a.includes(pPinyin[j])) {
-            cleanedPinyin += "a";
-        } else if (i.includes(pPinyin[j])) {
-            cleanedPinyin += "i";
-        } else if (u.includes(pPinyin[j])) {
-            cleanedPinyin += "u";
-        } else if (e.includes(pPinyin[j])) {
-            cleanedPinyin += "e";
-        } else if (o.includes(pPinyin[j])) {
-            cleanedPinyin += "o";
-        } else {
-            cleanedPinyin += pPinyin[j];
-        }
+  let a = "āáǎà";
+  let i = "īíǐì";
+  let u = "ūúǔùǖǘǚǜ";
+  let e = "ēéěè";
+  let o = "ōóǒò";
+  let cleanedPinyin = "";
+
+  for (let j = 0; j < pPinyin.length; j++) {
+    if (a.includes(pPinyin[j])) {
+      cleanedPinyin += "a";
+    } else if (i.includes(pPinyin[j])) {
+      cleanedPinyin += "i";
+    } else if (u.includes(pPinyin[j])) {
+      cleanedPinyin += "u";
+    } else if (e.includes(pPinyin[j])) {
+      cleanedPinyin += "e";
+    } else if (o.includes(pPinyin[j])) {
+      cleanedPinyin += "o";
+    } else {
+      cleanedPinyin += pPinyin[j];
     }
-    return cleanedPinyin;
+  }
+  return cleanedPinyin;
 }
 
-window.addEventListener("keypress", key => {
-    if (key.code == "Enter") {
-        // key.preventDefault();
-    }
+window.addEventListener("keypress", (key) => {
+  if (key.code == "Enter") {
+    // key.preventDefault();
+  }
 });

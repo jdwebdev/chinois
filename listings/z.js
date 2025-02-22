@@ -103,6 +103,11 @@ function z_search(pFromBtn = false) {
         checkNewHanzi();
         return;
     }
+    // if (z_input.value === "hlist") {
+    //     displayHanziString();
+    //     return;
+    // }
+
     z_result_section.innerHTML = "";
     z_resultNb.innerHTML = "";
     let countWords = 0;
@@ -781,5 +786,29 @@ function checkNewHanzi() {
         z_resultNb.innerHTML = "";
         z_result_section.innerHTML = `<div>${newHanziList}</div>`
         z_resultNb.innerHTML = newHanziList.length;
+    });
+}
+function displayHanziString() {
+    z_result_section.innerHTML = "";
+    z_resultNb.innerHTML = "";
+    let innerHTML = "";
+
+    innerHTML += `<button id="copy_hanzi_btn">COPY</button>`;
+    innerHTML += `<p id="listString_text">`;
+    innerHTML += "function hanziWordList() {<br/>"
+    hanziStringList.forEach((h) => {
+        innerHTML += h + "<br/>";
+    });
+    wordStringList.forEach((w) => {
+        innerHTML += w + "<br/>";
+    });
+    innerHTML += `}</p>`;
+    z_result_section.innerHTML = innerHTML;
+
+    let listString_text = id("listString_text");
+    let copyHanziBtn = id("copy_hanzi_btn");
+    copyHanziBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+        navigator.clipboard.writeText(listString_text.innerText);
     });
 }

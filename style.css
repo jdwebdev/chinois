@@ -65,10 +65,7 @@ h1 {
     left: 10px;
     color: white;
 }
-#loading h2 {
-    text-align: center;
-    margin-top: 50px;
-}
+
 #switchMode {
     position: absolute;
     /* top: 10px; */
@@ -120,6 +117,11 @@ h1 {
 main {
     width:700px;
     margin: 0 auto;
+}
+
+#loading h2 {
+    text-align: center;
+    margin-top: 50px;
 }
 
 /* ---------- Result section ---------- */
@@ -450,6 +452,10 @@ main {
 }
 
 
+#listString_text {
+    height: 400px;
+    width: 95%;
+}
 
 
 /*

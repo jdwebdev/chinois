@@ -148,7 +148,7 @@ function createHanzi(pFile) {
         //?                 汉字，      拼音，     汉字意思，  课，        繁体,      部首，     复习
         test = new Hanzi(i,row[i][0],row[i][1],row[i][2],row[i][3],row[i][4],row[i][5],row[i][6]);
     //   // hanziStringList.push(`const hanzi_${i} = new Hanzi(${i},"${row[i][0]}","${row[i][1]}","${row[i][2]}","${row[i][3]}","${row[i][4]}","${row[i][5]}","${row[i][6]}");`);
-        // hanziStringList.push(`const hanzi_${i} = new Hanzi(${i}` + ",`" + row[i][0] + "`,`" + row[i][1] + "`,`" + row[i][2] + "`,`" + row[i][3] + "`,`" + row[i][4] + "`,`" + row[i][5] + "`,`" + row[i][6] + "`);");
+        // hanziStringList.push(`Hanzi.list.push(newHanzi(${i}` + ",`" + row[i][0] + "`,`" + row[i][1] + "`,`" + row[i][2] + "`,`" + row[i][3] + "`,`" + row[i][4] + "`,`" + row[i][5] + "`,`" + row[i][6] + "`));");
     }
     // log(hanziStringList);
     // hanziWordList();
@@ -202,8 +202,7 @@ function createZ_WORD(pFile, pType) {
         row[i] = row[i].split("\t");
         //?               id, word,      pinyin,    yisi,      gram,      ke,        fanti
         test = new Z_Word(id,row[i][0],row[i][1],row[i][2],row[i][3],row[i][4],row[i][5]);
-        // wordStringList.push(`const word_${i} = new Z_Word(${i}," + "\`row[i][0]}\`" +,``${row[i][1]}``,``${row[i][2]}``,``${row[i][3]}``,``${row[i][4]}``,``${row[i][5]}``);`);
-        // wordStringList.push(`const word_${i} = new Z_Word(${i}` + ",`" + row[i][0] + "`,`" + row[i][1] + "`,`" + row[i][2] + "`,`" + row[i][3] + "`,`" + row[i][4] + "`,`" + row[i][5] + "`);");
+        // wordStringList.push(`WORD_LIST.push(newWord(${i}` + ",`" + row[i][0] + "`,`" + row[i][1] + "`,`" + row[i][2] + "`,`" + row[i][3] + "`,`" + row[i][4] + "`,`" + row[i][5] + "`));");
         id++;
     }
 

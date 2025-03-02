@@ -795,7 +795,7 @@ function displayHanziString() {
 
     innerHTML += `<button id="copy_hanzi_btn">COPY</button>`;
     innerHTML += `<p id="listString_text">`;
-    innerHTML += "function hanziWordList() {<br/>"
+    innerHTML += "function createHanziList() {<br/>"
     hanziStringList.forEach((h) => {
         innerHTML += h + "<br/>";
     });
